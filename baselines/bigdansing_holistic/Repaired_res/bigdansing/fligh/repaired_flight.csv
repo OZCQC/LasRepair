@@ -1,0 +1,2377 @@
+tuple_id,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
+1,flights,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+2,aa,0,7:45 p.m.,7:58 p.m.,10:30 p.m.,nan
+3,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,nan
+4,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+5,aa,AA-3756-ORD-SLC,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+6,aa,0,11:25 p.m.,nan,12/02/2011 6:55 a.m.,nan
+7,ifly,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+8,gofox,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+9,aa,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+10,flightstats,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+11,aa,0,nan,10:55 a.m.,nan,1:40 p.m.
+12,allegiantair,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+13,gofox,0,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+14,aa,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+15,world-flight-tracker,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:30 p.m.
+16,ifly,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+17,allegiantair,0,nan,12:13 p.m.,nan,2:10 p.m.
+18,panynj,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+19,aa,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+20,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+21,gofox,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+22,flights,0,3:35 p.m.,3:36 p.m.,4:00 p.m.,3:33 p.m.
+23,aa,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+24,flights,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+25,panynj,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+26,aa,AA-3842-MSP-ORD,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+27,aa,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+28,gofox,0,nan,5:08 p.m.,nan,7:55 p.m.
+29,usatoday,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+30,aa,0,10:40 a.m.,11:01 a.m.,2:59 p.m.,3:04 p.m.
+31,gofox,0,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+32,world-flight-tracker,0,11:55 p.m.,nan,5:50 a.m.,nan
+33,gofox,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+34,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+35,businesstravellogue,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+36,gofox,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+37,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+38,aa,0,8:20 p.m.,8:39 p.m.,9:20 p.m.,nan
+39,usatoday,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+40,aa,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+41,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+42,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+43,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+44,flights,0,nan,8:56 a.m.,nan,10:16 a.m.
+45,aa,AA-85-JFK-SFO,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+46,aa,0,nan,11:40 a.m.,nan,4:56 p.m.
+47,aa,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+48,foxbusiness,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+49,panynj,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+50,world-flight-tracker,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+51,helloflight,0,nan,7:16 a.m.,9:40 a.m.,9:22 a.m.
+52,foxbusiness,0,nan,nan,nan,nan
+53,helloflight,0,6:40 a.m.,6:54 a.m.,nan,9:14 a.m.
+54,flights,0,8:00 a.m.,8:48 a.m.,11:55 a.m.,11:30 a.m.
+55,panynj,0,nan,9:00 a.m.,nan,9:29 a.m.
+56,weather,0,nan,7:59 p.m.,nan,10:31 p.m.
+57,travelocity,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:14 p.m.
+58,foxbusiness,0,nan,nan,nan,nan
+59,helloflight,0,nan,11:41 a.m.,nan,4:54 p.m.
+60,gofox,0,nan,10:53 a.m.,nan,11:11 a.m.
+61,helloflight,0,nan,11:29 p.m.,nan,12/2/11 6:35 a.m.
+62,gofox,0,nan,6:10 a.m.,nan,7:04 a.m.
+63,businesstravellogue,0,nan,nan,nan,nan
+64,travelocity,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+65,helloflight,0,7:35 a.m.,nan,9:21 a.m.,nan
+66,helloflight,0,9:45 a.m.,nan,1:16 p.m.,nan
+67,ifly,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:11 p.m.
+68,helloflight,0,nan,8:26 a.m.,nan,9:56 a.m.
+69,helloflight,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:29 a.m.
+70,world-flight-tracker,0,nan,4:29 p.m.,nan,7:37 p.m.
+71,gofox,0,nan,10:54 a.m.,nan,1:36 p.m.
+72,helloflight,0,2:30 p.m.,nan,7:03 p.m.,nan
+73,helloflight,0,8:05 a.m.,nan,11:35 a.m.,nan
+74,flightview,0,nan,3:04 p.m.,nan,4:43 p.m.
+75,foxbusiness,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:08 p.m.
+76,helloflight,0,11:40 a.m.,nan,1:17 p.m.,nan
+77,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,8:50 a.m.
+78,weather,0,nan,11:45 a.m.,4:57 p.m.,5:00 p.m.
+79,helloflight,0,6:00 a.m.,nan,10:20 a.m.,nan
+80,gofox,0,nan,nan,nan,nan
+81,helloflight,0,nan,10:19 a.m.,nan,11:50 a.m.
+82,world-flight-tracker,0,1:00 p.m.,2:03 p.m.,nan,3:13 p.m.
+83,flightarrival,0,nan,8:07 a.m.,nan,1:23 p.m.
+84,flightexplorer,0,nan,12:56 p.m.,nan,3:09 p.m.
+85,allegiantair,0,nan,12:14 p.m.,nan,1:55 p.m.
+86,helloflight,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:22 p.m.
+87,helloflight,0,nan,12:07 p.m.,nan,1:11 p.m.
+88,helloflight,0,5:25 p.m.,nan,8:22 p.m.,nan
+89,helloflight,0,7:10 p.m.,nan,8:56 p.m.,nan
+90,world-flight-tracker,0,nan,11:06 a.m.,2:45 p.m.,2:39 p.m.
+91,flights,0,nan,1:43 p.m.,nan,5:24 p.m.
+92,helloflight,0,nan,nan,4:00 p.m.,nan
+93,world-flight-tracker,0,nan,7:22 a.m.,nan,10:34 a.m.
+94,flightarrival,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+95,flightarrival,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:38 p.m.
+96,helloflight,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:04 p.m.
+97,quicktrip,0,7:15 p.m.,nan,12:21 a.m.,nan
+98,helloflight,0,nan,2:04 p.m.,nan,7:20 p.m.
+99,gofox,0,9:15 a.m.,nan,12:18 p.m.,nan
+100,aa,0,nan,6:57 a.m.,nan,7:49 a.m.
+101,helloflight,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:26 a.m.
+102,helloflight,0,nan,5:09 p.m.,nan,7:43 p.m.
+103,helloflight,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,10:43 a.m.
+104,helloflight,0,3:50 p.m.,4:44 p.m.,6:23 p.m.,6:28 p.m.
+105,helloflight,0,nan,4:37 p.m.,nan,7:23 p.m.
+106,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:47 p.m.
+107,myrateplan,0,10:25 a.m.,nan,6:44 p.m.,nan
+108,helloflight,0,nan,7:30 a.m.,nan,10:43 a.m.
+109,helloflight,0,10:40 a.m.,11:02 a.m.,nan,2:58 p.m.
+110,businesstravellogue,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+111,helloflight,0,nan,12:42 p.m.,nan,2:50 p.m.
+112,gofox,0,nan,nan,nan,nan
+113,helloflight,0,11:55 p.m.,12:11 a.m.,nan,5:52 a.m.
+114,panynj,0,nan,4:28 p.m.,nan,12/2/11 12:01 a.m.
+115,helloflight,0,nan,9:06 p.m.,12:15 a.m. Dec 02,11:49 p.m.
+116,flightexplorer,0,8:25 p.m.,8:29 p.m.,nan,11:35 p.m.
+117,businesstravellogue,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:45 a.m.
+118,helloflight,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:33 a.m.
+119,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+120,helloflight,0,1:30 p.m.,1:41 p.m.,nan,3:29 p.m.
+121,helloflight,0,2:53 p.m.,nan,4:48 p.m.,nan
+122,helloflight,0,nan,7:41 a.m.,nan,8:33 a.m.
+123,helloflight,0,11:08 p.m.,nan,12/2/11 5:11 a.m.,nan
+124,gofox,0,5:30 p.m.,5:38 p.m.,6:40 p.m.,6:19 p.m.
+125,flightview,0,nan,1:50 p.m. (+8:00),nan,7:50 a.m.
+126,flightarrival,0,nan,11:47 a.m.,nan,1:52 p.m.
+127,helloflight,0,nan,8:40 p.m.,nan,9:12 p.m.
+128,myrateplan,0,nan,3:04 p.m.,nan,4:22 p.m.
+129,helloflight,0,2:30 p.m.,nan,7:03 p.m.,nan
+130,helloflight,0,8:55 a.m.,nan,11:45 a.m.,nan
+131,ifly,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+132,helloflight,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:39 p.m.
+133,gofox,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:04 a.m.
+134,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:42 p.m.
+135,helloflight,0,nan,8:04 a.m.,nan,10:58 a.m.
+136,businesstravellogue,0,nan,nan,nan,nan
+137,quicktrip,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,2:49 p.m.
+138,panynj,0,nan,8:55 a.m.,nan,10:12 a.m.
+139,helloflight,0,nan,3:38 p.m.,nan,6:30 p.m.
+140,businesstravellogue,0,nan,8:04 a.m.,nan,7:59 a.m.
+141,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:11 p.m.
+142,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+143,quicktrip,0,2:55 p.m.,nan,4:49 p.m.,nan
+144,world-flight-tracker,0,nan,11:55 a.m.,6:17 p.m.,5:34 p.m.
+145,helloflight,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:37 p.m.
+146,helloflight,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:37 a.m.
+147,gofox,0,4:00 p.m.,nan,7:05 p.m.,nan
+148,flights,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:15 a.m.
+149,helloflight,0,nan,7:40 a.m.,10:45 a.m.,10:52 a.m.
+150,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:12 p.m.
+151,flights,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+152,usatoday,0,nan,7:42 p.m.,nan,10:23 p.m.
+153,gofox,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:12 a.m.
+154,foxbusiness,0,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:35 a.m.
+155,flightview,0,nan,9:01 a.m.,nan,9:40 a.m.
+156,boston,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,10:39 p.m.&nbsp(Estimated)
+157,flights,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:10 p.m.
+158,travelocity,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:17 p.m.
+159,foxbusiness,0,nan,12:37 p.m.,nan,3:25 p.m.
+160,businesstravellogue,0,nan,10:53 a.m.,nan,11:18 a.m.
+161,boston,0,11:25 p.m.,Not Available,6:55 a.m. Dec 02,Not Available
+162,gofox,0,nan,6:10 a.m.,nan,7:10 a.m.
+163,gofox,0,nan,12:58 a.m.,nan,5:23 a.m.
+164,travelocity,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+165,boston,0,nan,7:56 a.m.,nan,9:09 a.m.
+166,boston,0,9:45 a.m.,10:35 a.m.,nan,1:09 p.m.
+167,ifly,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:18 p.m.
+168,boston,0,nan,8:26 a.m.,nan,9:54 a.m.
+169,usatoday,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:42 a.m.
+170,world-flight-tracker,0,4:15 p.m.,4:30 p.m.,7:55 p.m.,7:35 p.m.
+171,boston,0,nan,10:55 a.m.,nan,1:34 p.m.
+172,boston,0,nan,2:59 p.m.,nan,6:59 p.m.
+173,boston,0,nan,8:18 a.m.,nan,11:26 a.m.
+174,boston,0,nan,3:04 p.m.,nan,4:45 p.m.
+175,boston,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:09 p.m.
+176,boston,0,nan,12:06 p.m.,nan,1:12 p.m.
+177,flightview,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:00 a.m.
+178,usatoday,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:03 p.m.
+179,myrateplan,0,6:00 a.m.,6:17 a.m.,10:20 a.m.,10:18 a.m.
+180,gofox,0,nan,9:01 a.m.,nan,10:47 a.m.
+181,gofox,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+182,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+183,boston,0,nan,8:07 a.m.,nan,1:27 p.m.
+184,boston,0,nan,12:56 p.m.,nan,3:20 p.m.
+185,businesstravellogue,0,nan,12:14 p.m.,nan,2:01 p.m.
+186,boston,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:28 p.m.
+187,boston,UA-2945-PHL-CLT,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+188,boston,0,nan,5:38 p.m.,nan,7:55 p.m.
+189,boston,CO-47-IAH-LAX,nan,8:36 p.m.,nan,9:38 p.m.
+190,world-flight-tracker,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:37 p.m.
+191,flights,0,nan,nan,4:52 p.m.,nan
+192,boston,0,nan,3:36 p.m.,nan,3:25 p.m.
+193,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.
+194,flightarrival,0,6:30 p.m.,Not Available,7:25 p.m.,Not Available
+195,flightarrival,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:43 p.m.
+196,quicktrip,0,7:15 p.m.,Not Available,12:21 a.m.,Not Available
+197,gofox,0,nan,2:38 p.m.,nan,7:53 p.m.
+198,world-flight-tracker,0,9:15 a.m.,9:58 a.m.,12:18 p.m.,12:03 p.m.
+199,aa,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:51 a.m.
+200,boston,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:29 a.m.
+201,gofox,0,nan,5:09 p.m.,nan,7:53 p.m.
+202,gofox,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:36 p.m.
+203,boston,UA-938-DEN-ORD,nan,4:37 p.m.,nan,7:26 p.m.
+204,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+205,boston,0,10:25 a.m.,10:37 a.m.,nan,6:13 p.m.
+206,gofox,0,nan,7:31 a.m.,nan,10:45 a.m.
+207,panynj,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,2:56 p.m.
+208,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:18 p.m.
+209,boston,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+210,businesstravellogue,0,nan,2:01 p.m.,nan,4:06 p.m.
+211,boston,0,11:55 p.m.,nan,5:50 a.m.,nan
+212,panynj,0,4:25 p.m.,Not Available,12:29 a.m. Dec 02,Not Available
+213,boston,0,9:00 p.m.,Not Available,12:15 a.m. Dec 02,Not Available
+214,boston,0,8:25 p.m.,Not Available,11:50 p.m.,Not Available
+215,businesstravellogue,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:58 a.m.
+216,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:40 a.m.
+217,boston,0,nan,8:37 a.m.,nan,9:11 a.m.
+218,gofox,0,1:30 p.m.,Not Available,3:50 p.m.,Not Available
+219,boston,0,nan,3:17 p.m.,nan,4:55 p.m.
+220,boston,0,nan,7:41 a.m.,nan,8:41 a.m.
+221,flightarrival,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+222,businesstravellogue,0,5:30 p.m.,nan,6:40 p.m.,nan
+223,boston,0,nan,12:45 a.m.,nan,7:58 a.m.
+224,boston,0,nan,11:47 a.m.,nan,2:02 p.m.
+225,gofox,0,nan,8:40 p.m.,nan,9:11 p.m.
+226,usatoday,0,nan,3:04 p.m.,nan,4:24 p.m.
+227,boston,0,nan,2:59 p.m.,nan,6:59 p.m.
+228,boston,0,nan,9:43 a.m.,nan,12:10 p.m.
+229,boston,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+230,boston,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:34 p.m.
+231,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+232,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:40 p.m.
+233,gofox,0,7:55 a.m.,8:05 a.m.,11:05 a.m.,11:00 a.m.
+234,businesstravellogue,0,nan,9:05 a.m.,nan,12:00 p.m.
+235,allegiantair,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,3:01 p.m.
+236,panynj,0,nan,8:56 a.m.,nan,10:10 a.m.
+237,aa,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:36 p.m.
+238,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:57 a.m.
+239,gofox,0,nan,11:41 a.m.,nan,4:52 p.m.
+240,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:09 p.m.
+241,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:18 p.m.
+242,flights,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,10:53 a.m.
+243,quicktrip,0,2:55 p.m.,4:02 p.m.,4:49 p.m.,5:09 p.m.
+244,gofox,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,5:35 p.m.
+245,gofox,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+246,world-flight-tracker,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:32 a.m.
+247,world-flight-tracker,0,4:00 p.m.,4:15 p.m.,7:05 p.m.,6:33 p.m.
+248,panynj,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:07 a.m.
+249,world-flight-tracker,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:00 a.m.
+250,flightarrival,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:09 p.m.
+251,weather,0,7:10 a.m.,nan,9:40 a.m.,nan
+252,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:09 a.m.
+253,flights,0,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:34 a.m.
+254,panynj,0,nan,nan,nan,nan
+255,weather,AA-1733-ORD-PHX,7:45 p.m.,nan,10:30 p.m.,nan
+256,flights,0,6:30 p.m.,6:56 p.m.,7:25 p.m.,7:35 p.m.
+257,foxbusiness,0,3:27 p.m.,nan,5:05 p.m.,nan
+258,flights,0,nan,nan,nan,nan
+259,myrateplan,0,11:25 a.m.,nan,nan,nan
+260,weather,0,nan,nan,nan,nan
+261,weather,0,11:25 p.m.,11:58 p.m.,6:55 a.m.,7:02 a.m.
+262,gofox,0,nan,nan,nan,nan
+263,weather,0,12:15 p.m.,nan,2:45 p.m.,nan
+264,foxbusiness,0,4:00 p.m.,nan,6:46 p.m.,nan
+265,weather,0,9:45 a.m.,nan,1:16 p.m.,nan
+266,usatoday,0,7:00 a.m.,nan,9:55 a.m.,nan
+267,weather,0,8:15 a.m.,nan,10:06 a.m.,nan
+268,world-flight-tracker,0,4:15 p.m.,nan,7:55 p.m.,nan
+269,weather,0,2:30 p.m.,nan,7:03 p.m.,nan
+270,foxbusiness,0,11:50 a.m.,nan,3:50 p.m.,nan
+271,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,8:50 a.m.
+272,weather,0,11:05 a.m.,nan,4:57 p.m.,nan
+273,quicktrip,0,6:00 a.m.,nan,10:20 a.m.,nan
+274,businesstravellogue,0,nan,nan,nan,nan
+275,gofox,0,nan,nan,2:20 p.m.,nan
+276,gofox,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+277,businesstravellogue,0,7:30 a.m.,nan,8:00 a.m.,nan
+278,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:13 p.m.
+279,gofox,0,nan,nan,nan,nan
+280,foxbusiness,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:11 p.m.
+281,allegiantair,0,nan,nan,nan,nan
+282,weather,0,12:00 p.m.,nan,1:45 p.m.,nan
+283,flights,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,10:52 a.m.
+284,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:17 p.m.
+285,world-flight-tracker,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:36 p.m.
+286,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:34 a.m.
+287,weather,0,8:05 a.m.,nan,11:35 a.m.,nan
+288,flightarrival,0,6:45 p.m.,nan,9:10 p.m.,nan
+289,panynj,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:09 p.m.
+290,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m.,nan
+291,weather,0,nan,nan,nan,nan
+292,gofox,0,9:15 a.m.,nan,12:18 p.m.,nan
+293,aa,0,6:00 a.m.,nan,7:30 a.m.,nan
+294,weather,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:23 a.m.
+295,world-flight-tracker,0,3:50 p.m.,nan,6:23 p.m.,nan
+296,boston,0,4:16 p.m.,nan,nan,nan
+297,usatoday,0,8:00 p.m.,nan,9:45 p.m.,nan
+298,weather,0,10:25 a.m.,nan,6:44 p.m.,nan
+299,gofox,0,nan,nan,nan,nan
+300,weather,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,2:52 p.m.
+301,businesstravellogue,0,1:33 p.m.,nan,4:31 p.m.,nan
+302,quicktrip,0,11:55 p.m.,12:11 a.m.,5:50 a.m.,5:49 a.m.
+303,panynj,0,4:25 p.m.,4:30 p.m.,12:29 a.m.,11:56 p.m.
+304,weather,0,9:00 p.m.,nan,12:15 a.m.,nan
+305,flightarrival,0,8:25 p.m.,8:44 p.m.,11:50 p.m.,11:54 p.m.
+306,allegiantair,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:56 a.m.
+307,gofox,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:39 a.m.
+308,flightstats,0,2:30 p.m.,nan,6:15 p.m.,nan
+309,flights,0,nan,nan,nan,nan
+310,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+311,weather,0,2:53 p.m.,nan,4:48 p.m.,nan
+312,weather,0,7:35 a.m.,nan,9:43 a.m.,nan
+313,flightview,0,nan,nan,nan,nan
+314,flightarrival,0,11:15 a.m.,nan,nan,nan
+315,weather,0,8:20 p.m.,nan,9:20 p.m.,nan
+316,usatoday,0,nan,nan,nan,nan
+317,weather,0,2:30 p.m.,nan,7:03 p.m.,nan
+318,ifly,0,2:35 p.m.,nan,4:05 p.m.,nan
+319,panynj,0,2:55 p.m.,nan,5:55 p.m.,nan
+320,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:04 a.m.
+321,flightview,0,nan,nan,nan,nan
+322,foxbusiness,0,12:10 p.m.,nan,2:15 p.m.,nan
+323,weather,0,7:55 a.m.,nan,11:05 a.m.,nan
+324,businesstravellogue,0,nan,nan,nan,nan
+325,quicktrip,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,2:49 p.m.
+326,flightarrival,0,nan,8:07 a.m.,nan,1:23 p.m.
+327,panynj,0,nan,nan,nan,nan
+328,weather,0,3:05 p.m.,nan,6:30 p.m.,nan
+329,businesstravellogue,0,4:00 p.m.,nan,6:40 p.m.,nan
+330,mytripandmore,0,2:55 p.m.,nan,4:49 p.m.,nan
+331,world-flight-tracker,0,11:55 a.m.,nan,6:17 p.m.,nan
+332,world-flight-tracker,0,10:40 a.m.,nan,12:55 p.m.,nan
+333,world-flight-tracker,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:40 a.m.
+334,world-flight-tracker,0,4:00 p.m.,nan,7:05 p.m.,nan
+335,flights,0,6:00 a.m.,nan,6:40 a.m.,nan
+336,gofox,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,10:49 a.m.
+337,foxbusiness,0,7:10 a.m.,nan,3:30 p.m.,nan
+338,flights,0,nan,7:16 a.m.,9:40 a.m.,9:22 a.m.
+339,usatoday,0,nan,nan,nan,nan
+340,airtravelcenter,0,6:40 a.m.,6:54 a.m.,nan,9:14 a.m.
+341,flights,0,8:00 a.m.,8:48 a.m.,11:55 a.m.,11:30 a.m.
+342,panynj,0,nan,9:00 a.m.,nan,9:29 a.m.
+343,aa,0,nan,7:59 p.m.,nan,10:31 p.m.
+344,foxbusiness,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:14 p.m.
+345,foxbusiness,0,nan,nan,nan,nan
+346,airtravelcenter,0,nan,11:41 a.m.,nan,4:54 p.m.
+347,businesstravellogue,0,nan,10:53 a.m.,nan,11:11 a.m.
+348,airtravelcenter,0,nan,11:29 p.m.,nan,12/2/11 6:35 a.m.
+349,businesstravellogue,0,nan,6:10 a.m.,nan,7:04 a.m.
+350,gofox,0,nan,nan,nan,nan
+351,travelocity,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+352,airtravelcenter,0,7:35 a.m.,nan,9:21 a.m.,nan
+353,ifly,0,9:45 a.m.,nan,1:16 p.m.,nan
+354,foxbusiness,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:11 p.m.
+355,airtravelcenter,0,nan,8:26 a.m.,nan,9:56 a.m.
+356,airtravelcenter,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:29 a.m.
+357,airtravelcenter,0,nan,4:29 p.m.,7:55 p.m.,7:37 p.m.
+358,businesstravellogue,0,nan,10:54 a.m.,nan,1:36 p.m.
+359,airtravelcenter,0,2:30 p.m.,nan,7:03 p.m.,nan
+360,airtravelcenter,0,8:05 a.m.,nan,11:35 a.m.,nan
+361,airtravelcenter,0,nan,3:04 p.m.,nan,4:43 p.m.
+362,airtravelcenter,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:08 p.m.
+363,airtravelcenter,0,11:40 a.m.,nan,1:17 p.m.,nan
+364,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,8:50 a.m.
+365,airtravelcenter,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:00 p.m.
+366,quicktrip,0,6:00 a.m.,nan,10:20 a.m.,nan
+367,businesstravellogue,0,nan,nan,nan,nan
+368,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,nan,11:50 a.m.
+369,airtravelcenter,0,nan,2:03 p.m.,nan,3:13 p.m.
+370,flightarrival,0,nan,8:07 a.m.,nan,1:23 p.m.
+371,flightexplorer,0,nan,12:56 p.m.,nan,3:09 p.m.
+372,allegiantair,0,nan,12:14 p.m.,nan,1:55 p.m.
+373,flightstats,0,2:30 p.m.,2:43 p.m.,nan,5:22 p.m.
+374,airtravelcenter,0,nan,12:07 p.m.,nan,1:11 p.m.
+375,airtravelcenter,0,5:25 p.m.,nan,8:22 p.m.,nan
+376,airtravelcenter,0,7:10 p.m.,nan,8:56 p.m.,nan
+377,world-flight-tracker,0,nan,11:06 a.m.,2:45 p.m.,2:39 p.m.
+378,airtravelcenter,0,nan,1:43 p.m.,nan,5:24 p.m.
+379,flights,0,3:35 p.m.,nan,4:00 p.m.,nan
+380,airtravelcenter,0,nan,7:22 a.m.,nan,10:34 a.m.
+381,flights,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+382,flights,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:38 p.m.
+383,flights,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:04 p.m.
+384,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m.,nan
+385,airtravelcenter,0,nan,2:04 p.m.,nan,7:20 p.m.
+386,world-flight-tracker,0,9:15 a.m.,nan,12:18 p.m.,nan
+387,airtravelcenter,0,nan,6:57 a.m.,nan,7:49 a.m.
+388,airtravelcenter,0,7:10 a.m.,7:31 a.m.,nan,9:26 a.m.
+389,airtravelcenter,0,nan,5:09 p.m.,nan,7:43 p.m.
+390,flights,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,10:43 a.m.
+391,world-flight-tracker,0,3:50 p.m.,4:44 p.m.,6:23 p.m.,6:28 p.m.
+392,boston,0,nan,4:37 p.m.,nan,7:23 p.m.
+393,airtravelcenter,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:47 p.m.
+394,myrateplan,0,10:25 a.m.,nan,6:44 p.m.,nan
+395,airtravelcenter,0,nan,7:30 a.m.,nan,10:43 a.m.
+396,airtravelcenter,0,nan,11:02 a.m.,2:59 p.m.,2:58 p.m.
+397,businesstravellogue,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+398,aa,0,nan,12:42 p.m.,nan,2:50 p.m.
+399,businesstravellogue,0,nan,nan,nan,nan
+400,airtravelcenter,0,11:55 p.m.,12:11 a.m.,nan,5:52 a.m.
+401,airtravelcenter,0,nan,4:28 p.m.,nan,12/2/11 12:01 a.m.
+402,airtravelcenter,0,nan,9:06 p.m.,12:15 a.m. Dec 02,11:49 p.m.
+403,flightexplorer,0,8:25 p.m.,8:29 p.m.,11:50 p.m.,11:35 p.m.
+404,allegiantair,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:45 a.m.
+405,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:33 a.m.
+406,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+407,world-flight-tracker,0,nan,1:41 p.m.,3:50 p.m.,3:29 p.m.
+408,airtravelcenter,0,2:53 p.m.,nan,4:48 p.m.,nan
+409,airtravelcenter,0,nan,7:41 a.m.,nan,8:33 a.m.
+410,airtravelcenter,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+411,gofox,0,5:30 p.m.,5:38 p.m.,6:40 p.m.,6:19 p.m.
+412,flightview,0,nan,1:50 p.m. (+8:00),nan,7:50 a.m.
+413,flightarrival,0,nan,11:47 a.m.,nan,1:52 p.m.
+414,airtravelcenter,0,nan,8:40 p.m.,nan,9:12 p.m.
+415,myrateplan,0,nan,3:04 p.m.,nan,4:22 p.m.
+416,airtravelcenter,0,2:30 p.m.,nan,7:03 p.m.,nan
+417,airtravelcenter,0,8:55 a.m.,nan,11:45 a.m.,nan
+418,airtravelcenter,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+419,panynj,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:39 p.m.
+420,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:04 a.m.
+421,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:42 p.m.
+422,airtravelcenter,0,7:55 a.m.,8:04 a.m.,nan,10:58 a.m.
+423,gofox,0,nan,nan,nan,nan
+424,allegiantair,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,2:49 p.m.
+425,flights,0,nan,8:55 a.m.,nan,10:12 a.m.
+426,airtravelcenter,0,nan,3:38 p.m.,nan,6:30 p.m.
+427,airtravelcenter,0,7:30 a.m.,8:04 a.m.,nan,7:59 a.m.
+428,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:11 p.m.
+429,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+430,quicktrip,0,2:55 p.m.,nan,4:49 p.m.,nan
+431,airtravelcenter,0,nan,11:55 a.m.,nan,5:34 p.m.
+432,world-flight-tracker,0,10:40 a.m.,10:55 a.m.,nan,12:37 p.m.
+433,world-flight-tracker,0,6:45 a.m.,6:58 a.m.,nan,7:37 a.m.
+434,world-flight-tracker,0,4:00 p.m.,nan,7:05 p.m.,nan
+435,airtravelcenter,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:15 a.m.
+436,world-flight-tracker,0,nan,7:40 a.m.,10:45 a.m.,10:52 a.m.
+437,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:12 p.m.
+438,flights,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+439,usatoday,0,nan,7:42 p.m.,nan,10:29 p.m.
+440,gofox,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+441,foxbusiness,0,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:58 a.m.
+442,flightview,0,nan,9:01 a.m.,nan,9:43 a.m.
+443,flightview,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,nan
+444,flights,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:16 p.m.
+445,travelocity,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:17 p.m.
+446,flights,0,nan,12:37 p.m.,nan,3:31 p.m.
+447,gofox,0,nan,10:53 a.m.,nan,11:21 a.m.
+448,flightview,0,11:25 p.m.,nan,6:55 a.m. Dec 02,nan
+449,gofox,0,nan,6:10 a.m.,nan,7:17 a.m.
+450,gofox,0,nan,12:58 a.m.,nan,5:26 a.m.
+451,travelocity,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+452,flightview,0,nan,7:56 a.m.,nan,9:09 a.m.
+453,ifly,0,nan,10:35 a.m.,1:16 p.m.,1:19 p.m.
+454,foxbusiness,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:18 p.m.
+455,flightview,0,nan,8:26 a.m.,nan,9:56 a.m.
+456,ifly,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+457,gofox,0,4:15 p.m.,4:30 p.m.,7:55 p.m.,7:39 p.m.
+458,flightview,0,nan,10:55 a.m.,nan,1:40 p.m.
+459,flightview,0,nan,2:59 p.m.,nan,7:10 p.m.
+460,flightview,0,nan,8:18 a.m.,nan,11:32 a.m.
+461,flightview,UA-2314-ATL-PHL,nan,3:04 p.m.,nan,5:00 p.m.
+462,flightview,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:09 p.m.
+463,flightview,0,nan,12:06 p.m.,nan,1:14 p.m.
+464,flightview,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:05 a.m.
+465,flightview,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:03 p.m.
+466,quicktrip,0,6:00 a.m.,6:17 a.m.,10:20 a.m.,10:27 a.m.
+467,gofox,0,nan,9:01 a.m.,nan,10:56 a.m.
+468,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+469,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+470,flightview,0,nan,8:07 a.m.,nan,1:30 p.m.
+471,flightview,0,nan,12:56 p.m.,nan,3:21 p.m.
+472,businesstravellogue,0,nan,12:14 p.m.,nan,2:01 p.m.
+473,flightview,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:42 p.m.
+474,boston,0,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+475,flightview,0,nan,5:38 p.m.,nan,8:03 p.m.
+476,flightview,0,nan,8:36 p.m.,nan,9:38 p.m.
+477,gofox,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:46 p.m.
+478,flights,0,nan,1:43 p.m.,nan,5:34 p.m.
+479,flights,0,nan,3:36 p.m.,nan,3:25 p.m.
+480,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.
+481,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,nan
+482,flightarrival,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:43 p.m.
+483,quicktrip,0,7:15 p.m.,nan,12:21 a.m.,nan
+484,gofox,0,nan,2:38 p.m.,nan,7:58 p.m.
+485,gofox,0,9:15 a.m.,9:58 a.m.,12:18 p.m.,12:09 p.m.
+486,flightview,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:51 a.m.
+487,panynj,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:29 a.m.
+488,gofox,0,nan,5:09 p.m.,nan,7:53 p.m.
+489,world-flight-tracker,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:35 p.m.
+490,flightview,0,nan,4:37 p.m.,nan,7:36 p.m.
+491,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+492,myrateplan,0,nan,10:37 a.m.,6:44 p.m.,6:34 p.m.
+493,flightview,0,nan,7:31 a.m.,nan,10:45 a.m.
+494,aa,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,3:04 p.m.
+495,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:23 p.m.
+496,flightview,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+497,businesstravellogue,0,nan,2:01 p.m.,nan,4:17 p.m.
+498,world-flight-tracker,0,11:55 p.m.,nan,5:50 a.m.,nan
+499,flightview,0,4:25 p.m.,nan,12:29 a.m. Dec 02,nan
+500,gofox,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+501,flightview,0,8:25 p.m.,nan,11:50 p.m.,nan
+502,businesstravellogue,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,10:04 a.m.
+503,gofox,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:44 a.m.
+504,flightview,0,nan,8:37 a.m.,nan,9:13 a.m.
+505,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+506,flightview,0,nan,3:17 p.m.,nan,4:59 p.m.
+507,flightview,0,nan,7:41 a.m.,nan,8:45 a.m.
+508,flightview,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+509,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+510,flightview,UA-858-PVG-SFO,nan,1:45 p.m.,nan,8:02 a.m.
+511,flightview,0,nan,11:47 a.m.,nan,2:02 p.m.
+512,flightview,0,nan,8:40 p.m.,nan,9:11 p.m.
+513,usatoday,0,nan,3:04 p.m.,nan,4:24 p.m.
+514,flightview,0,nan,2:59 p.m.,nan,7:10 p.m.
+515,flightview,0,nan,9:43 a.m.,nan,12:12 p.m.
+516,flightview,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+517,panynj,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:34 p.m.
+518,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+519,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:43 p.m.
+520,flightview,0,7:55 a.m.,8:05 a.m.,11:05 a.m.,11:00 a.m.
+521,businesstravellogue,0,nan,9:05 a.m.,nan,12:09 p.m.
+522,quicktrip,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,3:01 p.m.
+523,panynj,0,nan,8:56 a.m.,nan,10:10 a.m.
+524,world-flight-tracker,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:43 p.m.
+525,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:57 a.m.
+526,gofox,0,nan,11:41 a.m.,nan,4:56 p.m.
+527,flightview,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:09 p.m.
+528,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+529,panynj,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,11:06 a.m.
+530,flightview,0,2:55 p.m.,4:02 p.m.,4:49 p.m.,5:26 p.m.
+531,gofox,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,6:17 p.m.
+532,gofox,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+533,panynj,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:32 a.m.
+534,gofox,0,4:00 p.m.,4:15 p.m.,7:05 p.m.,6:36 p.m.
+535,panynj,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:19 a.m.
+536,world-flight-tracker,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:12 a.m.
+537,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:14 p.m.
+538,flightstats,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+539,foxbusiness,0,nan,7:14 p.m.,nan,10:29 p.m.
+540,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+541,flights,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+542,flightstats,0,8:41 a.m.,8:42 a.m.,9:54 a.m.,9:43 a.m.
+543,flightstats,0,7:45 p.m.,7:58 p.m.,10:30 p.m.,10:30 p.m. (Estimated)
+544,allegiantair,0,nan,12:13 p.m.,nan,2:10 p.m.
+545,flightarrival,0,6:30 p.m.,6:47 p.m. (Estimated runway),7:25 p.m.,7:25 p.m. (Estimated runway)
+546,foxbusiness,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+547,flights,0,nan,11:32 a.m.,nan,3:31 p.m.
+548,flightstats,0,11:25 p.m.,11:29 p.m. (Estimated runway),6:55 a.m.,6:35 a.m. (Estimated runway)
+549,businesstravellogue,0,nan,5:56 a.m.,nan,7:17 a.m.
+550,businesstravellogue,0,nan,12:41 a.m.,nan,5:26 a.m.
+551,foxbusiness,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+552,flightstats,0,7:35 a.m.,7:29 a.m.,9:21 a.m.,9:14 a.m.
+553,ifly,0,9:45 a.m.,10:19 a.m.,1:16 p.m.,1:19 p.m.
+554,usatoday,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+555,flightstats,0,8:15 a.m.,8:12 a.m.,10:06 a.m.,9:56 a.m.
+556,gofox,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+557,ifly,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+558,flightstats,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+559,foxbusiness,0,nan,5:22 p.m.,nan,8:03 p.m.
+560,flightstats,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+561,flightstats,0,11:40 a.m.,11:56 a.m.,1:17 p.m.,1:14 p.m.
+562,flightstats,AA-466-IAH-MIA,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+563,usatoday,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+564,myrateplan,0,6:00 a.m.,6:02 a.m.,10:20 a.m.,10:27 a.m.
+565,gofox,0,nan,8:40 a.m.,nan,10:56 a.m.
+566,flightstats,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+567,gofox,0,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+568,flightstats,AA-3979-CVG-ORD,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+569,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:20 p.m. (runway)
+570,flightstats,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+571,flightstats,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+572,flights,0,nan,12:35 p.m.,nan,3:21 p.m.
+573,flightstats,0,12:00 p.m.,11:51 a.m.,1:45 p.m.,1:15 p.m.
+574,boston,0,nan,8:25 p.m.,nan,9:52 p.m. (Estimated)
+575,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+576,world-flight-tracker,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+577,flightstats,0,nan,1:32 p.m.,nan,5:34 p.m.
+578,flightstats,0,3:35 p.m.,3:36 p.m.,4:00 p.m.,3:33 p.m.
+579,flightstats,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+580,flightstats,0,8:05 a.m.,8:00 a.m.,11:35 a.m.,11:32 a.m.
+581,flights,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+582,flights,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+583,world-flight-tracker,0,7:15 p.m.,7:15 p.m. (Estimated),12:21 a.m.,12:21 a.m. (Estimated)
+584,gofox,0,1:55 p.m.,2:10 p.m.,nan,7:58 p.m.
+585,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+586,aa,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+587,panynj,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+588,flightstats,0,4:55 p.m.,5:08 p.m.,nan,7:55 p.m.
+589,flights,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+590,world-flight-tracker,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+591,flightstats,0,nan,4:15 p.m.,7:35 p.m.,7:36 p.m.
+592,usatoday,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+593,flightstats,0,10:25 a.m.,10:20 a.m.,6:44 p.m.,6:34 p.m.
+594,flightstats,0,nan,7:07 a.m.,nan,10:47 a.m.
+595,flightstats,0,10:40 a.m.,11:01 a.m.,2:59 p.m.,3:04 p.m.
+596,businesstravellogue,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+597,gofox,0,nan,1:48 p.m.,nan,4:17 p.m.
+598,world-flight-tracker,0,11:55 p.m.,12:10 a.m. (Estimated runway),5:50 a.m.,5:42 a.m. (Estimated runway)
+599,panynj,0,4:25 p.m.,4:28 p.m. (Estimated runway),12:29 a.m.,12:01 a.m. (Estimated runway)
+600,flightstats,0,9:00 p.m.,9:06 p.m. (Estimated runway),12:15 a.m.,11:49 p.m. (Estimated runway)
+601,flightexplorer,0,8:25 p.m.,8:29 p.m. (Estimated runway),11:50 p.m.,11:35 p.m. (Estimated runway)
+602,flightstats,0,nan,2:46 p.m.,nan,4:47 p.m.
+603,businesstravellogue,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+604,world-flight-tracker,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+605,flightstats,UA-257-JFK-SFO,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+606,flightstats,0,nan,8:26 a.m.,nan,9:13 a.m.
+607,flightstats,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+608,flightarrival,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+609,businesstravellogue,0,5:30 p.m.,5:30 p.m. (Estimated),6:40 p.m.,6:40 p.m. (Estimated)
+610,flightstats,0,nan,11:15 a.m.,nan,2:00 p.m.
+611,flightstats,0,nan,8:39 p.m.,9:20 p.m.,9:19 p.m. (Estimated)
+612,usatoday,0,nan,2:52 p.m.,nan,4:44 p.m.
+613,flightstats,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+614,flightstats,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+615,flightstats,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+616,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+617,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+618,quicktrip,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+619,flightstats,0,nan,7:49 a.m.,1:39 p.m.,1:30 p.m.
+620,panynj,0,nan,8:56 a.m.,10:40 a.m.,10:16 a.m.
+621,flightstats,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+622,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+623,flightstats,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+624,mytripandmore,0,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+625,world-flight-tracker,0,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+626,gofox,0,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+627,world-flight-tracker,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+628,flights,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+629,gofox,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+630,weather,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+631,foxbusiness,0,nan,7:42 p.m.,nan,10:29 p.m.
+632,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+633,foxbusiness,0,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:58 a.m.
+634,panynj,UA-3925-IAD-ORF,nan,9:01 a.m.,nan,9:43 a.m.
+635,weather,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,nan
+636,panynj,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:16 p.m.
+637,travelocity,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:17 p.m.
+638,foxbusiness,0,nan,12:37 p.m.,nan,3:31 p.m.
+639,businesstravellogue,0,nan,10:53 a.m.,nan,11:21 a.m.
+640,panynj,0,11:25 p.m.,nan,6:55 a.m. Dec 02,nan
+641,businesstravellogue,0,nan,6:10 a.m.,nan,7:17 a.m.
+642,businesstravellogue,0,nan,12:58 a.m.,nan,5:26 a.m.
+643,travelocity,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+644,panynj,0,nan,7:56 a.m.,nan,9:09 a.m.
+645,panynj,0,nan,10:35 a.m.,1:16 p.m.,1:19 p.m.
+646,foxbusiness,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:18 p.m.
+647,panynj,0,nan,8:26 a.m.,nan,9:56 a.m.
+648,usatoday,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+649,gofox,0,4:15 p.m.,4:30 p.m.,7:55 p.m.,7:39 p.m.
+650,panynj,0,nan,10:55 a.m.,nan,1:40 p.m.
+651,panynj,0,nan,2:59 p.m.,nan,7:10 p.m.
+652,panynj,0,nan,8:18 a.m.,nan,11:32 a.m.
+653,flightview,0,nan,3:04 p.m.,nan,5:00 p.m.
+654,foxbusiness,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:09 p.m.
+655,panynj,0,nan,12:06 p.m.,nan,1:14 p.m.
+656,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:05 a.m.
+657,panynj,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:03 p.m.
+658,myrateplan,0,nan,6:17 a.m.,10:20 a.m.,10:27 a.m.
+659,businesstravellogue,0,nan,9:01 a.m.,nan,10:56 a.m.
+660,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+661,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+662,flightarrival,0,nan,8:07 a.m.,nan,1:30 p.m.
+663,panynj,0,nan,12:56 p.m.,nan,3:21 p.m.
+664,allegiantair,0,nan,12:14 p.m.,nan,2:01 p.m.
+665,flightstats,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:42 p.m.
+666,boston,0,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+667,foxbusiness,0,nan,5:38 p.m.,nan,8:03 p.m.
+668,panynj,0,nan,8:36 p.m.,nan,9:38 p.m.
+669,gofox,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:46 p.m.
+670,panynj,0,nan,1:43 p.m.,nan,5:34 p.m.
+671,panynj,0,nan,3:36 p.m.,nan,3:25 p.m.
+672,panynj,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.
+673,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,nan
+674,flightarrival,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:43 p.m.
+675,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m. Dec 02,nan
+676,gofox,0,nan,2:38 p.m.,nan,7:58 p.m.
+677,gofox,0,9:15 a.m.,9:58 a.m.,12:18 p.m.,12:09 p.m.
+678,panynj,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:51 a.m.
+679,panynj,AA-643-MIA-ORD,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:29 a.m.
+680,panynj,0,nan,5:09 p.m.,nan,7:53 p.m.
+681,world-flight-tracker,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:35 p.m.
+682,panynj,0,nan,4:37 p.m.,nan,7:36 p.m.
+683,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+684,myrateplan,0,nan,10:37 a.m.,nan,6:34 p.m.
+685,gofox,0,nan,7:31 a.m.,nan,10:45 a.m.
+686,panynj,AA-400-DFW-JFK,10:40 a.m.,11:02 a.m.,2:59 p.m.,3:04 p.m.
+687,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:23 p.m.
+688,world-flight-tracker,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+689,gofox,0,nan,2:01 p.m.,nan,4:17 p.m.
+690,quicktrip,0,11:55 p.m.,nan,5:50 a.m.,nan
+691,panynj,0,4:25 p.m.,nan,12:29 a.m. Dec 02,nan
+692,gofox,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+693,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+694,allegiantair,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,10:04 a.m.
+695,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:44 a.m.
+696,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+697,world-flight-tracker,0,1:30 p.m.,nan,3:50 p.m.,nan
+698,panynj,0,nan,3:17 p.m.,nan,4:59 p.m.
+699,panynj,0,nan,7:41 a.m.,nan,8:45 a.m.
+700,flightarrival,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+701,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+702,flightview,0,nan,1:45 p.m.,nan,8:02 a.m.
+703,flightarrival,0,nan,11:47 a.m.,nan,2:02 p.m.
+704,gofox,0,nan,8:40 p.m.,nan,9:11 p.m.
+705,myrateplan,0,nan,3:04 p.m.,nan,4:24 p.m.
+706,panynj,0,nan,2:59 p.m.,nan,7:10 p.m.
+707,panynj,0,nan,9:43 a.m.,nan,12:12 p.m.
+708,ifly,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+709,panynj,AA-1917-JFK-MCO,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:34 p.m.
+710,gofox,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+711,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:43 p.m.
+712,gofox,0,7:55 a.m.,8:05 a.m.,11:05 a.m.,11:00 a.m.
+713,businesstravellogue,0,nan,9:05 a.m.,nan,12:09 p.m.
+714,quicktrip,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,3:01 p.m.
+715,panynj,0,nan,8:56 a.m.,nan,10:10 a.m.
+716,panynj,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:43 p.m.
+717,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:57 a.m.
+718,myrateplan,0,nan,11:41 a.m.,nan,4:56 p.m.
+719,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:09 p.m.
+720,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+721,panynj,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,11:06 a.m.
+722,panynj,0,2:55 p.m.,4:02 p.m.,4:49 p.m.,5:26 p.m.
+723,gofox,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,6:17 p.m.
+724,world-flight-tracker,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+725,panynj,AA-404-MIA-MCO,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:32 a.m.
+726,gofox,0,4:00 p.m.,4:15 p.m.,7:05 p.m.,6:36 p.m.
+727,panynj,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:19 a.m.
+728,world-flight-tracker,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:12 a.m.
+729,flightarrival,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:14 p.m.
+730,weather,0,nan,7:16 a.m.,9:40 a.m.,9:22 a.m.
+731,aa,0,nan,7:59 p.m.,nan,10:28 p.m.
+732,usatoday,0,nan,7:41 p.m.,nan,10:22 p.m.
+733,flights,0,8:00 a.m.,8:47 a.m.,11:55 a.m.,11:30 a.m.
+734,panynj,0,nan,9:01 a.m.,nan,9:39 a.m.
+735,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,nan
+736,gofox,0,nan,11:41 a.m.,nan,4:54 p.m.
+737,gofox,0,nan,10:53 a.m.,nan,11:16 a.m.
+738,flightexplorer,0,11:25 p.m.,nan,12/2/2011 6:55 a.m.,nan
+739,businesstravellogue,0,nan,6:09 a.m.,nan,7:04 a.m.
+740,gofox,0,nan,12:57 a.m.,nan,5:25 a.m.
+741,flightexplorer,0,nan,12:42 p.m.,nan,2:50 p.m.
+742,flightexplorer,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:29 a.m.
+743,world-flight-tracker,0,nan,4:30 p.m.,7:55 p.m.,7:37 p.m.
+744,ifly,0,nan,10:11 a.m.,12:35 p.m.,1:19 p.m.
+745,flightexplorer,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:08 p.m.
+746,flightexplorer,0,nan,12:05 p.m.,nan,1:06 p.m.
+747,flightexplorer,0,6:00 a.m.,6:09 a.m.,nan,8:50 a.m.
+748,flightexplorer,0,7:55 a.m.,8:05 a.m.,11:05 a.m.,10:58 a.m.
+749,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,nan,11:50 a.m.
+750,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:59 a.m.
+751,flightexplorer,0,nan,2:04 p.m.,nan,3:13 p.m.
+752,flightexplorer,UA-382-IAD-LAX,nan,12:55 p.m.,nan,3:07 p.m.
+753,allegiantair,0,nan,12:14 p.m.,nan,1:55 p.m.
+754,flightstats,0,nan,2:41 p.m.,6:15 p.m.,5:22 p.m.
+755,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+756,flightexplorer,0,nan,11:06 a.m.,2:45 p.m.,2:39 p.m.
+757,flightexplorer,0,1:09 p.m.,nan,nan,nan
+758,flightexplorer,0,nan,3:36 p.m.,nan,3:26 p.m.
+759,world-flight-tracker,0,nan,7:22 a.m.,nan,10:34 a.m.
+760,flights,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:38 p.m.
+761,flights,0,nan,12:12 p.m.,nan,3:04 p.m.
+762,flightexplorer,0,9:15 a.m.,9:56 a.m.,nan,12:02 p.m.
+763,flightexplorer,0,nan,6:57 a.m.,7:30 a.m.,7:49 a.m.
+764,panynj,0,nan,7:31 a.m.,nan,9:26 a.m.
+765,gofox,0,nan,5:09 p.m.,nan,7:43 p.m.
+766,flights,0,nan,7:40 a.m.,nan,10:43 a.m.
+767,boston,0,nan,4:35 p.m.,nan,7:23 p.m.
+768,flightexplorer,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:47 p.m.
+769,gofox,0,nan,10:55 a.m.,nan,1:36 p.m.
+770,businesstravellogue,0,1:33 p.m.,1:46 p.m.,4:31 p.m.,4:20 p.m.
+771,gofox,0,nan,1:59 p.m.,nan,4:05 p.m.
+772,world-flight-tracker,0,11:55 p.m.,nan,12/2/2011 5:50 a.m.,nan
+773,gofox,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+774,flightexplorer,0,8:25 p.m.,nan,11:50 p.m.,nan
+775,allegiantair,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:45 a.m.
+776,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,nan,11:33 a.m.
+777,flightexplorer,0,nan,8:37 a.m.,nan,9:13 a.m.
+778,world-flight-tracker,0,1:30 p.m.,nan,3:50 p.m.,nan
+779,flightarrival,0,nan,11/30/2011 11:34 p.m.,nan,5:24 a.m.
+780,businesstravellogue,0,5:30 p.m.,nan,6:40 p.m.,nan
+781,flightexplorer,0,nan,8:17 a.m.,nan,11:27 a.m.
+782,usatoday,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+783,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,nan,11:04 a.m.
+784,flightexplorer,0,4:25 p.m.,nan,12/2/2011 12:29 a.m.,nan
+785,flightexplorer,0,nan,7:41 a.m.,nan,8:33 a.m.
+786,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:42 p.m.
+787,allegiantair,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,2:49 p.m.
+788,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:12 p.m.
+789,flightexplorer,0,nan,10:55 a.m.,nan,12:37 p.m.
+790,flightexplorer,0,6:45 a.m.,6:58 a.m.,nan,7:37 a.m.
+791,flightexplorer,0,nan,6:11 a.m.,6:40 a.m.,6:13 a.m.
+792,flightexplorer,0,nan,7:40 a.m.,nan,10:52 a.m.
+793,world-flight-tracker,0,nan,nan,2:45P 12-01-11,2:46P
+794,businesstravellogue,0,6:59 a.m.,nan,10:34 a.m.,10:08A
+795,world-flight-tracker,0,nan,nan,7:55 p.m.,7:39P
+796,mia,0,6:00 a.m.,nan,9:20 a.m.,9:04A
+797,mia,0,7:25 a.m.,nan,11:10A 12-01-11,11:06A
+798,flights,0,12:30,12:30,nan,nan
+799,world-flight-tracker,0,1:00 p.m.,nan,nan,nan
+800,dfw,0,8:25 p.m.,nan,11:50 p.m.,nan
+801,foxbusiness,0,11:50 a.m.,nan,3:50 p.m.,nan
+802,dfw,0,10:40 a.m.,nan,nan,nan
+803,world-flight-tracker,0,4:15 p.m.,nan,7:55 p.m.,nan
+804,foxbusiness,0,nan,nan,nan,Thu  22:25
+805,mco,0,2:55 p.m.,nan,5:55 p.m.,Thu  17:40
+806,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,Thu  19:33
+807,world-flight-tracker,0,6:45 a.m.,nan,7:45 a.m.,Thu  7:31
+808,mco,0,nan,nan,Thu  6:55,Thu  6:50
+809,orbitz,0,Thu  20:00,nan,9:45 p.m.,nan
+810,mco,0,nan,nan,10:35 a.m.,Thu  10:28
+811,world-flight-tracker,0,9:15 a.m.,nan,12:18 p.m.,nan
+812,flights,AA-3859-IAH-ORD,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+813,flights,0,nan,7:14 p.m.,nan,10:29 p.m.
+814,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+815,flights,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+816,panynj,0,nan,8:42 a.m.,nan,9:43 a.m.
+817,flights,0,7:45 p.m.,nan,10:30 p.m.,nan
+818,flights,AA-3-JFK-LAX,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+819,foxbusiness,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+820,flights,0,nan,11:32 a.m.,nan,3:31 p.m.
+821,businesstravellogue,0,nan,10:33 a.m.,nan,11:21 a.m.
+822,flights,0,11:25 p.m.,nan,6:55 a.m.  Fri 02-Dec-2011,nan
+823,gofox,0,nan,5:56 a.m.,nan,7:17 a.m.
+824,businesstravellogue,0,nan,12:41 a.m.,nan,5:26 a.m.
+825,foxbusiness,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+826,flights,0,nan,7:29 a.m.,nan,9:14 a.m.
+827,ifly,0,9:45 a.m.,10:19 a.m.,1:16 p.m.,1:19 p.m.
+828,ifly,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+829,flights,0,nan,8:12 a.m.,nan,9:56 a.m.
+830,usatoday,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+831,gofox,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+832,gofox,0,nan,10:55 a.m.,nan,1:40 p.m.
+833,flights,0,nan,2:48 p.m.,nan,7:10 p.m.
+834,flights,0,nan,8:00 a.m.,nan,11:32 a.m.
+835,flights,0,nan,2:46 p.m.,nan,4:47 p.m.
+836,aa,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+837,flights,0,nan,11:56 a.m.,nan,1:14 p.m.
+838,flights,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+839,flights,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+840,myrateplan,0,nan,6:02 a.m.,nan,10:27 a.m.
+841,gofox,0,nan,8:40 a.m.,nan,10:56 a.m.
+842,gofox,0,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+843,world-flight-tracker,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:20 p.m. (Runway)
+844,flights,0,nan,7:49 a.m.,nan,1:30 p.m.
+845,flights,0,nan,12:35 p.m.,nan,3:21 p.m.
+846,businesstravellogue,0,nan,12:13 p.m.,nan,2:10 p.m.
+847,flightstats,0,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+848,flights,0,12:00 p.m.,11:51 a.m.,1:45 p.m.,1:15 p.m.
+849,flights,0,nan,5:22 p.m.,nan,8:03 p.m.
+850,boston,0,nan,8:25 p.m.,nan,8:56 p.m.
+851,world-flight-tracker,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+852,flights,UA-248-PHX-ORD,nan,1:32 p.m.,nan,5:34 p.m.
+853,flights,AA-4330-CVG-ORD,nan,3:36 p.m.,nan,3:33 p.m.
+854,flights,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+855,flights,0,6:30 p.m.,nan,7:25 p.m.,nan
+856,flights,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+857,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m.  Fri 02-Dec-2011,nan
+858,flights,0,nan,2:10 p.m.,nan,7:58 p.m.
+859,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+860,aa,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+861,flights,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+862,flights,0,nan,5:08 p.m.,nan,7:55 p.m.
+863,gofox,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+864,flights,0,nan,4:15 p.m.,nan,7:36 p.m.
+865,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+866,flights,0,nan,10:20 a.m.,nan,6:34 p.m.
+867,flights,0,nan,7:07 a.m.,nan,10:47 a.m.
+868,panynj,0,10:40 a.m.,11:01 a.m.,2:59 p.m.,3:04 p.m.
+869,businesstravellogue,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+870,flights,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+871,businesstravellogue,0,nan,1:48 p.m.,nan,4:17 p.m.
+872,flights,0,11:55 p.m.,nan,5:50 a.m.,nan
+873,flights,0,4:25 p.m.,nan,12:29 a.m.  Fri 02-Dec-2011,nan
+874,flights,0,9:00 p.m.,nan,12:15 a.m.  Fri 02-Dec-2011,nan
+875,flights,0,8:25 p.m.,nan,11:50 p.m.,nan
+876,allegiantair,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+877,world-flight-tracker,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+878,flights,UA-3373-IAD-PHL,nan,8:26 a.m.,nan,9:13 a.m.
+879,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+880,flights,0,nan,3:01 p.m.,nan,4:59 p.m.
+881,flights,0,nan,7:27 a.m.,nan,8:45 a.m.
+882,flights,0,11:08 p.m.,nan,5:11 a.m.,nan
+883,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+884,flightview,0,nan,1:32 p.m.,nan,8:02 a.m.
+885,flights,0,nan,11:15 a.m.,nan,2:00 p.m.
+886,flights,0,nan,8:39 p.m.,nan,9:20 p.m.
+887,myrateplan,0,nan,2:52 p.m.,nan,4:44 p.m.
+888,flights,0,nan,2:48 p.m.,nan,7:10 p.m.
+889,flights,0,nan,9:16 a.m.,nan,11:45 a.m.
+890,flights,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+891,panynj,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+892,gofox,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+893,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+894,gofox,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+895,gofox,0,nan,8:52 a.m.,nan,12:09 p.m.
+896,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+897,flights,AA-415-BOS-ORD,nan,8:56 a.m.,nan,10:16 a.m.
+898,flights,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+899,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+900,gofox,0,nan,11:40 a.m.,nan,4:56 p.m.
+901,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+902,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+903,flights,AA-2525-DFW-MIA,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+904,quicktrip,0,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+905,world-flight-tracker,0,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+906,world-flight-tracker,0,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+907,flights,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+908,world-flight-tracker,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+909,flights,AA-3809-PHX-LAX,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+910,world-flight-tracker,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+911,foxbusiness,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+912,flights,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+913,flightarrival,AA-1640-MIA-MCO,6:30 p.m.,6:56 p.m.,7:25 p.m.,7:35 p.m.
+914,flightarrival,0,8:41 a.m.,nan,nan,nan
+915,businesstravellogue,0,nan,12:14 p.m.,nan,2:01 p.m.
+916,gofox,0,nan,nan,nan,nan
+917,flightarrival,0,nan,nan,nan,nan
+918,flightarrival,0,nan,7:56 a.m.,nan,9:09 a.m.
+919,flightarrival,0,9:45 a.m.,nan,1:16 p.m.,nan
+920,usatoday,0,7:00 a.m.,nan,9:55 a.m.,nan
+921,flightarrival,0,2:30 p.m.,nan,7:03 p.m.,nan
+922,flightarrival,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:00 a.m.
+923,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+924,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+925,panynj,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+926,flightexplorer,0,nan,12:56 p.m.,nan,3:20 p.m.
+927,quicktrip,0,2:55 p.m.,4:02 p.m.,4:49 p.m.,5:09 p.m.
+928,ifly,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:11 p.m.
+929,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:17 p.m.
+930,world-flight-tracker,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:36 p.m.
+931,flightarrival,AA-4307-ORD-DTW,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+932,flights,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:10 p.m.
+933,quicktrip,0,7:15 p.m.,7:15 p.m. (Estimated),12:21 a.m.,12:21 a.m. (Estimated)
+934,gofox,0,9:15 a.m.,nan,12:18 p.m.,nan
+935,gofox,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:36 p.m.
+936,flightarrival,0,nan,4:37 p.m.,nan,7:26 p.m.
+937,usatoday,0,8:00 p.m.,nan,9:45 p.m.,nan
+938,myrateplan,0,10:25 a.m.,nan,6:44 p.m.,nan
+939,gofox,0,nan,7:31 a.m.,nan,10:45 a.m.
+940,panynj,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,2:52 p.m.
+941,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:18 p.m.
+942,businesstravellogue,0,nan,1:48 p.m.,nan,4:17 p.m.
+943,flightarrival,0,4:25 p.m.,4:28 p.m. (Estimated runway),12:29 a.m.,12:01 a.m. (Estimated runway)
+944,flightarrival,AA-2312-DFW-DTW,8:25 p.m.,8:29 p.m. (Estimated runway),11:50 p.m.,11:35 p.m. (Estimated runway)
+945,gofox,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:40 a.m.
+946,flightarrival,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:28 p.m.
+947,flights,0,nan,nan,9:24 a.m.,nan
+948,flightarrival,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+949,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+950,flightarrival,0,1:45 p.m.,nan,nan,nan
+951,flightarrival,UA-2704-DTW-PHX,nan,11:47 a.m.,nan,2:02 p.m.
+952,gofox,0,nan,8:39 p.m.,9:20 p.m.,9:19 p.m. (Estimated)
+953,flightarrival,0,nan,9:43 a.m.,nan,12:10 p.m.
+954,flightarrival,0,nan,8:18 a.m.,nan,11:26 a.m.
+955,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:04 a.m.
+956,flightview,0,nan,nan,5:00 p.m.,nan
+957,flightarrival,0,7:35 a.m.,nan,9:43 a.m.,nan
+958,usatoday,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:40 p.m.
+959,flightarrival,0,7:55 a.m.,nan,11:05 a.m.,nan
+960,businesstravellogue,0,nan,nan,nan,nan
+961,flightarrival,UA-854-SFO-IAH,nan,8:07 a.m.,nan,1:27 p.m.
+962,flightarrival,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:36 p.m.
+963,gofox,0,11:25 a.m.,nan,nan,nan
+964,gofox,0,4:00 p.m.,nan,6:40 p.m.,nan
+965,businesstravellogue,0,nan,9:01 a.m.,nan,10:47 a.m.
+966,world-flight-tracker,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+967,flightarrival,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+968,gofox,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:00 a.m.
+969,flightarrival,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:09 p.m.
+970,flightwise,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+971,flightwise,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:49 a.m.
+972,panynj,0,7:10 a.m.,7:31 a.m.,9:00 a.m.,9:26 a.m.
+973,flightwise,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+974,flightwise,0,7:25 a.m.,7:39 a.m.,10:43 a.m.,10:43 a.m.
+975,usatoday,0,11:05 a.m.,11:45 a.m.,4:37 p.m.,4:57 p.m.
+976,flightwise,0,nan,8:51 a.m.,9:34 a.m.,9:44 a.m.
+977,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+978,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,2:49 p.m.
+979,flightarrival,0,8:25 p.m.,8:29 p.m.,11:50 p.m.,11:35 p.m.
+980,world-flight-tracker,0,7:15 p.m.,7:25 p.m.,12:21 a.m.,12:02 a.m.
+981,foxbusiness,0,5:25 p.m.,5:38 p.m.,8:04 p.m.,7:43 p.m.
+982,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:11 p.m.
+983,boston,0,nan,7:27 p.m.,nan,8:46 p.m.
+984,world-flight-tracker,0,7:15 a.m.,7:21 a.m.,10:18 a.m.,10:29 a.m.
+985,flightwise,0,3:35 p.m.,3:36 p.m.,nan,3:26 p.m.
+986,flightwise,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:09 a.m.
+987,flightwise,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,10:52 a.m.
+988,flightarrival,0,6:45 p.m.,6:56 p.m.,9:00 p.m.,8:38 p.m.
+989,flightwise,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:30 p.m.
+990,flights,0,7:10 a.m.,7:02 a.m.,9:40 a.m.,9:32 a.m.
+991,gofox,0,6:40 a.m.,6:40 a.m.,9:25 a.m.,9:28 a.m.
+992,travelocity,0,Not Available,8:48 a.m.,11:55 a.m.,11:58 a.m.
+993,panynj,0,nan,9:00 a.m.,nan,9:43 a.m.
+994,travelocity,0,7:45 p.m.,7:45 p.m.,10:30 p.m.,10:30 p.m.*
+995,travelocity,0,6:30 p.m.,Not Available,7:25 p.m.,Not Available
+996,flights,0,12:00noon,11:54 a.m.,3:15 p.m.,3:16 p.m.
+997,travelocity,0,3:27 p.m.,Contact Airline,5:05 p.m.,Contact Airline
+998,myrateplan,0,11:25 a.m.,11:20 a.m.,5:25 p.m.,4:56 p.m.
+999,travelocity,0,11:25 p.m.,Not Available,Dec 02 6:55 a.m.,Dec 02 Not Available
+1000,businesstravellogue,0,nan,6:09 a.m.,nan,7:17 a.m.
+1001,aa,0,12:15 p.m.,12:10 p.m.,2:45 p.m.,2:50 p.m.
+1002,travelocity,0,4:00 p.m.,Contact Airline,6:46 p.m.,Contact Airline
+1003,usatoday,0,7:00 a.m.,7:04 a.m.,9:55 a.m.,9:45 a.m.
+1004,travelocity,0,Not Available,8:24 a.m.,Not Available,9:56 a.m.
+1005,world-flight-tracker,0,4:15 p.m.,4:16 p.m.,7:55 p.m.,7:39 p.m.
+1006,travelocity,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1007,travelocity,0,11:50 a.m.,11:54 a.m.,3:50 p.m.,4:09 p.m.
+1008,travelocity,0,6:00 a.m.,5:58 a.m.,9:20 a.m.,9:05 a.m.
+1009,usatoday,0,11:05 a.m.,Contact Airline,4:57 p.m.,Contact Airline
+1010,quicktrip,0,6:00 a.m.,6:02 a.m.,10:20 a.m.,10:27 a.m.
+1011,businesstravellogue,0,nan,8:40 a.m.,nan,10:56 a.m.
+1012,travelocity,0,10:45 a.m.,10:42 a.m.,nan,1:40 p.m.
+1013,gofox,0,7:55 a.m.,7:51 a.m.,11:05 a.m.,11:01 a.m.
+1014,gofox,0,10:15 a.m.,10:10 a.m.,12:10 p.m.,11:56 a.m.
+1015,businesstravellogue,0,7:30 a.m.,7:28 a.m.,8:00 a.m.,8:06 a.m.
+1016,gofox,0,1:00 p.m.,1:48 p.m.,2:35 p.m.,3:30 p.m.
+1017,ifly,0,9:05 a.m.,9:59 a.m.,12:35 p.m.,1:27 p.m.
+1018,allegiantair,0,nan,11:47 a.m.,nan,2:10 p.m.
+1019,boston,0,12:00noon,Contact Airline,1:45 p.m.,Contact Airline
+1020,travelocity,0,7:25 a.m.,7:22 a.m.,11:10 a.m.,11:06 a.m.
+1021,world-flight-tracker,0,11:35 a.m.,11:33 a.m.,2:25 p.m.,2:27 p.m.
+1022,world-flight-tracker,0,10:40 a.m.,10:46 a.m.,2:45 p.m.,2:46 p.m.
+1023,travelocity,0,7:15 a.m.,7:08 a.m.,10:35 a.m.,10:36 a.m.
+1024,travelocity,0,8:05 a.m.,8:00 a.m.,11:35 a.m.,11:32 a.m.
+1025,flightarrival,0,6:45 p.m.,6:40 p.m.,9:10 p.m.,8:53 p.m.
+1026,quicktrip,0,7:15 p.m.,Contact Airline,12:21 a.m.,Dec 02 Contact Airline
+1027,gofox,0,nan,2:37 p.m.,nan,7:58 p.m.
+1028,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+1029,travelocity,0,6:00 a.m.,5:59 a.m.,7:30 a.m.,7:51 a.m.
+1030,panynj,0,7:10 a.m.,7:10 a.m.,9:35 a.m.,9:31 a.m.
+1031,world-flight-tracker,0,3:50 p.m.,Contact Airline,6:23 p.m.,Contact Airline
+1032,orbitz,0,8:00 p.m.,8:01 p.m.,9:45 p.m.,9:53 p.m.
+1033,travelocity,0,7:05 a.m.,Contact Airline,nan,Contact Airline
+1034,panynj,0,10:40 a.m.,10:47 a.m.,2:59 p.m.,3:04 p.m.
+1035,gofox,0,1:33 p.m.,1:47 p.m.,4:31 p.m.,4:23 p.m.
+1036,travelocity,0,11:55 p.m.,Not Available,Dec 02 5:50 a.m.,Dec 02 Not Available
+1037,travelocity,0,4:25 p.m.,Not Available,12:29 a.m.,Not Available
+1038,gofox,0,9:00 p.m.,Not Available,12:15 a.m. Dec 02,Dec 02 Not Available
+1039,travelocity,0,8:25 p.m.,Not Available,11:50 p.m.,Not Available
+1040,businesstravellogue,0,6:59 a.m.,6:56 a.m.,10:34 a.m.,10:04 a.m.
+1041,world-flight-tracker,0,8:35 a.m.,8:31 a.m.,11:50 a.m.,11:44 a.m.
+1042,travelocity,0,Not Available,2:42 p.m.,6:15 p.m.,5:42 p.m.
+1043,travelocity,0,Not Available,8:35 a.m.,Not Available,9:13 a.m.
+1044,world-flight-tracker,0,1:30 p.m.,Not Available,3:50 p.m.,Not Available
+1045,travelocity,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+1046,travelocity,0,Not Available,7:41 a.m.,Not Available,8:45 a.m.
+1047,flightview,0,nan,1:50 p.m.,nan,8:02 a.m.
+1048,travelocity,0,11:15 a.m.,Contact Airline,1:40 p.m.,Contact Airline
+1049,travelocity,0,8:20 p.m.,8:30 p.m.,nan,9:19 p.m.*
+1050,myrateplan,0,nan,Contact Airline,nan,Contact Airline
+1051,travelocity,0,2:30 p.m.,Contact Airline,7:03 p.m.,Contact Airline
+1052,usatoday,0,2:35 p.m.,2:32 p.m.,4:05 p.m.,3:43 p.m.
+1053,panynj,0,2:55 p.m.,3:00 p.m.,5:55 p.m.,5:43 p.m.
+1054,gofox,0,7:15 a.m.,7:10 a.m.,11:35 a.m.,11:06 a.m.
+1055,travelocity,0,2:55 p.m.,Contact Airline,5:00 p.m.,Contact Airline
+1056,usatoday,0,12:10 p.m.,12:01 p.m.,2:15 p.m.,1:43 p.m.
+1057,gofox,0,nan,Contact Airline,nan,Contact Airline
+1058,quicktrip,0,1:05 p.m.,1:06 p.m.,2:35 p.m.,3:13 p.m.
+1059,flightarrival,0,nan,8:07 a.m.,nan,1:30 p.m.
+1060,travelocity,0,8:35 a.m.,8:32 a.m.,10:40 a.m.,10:16 a.m.
+1061,aa,0,3:05 p.m.,3:09 p.m.,6:30 p.m.,6:43 p.m.
+1062,businesstravellogue,0,4:00 p.m.,3:52 p.m.,6:40 p.m.,6:15 p.m.
+1063,quicktrip,0,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+1064,gofox,0,11:55 a.m.,Contact Airline,6:17 p.m.,Contact Airline
+1065,gofox,0,10:40 a.m.,10:35 a.m.,12:55 p.m.,12:50 p.m.
+1066,foxbusiness,0,7:10 a.m.,7:05 a.m.,3:30 p.m.,3:14 p.m.
+1067,panynj,0,6:45 a.m.,6:41 a.m.,7:45 a.m.,7:40 a.m.
+1068,gofox,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+1069,flights,0,6:00 a.m.,5:56 a.m.,6:40 a.m.,6:19 a.m.
+1070,world-flight-tracker,0,7:10 a.m.,7:14 a.m.,10:45 a.m.,11:12 a.m.
+1071,foxbusiness,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+1072,foxbusiness,0,nan,7:42 p.m.,nan,10:29 p.m.
+1073,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+1074,foxbusiness,UA-397-JFK-SFO,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:58 a.m.
+1075,foxbusiness,0,nan,9:01 a.m.,nan,9:43 a.m.
+1076,foxbusiness,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,nan
+1077,foxbusiness,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:16 p.m.
+1078,foxbusiness,UA-2830-MCO-CLT,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:17 p.m.
+1079,foxbusiness,CO-58-DEN-IAH,nan,12:37 p.m.,nan,3:31 p.m.
+1080,gofox,0,nan,10:53 a.m.,nan,11:21 a.m.
+1081,foxbusiness,0,11:25 p.m.,nan,6:55 a.m. Dec 02,nan
+1082,businesstravellogue,0,nan,6:10 a.m.,nan,7:17 a.m.
+1083,businesstravellogue,0,nan,12:58 a.m.,nan,5:26 a.m.
+1084,foxbusiness,UA-2726-FLL-PHL,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+1085,foxbusiness,0,nan,7:56 a.m.,nan,9:09 a.m.
+1086,foxbusiness,0,nan,10:35 a.m.,nan,1:19 p.m.
+1087,foxbusiness,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:18 p.m.
+1088,foxbusiness,0,nan,8:26 a.m.,nan,9:56 a.m.
+1089,ifly,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+1090,world-flight-tracker,0,4:15 p.m.,4:30 p.m.,7:55 p.m.,7:39 p.m.
+1091,gofox,0,nan,10:55 a.m.,nan,1:40 p.m.
+1092,foxbusiness,0,nan,2:59 p.m.,nan,7:10 p.m.
+1093,foxbusiness,0,nan,8:18 a.m.,nan,11:32 a.m.
+1094,flightview,0,nan,3:04 p.m.,nan,5:00 p.m.
+1095,foxbusiness,AA-446-DFW-PHL,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:09 p.m.
+1096,foxbusiness,0,nan,12:06 p.m.,nan,1:14 p.m.
+1097,foxbusiness,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:05 a.m.
+1098,usatoday,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:03 p.m.
+1099,quicktrip,0,6:00 a.m.,6:17 a.m.,10:20 a.m.,10:27 a.m.
+1100,gofox,0,nan,9:01 a.m.,nan,10:56 a.m.
+1101,gofox,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+1102,world-flight-tracker,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+1103,flightarrival,0,nan,8:07 a.m.,nan,1:30 p.m.
+1104,foxbusiness,0,nan,12:56 p.m.,nan,3:21 p.m.
+1105,allegiantair,0,nan,12:14 p.m.,nan,2:01 p.m.
+1106,flightstats,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:42 p.m.
+1107,boston,0,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+1108,foxbusiness,0,nan,5:38 p.m.,nan,8:03 p.m.
+1109,foxbusiness,0,nan,8:36 p.m.,nan,9:38 p.m.
+1110,world-flight-tracker,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:46 p.m.
+1111,foxbusiness,0,nan,1:43 p.m.,nan,5:34 p.m.
+1112,flights,0,nan,3:36 p.m.,nan,3:25 p.m.
+1113,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.
+1114,foxbusiness,0,6:30 p.m.,nan,7:25 p.m.,nan
+1115,flightarrival,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:43 p.m.
+1116,quicktrip,0,7:15 p.m.,nan,12:21 a.m.,nan
+1117,foxbusiness,0,nan,2:38 p.m.,nan,7:58 p.m.
+1118,gofox,0,9:15 a.m.,9:58 a.m.,12:18 p.m.,12:09 p.m.
+1119,aa,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:51 a.m.
+1120,foxbusiness,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:29 a.m.
+1121,gofox,0,nan,5:09 p.m.,nan,7:53 p.m.
+1122,gofox,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:35 p.m.
+1123,boston,0,nan,4:37 p.m.,nan,7:36 p.m.
+1124,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+1125,foxbusiness,0,10:25 a.m.,10:37 a.m.,nan,6:34 p.m.
+1126,gofox,0,nan,7:31 a.m.,nan,10:45 a.m.
+1127,foxbusiness,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,3:04 p.m.
+1128,businesstravellogue,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:23 p.m.
+1129,aa,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+1130,gofox,0,nan,2:01 p.m.,nan,4:17 p.m.
+1131,world-flight-tracker,0,11:55 p.m.,nan,5:50 a.m. Dec 02,nan
+1132,foxbusiness,0,4:25 p.m.,nan,12:29 a.m. Dec 02,nan
+1133,foxbusiness,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+1134,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+1135,allegiantair,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,10:04 a.m.
+1136,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:44 a.m.
+1137,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+1138,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+1139,foxbusiness,0,nan,3:17 p.m.,nan,4:59 p.m.
+1140,foxbusiness,0,nan,7:41 a.m.,nan,8:45 a.m.
+1141,foxbusiness,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+1142,businesstravellogue,0,5:30 p.m.,nan,6:40 p.m.,nan
+1143,foxbusiness,0,nan,1:45 p.m.,nan,8:02 a.m.
+1144,foxbusiness,0,nan,11:47 a.m.,nan,2:02 p.m.
+1145,foxbusiness,0,nan,8:40 p.m.,nan,9:11 p.m.
+1146,myrateplan,0,nan,3:04 p.m.,nan,4:24 p.m.
+1147,foxbusiness,0,nan,2:59 p.m.,nan,7:10 p.m.
+1148,foxbusiness,0,nan,9:43 a.m.,nan,12:12 p.m.
+1149,ifly,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+1150,panynj,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:34 p.m.
+1151,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+1152,foxbusiness,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:43 p.m.
+1153,foxbusiness,0,7:55 a.m.,8:05 a.m.,11:05 a.m.,11:00 a.m.
+1154,gofox,0,nan,9:05 a.m.,nan,12:09 p.m.
+1155,quicktrip,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,3:01 p.m.
+1156,flights,0,nan,8:56 a.m.,nan,10:10 a.m.
+1157,foxbusiness,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:43 p.m.
+1158,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:57 a.m.
+1159,foxbusiness,0,nan,11:41 a.m.,nan,4:56 p.m.
+1160,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:09 p.m.
+1161,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+1162,foxbusiness,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,11:06 a.m.
+1163,mytripandmore,0,2:55 p.m.,4:02 p.m.,4:49 p.m.,5:26 p.m.
+1164,world-flight-tracker,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,6:17 p.m.
+1165,world-flight-tracker,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+1166,panynj,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:32 a.m.
+1167,world-flight-tracker,0,4:00 p.m.,4:15 p.m.,7:05 p.m.,6:36 p.m.
+1168,flights,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:19 a.m.
+1169,foxbusiness,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:12 a.m.
+1170,foxbusiness,AA-222-LAX-BOS,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:14 p.m.
+1171,flights,0,7:10 a.m.,nan,9:40 a.m.,nan
+1172,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:09 a.m.
+1173,usatoday,CO-1586-IAH-MCO,nan,7:42 p.m.,nan,10:23 p.m.
+1174,panynj,0,nan,nan,nan,nan
+1175,weather,0,7:45 p.m.,nan,10:30 p.m.,nan
+1176,businesstravellogue,0,nan,6:10 a.m.,nan,7:10 a.m.
+1177,usatoday,0,nan,8:26 a.m.,nan,9:54 a.m.
+1178,usatoday,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+1179,world-flight-tracker,0,4:15 p.m.,nan,7:55 p.m.,nan
+1180,usatoday,0,nan,5:38 p.m.,nan,7:55 p.m.
+1181,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:00 a.m.
+1182,usatoday,UA-3050-PHX-CLT,11:05 a.m.,nan,4:57 p.m.,nan
+1183,gofox,0,10:45 a.m.,nan,2:20 p.m.,nan
+1184,gofox,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+1185,usatoday,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+1186,aa,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+1187,usatoday,0,nan,12:56 p.m.,nan,3:20 p.m.
+1188,boston,0,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+1189,gofox,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:36 p.m.
+1190,flights,0,nan,nan,nan,nan
+1191,usatoday,0,3:35 p.m.,3:36 p.m.,nan,3:33 p.m.
+1192,flightarrival,0,6:45 p.m.,nan,9:10 p.m.,nan
+1193,quicktrip,0,7:15 p.m.,Not Available,12:21 a.m.,Not Available
+1194,usatoday,0,nan,2:38 p.m.,nan,7:53 p.m.
+1195,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+1196,usatoday,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+1197,usatoday,0,10:25 a.m.,nan,6:44 p.m.,nan
+1198,panynj,0,10:40 a.m.,11:01 a.m.,2:59 p.m.,3:04 p.m.
+1199,gofox,0,1:33 p.m.,nan,4:31 p.m.,nan
+1200,world-flight-tracker,0,11:55 p.m.,12:10 a.m. (Estimated runway),5:50 a.m.,5:42 a.m. (Estimated runway)
+1201,flightstats,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:28 p.m.
+1202,usatoday,0,8:29 a.m.,8:26 a.m.,9:24 a.m.,9:13 a.m.
+1203,usatoday,0,nan,3:17 p.m.,nan,4:55 p.m.
+1204,usatoday,0,nan,7:41 a.m.,nan,8:41 a.m.
+1205,usatoday,0,11:08 p.m.,nan,5:11 a.m.,nan
+1206,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+1207,usatoday,0,nan,11:47 a.m.,nan,2:02 p.m.
+1208,usatoday,0,nan,3:04 p.m.,nan,4:24 p.m.
+1209,usatoday,0,nan,9:43 a.m.,nan,12:10 p.m.
+1210,usatoday,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+1211,gofox,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+1212,usatoday,0,4:25 p.m.,Not Available,12:29 a.m. Dec 02,Not Available
+1213,usatoday,AA-4277-CVG-JFK,12:10 p.m.,nan,2:15 p.m.,nan
+1214,usatoday,0,7:55 a.m.,nan,11:05 a.m.,nan
+1215,businesstravellogue,0,9:05 a.m.,nan,nan,nan
+1216,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+1217,flightarrival,0,7:53 a.m.,7:49 a.m.,nan,1:30 p.m.
+1218,aa,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:36 p.m.
+1219,usatoday,0,6:30 p.m.,6:56 p.m.,7:25 p.m.,7:35 p.m.
+1220,myrateplan,0,nan,nan,5:25 p.m.,nan
+1221,businesstravellogue,0,4:00 p.m.,nan,6:40 p.m.,nan
+1222,flights,0,6:00 a.m.,nan,6:40 a.m.,nan
+1223,world-flight-tracker,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,10:49 a.m.
+1224,flights,0,nan,7:16 a.m.,9:40 a.m.,9:22 a.m.
+1225,usatoday,0,nan,nan,10:15 p.m.,nan
+1226,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,nan,9:14 a.m.
+1227,foxbusiness,0,nan,8:48 a.m.,11:55 a.m.,11:30 a.m.
+1228,panynj,0,nan,9:00 a.m.,nan,9:29 a.m.
+1229,aa,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,10:31 p.m.
+1230,myrateplan,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:14 p.m.
+1231,foxbusiness,0,11:25 a.m.,nan,nan,nan
+1232,myrateplan,AA-1544-SAN-ORD,nan,11:41 a.m.,nan,4:54 p.m.
+1233,gofox,0,nan,10:53 a.m.,nan,11:11 a.m.
+1234,myrateplan,0,nan,11:29 p.m.,nan,12/2/11 6:35 a.m.
+1235,gofox,0,nan,6:10 a.m.,nan,7:04 a.m.
+1236,gofox,0,nan,nan,nan,nan
+1237,myrateplan,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+1238,myrateplan,0,7:35 a.m.,nan,9:21 a.m.,nan
+1239,ifly,0,9:45 a.m.,nan,1:16 p.m.,nan
+1240,ifly,0,nan,10:11 a.m.,12:35 p.m.,1:11 p.m.
+1241,myrateplan,0,nan,8:26 a.m.,nan,9:56 a.m.
+1242,myrateplan,0,nan,7:25 a.m.,9:55 a.m.,9:29 a.m.
+1243,world-flight-tracker,0,nan,4:29 p.m.,nan,7:37 p.m.
+1244,myrateplan,0,nan,10:54 a.m.,nan,1:36 p.m.
+1245,myrateplan,0,2:30 p.m.,nan,7:03 p.m.,nan
+1246,myrateplan,0,8:05 a.m.,nan,11:35 a.m.,nan
+1247,myrateplan,0,nan,3:04 p.m.,nan,4:43 p.m.
+1248,aa,0,nan,12:13 p.m.,nan,4:08 p.m.
+1249,myrateplan,0,11:40 a.m.,nan,1:17 p.m.,nan
+1250,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,8:50 a.m.
+1251,usatoday,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:00 p.m.
+1252,myrateplan,0,6:00 a.m.,nan,10:20 a.m.,nan
+1253,businesstravellogue,0,8:40 a.m.,nan,10:54 a.m.,nan
+1254,myrateplan,0,10:15 a.m.,10:19 a.m.,nan,11:50 a.m.
+1255,world-flight-tracker,0,nan,2:03 p.m.,nan,3:13 p.m.
+1256,flightarrival,0,nan,8:07 a.m.,nan,1:23 p.m.
+1257,flightexplorer,0,nan,12:56 p.m.,nan,3:09 p.m.
+1258,businesstravellogue,0,nan,12:14 p.m.,nan,1:55 p.m.
+1259,myrateplan,0,nan,2:43 p.m.,6:15 p.m.,5:22 p.m.
+1260,boston,0,nan,12:07 p.m.,nan,1:11 p.m.
+1261,myrateplan,0,5:25 p.m.,nan,8:22 p.m.,nan
+1262,myrateplan,0,7:10 p.m.,nan,8:56 p.m.,nan
+1263,world-flight-tracker,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:39 p.m.
+1264,flights,0,nan,1:43 p.m.,nan,5:24 p.m.
+1265,myrateplan,0,nan,nan,4:00 p.m.,nan
+1266,myrateplan,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:34 a.m.
+1267,flightarrival,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+1268,myrateplan,0,nan,6:56 p.m.,nan,8:38 p.m.
+1269,flights,0,nan,12:12 p.m.,nan,3:04 p.m.
+1270,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m.,nan
+1271,gofox,0,nan,2:04 p.m.,nan,7:20 p.m.
+1272,gofox,0,9:15 a.m.,nan,12:18 p.m.,nan
+1273,myrateplan,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:49 a.m.
+1274,panynj,0,nan,7:31 a.m.,nan,9:26 a.m.
+1275,myrateplan,0,nan,5:09 p.m.,nan,7:43 p.m.
+1276,myrateplan,0,7:25 a.m.,7:39 a.m.,nan,10:43 a.m.
+1277,world-flight-tracker,0,3:50 p.m.,4:44 p.m.,6:23 p.m.,6:28 p.m.
+1278,myrateplan,0,nan,4:37 p.m.,nan,7:23 p.m.
+1279,myrateplan,0,8:00 p.m.,8:23 p.m.,nan,9:47 p.m.
+1280,myrateplan,0,10:25 a.m.,nan,6:44 p.m.,nan
+1281,myrateplan,0,nan,7:30 a.m.,nan,10:43 a.m.
+1282,panynj,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,2:58 p.m.
+1283,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+1284,aa,0,nan,12:42 p.m.,nan,2:50 p.m.
+1285,businesstravellogue,0,nan,nan,nan,nan
+1286,myrateplan,0,nan,12:11 a.m.,5:50 a.m.,5:52 a.m.
+1287,myrateplan,0,nan,4:28 p.m.,nan,12/2/11 12:01 a.m.
+1288,myrateplan,0,nan,9:06 p.m.,12:15 a.m. Dec 02,11:49 p.m.
+1289,flightarrival,0,8:25 p.m.,8:29 p.m.,11:50 p.m.,11:35 p.m.
+1290,businesstravellogue,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:45 a.m.
+1291,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:33 a.m.
+1292,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+1293,myrateplan,0,1:30 p.m.,1:41 p.m.,3:50 p.m.,3:29 p.m.
+1294,myrateplan,0,2:53 p.m.,nan,4:48 p.m.,nan
+1295,myrateplan,0,nan,7:41 a.m.,nan,8:33 a.m.
+1296,myrateplan,0,11:08 p.m.,nan,12/2/11 5:11 a.m.,nan
+1297,gofox,0,5:30 p.m.,5:38 p.m.,6:40 p.m.,6:19 p.m.
+1298,flightview,0,nan,1:50 p.m. (+8:00),nan,7:50 a.m.
+1299,flightarrival,0,nan,11:47 a.m.,nan,1:52 p.m.
+1300,myrateplan,0,nan,8:40 p.m.,nan,9:12 p.m.
+1301,myrateplan,UA-2708-EWR-CLT,nan,3:04 p.m.,nan,4:22 p.m.
+1302,myrateplan,0,2:30 p.m.,nan,7:03 p.m.,nan
+1303,myrateplan,0,8:55 a.m.,nan,11:45 a.m.,nan
+1304,ifly,0,2:35 p.m.,2:44 p.m.,nan,3:36 p.m.
+1305,panynj,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:39 p.m.
+1306,world-flight-tracker,0,nan,7:22 a.m.,nan,11:04 a.m.
+1307,usatoday,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:42 p.m.
+1308,myrateplan,0,7:55 a.m.,8:04 a.m.,nan,10:58 a.m.
+1309,gofox,0,nan,nan,nan,nan
+1310,allegiantair,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,2:49 p.m.
+1311,flights,0,nan,8:55 a.m.,nan,10:12 a.m.
+1312,myrateplan,0,nan,3:38 p.m.,6:30 p.m.,6:30 p.m.
+1313,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:59 a.m.
+1314,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:11 p.m.
+1315,myrateplan,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+1316,mytripandmore,0,2:55 p.m.,nan,4:49 p.m.,nan
+1317,world-flight-tracker,0,nan,11:55 a.m.,nan,5:34 p.m.
+1318,world-flight-tracker,0,nan,10:55 a.m.,nan,12:37 p.m.
+1319,panynj,0,nan,6:58 a.m.,7:45 a.m.,7:37 a.m.
+1320,gofox,0,4:00 p.m.,nan,7:05 p.m.,nan
+1321,flights,0,nan,6:11 a.m.,6:40 a.m.,6:15 a.m.
+1322,world-flight-tracker,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,10:52 a.m.
+1323,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:12 p.m.
+1324,orbitz,0,7:10aDec 1,7:02aDec 1,9:40aDec 1,9:32aDec 1
+1325,usatoday,0,7:00 p.m.,7:14 p.m.,nan,10:02 p.m.
+1326,world-flight-tracker,0,6:40aDec 1,6:40aDec 1,9:25aDec 1,9:28aDec 1
+1327,flights,0,8:19aDec 1,8:48aDec 1,11:55aDec 1,11:58aDec 1
+1328,panynj,0,nan,nan,nan,nan
+1329,aa,0,7:45 p.m.,7:45 p.m.,10:30 p.m.,nan
+1330,flights,0,12:00 p.m.,11:54aDec 1,3:15 p.m.,3:16 p.m.
+1331,orbitz,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+1332,orbitz,0,11:25aDec 1,11:37aDec 1,nan,3:31 p.m.
+1333,gofox,0,nan,nan,nan,nan
+1334,orbitz,0,11:25 p.m.,nan,6:55aDec 2,nan
+1335,gofox,0,nan,6:09aDec 1,nan,7:17aDec 1
+1336,businesstravellogue,0,nan,12:41aDec 1,nan,5:26aDec 1
+1337,foxbusiness,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+1338,orbitz,0,7:35aDec 1,nan,9:21aDec 2,nan
+1339,ifly,0,9:45aDec 1,10:19aDec 1,1:16 p.m.,1:19 p.m.
+1340,ifly,0,10:00aDec 1,9:59aDec 1,12:35 p.m.,1:27 p.m.
+1341,orbitz,0,8:15aDec 1,8:12aDec 1,10:06aDec 1,9:56aDec 1
+1342,ifly,0,7:00 a.m.,7:04aDec 1,9:55aDec 1,9:45aDec 1
+1343,gofox,0,4:15 p.m.,4:16 p.m.,7:55 p.m.,7:39 p.m.
+1344,gofox,0,10:45aDec 1,10:42aDec 1,2:20 p.m.,1:40 p.m.
+1345,orbitz,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1346,orbitz,0,8:05aDec 1,8:00aDec 1,11:35aDec 1,11:32aDec 1
+1347,flightview,0,nan,2:46 p.m.,5:00 p.m.,4:47 p.m.
+1348,aa,0,11:50aDec 1,11:54aDec 1,3:50 p.m.,4:09 p.m.
+1349,orbitz,0,11:40aDec 1,11:56aDec 1,1:17 p.m.,1:14 p.m.
+1350,flightstats,0,6:00 a.m.,5:58aDec 1,9:20aDec 1,9:05aDec 1
+1351,usatoday,0,11:05 a.m.,11:30aDec 1,4:57 p.m.,5:05 p.m.
+1352,orbitz,0,6:00 a.m.,6:02aDec 1,10:20 a.m.,10:27aDec 1
+1353,gofox,0,nan,8:40aDec 1,nan,10:56aDec 1
+1354,orbitz,0,10:15aDec 1,10:10aDec 1,12:10 p.m.,11:56aDec 1
+1355,gofox,0,1:00 p.m.,1:48 p.m.,2:35 p.m.,3:30 p.m.
+1356,flightarrival,0,7:53aDec 1,7:49aDec 1,nan,1:30 p.m.
+1357,orbitz,0,12:30 p.m.,12:35 p.m.,3:03 p.m.,nan
+1358,allegiantair,0,nan,11:47aDec 1,nan,2:10 p.m.
+1359,orbitz,0,2:46 p.m.,2:42 p.m.,6:15 p.m.,5:42 p.m.
+1360,orbitz,0,12:00 p.m.,11:51aDec 1,1:45 p.m.,1:15 p.m.
+1361,orbitz,0,5:25 p.m.,5:22 p.m.,8:22 p.m.,8:03 p.m.
+1362,boston,0,nan,8:25 p.m.,nan,nan
+1363,gofox,0,10:40aDec 1,10:46aDec 1,2:45 p.m.,2:46 p.m.
+1364,flights,0,12:57 p.m.,1:32 p.m.,5:15 p.m.,5:34 p.m.
+1365,orbitz,0,3:35 p.m.,3:27 p.m.,4:00 p.m.,3:33 p.m.
+1366,world-flight-tracker,0,7:15aDec 1,7:08aDec 1,10:35 a.m.,10:36aDec 1
+1367,orbitz,0,6:30 p.m.,nan,7:25 p.m.,nan
+1368,orbitz,0,6:45 p.m.,6:40 p.m.,9:10 p.m.,8:53 p.m.
+1369,quicktrip,0,7:15 p.m.,nan,12:21 a.m.,nan
+1370,gofox,0,nan,2:37 p.m.,7:53 p.m.,7:58 p.m.
+1371,orbitz,0,9:15aDec 1,9:14aDec 1,12:18 p.m.,12:09 p.m.
+1372,aa,0,6:00 a.m.,5:59aDec 1,7:30 a.m.,7:51aDec 1
+1373,orbitz,0,7:10 a.m.,7:10aDec 1,9:35 a.m.,9:31aDec 1
+1374,orbitz,0,4:55 p.m.,4:56 p.m.,8:05 p.m.,7:55 p.m.
+1375,world-flight-tracker,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+1376,orbitz,0,4:16 p.m.,4:15 p.m.,7:35 p.m.,7:36 p.m.
+1377,orbitz,AA-1221-MCO-ORD,8:00 p.m.,8:01 p.m.,9:45 p.m.,9:53 p.m.
+1378,orbitz,0,10:25aDec 1,10:20aDec 1,6:44 p.m.,6:34 p.m.
+1379,gofox,0,nan,7:07aDec 1,10:31aDec 1,10:47aDec 1
+1380,panynj,0,10:40 a.m.,10:47aDec 1,2:59 p.m.,3:04 p.m.
+1381,gofox,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+1382,world-flight-tracker,0,12:15 p.m.,12:10 p.m.,2:45 p.m.,2:50 p.m.
+1383,gofox,0,nan,1:48 p.m.,nan,4:17 p.m.
+1384,orbitz,0,11:55 p.m.,nan,5:50aDec 2,nan
+1385,orbitz,0,4:25 p.m.,nan,12:29aDec 2,nan
+1386,orbitz,0,9:00 p.m.,nan,12:15aDec 2,nan
+1387,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+1388,businesstravellogue,0,6:59 a.m.,6:56aDec 1,10:34 a.m.,10:04aDec 1
+1389,world-flight-tracker,0,8:35 a.m.,8:31aDec 1,11:50 a.m.,11:44aDec 1
+1390,world-flight-tracker,0,1:30 p.m.,nan,3:50 p.m.,nan
+1391,orbitz,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+1392,orbitz,0,7:35aDec 1,7:27aDec 1,9:43aDec 1,8:45aDec 1
+1393,orbitz,0,11:08 p.m.,nan,5:11aDec 2,nan
+1394,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+1395,flightview,0,1:45 p.m.,1:32 p.m.,nan,8:02aDec 1
+1396,flightarrival,0,11:15aDec 1,11:15aDec 1,nan,2:00 p.m.
+1397,orbitz,0,8:20 p.m.,8:30 p.m.,nan,nan
+1398,orbitz,0,nan,2:52 p.m.,4:53 p.m.,4:44 p.m.
+1399,orbitz,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1400,orbitz,0,8:55aDec 1,9:16aDec 1,12:05 p.m.,nan
+1401,ifly,0,2:35 p.m.,2:32 p.m.,4:05 p.m.,3:43 p.m.
+1402,panynj,0,2:55 p.m.,3:00 p.m.,5:55 p.m.,5:43 p.m.
+1403,orbitz,0,7:15 a.m.,7:10aDec 1,11:35aDec 1,11:06aDec 1
+1404,usatoday,0,12:10 p.m.,12:01 p.m.,2:15 p.m.,1:43 p.m.
+1405,gofox,0,7:55 a.m.,7:51aDec 1,11:05aDec 1,11:01aDec 1
+1406,businesstravellogue,0,nan,8:52aDec 1,nan,12:09 p.m.
+1407,allegiantair,0,1:05 p.m.,1:06 p.m.,2:35 p.m.,3:13 p.m.
+1408,flights,0,nan,8:32aDec 1,nan,10:16aDec 1
+1409,orbitz,0,3:05 p.m.,3:09 p.m.,6:30 p.m.,6:43 p.m.
+1410,orbitz,0,7:30 a.m.,7:28aDec 1,8:00aDec 1,8:06aDec 1
+1411,myrateplan,0,11:25aDec 1,11:20aDec 1,nan,4:56 p.m.
+1412,businesstravellogue,0,4:00 p.m.,3:52 p.m.,6:40 p.m.,6:15 p.m.
+1413,world-flight-tracker,0,11:35aDec 1,11:33aDec 1,2:25 p.m.,2:27 p.m.
+1414,orbitz,0,7:25 a.m.,7:22aDec 1,11:10aDec 1,11:06aDec 1
+1415,quicktrip,0,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+1416,orbitz,0,11:55 a.m.,11:43aDec 1,6:17 p.m.,5:38 p.m.
+1417,world-flight-tracker,0,10:40 a.m.,10:35aDec 1,12:55 p.m.,12:50 p.m.
+1418,world-flight-tracker,0,6:45 a.m.,6:41aDec 1,7:45 a.m.,7:40aDec 1
+1419,world-flight-tracker,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+1420,orbitz,0,6:00 a.m.,5:56aDec 1,6:40 a.m.,6:19aDec 1
+1421,orbitz,0,7:10 a.m.,7:14aDec 1,10:45aDec 1,11:12aDec 1
+1422,foxbusiness,0,7:10 a.m.,7:05aDec 1,3:30 p.m.,3:14 p.m.
+1423,aa,0,nan,nan,3:50 p.m.,nan
+1424,flights,0,nan,nan,nan,nan
+1425,phl,0,2:35 p.m.,nan,nan,nan
+1426,businesstravellogue,0,1:33 p.m.,nan,4:31 p.m.,nan
+1427,usatoday,0,nan,7:14 p.m.,10:15 p.m.,10:29 p.m.
+1428,CO,0,7:35 a.m.,7:29 a.m.,9:21 a.m.,9:14 a.m.
+1429,CO,0,11:40 a.m.,11:56 a.m.,1:17 p.m.,1:14 p.m.
+1430,CO,0,6:00 a.m.,6:02 a.m.,10:20 a.m.,10:27 a.m.
+1431,quicktrip,0,7:15 p.m.,7:15 p.m.,12:21 a.m.,12:21 a.m.
+1432,businesstravellogue,0,nan,12:41 a.m.,nan,5:26 a.m.
+1433,gofox,0,nan,8:40 a.m.,nan,10:56 a.m.
+1434,CO,0,11:25 a.m.,11:32 a.m.,2:50 p.m.,3:31 p.m.
+1435,mytripandmore,0,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+1436,CO,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1437,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+1438,CO,0,10:25 a.m.,10:20 a.m.,6:44 p.m.,6:34 p.m.
+1439,ifly,0,9:45 a.m.,10:19 a.m.,1:16 p.m.,1:19 p.m.
+1440,CO,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+1441,gofox,0,nan,8:25 p.m.,8:56 p.m.,9:52 p.m.
+1442,businesstravellogue,0,5:30 p.m.,5:30 p.m.,6:40 p.m.,6:40 p.m.
+1443,gofox,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+1444,CO,0,5:25 p.m.,5:22 p.m.,8:22 p.m.,8:03 p.m.
+1445,CO,0,8:05 a.m.,8:00 a.m.,11:35 a.m.,11:32 a.m.
+1446,ifly,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+1447,ifly,AA-3804-PHL-ORD,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+1448,ifly,CO-1090-BOS-IAH,9:45 a.m.,10:19 a.m.,1:16 p.m.,1:19 p.m.
+1449,ifly,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+1450,gofox,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+1451,quicktrip,0,6:00 a.m.,6:02 a.m.,10:20 a.m.,10:27 a.m.
+1452,boston,0,nan,4:15 p.m.,7:35 p.m.,7:36 p.m.
+1453,panynj,0,nan,8:42 a.m.,nan,9:43 a.m.
+1454,quicktrip,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+1455,ifly,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+1456,businesstravellogue,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+1457,ifly,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+1458,gofox,0,nan,12:41 a.m.,nan,5:26 a.m.
+1459,foxbusiness,0,11:25 a.m.,11:32 a.m.,2:50 p.m.,3:31 p.m.
+1460,ifly,0,4:25 p.m.,4:28 p.m. (Estimated runway),12:29 a.m.,12:01 a.m. (Estimated runway)
+1461,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+1462,gofox,0,9:00 p.m.,9:06 p.m. (Estimated runway),12:15 a.m. Dec 02,11:49 p.m. (Estimated runway)
+1463,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+1464,world-flight-tracker,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+1465,aa,0,7:45 p.m.,7:58 p.m.,10:30 p.m.,10:30 p.m. (Estimated)
+1466,ifly,0,nan,8:26 a.m.,nan,9:13 a.m.
+1467,gofox,0,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+1468,ifly,0,nan,2:46 p.m.,5:00 p.m.,4:47 p.m.
+1469,ifly,0,10:25 a.m.,10:20 a.m.,6:44 p.m.,6:34 p.m.
+1470,ifly,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+1471,ifly,AA-3468-CVG-MIA,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+1472,world-flight-tracker,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+1473,ifly,0,8:35 a.m.,8:56 a.m.,nan,10:16 a.m.
+1474,gofox,0,nan,8:39 p.m.,9:20 p.m.,9:19 p.m. (Estimated)
+1475,ifly,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+1476,world-flight-tracker,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+1477,ifly,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1478,ifly,AA-616-DFW-DTW,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+1479,ifly,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+1480,world-flight-tracker,0,7:15 p.m.,7:15 p.m. (Estimated),12:21 a.m.,12:21 a.m. (Estimated)
+1481,ifly,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+1482,flights,0,nan,nan,11:55 a.m.,nan
+1483,aa,0,nan,nan,6:30 p.m.,nan
+1484,sfo,0,8:35 a.m.,nan,11:50 a.m.,nan
+1485,world-flight-tracker,0,7:10 a.m.,nan,10:45 a.m.,nan
+1486,flightstats,0,nan,nan,6:15 p.m.,nan
+1487,gofox,0,nan,nan,nan,nan
+1488,flytecomm,0,nan,7:16 a.m.,nan,9:22 a.m.
+1489,usatoday,0,nan,nan,nan,nan
+1490,flytecomm,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:14 a.m.
+1491,foxbusiness,0,nan,8:48 a.m.,nan,11:30 a.m.
+1492,flytecomm,0,nan,9:00 a.m.,nan,9:29 a.m.
+1493,flytecomm,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,10:31 p.m.
+1494,flytecomm,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:14 p.m.
+1495,flytecomm,0,11:25 a.m.,nan,2:50 p.m.,nan
+1496,flytecomm,0,nan,11:41 a.m.,nan,4:54 p.m.
+1497,gofox,0,nan,10:53 a.m.,nan,11:11 a.m.
+1498,flytecomm,0,nan,11:29 p.m.,nan,12/2/11 6:35 a.m.
+1499,gofox,0,nan,6:10 a.m.,nan,7:04 a.m.
+1500,businesstravellogue,0,nan,nan,nan,nan
+1501,flytecomm,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+1502,flytecomm,0,7:35 a.m.,nan,9:21 a.m.,nan
+1503,flytecomm,0,9:45 a.m.,nan,1:16 p.m.,nan
+1504,flytecomm,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:11 p.m.
+1505,flytecomm,0,nan,8:26 a.m.,nan,9:56 a.m.
+1506,ifly,0,nan,7:25 a.m.,9:55 a.m.,9:29 a.m.
+1507,world-flight-tracker,0,nan,4:29 p.m.,nan,7:37 p.m.
+1508,gofox,0,nan,10:54 a.m.,nan,1:36 p.m.
+1509,flytecomm,0,2:30 p.m.,nan,7:03 p.m.,nan
+1510,flytecomm,0,8:05 a.m.,nan,11:35 a.m.,nan
+1511,flytecomm,0,nan,3:04 p.m.,nan,4:43 p.m.
+1512,aa,0,nan,12:13 p.m.,3:50 p.m.,4:08 p.m.
+1513,flytecomm,0,11:40 a.m.,nan,1:17 p.m.,nan
+1514,flightstats,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,8:50 a.m.
+1515,usatoday,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:00 p.m.
+1516,flytecomm,0,6:00 a.m.,nan,10:20 a.m.,nan
+1517,flytecomm,0,8:40 a.m.,nan,nan,nan
+1518,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,nan,11:50 a.m.
+1519,gofox,0,nan,2:03 p.m.,nan,3:13 p.m.
+1520,flightarrival,0,nan,8:07 a.m.,nan,1:23 p.m.
+1521,flytecomm,0,nan,12:56 p.m.,nan,3:09 p.m.
+1522,businesstravellogue,0,nan,12:14 p.m.,nan,1:55 p.m.
+1523,flightstats,0,nan,2:43 p.m.,6:15 p.m.,5:22 p.m.
+1524,flytecomm,0,nan,12:07 p.m.,nan,1:11 p.m.
+1525,flytecomm,0,5:25 p.m.,nan,8:22 p.m.,nan
+1526,boston,0,7:10 p.m.,nan,nan,nan
+1527,world-flight-tracker,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:39 p.m.
+1528,flytecomm,0,nan,1:43 p.m.,nan,5:24 p.m.
+1529,flytecomm,0,nan,nan,4:00 p.m.,nan
+1530,flytecomm,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:34 a.m.
+1531,flytecomm,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+1532,flightarrival,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:38 p.m.
+1533,flytecomm,0,nan,12:12 p.m.,3:15 p.m.,3:04 p.m.
+1534,flytecomm,0,7:15 p.m.,nan,12:21 a.m.,nan
+1535,flytecomm,0,nan,2:04 p.m.,nan,7:20 p.m.
+1536,gofox,0,9:15 a.m.,nan,12:18 p.m.,nan
+1537,aa,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:49 a.m.
+1538,flytecomm,0,nan,7:31 a.m.,9:35 a.m.,9:26 a.m.
+1539,gofox,0,nan,5:09 p.m.,nan,7:43 p.m.
+1540,flytecomm,0,7:25 a.m.,7:39 a.m.,nan,10:43 a.m.
+1541,world-flight-tracker,0,3:50 p.m.,4:44 p.m.,6:23 p.m.,6:28 p.m.
+1542,boston,0,nan,4:37 p.m.,nan,7:23 p.m.
+1543,orbitz,0,nan,8:23 p.m.,nan,9:47 p.m.
+1544,flytecomm,0,10:25 a.m.,nan,6:44 p.m.,nan
+1545,gofox,0,nan,7:30 a.m.,nan,10:43 a.m.
+1546,flytecomm,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,2:58 p.m.
+1547,businesstravellogue,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+1548,world-flight-tracker,0,nan,12:42 p.m.,nan,2:50 p.m.
+1549,businesstravellogue,0,nan,nan,4:17 p.m.,nan
+1550,flightstats,0,nan,12:11 a.m.,5:50 a.m.,5:52 a.m.
+1551,flytecomm,0,nan,4:28 p.m.,nan,12/2/11 12:01 a.m.
+1552,flytecomm,0,nan,9:06 p.m.,nan,11:49 p.m.
+1553,flytecomm,0,8:25 p.m.,8:29 p.m.,11:50 p.m.,11:35 p.m.
+1554,businesstravellogue,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,9:45 a.m.
+1555,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,nan,11:33 a.m.
+1556,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+1557,world-flight-tracker,0,nan,1:41 p.m.,3:50 p.m.,3:29 p.m.
+1558,flytecomm,0,2:53 p.m.,nan,4:48 p.m.,nan
+1559,flytecomm,0,nan,7:41 a.m.,nan,8:33 a.m.
+1560,flytecomm,0,11:08 p.m.,nan,12/2/11 5:11 a.m.,nan
+1561,gofox,0,5:30 p.m.,5:38 p.m.,6:40 p.m.,6:19 p.m.
+1562,flightview,0,nan,1:50 p.m. (+8:00),nan,7:50 a.m.
+1563,flytecomm,0,nan,11:47 a.m.,nan,1:52 p.m.
+1564,gofox,0,nan,8:40 p.m.,nan,9:12 p.m.
+1565,myrateplan,0,nan,3:04 p.m.,nan,4:22 p.m.
+1566,flytecomm,0,2:30 p.m.,nan,7:03 p.m.,nan
+1567,flytecomm,0,8:55 a.m.,nan,11:45 a.m.,nan
+1568,flytecomm,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+1569,flytecomm,0,nan,3:28 p.m.,5:55 p.m.,5:39 p.m.
+1570,flytecomm,0,nan,7:22 a.m.,11:35 a.m.,11:04 a.m.
+1571,usatoday,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:42 p.m.
+1572,flytecomm,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,10:58 a.m.
+1573,businesstravellogue,0,nan,nan,nan,nan
+1574,quicktrip,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,2:49 p.m.
+1575,flights,0,nan,8:55 a.m.,nan,10:12 a.m.
+1576,flytecomm,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:30 p.m.
+1577,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:59 a.m.
+1578,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:11 p.m.
+1579,flytecomm,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+1580,quicktrip,0,2:55 p.m.,nan,4:49 p.m.,nan
+1581,world-flight-tracker,0,nan,11:55 a.m.,nan,5:34 p.m.
+1582,flytecomm,0,nan,10:55 a.m.,nan,12:37 p.m.
+1583,world-flight-tracker,0,nan,6:58 a.m.,7:45 a.m.,7:37 a.m.
+1584,world-flight-tracker,0,4:00 p.m.,nan,7:05 p.m.,nan
+1585,flytecomm,0,6:00 a.m.,6:11 a.m.,nan,6:15 a.m.
+1586,flytecomm,0,nan,7:40 a.m.,nan,10:52 a.m.
+1587,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:12 p.m.
+1588,weather,0,7:45 p.m.,7:45 p.m.,10:30 p.m.,nan
+1589,usatoday,0,nan,7:14 p.m.,10:15 p.m.,10:02 p.m.
+1590,mytripandmore,0,nan,nan,nan,nan
+1591,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,nan
+1592,mytripandmore,0,3:27 p.m.,Contact Airline,5:05 p.m.,Contact Airline
+1593,gofox,0,nan,nan,nan,nan
+1594,mytripandmore,0,11:25 p.m.,nan,6:55aDec 2,nan
+1595,gofox,0,nan,12:41aDec 1,5:35aDec 1,5:26aDec 1
+1596,foxbusiness,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+1597,ifly,0,9:45aDec 1,10:19aDec 1,1:16 p.m.,1:19 p.m.
+1598,ifly,0,7:00 a.m.,7:04aDec 1,9:55 a.m.,9:45aDec 1
+1599,mytripandmore,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1600,mytripandmore,0,11:40aDec 1,11:56aDec 1,1:17 p.m.,1:14 p.m.
+1601,flightstats,0,6:00aDec 1,5:58aDec 1,9:20aDec 1,9:05aDec 1
+1602,usatoday,0,11:05 a.m.,11:30aDec 1,4:57 p.m.,5:05 p.m.
+1603,world-flight-tracker,0,10:15 a.m.,10:10 a.m.,12:10 p.m.,11:56 a.m.
+1604,mytripandmore,0,7:30aDec 1,7:28aDec 1,8:00aDec 1,8:06aDec 1
+1605,mytripandmore,0,12:30 p.m.,12:35 p.m.,3:03 p.m.,nan
+1606,mytripandmore,0,9:05 a.m.,9:59 a.m.,12:35 p.m.,1:27 p.m.
+1607,businesstravellogue,0,nan,11:47aDec 1,nan,2:10 p.m.
+1608,boston,0,12:00 p.m.,11:51aDec 1,1:45 p.m.,1:15 p.m.
+1609,mytripandmore,0,7:10 p.m.,8:25 p.m.,10:48 p.m.,nan
+1610,world-flight-tracker,0,11:35 a.m.,11:33 a.m.,2:25 p.m.,2:27 p.m.
+1611,mytripandmore,0,6:00aDec 1,5:59aDec 1,7:30 a.m.,7:51aDec 1
+1612,mytripandmore,0,7:10 a.m.,7:10aDec 1,9:35 a.m.,9:31aDec 1
+1613,mytripandmore,0,4:55 p.m.,4:56 p.m.,8:05 p.m.,7:55 p.m.
+1614,flights,0,7:25 a.m.,7:22aDec 1,11:10aDec 1,11:06aDec 1
+1615,orbitz,0,8:00 p.m.,8:01 p.m.,9:45 p.m.,9:53 p.m.
+1616,mytripandmore,0,nan,7:07aDec 1,10:31aDec 1,10:47aDec 1
+1617,flightarrival,0,6:45 p.m.,6:40 p.m.,9:10 p.m.,8:53 p.m.
+1618,mytripandmore,0,4:25 p.m.,nan,12:29aDec 2,nan
+1619,mytripandmore,0,9:00 p.m.,Not Available,Dec 02 12:15 a.m.,Dec 02 Not Available
+1620,mytripandmore,0,8:25 p.m.,nan,11:50 p.m.,nan
+1621,businesstravellogue,0,6:59 a.m.,6:56aDec 1,10:34 a.m.,10:04aDec 1
+1622,world-flight-tracker,0,8:35 a.m.,8:31aDec 1,11:50 a.m.,11:44aDec 1
+1623,flightstats,0,Not Available,2:42 p.m.,6:15 p.m.,5:42 p.m.
+1624,world-flight-tracker,0,1:30 p.m.,Not Available,3:50 p.m.,Not Available
+1625,mytripandmore,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+1626,mytripandmore,0,11:08 p.m.,nan,5:11aDec 2,nan
+1627,gofox,0,8:20 p.m.,8:30 p.m.,nan,nan
+1628,panynj,0,2:55 p.m.,3:00 p.m.,5:55 p.m.,5:43 p.m.
+1629,mytripandmore,0,Not Available,7:41 a.m.,Not Available,8:45 a.m.
+1630,usatoday,0,12:10 p.m.,12:01 p.m.,2:15 p.m.,1:43 p.m.
+1631,businesstravellogue,0,nan,8:52aDec 1,11:53aDec 1,12:09 p.m.
+1632,gofox,0,7:10aDec 1,7:14aDec 1,10:45aDec 1,11:12aDec 1
+1633,mytripandmore,0,8:35aDec 1,8:32aDec 1,10:40aDec 1,10:16aDec 1
+1634,myrateplan,0,11:25aDec 1,11:20aDec 1,5:25 p.m.,4:56 p.m.
+1635,businesstravellogue,0,4:00 p.m.,3:52 p.m.,6:40 p.m.,6:15 p.m.
+1636,mytripandmore,0,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+1637,panynj,0,6:45aDec 1,6:41aDec 1,7:45 a.m.,7:40aDec 1
+1638,flights,0,7:10 a.m.,nan,9:40 a.m.,nan
+1639,ord,0,6:00 a.m.,nan,7:30 a.m.,nan
+1640,ord,0,7:10 a.m.,nan,9:35 a.m.,nan
+1641,ifly,0,2:35 p.m.,nan,4:05 p.m.,nan
+1642,gofox,0,7:15 a.m.,nan,11:35 a.m.,nan
+1643,travelocity,0,11/30 8:00 p.m.,nan,11/30 9:45 p.m.,nan
+1644,ord,0,11/30 4:16 p.m.,nan,11/30 7:35 p.m.,nan
+1645,allegiantair,0,1:05 p.m.,nan,2:35 p.m.,nan
+1646,flightarrival,0,11/30 6:45 p.m.,nan,9:10 p.m.,nan
+1647,businesstravellogue,0,7:30 a.m.,nan,8:00 a.m.,nan
+1648,businesstravellogue,0,1:33 p.m.,nan,4:31 p.m.,nan
+1649,ord,0,12:15 p.m.,nan,2:45 p.m.,nan
+1650,businesstravellogue,0,4:00 p.m.,nan,6:40 p.m.,nan
+1651,ord,0,11/30 11:55 p.m.,nan,5:50 a.m.,nan
+1652,myrateplan,0,11/30 11:25 a.m.,nan,nan,nan
+1653,allegiantair,0,nan,nan,2:00 p.m.,nan
+1654,weather,0,7:45 p.m.,nan,11/30 10:30 p.m.,nan
+1655,world-flight-tracker,0,10:40 a.m.,nan,12:55 p.m.,nan
+1656,ord,0,11/30 11:08 p.m.,nan,5:11 a.m.,nan
+1657,world-flight-tracker,0,10:40 a.m.,nan,2:45 p.m.,nan
+1658,ord,0,nan,nan,nan,nan
+1659,flights,0,8:35 a.m.,nan,10:40 a.m.,nan
+1660,ord,0,nan,nan,4:00 p.m.,nan
+1661,ord,0,11/30 1:55 p.m.,nan,11/30 7:53 p.m.,nan
+1662,flights,0,7:10 a.m.,7:16 a.m.,9:30 a.m.,9:22 a.m.
+1663,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:14 a.m.
+1664,usatoday,0,nan,7:42 p.m.,9:40 p.m.,10:24 p.m.
+1665,wunderground,0,nan,8:51 a.m.,nan,9:44 a.m.
+1666,wunderground,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,10:28 p.m.
+1667,wunderground,0,11:25 p.m.,11:57 p.m.,6:30 a.m.,6:55 a.m.
+1668,foxbusiness,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:23 p.m.
+1669,wunderground,0,7:35 a.m.,7:56 a.m.,9:11 a.m.,9:08 a.m.
+1670,wunderground,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:29 a.m.
+1671,world-flight-tracker,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:37 p.m.
+1672,wunderground,0,9:05 a.m.,10:10 a.m.,12:12 p.m.,1:11 p.m.
+1673,aa,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,3:59 p.m.
+1674,wunderground,0,11:40 a.m.,12:06 p.m.,12:51 p.m.,1:07 p.m.
+1675,flightstats,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,8:50 a.m.
+1676,usatoday,0,11:05 a.m.,11:45 a.m.,4:37 p.m.,4:57 p.m.
+1677,wunderground,0,7:55 a.m.,8:05 a.m.,10:55 a.m.,10:58 a.m.
+1678,wunderground,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+1679,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:59 a.m.
+1680,wunderground,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:13 p.m.
+1681,world-flight-tracker,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:35 a.m.
+1682,world-flight-tracker,0,12:15 p.m.,12:42 p.m.,2:35 p.m.,2:40 p.m.
+1683,wunderground,0,12:30 p.m.,12:56 p.m.,2:48 p.m.,3:07 p.m.
+1684,flightstats,0,2:30 p.m.,2:42 p.m.,5:40 p.m.,5:27 p.m.
+1685,wunderground,0,12:00 p.m.,12:07 p.m.,1:35 p.m.,1:08 p.m.
+1686,wunderground,0,5:25 p.m.,5:38 p.m.,8:04 p.m.,7:43 p.m.
+1687,wunderground,0,7:25 a.m.,7:39 a.m.,10:43 a.m.,10:43 a.m.
+1688,boston,0,7:27 p.m.,7:27 p.m.,8:46 p.m.,8:46 p.m.
+1689,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+1690,world-flight-tracker,0,10:40 a.m.,11:05 a.m.,2:10 p.m.,2:39 p.m.
+1691,flights,0,nan,3:36 p.m.,3:50 p.m.,3:26 p.m.
+1692,world-flight-tracker,0,7:15 a.m.,7:21 a.m.,10:18 a.m.,10:29 a.m.
+1693,flightarrival,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+1694,wunderground,0,6:45 p.m.,6:56 p.m.,9:00 p.m.,8:38 p.m.
+1695,wunderground,0,12:00 p.m.,12:12 p.m.,2:47 p.m.,3:04 p.m.
+1696,world-flight-tracker,0,7:15 p.m.,7:25 p.m.,12:21 a.m.,12:02 a.m.
+1697,world-flight-tracker,0,9:15 a.m.,9:57 a.m.,12:18 p.m.,12:02 p.m.
+1698,wunderground,0,6:00 a.m.,6:56 a.m.,6:50 a.m.,7:49 a.m.
+1699,panynj,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:26 a.m.
+1700,gofox,0,4:55 p.m.,5:08 p.m.,nan,7:43 p.m.
+1701,wunderground,0,3:50 p.m.,4:45 p.m.,6:23 p.m.,6:34 p.m.
+1702,travelocity,0,8:00 p.m.,8:23 p.m.,9:25 p.m.,9:47 p.m.
+1703,wunderground,0,10:40 a.m.,11:01 a.m.,2:35 p.m.,2:58 p.m.
+1704,businesstravellogue,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+1705,gofox,0,nan,2:01 p.m.,nan,4:06 p.m.
+1706,wunderground,0,4:25 p.m.,4:35 p.m.,12:09 a.m.,12:19 a.m.
+1707,wunderground,0,9:00 p.m.,9:16 p.m.,12:05 a.m.,12:01 a.m.
+1708,wunderground,0,8:25 p.m.,8:29 p.m.,11:31 p.m.,11:35 p.m.
+1709,allegiantair,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,9:45 a.m.
+1710,wunderground,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:33 a.m.
+1711,world-flight-tracker,0,1:30 p.m.,1:40 p.m.,3:50 p.m.,3:40 p.m.
+1712,wunderground,0,11:08 p.m.,11:35 p.m.,5:08 a.m.,5:21 a.m.
+1713,businesstravellogue,0,5:30 p.m.,6:11 p.m.,6:40 p.m.,6:56 p.m.
+1714,wunderground,0,nan,8:40 p.m.,nan,9:11 p.m.
+1715,wunderground,0,2:35 p.m.,2:44 p.m.,3:55 p.m.,3:36 p.m.
+1716,panynj,0,2:55 p.m.,3:27 p.m.,5:17 p.m.,5:39 p.m.
+1717,gofox,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:04 a.m.
+1718,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:42 p.m.
+1719,wunderground,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,2:49 p.m.
+1720,aa,0,3:05 p.m.,3:36 p.m.,5:57 p.m.,6:30 p.m.
+1721,gofox,0,4:00 p.m.,4:12 p.m.,6:30 p.m.,6:11 p.m.
+1722,foxbusiness,0,7:10 a.m.,7:32 a.m.,2:52 p.m.,3:12 p.m.
+1723,wunderground,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,5:34 p.m.
+1724,world-flight-tracker,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:37 p.m.
+1725,world-flight-tracker,0,4:00 p.m.,4:14 p.m.,7:05 p.m.,6:33 p.m.
+1726,flights,0,6:00 a.m.,6:10 a.m.,6:30 a.m.,6:09 a.m.
+1727,world-flight-tracker,0,7:10 a.m.,7:39 a.m.,10:09 a.m.,10:52 a.m.
+1728,foxbusiness,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+1729,ua,0,nan,8:42 a.m.,9:54 a.m.,9:43 a.m.
+1730,ua,0,3:27 p.m.,3:27 p.m.,5:05 p.m.,5:17 p.m.
+1731,businesstravellogue,0,nan,10:33 a.m.,nan,11:21 a.m.
+1732,ua,0,4:00 p.m.,4:00 p.m.,6:46 p.m.,6:28 p.m.
+1733,usatoday,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+1734,flightexplorer,0,12:30 p.m.,12:35 p.m.            Delayed,3:19 p.m.,3:21 p.m.
+1735,boston,0,12:00 a.m.,3:11 a.m.,1:45 p.m.,1:15 p.m.
+1736,flightarrival,0,7:53 a.m.,7:49 a.m.,nan,1:30 p.m.
+1737,ua,0,8:15 a.m.,8:12 a.m.,10:06 a.m.,9:56 a.m.
+1738,flights,0,12:57 p.m.,1:32 p.m.            Delayed,5:15 p.m.,5:34 p.m.
+1739,gofox,0,nan,2:10 p.m.,7:53 p.m.,7:58 p.m.
+1740,world-flight-tracker,0,3:50 p.m.,4:28 p.m.            Delayed,6:23 p.m.,6:38 p.m.
+1741,boston,0,4:16 p.m.,4:15 p.m.,7:35 p.m.,7:36 p.m.
+1742,ua,0,7:05 a.m.,7:05 a.m.,nan,10:47 a.m.
+1743,businesstravellogue,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+1744,businesstravellogue,0,nan,1:48 p.m.            Delayed,nan,4:17 p.m.
+1745,ua,0,4:25 p.m.,4:25 p.m.,Fri Dec 2 12:29 a.m.,Fri Dec 2 12:29 a.m.
+1746,ua,0,8:29 a.m.,8:26 a.m.,nan,9:13 a.m.
+1747,ua,0,7:35 a.m.,7:27 a.m.,9:43 a.m.,8:45 a.m.
+1748,ua,0,11:08 p.m.,11:08 p.m.            On Time,Fri Dec 2 5:11 a.m.,Fri Dec 2 5:11 a.m.
+1749,flightview,0,nan,1:32 p.m.,nan,8:02 a.m.
+1750,ua,0,nan,11:15 a.m.,nan,2:00 p.m.
+1751,ua,0,nan,2:55 p.m.,4:53 p.m.,4:44 p.m.
+1752,ua,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1753,ua,0,8:55 a.m.,9:16 a.m.            Delayed,11:45 a.m.,11:56 a.m.
+1754,flightview,0,nan,2:55 p.m.,5:00 p.m.,4:47 p.m.
+1755,businesstravellogue,0,nan,8:52 a.m.,nan,12:09 p.m.
+1756,world-flight-tracker,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,5:38 p.m.
+1757,gofox,0,nan,5:56 a.m.,nan,7:17 a.m.
+1758,ua,0,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+1759,flylouisville,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+1760,usatoday,0,nan,7:14 p.m.,nan,10:29 p.m.
+1761,gofox,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+1762,flylouisville,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+1763,panynj,0,nan,8:42 a.m.,nan,9:43 a.m.
+1764,flylouisville,0,7:45 p.m.,nan,10:30 p.m.,nan
+1765,flylouisville,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+1766,flylouisville,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+1767,flylouisville,0,nan,11:32 a.m.,nan,3:31 p.m.
+1768,businesstravellogue,0,nan,10:33 a.m.,nan,11:21 a.m.
+1769,flylouisville,0,11:25 p.m.,nan,6:55 a.m.  Fri 02-Dec-2011,nan
+1770,businesstravellogue,0,nan,5:56 a.m.,nan,7:17 a.m.
+1771,businesstravellogue,0,nan,12:41 a.m.,nan,5:26 a.m.
+1772,foxbusiness,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+1773,flylouisville,0,nan,7:29 a.m.,nan,9:14 a.m.
+1774,ifly,0,9:45 a.m.,10:19 a.m.,1:16 p.m.,1:19 p.m.
+1775,flylouisville,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+1776,flylouisville,0,nan,8:12 a.m.,nan,9:56 a.m.
+1777,flylouisville,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+1778,gofox,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+1779,flylouisville,0,nan,10:55 a.m.,nan,1:40 p.m.
+1780,flylouisville,0,nan,2:48 p.m.,nan,7:10 p.m.
+1781,flylouisville,0,nan,8:00 a.m.,nan,11:32 a.m.
+1782,flightview,0,nan,2:46 p.m.,nan,4:47 p.m.
+1783,foxbusiness,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+1784,flylouisville,0,nan,11:56 a.m.,nan,1:14 p.m.
+1785,flylouisville,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+1786,usatoday,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+1787,quicktrip,0,6:00 a.m.,6:02 a.m.,10:20 a.m.,10:27 a.m.
+1788,businesstravellogue,0,nan,8:40 a.m.,nan,10:56 a.m.
+1789,gofox,0,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+1790,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:20 p.m. (Runway)
+1791,flightarrival,0,nan,7:49 a.m.,nan,1:30 p.m.
+1792,flylouisville,0,nan,12:35 p.m.,nan,3:21 p.m.
+1793,businesstravellogue,0,nan,12:13 p.m.,nan,2:10 p.m.
+1794,flightstats,0,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+1795,boston,0,12:00 p.m.,11:51 a.m.,1:45 p.m.,1:15 p.m.
+1796,flylouisville,0,nan,5:22 p.m.,nan,8:03 p.m.
+1797,flylouisville,0,nan,8:25 p.m.,nan,8:56 p.m.
+1798,gofox,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+1799,flights,0,nan,1:32 p.m.,nan,5:34 p.m.
+1800,flights,0,nan,3:36 p.m.,nan,3:33 p.m.
+1801,flylouisville,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+1802,flylouisville,0,6:30 p.m.,nan,7:25 p.m.,nan
+1803,flylouisville,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+1804,quicktrip,0,7:15 p.m.,nan,12:21 a.m.  Fri 02-Dec-2011,nan
+1805,flylouisville,0,nan,2:10 p.m.,nan,7:58 p.m.
+1806,gofox,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+1807,flylouisville,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+1808,flylouisville,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+1809,flylouisville,0,nan,5:08 p.m.,nan,7:55 p.m.
+1810,gofox,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+1811,boston,0,nan,4:15 p.m.,nan,7:36 p.m.
+1812,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+1813,flylouisville,0,nan,10:20 a.m.,nan,6:34 p.m.
+1814,flylouisville,0,nan,7:07 a.m.,nan,10:47 a.m.
+1815,panynj,0,10:40 a.m.,11:01 a.m.,nan,3:04 p.m.
+1816,gofox,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+1817,world-flight-tracker,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+1818,businesstravellogue,0,nan,1:48 p.m.,nan,4:17 p.m.
+1819,world-flight-tracker,0,11:55 p.m.,nan,5:50 a.m.,nan
+1820,flylouisville,0,4:25 p.m.,nan,12:29 a.m.  Fri 02-Dec-2011,nan
+1821,gofox,0,9:00 p.m.,nan,12:15 a.m.  Fri 02-Dec-2011,nan
+1822,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+1823,allegiantair,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+1824,world-flight-tracker,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+1825,flylouisville,0,nan,8:26 a.m.,nan,9:13 a.m.
+1826,world-flight-tracker,0,1:30 p.m.,nan,3:50 p.m.,nan
+1827,flylouisville,0,nan,3:01 p.m.,nan,4:59 p.m.
+1828,flylouisville,0,nan,7:27 a.m.,nan,8:45 a.m.
+1829,flylouisville,0,11:08 p.m.,nan,5:11 a.m.,nan
+1830,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+1831,flightview,0,nan,1:32 p.m.,nan,8:02 a.m.
+1832,flightarrival,0,nan,11:15 a.m.,nan,2:00 p.m.
+1833,flylouisville,0,nan,8:39 p.m.,nan,9:20 p.m.
+1834,myrateplan,0,nan,2:52 p.m.,nan,4:44 p.m.
+1835,flylouisville,0,nan,2:48 p.m.,nan,7:10 p.m.
+1836,flylouisville,0,nan,9:16 a.m.,nan,11:45 a.m.
+1837,flylouisville,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+1838,flylouisville,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+1839,gofox,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+1840,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+1841,allegiantair,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+1842,businesstravellogue,0,nan,8:52 a.m.,nan,12:09 p.m.
+1843,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+1844,flights,0,nan,8:56 a.m.,nan,10:16 a.m.
+1845,flylouisville,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+1846,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+1847,flylouisville,0,nan,11:40 a.m.,nan,4:56 p.m.
+1848,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+1849,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+1850,flylouisville,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+1851,quicktrip,0,nan,3:31 p.m.,nan,5:26 p.m.
+1852,gofox,0,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+1853,gofox,0,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+1854,flylouisville,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+1855,gofox,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+1856,flylouisville,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+1857,gofox,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+1858,foxbusiness,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+1859,quicktrip,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+1860,usatoday,0,nan,7:14 p.m.,nan,10:29 p.m.
+1861,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+1862,quicktrip,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+1863,panynj,0,8:41 a.m.,8:42 a.m.,9:54 a.m.,9:43 a.m.
+1864,quicktrip,0,7:45 p.m.,7:58 p.m.,10:30 p.m.,10:30 p.m. (Estimated)
+1865,businesstravellogue,0,nan,12:13 p.m.,nan,2:10 p.m.
+1866,flightarrival,0,6:30 p.m.,6:47 p.m. (Estimated runway),7:25 p.m.,7:25 p.m. (Estimated runway)
+1867,quicktrip,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+1868,quicktrip,0,11:25 a.m.,11:32 a.m.,2:50 p.m.,3:31 p.m.
+1869,quicktrip,0,11:25 p.m.,11:29 p.m. (Estimated runway),6:55 a.m.,6:35 a.m. (Estimated runway)
+1870,businesstravellogue,0,6:00 a.m.,5:56 a.m.,nan,7:17 a.m.
+1871,gofox,0,nan,12:41 a.m.,nan,5:26 a.m.
+1872,quicktrip,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+1873,quicktrip,0,7:35 a.m.,7:29 a.m.,9:21 a.m.,9:14 a.m.
+1874,ifly,0,9:45 a.m.,10:19 a.m.,1:16 p.m.,1:19 p.m.
+1875,ifly,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+1876,quicktrip,0,8:15 a.m.,8:12 a.m.,10:06 a.m.,9:56 a.m.
+1877,world-flight-tracker,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+1878,quicktrip,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+1879,quicktrip,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1880,quicktrip,0,5:25 p.m.,5:22 p.m.,8:22 p.m.,8:03 p.m.
+1881,quicktrip,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+1882,quicktrip,0,11:40 a.m.,11:56 a.m.,1:17 p.m.,1:14 p.m.
+1883,quicktrip,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+1884,usatoday,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+1885,quicktrip,CO-89-IAH-EWR,6:00 a.m.,6:02 a.m.,10:20 a.m.,10:27 a.m.
+1886,gofox,0,nan,8:40 a.m.,nan,10:56 a.m.
+1887,gofox,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+1888,world-flight-tracker,0,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+1889,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+1890,world-flight-tracker,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:20 p.m. (runway)
+1891,quicktrip,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+1892,aa,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+1893,flightexplorer,0,12:30 p.m.,12:35 p.m.,3:19 p.m.,3:21 p.m.
+1894,quicktrip,0,12:00 p.m.,11:51 a.m.,1:45 p.m.,1:15 p.m.
+1895,quicktrip,0,nan,8:25 p.m.,nan,9:52 p.m. (Estimated)
+1896,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+1897,world-flight-tracker,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+1898,quicktrip,0,nan,1:32 p.m.,nan,5:34 p.m.
+1899,quicktrip,0,nan,3:36 p.m.,nan,3:33 p.m.
+1900,world-flight-tracker,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+1901,quicktrip,0,8:05 a.m.,8:00 a.m.,11:35 a.m.,11:32 a.m.
+1902,quicktrip,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+1903,quicktrip,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+1904,quicktrip,0,7:15 p.m.,7:15 p.m. (Estimated),12:21 a.m.,12:21 a.m. (Estimated)
+1905,quicktrip,0,1:55 p.m.,2:10 p.m.,7:53 p.m.,7:58 p.m.
+1906,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+1907,quicktrip,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+1908,panynj,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+1909,quicktrip,0,4:55 p.m.,5:08 p.m.,nan,7:55 p.m.
+1910,flights,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+1911,world-flight-tracker,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+1912,quicktrip,0,4:16 p.m.,4:15 p.m.,7:35 p.m.,7:36 p.m.
+1913,travelocity,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+1914,quicktrip,0,10:25 a.m.,10:20 a.m.,6:44 p.m.,6:34 p.m.
+1915,gofox,0,7:05 a.m.,7:07 a.m.,nan,10:47 a.m.
+1916,quicktrip,0,10:40 a.m.,11:01 a.m.,2:59 p.m.,3:04 p.m.
+1917,businesstravellogue,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+1918,businesstravellogue,0,nan,1:48 p.m.,nan,4:17 p.m.
+1919,quicktrip,0,11:55 p.m.,12:10 a.m. (Estimated runway),5:50 a.m.,5:42 a.m. (Estimated runway)
+1920,quicktrip,0,4:25 p.m.,4:28 p.m. (Estimated runway),12:29 a.m.,12:01 a.m. (Estimated runway)
+1921,gofox,0,9:00 p.m.,9:06 p.m. (Estimated runway),12:15 a.m.,11:49 p.m. (Estimated runway)
+1922,quicktrip,0,8:25 p.m.,8:29 p.m. (Estimated runway),11:50 p.m.,11:35 p.m. (Estimated runway)
+1923,quicktrip,0,nan,2:46 p.m.,nan,4:47 p.m.
+1924,businesstravellogue,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+1925,gofox,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+1926,quicktrip,0,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+1927,flights,0,nan,8:26 a.m.,nan,9:13 a.m.
+1928,quicktrip,0,2:53 p.m.,3:01 p.m.,4:48 p.m.,4:59 p.m.
+1929,quicktrip,0,11:08 p.m.,nan,5:11 a.m.,nan
+1930,businesstravellogue,0,5:30 p.m.,5:30 p.m. (Estimated),6:40 p.m.,6:40 p.m. (Estimated)
+1931,flightarrival,0,nan,11:15 a.m.,1:40 p.m.,2:00 p.m.
+1932,gofox,0,nan,8:39 p.m.,nan,9:19 p.m. (Estimated)
+1933,quicktrip,0,nan,2:52 p.m.,4:53 p.m.,4:44 p.m.
+1934,quicktrip,0,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.
+1935,ifly,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+1936,quicktrip,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+1937,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+1938,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+1939,quicktrip,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+1940,flightarrival,0,7:53 a.m.,7:49 a.m.,nan,1:30 p.m.
+1941,flights,0,8:35 a.m.,8:56 a.m.,10:40 a.m.,10:16 a.m.
+1942,quicktrip,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+1943,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+1944,foxbusiness,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+1945,quicktrip,CO-50-CLE-EWR,2:55 p.m.,3:31 p.m.,4:49 p.m.,5:26 p.m.
+1946,world-flight-tracker,0,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+1947,world-flight-tracker,0,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+1948,world-flight-tracker,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+1949,quicktrip,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+1950,world-flight-tracker,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+1951,weather,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+1952,usatoday,0,nan,7:42 p.m.,nan,10:29 p.m.
+1953,gofox,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+1954,allegiantair,0,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:58 a.m.
+1955,allegiantair,0,nan,9:01 a.m.,nan,9:43 a.m.
+1956,aa,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,nan
+1957,allegiantair,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:16 p.m.
+1958,allegiantair,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:17 p.m.
+1959,allegiantair,0,nan,12:37 p.m.,nan,3:31 p.m.
+1960,gofox,0,nan,10:53 a.m.,nan,11:21 a.m.
+1961,allegiantair,0,11:25 p.m.,nan,6:55 a.m. Dec 02,nan
+1962,gofox,0,nan,6:10 a.m.,nan,7:17 a.m.
+1963,gofox,0,nan,12:58 a.m.,nan,5:26 a.m.
+1964,foxbusiness,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+1965,allegiantair,0,nan,7:56 a.m.,nan,9:09 a.m.
+1966,ifly,0,nan,10:35 a.m.,1:16 p.m.,1:19 p.m.
+1967,allegiantair,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:18 p.m.
+1968,allegiantair,0,nan,8:26 a.m.,nan,9:56 a.m.
+1969,allegiantair,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+1970,gofox,0,4:15 p.m.,4:30 p.m.,7:55 p.m.,7:39 p.m.
+1971,gofox,0,nan,10:55 a.m.,nan,1:40 p.m.
+1972,allegiantair,0,nan,2:59 p.m.,nan,7:10 p.m.
+1973,allegiantair,0,nan,8:18 a.m.,nan,11:32 a.m.
+1974,allegiantair,0,nan,3:04 p.m.,nan,5:00 p.m.
+1975,foxbusiness,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:09 p.m.
+1976,allegiantair,0,nan,12:06 p.m.,nan,1:14 p.m.
+1977,allegiantair,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:05 a.m.
+1978,allegiantair,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:03 p.m.
+1979,quicktrip,0,6:00 a.m.,6:17 a.m.,nan,10:27 a.m.
+1980,gofox,0,nan,9:01 a.m.,nan,10:56 a.m.
+1981,gofox,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+1982,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+1983,flightarrival,0,nan,8:07 a.m.,nan,1:30 p.m.
+1984,allegiantair,0,nan,12:56 p.m.,nan,3:21 p.m.
+1985,allegiantair,0,nan,12:14 p.m.,nan,2:01 p.m.
+1986,flightstats,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:42 p.m.
+1987,boston,0,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+1988,allegiantair,0,nan,5:38 p.m.,nan,8:03 p.m.
+1989,allegiantair,0,nan,8:36 p.m.,nan,9:38 p.m.
+1990,allegiantair,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:46 p.m.
+1991,allegiantair,0,nan,1:43 p.m.,nan,5:34 p.m.
+1992,allegiantair,0,nan,3:36 p.m.,nan,3:25 p.m.
+1993,allegiantair,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.
+1994,allegiantair,0,6:30 p.m.,nan,7:25 p.m.,nan
+1995,allegiantair,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:43 p.m.
+1996,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m.,nan
+1997,gofox,0,nan,2:38 p.m.,nan,7:58 p.m.
+1998,gofox,0,9:15 a.m.,9:58 a.m.,12:18 p.m.,12:09 p.m.
+1999,allegiantair,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:51 a.m.
+2000,allegiantair,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:29 a.m.
+2001,gofox,0,nan,5:09 p.m.,nan,7:53 p.m.
+2002,gofox,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:35 p.m.
+2003,boston,0,nan,4:37 p.m.,nan,7:36 p.m.
+2004,orbitz,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+2005,allegiantair,0,nan,10:37 a.m.,nan,6:34 p.m.
+2006,gofox,0,nan,7:31 a.m.,nan,10:45 a.m.
+2007,panynj,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,3:04 p.m.
+2008,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:23 p.m.
+2009,allegiantair,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+2010,gofox,0,nan,2:01 p.m.,nan,4:17 p.m.
+2011,allegiantair,0,11:55 p.m.,nan,5:50 a.m.,nan
+2012,allegiantair,0,4:25 p.m.,nan,12:29 a.m. Dec 02,nan
+2013,allegiantair,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+2014,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+2015,allegiantair,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,10:04 a.m.
+2016,world-flight-tracker,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:44 a.m.
+2017,flights,0,nan,8:37 a.m.,nan,9:13 a.m.
+2018,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+2019,allegiantair,0,nan,3:17 p.m.,nan,4:59 p.m.
+2020,allegiantair,0,nan,7:41 a.m.,nan,8:45 a.m.
+2021,allegiantair,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+2022,gofox,0,5:30 p.m.,nan,6:40 p.m.,nan
+2023,allegiantair,0,nan,1:45 p.m.,nan,8:02 a.m.
+2024,allegiantair,0,nan,11:47 a.m.,nan,2:02 p.m.
+2025,gofox,0,nan,8:40 p.m.,nan,9:11 p.m.
+2026,allegiantair,0,nan,3:04 p.m.,nan,4:24 p.m.
+2027,allegiantair,0,nan,2:59 p.m.,nan,7:10 p.m.
+2028,allegiantair,0,nan,9:43 a.m.,nan,12:12 p.m.
+2029,allegiantair,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+2030,panynj,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:34 p.m.
+2031,gofox,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+2032,usatoday,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:43 p.m.
+2033,allegiantair,0,7:55 a.m.,8:05 a.m.,11:05 a.m.,11:00 a.m.
+2034,gofox,0,nan,9:05 a.m.,nan,12:09 p.m.
+2035,allegiantair,AA-789-ORD-DEN,1:05 p.m.,1:20 p.m.,2:35 p.m.,3:01 p.m.
+2036,allegiantair,0,nan,8:56 a.m.,nan,10:10 a.m.
+2037,allegiantair,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:43 p.m.
+2038,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:57 a.m.
+2039,allegiantair,0,nan,11:41 a.m.,nan,4:56 p.m.
+2040,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:09 p.m.
+2041,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+2042,flights,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,11:06 a.m.
+2043,quicktrip,0,nan,4:02 p.m.,nan,5:26 p.m.
+2044,gofox,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,6:17 p.m.
+2045,gofox,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+2046,allegiantair,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:32 a.m.
+2047,gofox,0,4:00 p.m.,4:15 p.m.,7:05 p.m.,6:36 p.m.
+2048,flights,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:19 a.m.
+2049,gofox,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:12 a.m.
+2050,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:14 p.m.
+2051,flights,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+2052,usatoday,0,nan,7:14 p.m.,nan,10:29 p.m.
+2053,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+2054,businesstravellogue,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+2055,panynj,0,nan,8:42 a.m.,nan,9:43 a.m.
+2056,businesstravellogue,0,7:45 p.m.,nan,10:30 p.m.,nan
+2057,businesstravellogue,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+2058,businesstravellogue,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+2059,businesstravellogue,0,nan,11:32 a.m.,nan,3:31 p.m.
+2060,businesstravellogue,0,nan,10:33 a.m.,nan,11:21 a.m.
+2061,businesstravellogue,0,11:25 p.m.,nan,6:55 a.m.  Fri 02-Dec-2011,nan
+2062,businesstravellogue,0,nan,5:56 a.m.,nan,7:17 a.m.
+2063,businesstravellogue,0,nan,12:41 a.m.,nan,5:26 a.m.
+2064,businesstravellogue,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+2065,businesstravellogue,0,nan,7:29 a.m.,nan,9:14 a.m.
+2066,ifly,0,nan,10:19 a.m.,1:16 p.m.,1:19 p.m.
+2067,businesstravellogue,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+2068,businesstravellogue,0,nan,8:12 a.m.,nan,9:56 a.m.
+2069,ifly,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+2070,world-flight-tracker,0,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+2071,businesstravellogue,0,nan,10:55 a.m.,nan,1:40 p.m.
+2072,businesstravellogue,0,nan,2:48 p.m.,nan,7:10 p.m.
+2073,businesstravellogue,0,nan,8:00 a.m.,nan,11:32 a.m.
+2074,businesstravellogue,0,nan,2:46 p.m.,nan,4:47 p.m.
+2075,businesstravellogue,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+2076,businesstravellogue,0,nan,11:56 a.m.,nan,1:14 p.m.
+2077,businesstravellogue,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+2078,usatoday,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+2079,quicktrip,0,6:00 a.m.,6:02 a.m.,nan,10:27 a.m.
+2080,businesstravellogue,0,nan,8:40 a.m.,nan,10:56 a.m.
+2081,world-flight-tracker,0,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+2082,world-flight-tracker,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:20 p.m. (Runway)
+2083,businesstravellogue,0,nan,7:49 a.m.,nan,1:30 p.m.
+2084,businesstravellogue,0,nan,12:35 p.m.,nan,3:21 p.m.
+2085,businesstravellogue,AA-4344-ORD-DTW,nan,12:13 p.m.,nan,2:10 p.m.
+2086,businesstravellogue,0,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+2087,businesstravellogue,0,12:00 p.m.,11:51 a.m.,1:45 p.m.,1:15 p.m.
+2088,businesstravellogue,0,nan,5:22 p.m.,nan,8:03 p.m.
+2089,boston,0,nan,8:25 p.m.,nan,8:56 p.m.
+2090,world-flight-tracker,0,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+2091,businesstravellogue,0,nan,1:32 p.m.,nan,5:34 p.m.
+2092,businesstravellogue,0,nan,3:36 p.m.,nan,3:33 p.m.
+2093,world-flight-tracker,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+2094,flightarrival,0,6:30 p.m.,nan,7:25 p.m.,nan
+2095,businesstravellogue,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+2096,quicktrip,0,7:15 p.m.,nan,12:21 a.m.,nan
+2097,businesstravellogue,0,nan,2:10 p.m.,nan,7:58 p.m.
+2098,world-flight-tracker,0,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+2099,businesstravellogue,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+2100,panynj,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+2101,businesstravellogue,0,nan,5:08 p.m.,nan,7:55 p.m.
+2102,world-flight-tracker,0,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+2103,businesstravellogue,0,nan,4:15 p.m.,nan,7:36 p.m.
+2104,businesstravellogue,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+2105,businesstravellogue,0,nan,10:20 a.m.,nan,6:34 p.m.
+2106,businesstravellogue,0,nan,7:07 a.m.,nan,10:47 a.m.
+2107,businesstravellogue,0,10:40 a.m.,11:01 a.m.,nan,3:04 p.m.
+2108,businesstravellogue,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+2109,businesstravellogue,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+2110,businesstravellogue,0,nan,1:48 p.m.,nan,4:17 p.m.
+2111,businesstravellogue,0,11:55 p.m.,nan,5:50 a.m.  Fri 02-Dec-2011,nan
+2112,businesstravellogue,0,4:25 p.m.,nan,12:29 a.m.  Fri 02-Dec-2011,nan
+2113,gofox,0,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+2114,businesstravellogue,0,8:25 p.m.,nan,11:50 p.m.,nan
+2115,businesstravellogue,AA-1165-JFK-MIA,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+2116,gofox,0,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+2117,flights,0,nan,8:26 a.m.,nan,9:13 a.m.
+2118,world-flight-tracker,0,1:30 p.m.,nan,3:50 p.m.,nan
+2119,businesstravellogue,0,nan,3:01 p.m.,nan,4:59 p.m.
+2120,businesstravellogue,0,nan,7:27 a.m.,nan,8:45 a.m.
+2121,businesstravellogue,0,11:08 p.m.,nan,5:11 a.m.,nan
+2122,businesstravellogue,0,5:30 p.m.,nan,6:40 p.m.,nan
+2123,flightview,0,nan,1:32 p.m.,nan,8:02 a.m.
+2124,flightarrival,0,nan,11:15 a.m.,nan,2:00 p.m.
+2125,businesstravellogue,0,nan,8:39 p.m.,nan,9:20 p.m.
+2126,businesstravellogue,0,nan,2:52 p.m.,nan,4:44 p.m.
+2127,businesstravellogue,0,nan,2:48 p.m.,nan,7:10 p.m.
+2128,businesstravellogue,0,nan,9:16 a.m.,nan,11:45 a.m.
+2129,ifly,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+2130,panynj,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+2131,world-flight-tracker,0,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+2132,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+2133,gofox,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+2134,businesstravellogue,0,nan,8:52 a.m.,nan,12:09 p.m.
+2135,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+2136,flights,0,nan,8:56 a.m.,nan,10:16 a.m.
+2137,businesstravellogue,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+2138,businesstravellogue,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+2139,myrateplan,0,nan,11:40 a.m.,nan,4:56 p.m.
+2140,businesstravellogue,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+2141,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+2142,flights,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+2143,quicktrip,0,nan,3:31 p.m.,4:49 p.m.,5:26 p.m.
+2144,world-flight-tracker,0,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+2145,world-flight-tracker,0,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+2146,businesstravellogue,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+2147,world-flight-tracker,0,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+2148,flights,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+2149,world-flight-tracker,0,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.
+2150,foxbusiness,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+2151,den,0,nan,nan,nan,nan
+2152,den,0,nan,nan,1:17 p.m.,nan
+2153,den,0,nan,nan,12:15 a.m.,nan
+2154,boston,0,nan,nan,nan,nan
+2155,den,0,1:05 p.m.,nan,2:35 p.m.,nan
+2156,weather,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:22 a.m.
+2157,usatoday,0,nan,7:42 p.m.,nan,10:29 p.m.
+2158,gofox,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+2159,gofox,0,8:00 a.m.,8:49 a.m.,11:55 a.m.,11:58 a.m.
+2160,panynj,0,nan,9:01 a.m.,nan,9:43 a.m.
+2161,aa,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,nan
+2162,gofox,0,12:00 p.m.,12:12 p.m.,3:15 p.m.,3:16 p.m.
+2163,gofox,0,3:27 p.m.,3:50 p.m.,5:05 p.m.,5:17 p.m.
+2164,gofox,0,nan,12:37 p.m.,nan,3:31 p.m.
+2165,gofox,UA-5487-SFO-MRY,nan,10:53 a.m.,nan,11:21 a.m.
+2166,gofox,0,11:25 p.m.,nan,6:55 a.m. Dec 02,nan
+2167,gofox,UA-414-LAX-SFO,nan,6:10 a.m.,nan,7:17 a.m.
+2168,gofox,CO-1614-LAX-IAH,nan,12:58 a.m.,nan,5:26 a.m.
+2169,foxbusiness,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:25 p.m.
+2170,gofox,0,nan,7:56 a.m.,nan,9:09 a.m.
+2171,ifly,0,nan,10:35 a.m.,1:16 p.m.,1:19 p.m.
+2172,gofox,0,9:05 a.m.,10:11 a.m.,12:35 p.m.,1:18 p.m.
+2173,gofox,0,nan,8:26 a.m.,nan,9:56 a.m.
+2174,ifly,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+2175,gofox,0,4:15 p.m.,4:30 p.m.,7:55 p.m.,7:39 p.m.
+2176,gofox,AA-1886-BOS-MIA,nan,10:55 a.m.,nan,1:40 p.m.
+2177,gofox,0,nan,2:59 p.m.,nan,7:10 p.m.
+2178,gofox,0,nan,8:18 a.m.,nan,11:32 a.m.
+2179,gofox,0,nan,3:04 p.m.,nan,5:00 p.m.
+2180,aa,0,11:50 a.m.,12:13 p.m.,3:50 p.m.,4:09 p.m.
+2181,gofox,0,nan,12:06 p.m.,nan,1:14 p.m.
+2182,gofox,0,6:00 a.m.,6:09 a.m.,9:20 a.m.,9:05 a.m.
+2183,gofox,0,11:05 a.m.,11:45 a.m.,4:57 p.m.,5:03 p.m.
+2184,quicktrip,0,6:00 a.m.,6:17 a.m.,nan,10:27 a.m.
+2185,gofox,CO-1088-CLE-IAH,nan,9:01 a.m.,nan,10:56 a.m.
+2186,gofox,0,10:15 a.m.,10:19 a.m.,12:10 p.m.,11:50 a.m.
+2187,gofox,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:19 p.m.
+2188,gofox,0,nan,8:07 a.m.,nan,1:30 p.m.
+2189,gofox,0,nan,12:56 p.m.,nan,3:21 p.m.
+2190,gofox,0,nan,12:14 p.m.,nan,2:01 p.m.
+2191,flightstats,0,2:30 p.m.,2:43 p.m.,6:15 p.m.,5:42 p.m.
+2192,boston,0,12:00 p.m.,12:08 p.m.,1:45 p.m.,1:14 p.m.
+2193,gofox,0,nan,5:38 p.m.,nan,8:03 p.m.
+2194,gofox,0,nan,8:36 p.m.,nan,9:38 p.m.
+2195,gofox,0,10:40 a.m.,11:06 a.m.,2:45 p.m.,2:46 p.m.
+2196,gofox,0,nan,1:43 p.m.,nan,5:34 p.m.
+2197,flights,0,nan,3:36 p.m.,nan,3:25 p.m.
+2198,gofox,0,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.
+2199,gofox,0,6:30 p.m.,nan,7:25 p.m.,nan
+2200,gofox,0,6:45 p.m.,6:56 p.m.,9:10 p.m.,8:43 p.m.
+2201,world-flight-tracker,0,7:15 p.m.,nan,12:21 a.m.,nan
+2202,gofox,UA-843-LAX-ORD,nan,2:38 p.m.,nan,7:58 p.m.
+2203,gofox,0,9:15 a.m.,9:58 a.m.,12:18 p.m.,12:09 p.m.
+2204,gofox,0,6:00 a.m.,6:57 a.m.,7:30 a.m.,7:51 a.m.
+2205,gofox,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:29 a.m.
+2206,gofox,0,nan,5:09 p.m.,nan,7:53 p.m.
+2207,gofox,0,3:50 p.m.,4:46 p.m.,6:23 p.m.,6:35 p.m.
+2208,boston,0,nan,4:37 p.m.,nan,7:36 p.m.
+2209,gofox,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:49 p.m.
+2210,gofox,0,nan,10:37 a.m.,nan,6:34 p.m.
+2211,gofox,0,nan,7:31 a.m.,nan,10:45 a.m.
+2212,gofox,0,10:40 a.m.,11:02 a.m.,2:59 p.m.,3:04 p.m.
+2213,gofox,UA-664-ORD-PHL,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:23 p.m.
+2214,gofox,0,12:15 p.m.,12:42 p.m.,2:45 p.m.,2:52 p.m.
+2215,gofox,UA-37-EWR-MCO,nan,2:01 p.m.,nan,4:17 p.m.
+2216,world-flight-tracker,0,11:55 p.m.,nan,5:50 a.m.,nan
+2217,gofox,0,4:25 p.m.,nan,12:29 a.m. Dec 02,nan
+2218,gofox,AA-3823-LAX-DEN,9:00 p.m.,nan,12:15 a.m. Dec 02,nan
+2219,flightarrival,0,8:25 p.m.,nan,11:50 p.m.,nan
+2220,gofox,0,6:59 a.m.,7:23 a.m.,10:34 a.m.,10:04 a.m.
+2221,gofox,0,8:35 a.m.,8:52 a.m.,11:50 a.m.,11:44 a.m.
+2222,gofox,0,nan,8:37 a.m.,nan,9:13 a.m.
+2223,gofox,0,1:30 p.m.,nan,3:50 p.m.,nan
+2224,gofox,0,nan,3:17 p.m.,nan,4:59 p.m.
+2225,gofox,0,nan,7:41 a.m.,nan,8:45 a.m.
+2226,gofox,0,11:08 p.m.,nan,5:11 a.m.Dec 02,nan
+2227,gofox,CO-4888-IAH-DAL,5:30 p.m.,nan,6:40 p.m.,nan
+2228,gofox,0,nan,1:45 p.m.,nan,8:02 a.m.
+2229,gofox,0,nan,11:47 a.m.,nan,2:02 p.m.
+2230,gofox,0,nan,8:40 p.m.,nan,9:11 p.m.
+2231,gofox,0,nan,3:04 p.m.,nan,4:24 p.m.
+2232,gofox,0,nan,2:59 p.m.,nan,7:10 p.m.
+2233,gofox,0,nan,9:43 a.m.,nan,12:12 p.m.
+2234,gofox,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:36 p.m.
+2235,panynj,0,2:55 p.m.,3:28 p.m.,5:55 p.m.,5:34 p.m.
+2236,gofox,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:07 a.m.
+2237,usatoday,0,12:10 p.m.,12:11 p.m.,2:15 p.m.,1:43 p.m.
+2238,gofox,AA-2957-DFW-CVG,7:55 a.m.,8:05 a.m.,11:05 a.m.,11:00 a.m.
+2239,gofox,UA-37-EDI-EWR,nan,9:05 a.m.,nan,12:09 p.m.
+2240,allegiantair,0,1:05 p.m.,1:20 p.m.,2:35 p.m.,3:01 p.m.
+2241,gofox,0,nan,8:56 a.m.,nan,10:10 a.m.
+2242,gofox,0,3:05 p.m.,3:38 p.m.,6:30 p.m.,6:43 p.m.
+2243,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,7:57 a.m.
+2244,gofox,0,nan,11:41 a.m.,nan,4:56 p.m.
+2245,gofox,AA-3786-IAH-ORD,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:09 p.m.
+2246,gofox,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+2247,gofox,0,7:25 a.m.,7:40 a.m.,11:10 a.m.,11:06 a.m.
+2248,quicktrip,0,nan,4:02 p.m.,4:49 p.m.,5:26 p.m.
+2249,gofox,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,6:17 p.m.
+2250,gofox,0,10:40 a.m.,10:55 a.m.,12:55 p.m.,12:48 p.m.
+2251,gofox,0,6:45 a.m.,6:58 a.m.,7:45 a.m.,7:32 a.m.
+2252,gofox,0,4:00 p.m.,4:15 p.m.,7:05 p.m.,6:36 p.m.
+2253,gofox,0,6:00 a.m.,6:11 a.m.,6:40 a.m.,6:19 a.m.
+2254,gofox,0,7:10 a.m.,7:40 a.m.,10:45 a.m.,11:12 a.m.
+2255,foxbusiness,0,7:10 a.m.,7:32 a.m.,3:30 p.m.,3:14 p.m.
+2256,flights,0,7:10 a.m.,7:16 a.m.,9:30 a.m.,9:22 a.m.
+2257,world-flight-tracker,0,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:14 a.m.
+2258,flightaware,0,7:00 p.m.,7:42 p.m.,nan,10:24 p.m.
+2259,flightaware,0,nan,8:51 a.m.,9:34 a.m.,9:44 a.m.
+2260,flightaware,0,7:45 p.m.,7:59 p.m.,10:30 p.m.,10:28 p.m.
+2261,flightaware,0,11:25 p.m.,11:57 p.m.,6:30 a.m.,6:55 a.m.
+2262,flightaware,0,4:00 p.m.,4:10 p.m.,6:46 p.m.,6:23 p.m.
+2263,flightaware,0,7:35 a.m.,7:56 a.m.,9:11 a.m.,9:08 a.m.
+2264,ifly,0,7:00 a.m.,7:25 a.m.,9:45 a.m.,9:29 a.m.
+2265,flightaware,0,4:15 p.m.,4:29 p.m.,7:26 p.m.,7:37 p.m.
+2266,foxbusiness,0,9:05 a.m.,10:10 a.m.,12:12 p.m.,1:11 p.m.
+2267,flightaware,0,11:50 a.m.,12:13 p.m.,3:33 p.m.,3:59 p.m.
+2268,flightaware,0,11:40 a.m.,12:06 p.m.,12:51 p.m.,1:07 p.m.
+2269,flightaware,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,8:50 a.m.
+2270,flightaware,0,11:05 a.m.,11:45 a.m.,4:37 p.m.,4:57 p.m.
+2271,flightaware,0,7:55 a.m.,8:05 a.m.,10:55 a.m.,10:58 a.m.
+2272,world-flight-tracker,0,10:15 a.m.,10:19 a.m.,11:43 a.m.,11:50 a.m.
+2273,flightstats,0,7:30 a.m.,8:04 a.m.,7:50 a.m.,7:59 a.m.
+2274,flightaware,0,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:13 p.m.
+2275,flightaware,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:35 a.m.
+2276,flightaware,0,12:15 p.m.,12:42 p.m.,2:35 p.m.,2:40 p.m.
+2277,flightexplorer,0,nan,12:56 p.m.,nan,3:07 p.m.
+2278,flightaware,0,2:30 p.m.,2:42 p.m.,5:40 p.m.,5:27 p.m.
+2279,boston,0,12:00 p.m.,12:07 p.m.,1:35 p.m.,1:08 p.m.
+2280,flightaware,0,5:25 p.m.,5:38 p.m.,8:04 p.m.,7:43 p.m.
+2281,flightaware,0,7:25 a.m.,7:39 a.m.,10:43 a.m.,10:43 a.m.
+2282,boston,0,nan,7:27 p.m.,nan,8:46 p.m.
+2283,world-flight-tracker,0,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:21 p.m.
+2284,flightaware,0,10:40 a.m.,11:05 a.m.,2:10 p.m.,2:39 p.m.
+2285,flightaware,0,3:35 p.m.,3:36 p.m.,nan,3:26 p.m.
+2286,world-flight-tracker,0,7:15 a.m.,7:21 a.m.,10:18 a.m.,10:29 a.m.
+2287,flightaware,0,6:30 p.m.,6:47 p.m.,7:25 p.m.,7:25 p.m.
+2288,flightaware,0,6:45 p.m.,6:56 p.m.,9:00 p.m.,8:38 p.m.
+2289,flightaware,0,12:00 p.m.,12:12 p.m.,2:47 p.m.,3:04 p.m.
+2290,quicktrip,0,7:15 p.m.,7:25 p.m.,11:52 p.m.,12:02 a.m.
+2291,world-flight-tracker,0,9:15 a.m.,9:57 a.m.,12:08 p.m.,12:02 p.m.
+2292,flightaware,0,6:00 a.m.,6:56 a.m.,6:50 a.m.,7:49 a.m.
+2293,panynj,0,7:10 a.m.,7:31 a.m.,9:35 a.m.,9:26 a.m.
+2294,flightaware,0,4:55 p.m.,5:08 p.m.,7:38 p.m.,7:43 p.m.
+2295,flightaware,0,3:50 p.m.,4:45 p.m.,6:23 p.m.,6:34 p.m.
+2296,flightaware,0,8:00 p.m.,8:23 p.m.,9:25 p.m.,9:47 p.m.
+2297,panynj,0,10:40 a.m.,11:01 a.m.,2:35 p.m.,2:58 p.m.
+2298,gofox,0,1:33 p.m.,1:48 p.m.,4:31 p.m.,4:20 p.m.
+2299,gofox,0,1:29 p.m.,2:01 p.m.,nan,4:06 p.m.
+2300,flightaware,0,4:25 p.m.,4:35 p.m.,12:09 a.m.,12:19 a.m.
+2301,gofox,0,9:00 p.m.,9:16 p.m.,12:15 a.m. Dec 02,12:01 a.m.
+2302,flightaware,0,8:25 p.m.,8:29 p.m.,11:31 p.m.,11:35 p.m.
+2303,businesstravellogue,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,9:45 a.m.
+2304,world-flight-tracker,0,8:35 a.m.,8:51 a.m.,11:22 a.m.,11:33 a.m.
+2305,flightaware,0,1:30 p.m.,1:40 p.m.,3:50 p.m.,3:40 p.m.
+2306,flightaware,0,11:08 p.m.,11:35 p.m.,5:08 a.m.,5:21 a.m.
+2307,flightaware,0,5:30 p.m.,6:11 p.m.,6:15 p.m.,6:56 p.m.
+2308,flightaware,0,8:20 p.m.,8:40 p.m.,9:10 p.m.,9:11 p.m.
+2309,ifly,0,2:35 p.m.,2:44 p.m.,3:55 p.m.,3:36 p.m.
+2310,panynj,0,2:55 p.m.,3:27 p.m.,5:17 p.m.,5:39 p.m.
+2311,world-flight-tracker,0,7:15 a.m.,7:23 a.m.,11:35 a.m.,11:04 a.m.
+2312,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:42 p.m.
+2313,allegiantair,0,1:05 p.m.,1:19 p.m.,2:17 p.m.,2:49 p.m.
+2314,aa,0,3:05 p.m.,3:36 p.m.,5:57 p.m.,6:30 p.m.
+2315,gofox,0,4:00 p.m.,4:12 p.m.,6:30 p.m.,6:11 p.m.
+2316,foxbusiness,0,7:10 a.m.,7:32 a.m.,2:52 p.m.,3:12 p.m.
+2317,flightaware,0,11:55 a.m.,11:55 a.m.,6:17 p.m.,5:34 p.m.
+2318,world-flight-tracker,0,10:40 a.m.,10:55 a.m.,12:45 p.m.,12:37 p.m.
+2319,world-flight-tracker,0,4:00 p.m.,4:14 p.m.,7:05 p.m.,6:33 p.m.
+2320,flightaware,0,6:00 a.m.,6:10 a.m.,6:30 a.m.,6:09 a.m.
+2321,flightaware,0,7:10 a.m.,7:39 a.m.,10:09 a.m.,10:52 a.m.
+2322,flights,0,7:10 a.m.,7:16 a.m.,9:40 a.m.,9:32 a.m.
+2323,world-flight-tracker,AA-518-MIA-JFK,6:40 a.m.,6:54 a.m.,9:25 a.m.,9:28 a.m.
+2324,foxbusiness,0,8:00 a.m.,8:29 a.m.,11:55 a.m.,11:58 a.m.
+2325,world-flight-tracker,0,7:45 p.m.,7:58 p.m.,10:30 p.m.,10:30 p.m. (Estimated)
+2326,flightarrival,0,6:30 p.m.,6:47 p.m. (Estimated runway),7:25 p.m.,7:25 p.m. (Estimated runway)
+2327,world-flight-tracker,CO-1694-LAX-IAH,7:15 p.m.,7:15 p.m. (Estimated),12:21 a.m.,12:21 a.m. (Estimated)
+2328,world-flight-tracker,0,3:27 p.m.,3:28 p.m.,5:05 p.m.,5:17 p.m.
+2329,world-flight-tracker,0,11:25 p.m.,11:29 p.m. (Estimated runway),6:55 a.m.,6:35 a.m. (Estimated runway)
+2330,world-flight-tracker,0,4:00 p.m.,3:58 p.m.,6:46 p.m.,6:28 p.m.
+2331,world-flight-tracker,0,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.
+2332,world-flight-tracker,AA-484-DFW-MIA,4:15 p.m.,4:29 p.m.,7:55 p.m.,7:39 p.m.
+2333,world-flight-tracker,0,9:05 a.m.,10:10 a.m.,12:35 p.m.,1:27 p.m.
+2334,world-flight-tracker,0,11:50 a.m.,12:12 p.m.,3:50 p.m.,4:09 p.m.
+2335,world-flight-tracker,0,6:00 a.m.,6:08 a.m.,9:20 a.m.,9:05 a.m.
+2336,usatoday,0,11:05 a.m.,11:30 a.m.,4:57 p.m.,5:05 p.m.
+2337,gofox,0,7:55 a.m.,8:04 a.m.,11:05 a.m.,11:01 a.m.
+2338,world-flight-tracker,AA-1664-MIA-ATL,10:15 a.m.,10:18 a.m.,12:10 p.m.,11:56 a.m.
+2339,flightstats,0,7:30 a.m.,8:04 a.m.,8:00 a.m.,8:06 a.m.
+2340,world-flight-tracker,AA-1279-DFW-PHX,1:00 p.m.,2:04 p.m.,2:35 p.m.,3:20 p.m. (runway)
+2341,world-flight-tracker,0,6:45 a.m.,6:57 a.m.,7:45 a.m.,7:40 a.m.
+2342,world-flight-tracker,0,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.
+2343,world-flight-tracker,0,12:00 p.m.,11:51 a.m.,1:45 p.m.,1:15 p.m.
+2344,flights,0,7:25 a.m.,7:39 a.m.,11:10 a.m.,11:06 a.m.
+2345,world-flight-tracker,AA-271-MIA-LAX,11:35 a.m.,11:52 a.m.,2:25 p.m.,2:27 p.m.
+2346,world-flight-tracker,AA-2050-ORD-MIA,10:40 a.m.,11:05 a.m.,2:45 p.m.,2:46 p.m.
+2347,world-flight-tracker,0,7:15 a.m.,7:21 a.m.,10:35 a.m.,10:36 a.m.
+2348,world-flight-tracker,0,6:45 p.m.,6:55 p.m.,9:10 p.m.,8:53 p.m.
+2349,world-flight-tracker,0,12:00 p.m.,12:11 p.m.,3:15 p.m.,3:16 p.m.
+2350,world-flight-tracker,CO-1193-EWR-MCO,9:15 a.m.,9:14 a.m.,12:18 p.m.,12:09 p.m.
+2351,world-flight-tracker,0,6:00 a.m.,6:56 a.m.,7:30 a.m.,7:51 a.m.
+2352,panynj,0,7:10 a.m.,7:30 a.m.,9:35 a.m.,9:31 a.m.
+2353,world-flight-tracker,UA-2906-PHL-MCO,3:50 p.m.,4:28 p.m.,6:23 p.m.,6:38 p.m.
+2354,world-flight-tracker,0,8:00 p.m.,8:23 p.m.,9:45 p.m.,9:53 p.m.
+2355,world-flight-tracker,0,1:33 p.m.,1:31 p.m.,4:31 p.m.,4:23 p.m.
+2356,world-flight-tracker,AA-1522-SFO-ORD,11:55 p.m.,12:10 a.m. (Estimated runway),5:50 a.m.,5:42 a.m. (Estimated runway)
+2357,world-flight-tracker,0,4:25 p.m.,4:28 p.m. (Estimated runway),12:29 a.m.,12:01 a.m. (Estimated runway)
+2358,world-flight-tracker,0,9:00 p.m.,9:06 p.m. (Estimated runway),12:15 a.m. Dec 02,11:49 p.m. (Estimated runway)
+2359,flightarrival,0,8:25 p.m.,8:29 p.m. (Estimated runway),11:50 p.m.,11:35 p.m. (Estimated runway)
+2360,world-flight-tracker,0,6:59 a.m.,7:22 a.m.,10:34 a.m.,10:04 a.m.
+2361,world-flight-tracker,AA-431-MIA-SFO,8:35 a.m.,8:51 a.m.,11:50 a.m.,11:44 a.m.
+2362,world-flight-tracker,0,2:30 p.m.,2:26 p.m.,6:15 p.m.,5:42 p.m.
+2363,world-flight-tracker,AA-649-ORD-SNA,1:30 p.m.,1:41 p.m. (Estimated runway),3:50 p.m.,3:29 p.m. (Estimated runway)
+2364,ifly,0,2:35 p.m.,2:44 p.m.,4:05 p.m.,3:43 p.m.
+2365,panynj,0,2:55 p.m.,3:27 p.m.,5:55 p.m.,5:43 p.m.
+2366,world-flight-tracker,AA-2268-PHX-ORD,7:15 a.m.,7:22 a.m.,11:35 a.m.,11:06 a.m.
+2367,usatoday,0,12:10 p.m.,12:10 p.m.,2:15 p.m.,1:43 p.m.
+2368,allegiantair,0,1:05 p.m.,1:19 p.m.,2:35 p.m.,3:13 p.m.
+2369,world-flight-tracker,0,3:05 p.m.,3:36 p.m.,6:30 p.m.,6:43 p.m.
+2370,gofox,0,4:00 p.m.,4:12 p.m.,6:40 p.m.,6:15 p.m.
+2371,foxbusiness,0,7:10 a.m.,7:31 a.m.,3:30 p.m.,3:14 p.m.
+2372,world-flight-tracker,UA-3099-PHX-PHL,11:55 a.m.,11:43 a.m.,6:17 p.m.,5:38 p.m.
+2373,world-flight-tracker,AA-4198-ORD-CLE,10:40 a.m.,10:54 a.m.,12:55 p.m.,12:50 p.m.
+2374,world-flight-tracker,CO-45-EWR-MIA,4:00 p.m.,3:58 p.m.,7:05 p.m.,6:36 p.m.
+2375,world-flight-tracker,0,6:00 a.m.,6:10 a.m.,6:40 a.m.,6:19 a.m.
+2376,world-flight-tracker,AA-59-JFK-SFO,7:10 a.m.,7:39 a.m.,10:45 a.m.,11:12 a.m.

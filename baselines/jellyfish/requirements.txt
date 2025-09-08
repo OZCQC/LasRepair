@@ -1,0 +1,5 @@
+# requirements.txt
+jellyfish==1.0.3       # for string similarity (Jaro-Winkler, Levenshtein, etc.)
+pandas==2.1.0          # for data manipulation
+numpy==1.24.4          # backend for pandas
+-e .
