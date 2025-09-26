@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from .max_modularity import spectral_modularity_maximization, embedding2graph
 
 """
 df1: clean, df2: repaired, df3: original
@@ -186,6 +187,30 @@ def dataset_corrupter(dataset_path, error_rate, output_path):
     
     
     return df
+
+def test(a, b):
+    return a + b
+
+def group_by_modularity(df, sample_rows=30, dimensions=200, resolution=1):
+    similarity_matrix = embedding2graph(df, num_rows=sample_rows, dimensions=dimensions)
+    labels, Q = spectral_modularity_maximization(similarity_matrix, resolution=resolution)
+    return labels
+
+def all_wrong_corrector(clean_df, dirty_df, error_df, prop=0.2):
+    """
+    used to correct columns that are all wrong
+    """
+    col_sum = error_df.sum(axis=0)
+    for col in col_sum.index:
+        # too many error, do correction
+        if col_sum[col] > (1-prop) * error_df.shape[0]:
+            correct_sample = np.random.choice(error_df.shape[0], int(prop * error_df.shape[0]), replace=False)
+            dirty_df.loc[correct_sample, col] = clean_df.loc[correct_sample, col]
+        else:
+            continue
+
+    error_df = (clean_df != dirty_df)
+    return clean_df, dirty_df, error_df
 
 
 if __name__ == "__main__":

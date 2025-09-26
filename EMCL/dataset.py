@@ -5,10 +5,11 @@ from transformers import AutoTokenizer
 
 
 class Seq2SeqDataset(Dataset):
-    def __init__(self, data, tokenizer, max_length=128):
+    def __init__(self, data, tokenizer, max_length=128, weights=None):
         self.tokenizer = tokenizer
         self.data = data
         self.max_length = max_length
+        self.weights = weights
 
     def __len__(self):
         return len(self.data)
@@ -29,8 +30,14 @@ class Seq2SeqDataset(Dataset):
             truncation=True,
             return_tensors="pt"
         )
-        return {
+        result = {
             "input_ids": inputs["input_ids"].squeeze(0),
             "attention_mask": inputs["attention_mask"].squeeze(0),
             "labels": targets["input_ids"].squeeze(0)
         }
+        
+        # Add weight if provided
+        if self.weights is not None:
+            result["weight"] = self.weights[idx]
+        
+        return result
