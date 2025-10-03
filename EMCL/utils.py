@@ -1,6 +1,11 @@
 import numpy as np
 import pandas as pd
-from .max_modularity import spectral_modularity_maximization, embedding2graph
+
+# 支持相对导入和绝对导入
+try:
+    from .max_modularity import spectral_modularity_maximization, embedding2graph
+except ImportError:
+    from max_modularity import spectral_modularity_maximization, embedding2graph
 
 """
 df1: clean, df2: repaired, df3: original
@@ -44,8 +49,8 @@ def error_drop_rate(df_clean, df_dirty, df_repaired):
 
 
 def F1_score(df1, df2, df3):
-    new_errors = (df1 != df2)
-    old_errors = (df1 != df3)
+    new_errors = df1.ne(df2)
+    old_errors = df1.ne(df3)
     new_errors_count = int(new_errors.values.sum())
     old_errors_count = int(old_errors.values.sum())
     recall = (old_errors_count-new_errors_count) / old_errors_count
@@ -153,25 +158,6 @@ def levenshtein_distance(s1, s2):
     return dist[rows-1][cols-1]
 
 
-def all_error_correcter(df1, df2, correct_rate=0.2, threshold=0.95):
-    """
-    df1: dirty, df2: clean
-    retrun a new df with some errors corrected
-    here the corrected errors are randomly selected
-    """
-    new_df = df1.copy()
-    n_rows = len(new_df)
-    for col in new_df.columns:
-        error_mask = (new_df[col] != df2[col])
-        error_rate = error_mask.sum() / n_rows
-        if error_rate > correct_rate:
-            new_df[col] = df2[col]
-            to_correct = error_mask[error_mask].sample(frac=correct_rate+error_rate-1, random_state=42).index
-            new_df.loc[to_correct, col] = df2.loc[to_correct, col]
-    return new_df
-
-
-
 def dataset_corrupter(dataset_path, error_rate, output_path):
     """
     Read CSV, introduce errors, and save corrupted version.
@@ -204,12 +190,13 @@ def all_wrong_corrector(clean_df, dirty_df, error_df, prop=0.2):
     for col in col_sum.index:
         # too many error, do correction
         if col_sum[col] > (1-prop) * error_df.shape[0]:
+            np.random.seed(114)
             correct_sample = np.random.choice(error_df.shape[0], int(prop * error_df.shape[0]), replace=False)
             dirty_df.loc[correct_sample, col] = clean_df.loc[correct_sample, col]
         else:
             continue
 
-    error_df = (clean_df != dirty_df)
+    error_df = clean_df.ne(dirty_df)
     return clean_df, dirty_df, error_df
 
 

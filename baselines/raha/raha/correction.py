@@ -62,9 +62,9 @@ class Correction:
         self.USE_PREDICTION_CONFIDENCE = True
         self.IGNORE_SIGN = "<<<IGNORE_THIS_VALUE>>>"
         self.VERBOSE = False
-        self.SAVE_RESULTS = True
+        self.SAVE_RESULTS = False
         self.ONLINE_PHASE = False
-        self.LABELING_BUDGET = 20
+        self.LABELING_BUDGET = 5
         self.MIN_CORRECTION_CANDIDATE_PROBABILITY = 0.0
         self.MIN_CORRECTION_OCCURRENCE = 2
         self.MAX_VALUE_LENGTH = 50

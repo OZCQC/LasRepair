@@ -31,6 +31,11 @@ def embedding2graph(clean_csv, num_rows=20, dimensions=200):
 
     return similarity_matrix
 
+def prompt_casual(clean_csv, num_rows=20, dimensions=200):
+    # claude
+    ANTHROPIC_API_KEY = "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"
+
+
 def modularity(A, labels, resolution=1.0):
     """
     计算给定划分 labels 的 modularity（加权图）。

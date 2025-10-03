@@ -17,7 +17,7 @@ from peft import get_peft_model, LoraConfig, TaskType, prepare_model_for_kbit_tr
 import gc
 import numpy as np
 from sklearn.model_selection import train_test_split
-from .utils import F1_score, group_by_modularity, all_wrong_corrector
+from .utils import F1_score, group_by_modularity, all_wrong_corrector, error_drop_rate
 from .custom_model import CustomT5Model
 from .dataset import Seq2SeqDataset
 from .confident_learning import uncertainty_matrix
@@ -31,20 +31,21 @@ class MultiModelIterativeGenerativeRepair():
         args: argparse.Namespace, see main function for more details
         """
         self.args = args
-        self.dirty_df = pd.read_csv(dirty_path)
-        self.clean_df = pd.read_csv(clean_path)
+        self.dirty_df = pd.read_csv(dirty_path, na_values=["nan", "NaN", "N/A", "None", "null"]).replace(np.nan, '')
+        self.clean_df = pd.read_csv(clean_path, na_values=["nan", "NaN", "N/A", "None", "null"]).replace(np.nan, '')
         self.clean_df.columns = self.dirty_df.columns
-        self.clean_df = self.clean_df.astype(object)
-        self.dirty_df = self.dirty_df.astype(object)
+        self.clean_df = self.clean_df.astype(str)
+        self.dirty_df = self.dirty_df.astype(str)
 
         self.device = args.gpu
-        self.iteration_number = args.iteration_number
+        self.max_iteration = args.max_iteration
         self.batch_size = args.batch_size
         self.epochs = args.epochs
         self.sample_prop = args.sample_prop
         self.do_group = args.do_group
         self.name = args.experiment
-        self.group_path = f'./{self.name}_group.npy'  # store the group results
+        self.use_weight = args.use_weight
+        
 
         self.error_df = (self.clean_df != self.dirty_df)
         self.clean_df, self.dirty_df, self.error_df = all_wrong_corrector(self.clean_df, self.dirty_df, self.error_df, prop=0.2)
@@ -61,6 +62,7 @@ class MultiModelIterativeGenerativeRepair():
         
         # Create checkpoint directory
         self.checkpoint_dir = './models_ckp'
+        self.group_path = f'./{self.name}_group.npy'  # store the group results
         os.makedirs(self.checkpoint_dir, exist_ok=True)
 
     def initialize_model(self):
@@ -239,7 +241,11 @@ class MultiModelIterativeGenerativeRepair():
     def save_model_state(self, column_name):
         """Save model state to disk"""
         ckp_path = os.path.join(self.checkpoint_dir, f'{column_name}.pt')
-        torch.save(self.model.state_dict(), ckp_path)
+        # torch.save(self.model.state_dict(), ckp_path)
+        torch.save({
+            'model_state_dict': self.model.state_dict(),
+            'optimizer_state_dict': self.optimizer.state_dict()
+        }, ckp_path)
 
         del self.model
         torch.cuda.empty_cache()
@@ -252,19 +258,23 @@ class MultiModelIterativeGenerativeRepair():
             # Initialize new model
             model, optimizer, tokenizer = self.initialize_model()
             # Load state
-            model.load_state_dict(torch.load(ckp_path, weights_only=False))
+            checkpoint = torch.load(ckp_path, weights_only=False)
+            model.load_state_dict(checkpoint['model_state_dict'])
+            optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+
+            # model.load_state_dict(torch.load(ckp_path, weights_only=False))
+            
             # Update dictionaries
             self.model = model
             self.optimizer = optimizer
             self.tokenizer = tokenizer
 
-    def run(self, epochs=3, batch_size=16, sample_prop=0.5):
+    def run(self):
         """
         sample_prop: 1 for no sample, should be float
         """
-        self.epochs = epochs
-        self.batch_size = batch_size
         now_time = time.time()
+        self.last_f1 = 0
 
         """
         maybe better to do it on the clean part of the dirty data.
@@ -280,7 +290,7 @@ class MultiModelIterativeGenerativeRepair():
         group_model = []
 
         # column version
-        for iteration in range(self.iteration_number):
+        for iteration in range(self.max_iteration):
             print(f'---------------start iteration {iteration + 1}---------------')
             # processing each column
             for ind in range(len(self.clean_df.columns)):
@@ -313,8 +323,8 @@ class MultiModelIterativeGenerativeRepair():
                 # Process data and train
                 train_data, test_data, train_weights = self.preprocess(target_index=ind, iteration_time=iteration + 1)
                 # sample here for efficiency
-                if sample_prop < 1:
-                    sample_indices = np.random.choice(len(train_data), int(len(train_data) * sample_prop), replace=False)
+                if self.sample_prop < 1:
+                    sample_indices = np.random.choice(len(train_data), int(len(train_data) * self.sample_prop), replace=False)
                     train_data = [train_data[i] for i in sample_indices]
                     train_weights = [train_weights[i] for i in sample_indices]
 
@@ -355,8 +365,17 @@ class MultiModelIterativeGenerativeRepair():
             # compute weight_used from weight_df after each iteration
             print(f'Computing weight_used after iteration {iteration}\n')
             self.compute_weight_used()
+            if not self.use_weight:
+                self.weight_used = np.ones(len(self.clean_df))
 
             now_time = time.time()
+
+            f1_score = self.get_f1()
+            print(f'F1 score: {f1_score}')
+            if f1_score - self.last_f1 < 0.01:
+                break
+            else:
+                self.last_f1 = f1_score
 
         """
         This line is kinda dangerous, delete model checkpoints.
@@ -367,6 +386,14 @@ class MultiModelIterativeGenerativeRepair():
     def get_res(self):
         return self.res_df
 
+    def get_f1(self):
+        f1_score = F1_score(self.clean_df, self.res_df, self.dirty_df)
+        return f1_score
+
+    def get_edr(self):
+        edr = error_drop_rate(self.clean_df, self.dirty_df, self.res_df)
+        return edr
+
 
 if __name__ == "__main__":
     # to run the code, use the following command like:
@@ -376,9 +403,10 @@ if __name__ == "__main__":
     args.add_argument("--gpu", type=str, default='cuda:0')
     args.add_argument("--batch_size", type=int, default=8)
     args.add_argument("--epochs", type=int, default=3)
-    args.add_argument("--iteration_number", type=int, default=3)
-    args.add_argument("--sample_prop", type=float, default=0.5)
+    args.add_argument("--max_iteration", type=int, default=10)
+    args.add_argument("--sample_prop", type=float, default=1)
     args.add_argument("--do_group", type=bool, default=False)
+    args.add_argument("--use_weight", type=bool, default=False)
     args = args.parse_args()
 
     # modify the path to run on your own dataset
@@ -386,7 +414,7 @@ if __name__ == "__main__":
     clean_path = '/data1/qianc/EMCL/datasets/' + args.experiment + '/clean.csv'
 
     a = MultiModelIterativeGenerativeRepair(dirty_path, clean_path, args)
-    a.run(batch_size=args.batch_size, epochs=args.epochs)
+    a.run()
     r = a.get_res()
     r.to_csv('./result/' + args.experiment + '_repaired_multi.csv', index=False)
     true = a.clean_df
