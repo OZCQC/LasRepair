@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from utils import F1_score
+from utils import F1_score, all_wrong_corrector
 
 
 def show_diff(repaired_path, clean_path, dirty_path):
@@ -23,7 +23,8 @@ def show_diff(repaired_path, clean_path, dirty_path):
 
 
 if __name__ == "__main__":
-    experiment = "hospital"
+    experiment = "movies"
+    # repaired_path = f"/data1/qianc/result/{experiment}_repaired_original.csv"
     repaired_path = f"/data1/qianc/result/{experiment}_repaired_original.csv"
     clean_path = f"/data1/qianc/EMCL/datasets/{experiment}/clean.csv"
     dirty_path = f"/data1/qianc/EMCL/datasets/{experiment}/dirty.csv"

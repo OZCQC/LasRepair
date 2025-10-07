@@ -44,11 +44,13 @@ class MultiModelIterativeGenerativeRepair():
         self.name = args.experiment
         self.use_weight = args.use_weight
         self.sample_prop = args.sample_prop
+        self.temperature = args.temperature
+        self.correct_prop = args.correct_prop
 
         self.error_df = (self.clean_df.ne(self.dirty_df))
-        self.clean_df, self.dirty_df, self.error_df = all_wrong_corrector(self.clean_df, self.dirty_df, self.error_df, prop=0.3)
-        self.res_df = self.clean_df.copy()  # store result sync
-        self.temp_df = self.clean_df.copy()  # copy res_df to process async
+        self.clean_df, self.dirty_df, self.error_df = all_wrong_corrector(self.clean_df, self.dirty_df, self.error_df, prop=self.correct_prop)
+        self.res_df = self.dirty_df.copy()  # store result sync
+        self.temp_df = self.dirty_df.copy()  # copy res_df to process async
         self.weight_df = self.error_df.astype(float)  # full uncertainty matrix
         self.weight_used = np.ones(len(self.clean_df))  # row-wise weights for training
         
@@ -73,6 +75,8 @@ class MultiModelIterativeGenerativeRepair():
         """Compute row-wise mean of weight_df and apply softmax to get weight_used"""
         # Compute row means across all columns
         row_means = self.weight_df.mean(axis=1).values  # Convert to numpy array
+        # temperature used here. default is 1.0, lower temperature means more focus on the error values
+        row_means = row_means / self.temperature
         
         # Apply softmax to get normalized weights
         exp_means = np.exp(row_means - np.max(row_means))  # Subtract max for numerical stability
@@ -219,13 +223,13 @@ class MultiModelIterativeGenerativeRepair():
         # column version
         for iteration in range(self.max_iteration):
             print(f'---------------start iteration {iteration + 1}---------------')
-            # processing each column
+            # processing each column in the order of error rate()
             for ind in range(len(self.clean_df.columns)):
                 column_name = self.clean_df.columns[ind]
                 
                 # skip columns without errors
                 if self.error_df.iloc[:, ind].sum() == 0:
-                    print(f'skip index {ind}')
+                    print(f'skip index {ind}\n')
                     continue
                 
                 # Process data and train
@@ -244,11 +248,11 @@ class MultiModelIterativeGenerativeRepair():
                 test_loader = DataLoader(test_dataset, batch_size=self.batch_size, shuffle=False)
 
                 self.train_step(train_loader, epochs=self.epochs)
-                print(f'fine tune for column {column_name} done, time taken: {(time.time() - now_time)/60} minutes')
+                print(f'fine tune for column {column_name}: {(time.time() - now_time)/60:.2f} minutes')
                 now_time = time.time()
 
                 predictions, targets, first_n_tokens, logits = self.test_step(test_loader)
-                print(f'inference for column {column_name} done, time taken: {(time.time() - now_time)/60} minutes\n')
+                print(f'inference for column {column_name}: {(time.time() - now_time)/60:.2f} minutes\n')
                 now_time = time.time()
 
                 # Update results
@@ -262,6 +266,7 @@ class MultiModelIterativeGenerativeRepair():
                         if self.use_weight:
                             self.weight_df.iloc[row, ind] = weights[pointer]
                         pointer += 1
+                # the repaired data is immediately used for the next columns.
                 self.temp_df = self.res_df.copy()
 
             # detect errors after each iteration
@@ -276,7 +281,7 @@ class MultiModelIterativeGenerativeRepair():
 
             f1_score = self.get_f1()
             print(f'F1 score: {f1_score}')
-            if f1_score - self.last_f1 < 0.01:
+            if f1_score - self.last_f1 < 0.005:
                 break
             else:
                 self.last_f1 = f1_score
@@ -288,7 +293,7 @@ class MultiModelIterativeGenerativeRepair():
         return self.res_df
 
     def get_f1(self):
-        f1_score = F1_score(self.clean_df, self.res_df, self.dirty_df)
+        f1_score = F1_score(self.clean_df.astype(str), self.res_df.astype(str), self.dirty_df.astype(str))
         return f1_score
 
     def get_edr(self):
@@ -307,20 +312,25 @@ if __name__ == "__main__":
     args.add_argument("--max_iteration", type=int, default=10)
     args.add_argument("--use_weight", type=bool, default=True)
     args.add_argument("--sample_prop", type=float, default=1.0)
+    args.add_argument("--temperature", type=float, default=1.0)
+    args.add_argument("--correct_prop", type=float, default=0.3)
     args = args.parse_args()
 
     # modify the path to run on your own dataset
     dirty_path = '/data1/qianc/EMCL/datasets/' + args.experiment + '/dirty.csv'
     clean_path = '/data1/qianc/EMCL/datasets/' + args.experiment + '/clean.csv'
-    print(f"arguments:\n weight: {args.use_weight}, sample_prop: {args.sample_prop}, batch_size: {args.batch_size}, epochs: {args.epochs}, max_iteration: {args.max_iteration}")
+    print(f"arguments:\n weight: {args.use_weight}, sample_prop: {args.sample_prop}")
+    print(f"batch_size: {args.batch_size}, epochs: {args.epochs}, max_iteration: {args.max_iteration}, temperature: {args.temperature}")
 
     a = MultiModelIterativeGenerativeRepair(dirty_path, clean_path, args)
     a.run()
     r = a.get_res()
     r.to_csv('./result/' + args.experiment + '_repaired_original.csv', index=False)
+    # r.to_csv('./result/' + args.experiment + '_test.csv', index=False)
     true = a.clean_df
     dirty = a.dirty_df
     f1_score = F1_score(true, r, dirty)
     print(args.experiment)
     print(r.head())
     print(f"F1 score: {f1_score}")
+    print(f"running done at: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))}")

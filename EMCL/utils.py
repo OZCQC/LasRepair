@@ -187,11 +187,13 @@ def all_wrong_corrector(clean_df, dirty_df, error_df, prop=0.2):
     used to correct columns that are all wrong
     """
     col_sum = error_df.sum(axis=0)
+    np.random.seed(114)
     for col in col_sum.index:
         # too many error, do correction
         if col_sum[col] > (1-prop) * error_df.shape[0]:
-            np.random.seed(114)
-            correct_sample = np.random.choice(error_df.shape[0], int(prop * error_df.shape[0]), replace=False)
+            print(f"correcting column {col} with prop {prop}")
+            # not sample from the wrong, but sample from the all. The last rate may be lower than prop.
+            correct_sample = np.random.choice(error_df.shape[0], int((1-prop) * error_df.shape[0]), replace=False)
             dirty_df.loc[correct_sample, col] = clean_df.loc[correct_sample, col]
         else:
             continue
