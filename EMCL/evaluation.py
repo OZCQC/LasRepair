@@ -23,7 +23,7 @@ def show_diff(repaired_path, clean_path, dirty_path):
 
 
 if __name__ == "__main__":
-    experiment = "movies"
+    experiment = "tax_200k"
     # repaired_path = f"/data1/qianc/result/{experiment}_repaired_original.csv"
     repaired_path = f"/data1/qianc/result/{experiment}_repaired_original.csv"
     clean_path = f"/data1/qianc/EMCL/datasets/{experiment}/clean.csv"

@@ -1,5 +1,7 @@
 """
 Used for seq2seq and mice based on dataset flights with single model approach
+v1 is original.py
+v2: try to add a small budget for all_wrong_corrector
 """
 import os
 import sys
@@ -45,10 +47,11 @@ class MultiModelIterativeGenerativeRepair():
         self.use_weight = args.use_weight
         self.sample_prop = args.sample_prop
         self.temperature = args.temperature
-        self.correct_prop = args.correct_prop
+        self.threshold = args.threshold
+        self.budget = args.budget
+        self.learning_rate = args.learning_rate
 
         self.error_df = (self.clean_df.ne(self.dirty_df))
-        self.clean_df, self.dirty_df, self.error_df = all_wrong_corrector(self.clean_df, self.dirty_df, self.error_df, prop=self.correct_prop)
         self.res_df = self.dirty_df.copy()  # store result sync
         self.temp_df = self.dirty_df.copy()  # copy res_df to process async
         self.weight_df = self.error_df.astype(float)  # full uncertainty matrix
@@ -67,7 +70,7 @@ class MultiModelIterativeGenerativeRepair():
         
         model = base_model
         model = model.to(self.device)
-        optimizer = AdamW(model.parameters(), lr=1e-4)
+        optimizer = AdamW(model.parameters(), lr=self.learning_rate)
         
         return model, optimizer, tokenizer
 
@@ -110,8 +113,7 @@ class MultiModelIterativeGenerativeRepair():
 
             # Construct prompt, simple, just for slm
             input_content = "<extra_id_1>".join(inputs)
-            # contain dirty information now, comment out to go back to original version.
-            # input_content = input_content + f"<extra_id_1> {str(self.dirty_df.columns[target_index])}_dirty: " + str(self.dirty_df.iloc[row, target_index])
+            input_content = input_content + f"{str(self.dirty_df.columns[target_index])}_dirty: "
             input_content = input_content + "<extra_id_2> target: " + str(column_names[target_index])
             target_content = str(self.clean_df.iloc[row, target_index])
             
@@ -124,6 +126,23 @@ class MultiModelIterativeGenerativeRepair():
                 train_weights.append(weight)
 
         return train_data, test_data, train_weights
+
+    # all in one. only will be used for little budget training. i.e. some columns with high error rate. col is string
+    def budget_finetune(self, col, sample_indices, epochs=3):
+        # dataset
+        train_data = []
+        for row in sample_indices:
+            content = str(self.clean_df.iloc[row, col])
+            content = f"{str(self.dirty_df.columns[col])}_dirty: {str(self.dirty_df.iloc[row, col])} <extra_id_2> target:"
+            target = str(self.clean_df.iloc[row, col])
+            train_data.append((content, target))
+
+        train_dataset = Seq2SeqDataset(train_data, self.tokenizer, weights=None)
+        train_loader = DataLoader(train_dataset, batch_size=self.batch_size, shuffle=False)
+
+        self.train_step(train_loader)
+        print(f"budget finetune for column {col}\n")
+
 
     def train_step(self, train_loader, epochs=3):
         model = self.model
@@ -222,6 +241,19 @@ class MultiModelIterativeGenerativeRepair():
         print('Initializing model')
         self.model, self.optimizer, self.tokenizer = self.initialize_model()
 
+        # use budget to fine tune columns with high error rate
+        np.random.seed(114)
+        error_count = self.error_df.sum(axis=0)
+        for col in range(len(self.clean_df.columns)):
+            if error_count[col] > self.threshold * self.clean_df.shape[0]:
+                """
+                不能保证一定选出来的是错误的，记得修正。（目前对要处理的数据集来说没问题）
+                """
+                sample_indices = np.random.choice(self.error_df.shape[0], self.budget, replace=False)
+                self.budget_finetune(sample_indices=sample_indices, col=col, epochs=10 * self.epochs)
+            else:
+                continue
+
         # column version
         for iteration in range(self.max_iteration):
             print(f'---------------start iteration {iteration + 1}---------------')
@@ -315,20 +347,21 @@ if __name__ == "__main__":
     args.add_argument("--use_weight", type=bool, default=True)
     args.add_argument("--sample_prop", type=float, default=1.0)
     args.add_argument("--temperature", type=float, default=1.0)
-    args.add_argument("--correct_prop", type=float, default=0.3)
+    args.add_argument("--threshold", type=float, default=0.8)  # if error rate is greater than threshold, then use budget.
+    args.add_argument("--budget", type=int, default=20)
+    args.add_argument("--learning_rate", type=float, default=1e-4)
     args = args.parse_args()
 
     # modify the path to run on your own dataset
     dirty_path = '/data1/qianc/EMCL/datasets/' + args.experiment + '/dirty.csv'
     clean_path = '/data1/qianc/EMCL/datasets/' + args.experiment + '/clean.csv'
-    print(f"arguments:\n weight: {args.use_weight}, sample_prop: {args.sample_prop}")
+    print(f"arguments:\n weight: {args.use_weight}, sample_prop: {args.sample_prop}, budget: {args.budget}")
     print(f"batch_size: {args.batch_size}, epochs: {args.epochs}, max_iteration: {args.max_iteration}, temperature: {args.temperature}")
 
     a = MultiModelIterativeGenerativeRepair(dirty_path, clean_path, args)
     a.run()
     r = a.get_res()
-    r.to_csv('./result/' + args.experiment + '_repaired_original.csv', index=False)
-    print(f"result saved to ./result/{args.experiment}_repaired_original.csv")
+    r.to_csv('./result/' + args.experiment + '_repaired_v2.csv', index=False)
     # r.to_csv('./result/' + args.experiment + '_test.csv', index=False)
     true = a.clean_df
     dirty = a.dirty_df
