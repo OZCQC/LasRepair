@@ -7,10 +7,19 @@ try:
 except ImportError:
     from max_modularity import spectral_modularity_maximization, embedding2graph
 
+
+def EDR(df_clean, df_dirty, df_repaired):
+    """
+    Calculate the error drop rate using edit distance.
+    """
+    original_error_count = df_dirty.ne(df_clean).sum(axis=0).sum()
+    repaired_error_count = df_repaired.ne(df_clean).sum(axis=0).sum()
+    return (original_error_count - repaired_error_count) / original_error_count
+
 """
 df1: clean, df2: repaired, df3: original
 """
-def error_drop_rate(df_clean, df_dirty, df_repaired):
+def RDRR(df_clean, df_dirty, df_repaired):
     """
     Calculate the error drop rate using edit distance.
     
@@ -44,8 +53,55 @@ def error_drop_rate(df_clean, df_dirty, df_repaired):
         # If clean and dirty are identical, return 0 or handle special case
         return 0.0 if d2 == 0 else float('inf')
     
-    error_drop_rate = (d2 - d1) / d1
+    error_drop_rate = (d1 - d2) / d1
     return error_drop_rate
+
+def casual_matrix_to_dict(matrix, column_names=None, threshold=0.5):
+    """
+    Convert upper triangular causal matrix to a dictionary.
+    
+    Args:
+        matrix: Upper triangular causal matrix (numpy array)
+        column_names: List of column names. If None, use indices.
+        threshold: Minimum weight threshold (default 0.5)
+    
+    Returns:
+        dict: {target_col: [related_cols]} considering 1-hop and 2-hop relationships
+    """
+    n = matrix.shape[0]
+    
+    # Use indices as column names if not provided
+    if column_names is None:
+        column_names = list(range(n))
+    
+    # Build symmetric matrix from upper triangular
+    sym_matrix = matrix + matrix.T
+    
+    casual_dict = {}
+    
+    for i in range(n):
+        related_cols = set()
+        
+        # 1-hop: direct connections
+        for j in range(n):
+            if i != j and sym_matrix[i, j] >= threshold:
+                related_cols.add(column_names[j])
+        
+        # 2-hop: connections through intermediate nodes
+        for k in range(n):  # intermediate node
+            if i != k and sym_matrix[i, k] > 0:
+                for j in range(n):
+                    if i != j and j != k:
+                        # Calculate 2-hop weight: i->k->j
+                        hop2_weight = sym_matrix[i, k] * sym_matrix[k, j]
+                        if hop2_weight >= threshold:
+                            related_cols.add(column_names[j])
+        
+        casual_dict[column_names[i]] = sorted(list(related_cols))
+    
+    return casual_dict
+    
+
 
 
 def F1_score(df1, df2, df3):
@@ -203,9 +259,31 @@ def all_wrong_corrector(clean_df, dirty_df, error_df, prop=0.2):
 
 
 if __name__ == "__main__":
-    dirty_path = './dataset/flight/dirty.csv'
-    clean_path = './dataset/flight/clean.csv'
-
-    df1 = pd.read_csv(clean_path)
-    df2 = pd.read_csv(dirty_path)
-    print(F1_score(df1, df2, df2))
+    # Load causal matrix
+    # casual_matrix = np.load('/data1/qianc/rayyan_casual_matrix.npy')
+    
+    # # Load dataset to get column names
+    # df = pd.read_csv('/data1/qianc/EMCL/datasets/rayyan/clean.csv')
+    # column_names = list(df.columns)
+    
+    # # Convert matrix to dict
+    # casual_dict = casual_matrix_to_dict(casual_matrix, column_names=column_names, threshold=0.5)
+    
+    # print("Causal relationships (1-hop and 2-hop with threshold >= 0.5):")
+    # for col, related in casual_dict.items():
+    #     if related:  # Only print columns that have relationships
+    #         print(f"{col}: {related}")
+    # experiments = ["beers", "flight", "hospital", "tax_200k", "shuttle", "tax_20k", "walmart"]
+    experiments = ["walmart"]
+    for experiment in experiments:
+        print(f"Experiment: {experiment}")
+        clean_path = f"/data1/qianc/EMCL/datasets/{experiment}/clean.csv"
+        dirty_path = f"/data1/qianc/EMCL/datasets/{experiment}/dirty.csv"
+        repaired_path = f"/data1/qianc/result/{experiment}_repaired_original.csv"
+        clean_df = pd.read_csv(clean_path)
+        dirty_df = pd.read_csv(dirty_path)
+        dirty_df.columns = clean_df.columns
+        repaired_df = pd.read_csv(repaired_path)
+        repaired_df.columns = clean_df.columns
+        print(f"EDRR: {EDRR(clean_df, dirty_df, repaired_df)}")
+        print(f"RDRR: {RDRR(clean_df, dirty_df, repaired_df)}")

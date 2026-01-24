@@ -33,18 +33,33 @@ def uncertainty_matrix(first_n_tokens, logits):
         t_dict[key] = np.mean(t_dict[key])
 
     # you may modify the uncertainty here for better performance
+    # for i in range(len(first_n_tokens)):
+    #     for j in range(n):
+    #         if first_n_tokens[i][j] not in t_dict:
+    #             if j == n-1:
+    #                 uncertainty[i] = 1  # not sure what to repair at all
+    #             else:
+    #                 # here I treat the t_value as 0 for token not in t_dict
+    #                 uncertainty[i] = 1 - logits[i][j]  # need to repair a new value, reduce the uncertainty
+    #         else:
+    #             # fall into CL formula
+    #             if logits[i][j] > t_dict[first_n_tokens[i][j]]:
+    #                 uncertainty[i] = 1 - logits[i][j]
+    #             else:
+    #                 continue
+    # I did revert the weight, as lower weight should be assigned to low quality data
     for i in range(len(first_n_tokens)):
         for j in range(n):
             if first_n_tokens[i][j] not in t_dict:
                 if j == n-1:
-                    uncertainty[i] = 1  # not sure what to repair at all
+                    uncertainty[i] = 0  # not sure what to repair at all
                 else:
                     # here I treat the t_value as 0 for token not in t_dict
-                    uncertainty[i] = 1 - logits[i][j]  # need to repair a new value, reduce the uncertainty
+                    uncertainty[i] = logits[i][j]  # need to repair a new value, reduce the uncertainty
             else:
                 # fall into CL formula
                 if logits[i][j] > t_dict[first_n_tokens[i][j]]:
-                    uncertainty[i] = 1 - logits[i][j]
+                    uncertainty[i] = logits[i][j]
                 else:
                     continue
 

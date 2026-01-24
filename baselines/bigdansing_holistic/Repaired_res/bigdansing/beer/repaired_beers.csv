@@ -1558,7 +1558,7 @@ id,beer_name,style,ounces,abv,ibu,brewery_id,brewery_name,city,state
 1752,Icey.P.A.,American IPA,16.0 ounce,nan,nan,166,Oskar Blues Brewery,Longmont,CO
 1751,One Nut Brown,English Brown Ale,12.0 oz. Alumi-Tek,0.05,nan,166,Oskar Blues Brewery,Longmont,CO
 1750,Birth IPA,American IPA,12.0 ounce,nan,nan,166,0,Longmont,CO
-1444,Dale's Pale Ale,American Pale Ale (APA),12.0 OZ.,0.065,65.0,166,0,Longmont,CO
+1444,Dale's Pale Ale,American Pale Ale (APA),12.0 OZ.,0.065,65.0,503,0,Longmont,CO
 1252,Dale's Pale Ale,American Pale Ale (APA),12.0 oz,0.065,65.0,166,Oskar Blues Brewery,Longmont,CO
 1167,Mama's Little Yella Pils,Czech Pilsener,19.2 OZ.,0.053%,35.0,166,Oskar Blues Brewery,Longmont,CO
 993,oSKAr the G'Rauch,American IPA,19.2 oz.,0.085,nan,166,Oskar Blues Brewery,Longmont,CO

@@ -56,6 +56,7 @@ class MultiModelIterativeGenerativeRepair():
         self.temp_df = self.dirty_df.copy()  # copy res_df to process async
         self.weight_df = self.error_df.astype(float)  # full uncertainty matrix
         self.weight_used = np.ones(len(self.clean_df))  # row-wise weights for training
+        self.flag = True
         
         # Initialize single model for all columns
         self.model = None
@@ -111,24 +112,39 @@ class MultiModelIterativeGenerativeRepair():
                 else:
                     inputs.append(str(column_names[col]) + ": " + str(self.temp_df.iloc[row, col]))
 
-            # Construct prompt, simple, just for slm
-            input_content = "<extra_id_1>".join(inputs)
-            input_content = input_content + f"{str(self.dirty_df.columns[target_index])}_dirty: "
-            input_content = input_content + "<extra_id_2> target: " + str(column_names[target_index])
             target_content = str(self.clean_df.iloc[row, target_index])
-            
+
+            # Construct prompt, simple, just for slm
             if self.error_df.iloc[row, target_index]:
+                # if column_names[target_index] == 'article_jissue':
+                #     example = f"EXAMPLE: (dirty: 4.0, correct: 4), (dirty: 2.0, correct: 2), (dirty: 9.0, correct: 9)"
+                # elif column_names[target_index] == 'article_jcreated_at':
+                #     example = f"EXAMPLE: (dirty: 1/1/71, correct: 1/1/71), (dirty: 1/1/72, correct: 1/1/72), (dirty: 1/1/73, correct: 1/1/73)"
+                # elif column_names[target_index] == 'article_jvolumn':
+                #     example = f"EXAMPLE: (dirty: 64, correct: 64), (dirty: 65, correct: 65), (dirty: 66, correct: 66)"
+                input_content = "<extra_id_1>".join(inputs)
+            # contain dirty information now, comment out to go back to original version.
+                input_content = input_content + f"<extra_id_2> {str(column_names[target_index])}: " + str(self.temp_df.iloc[row, target_index])
+                # prefix the task
+                input_content = "correct column " + str(column_names[target_index]) + ": " + input_content
+                target_content = ''
                 test_data.append((input_content, target_content))
             else:
+                input_content = "<extra_id_1>".join(inputs)
+                input_content = input_content + "<extra_id_2>" + str(column_names[target_index]) + ": "
                 train_data.append((input_content, target_content))
                 # Get weight for this training sample from weight_used (default to 1.0 for first iteration)
                 weight = float(self.weight_used[row]) if iteration_time > 1 and self.use_weight else 1.0
                 train_weights.append(weight)
+            
+            if self.flag and column_names[target_index] == 'article_jissue':
+                print(f"input_content: {input_content}, target_content: {target_content}")
+                self.flag = False
 
         return train_data, test_data, train_weights
 
     # all in one. only will be used for little budget training. i.e. some columns with high error rate. col is string
-    def budget_finetune(self, col, sample_indices, epochs=3):
+    def budget_finetune(self, col, sample_indices, epochs=10):
         # dataset
         train_data = []
         for row in sample_indices:
@@ -257,6 +273,7 @@ class MultiModelIterativeGenerativeRepair():
         # column version
         for iteration in range(self.max_iteration):
             print(f'---------------start iteration {iteration + 1}---------------')
+            self.flag = True
             # processing each column in the order of error rate()
             for ind in range(len(self.clean_df.columns)):
                 column_name = self.clean_df.columns[ind]

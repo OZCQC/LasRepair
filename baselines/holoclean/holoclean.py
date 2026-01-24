@@ -5,7 +5,6 @@ import random
 import torch
 import numpy as np
 
-from EMCL.dataset import Dataset
 from dcparser import Parser
 from domain import DomainEngine
 from detect import DetectEngine
