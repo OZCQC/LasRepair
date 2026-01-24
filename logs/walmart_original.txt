@@ -1,0 +1,103 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Initializing model
+---------------start iteration 1---------------
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column name of the Walmart market is done, time taken: 11.66029312213262 minutes
+inference start
+inference for column name of the Walmart market is done, time taken: 0.6600566903750101 minutes
+fine tune for column street_address of the Walmart market is done, time taken: 11.770703037579855 minutes
+inference start
+inference for column street_address of the Walmart market is done, time taken: 0.7372914314270019 minutes
+fine tune for column city of the Walmart market is done, time taken: 11.830008141199748 minutes
+inference start
+inference for column city of the Walmart market is done, time taken: 0.540667716662089 minutes
+fine tune for column state of the Walmart market is done, time taken: 11.791715407371521 minutes
+inference start
+inference for column state of the Walmart market is done, time taken: 0.44908618927001953 minutes
+fine tune for column country of the Walmart market is done, time taken: 11.725842960675557 minutes
+inference start
+inference for column country of the Walmart market is done, time taken: 0.4293763319651286 minutes
+F1 score: 0.6583011583011583
+---------------start iteration 2---------------
+fine tune for column name of the Walmart market is done, time taken: 11.993429299195608 minutes
+inference start
+inference for column name of the Walmart market is done, time taken: 0.5202696998914083 minutes
+fine tune for column street_address of the Walmart market is done, time taken: 11.688481247425079 minutes
+inference start
+inference for column street_address of the Walmart market is done, time taken: 0.7338310122489929 minutes
+fine tune for column city of the Walmart market is done, time taken: 13.891322127978007 minutes
+inference start
+inference for column city of the Walmart market is done, time taken: 0.09159660339355469 minutes
+fine tune for column state of the Walmart market is done, time taken: 13.037957135836283 minutes
+inference start
+inference for column state of the Walmart market is done, time taken: 0.232854962348938 minutes
+fine tune for column country of the Walmart market is done, time taken: 14.239736914634705 minutes
+inference start
+inference for column country of the Walmart market is done, time taken: 0.002207783857981364 minutes
+F1 score: 0.6964676461394186
+---------------start iteration 3---------------
+fine tune for column name of the Walmart market is done, time taken: 12.49917866786321 minutes
+inference start
+inference for column name of the Walmart market is done, time taken: 0.4385200500488281 minutes
+fine tune for column street_address of the Walmart market is done, time taken: 11.42761691013972 minutes
+inference start
+inference for column street_address of the Walmart market is done, time taken: 0.6970045288403829 minutes
+fine tune for column city of the Walmart market is done, time taken: 13.897375170389811 minutes
+inference start
+inference for column city of the Walmart market is done, time taken: 0.08592679500579833 minutes
+fine tune for column state of the Walmart market is done, time taken: 13.072132960955303 minutes
+inference start
+inference for column state of the Walmart market is done, time taken: 0.2048364241917928 minutes
+fine tune for column country of the Walmart market is done, time taken: 14.006006892522176 minutes
+inference start
+inference for column country of the Walmart market is done, time taken: 0.001901682217915853 minutes
+F1 score: 0.7083785039492024
+---------------start iteration 4---------------
+fine tune for column name of the Walmart market is done, time taken: 12.298872701327006 minutes
+inference start
+inference for column name of the Walmart market is done, time taken: 0.3745812972386678 minutes
+fine tune for column street_address of the Walmart market is done, time taken: 11.43312075138092 minutes
+inference start
+inference for column street_address of the Walmart market is done, time taken: 0.7200071334838867 minutes
+fine tune for column city of the Walmart market is done, time taken: 13.584194254875182 minutes
+inference start
+inference for column city of the Walmart market is done, time taken: 0.08460666338602701 minutes
+fine tune for column state of the Walmart market is done, time taken: 12.915223240852356 minutes
+inference start
+inference for column state of the Walmart market is done, time taken: 0.1918802301088969 minutes
+fine tune for column country of the Walmart market is done, time taken: 13.923005561033884 minutes
+inference start
+inference for column country of the Walmart market is done, time taken: 0.0018613497416178385 minutes
+F1 score: 0.7323301413588692
+---------------start iteration 5---------------
+fine tune for column name of the Walmart market is done, time taken: 12.607444882392883 minutes
+inference start
+inference for column name of the Walmart market is done, time taken: 0.2918398102124532 minutes
+fine tune for column street_address of the Walmart market is done, time taken: 11.407324743270873 minutes
+inference start
+inference for column street_address of the Walmart market is done, time taken: 0.6904941320419311 minutes
+fine tune for column city of the Walmart market is done, time taken: 13.567238533496857 minutes
+inference start
+inference for column city of the Walmart market is done, time taken: 0.08408070007960002 minutes
+fine tune for column state of the Walmart market is done, time taken: 12.982205013434092 minutes
+inference start
+inference for column state of the Walmart market is done, time taken: 0.18416115442911785 minutes
+fine tune for column country of the Walmart market is done, time taken: 13.880702944596608 minutes
+inference start
+inference for column country of the Walmart market is done, time taken: 0.0018703778584798177 minutes
+F1 score: 0.7386569872958257
+Done.
+
+Time taken: 325.59 minutes
+walmart
+  name of the Walmart market is  ... country of the Walmart market is
+0    Conway Neighborhood Market  ...                               US
+1          Sikeston Supercenter  ...                               US
+2         Tahlequah Supercenter  ...                               US
+3     Mountain Home Supercenter  ...                               US
+4         Claremore Supercenter  ...                               US
+
+[5 rows x 5 columns]
+F1 score: 0.7386569872958257

@@ -1,0 +1,36 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: l_name: Zendler<extra_id_1>gender: F<extra_id_1>area_code: 508<extra_id_1>phone: 744-9007<extra_id_1>city: SWAMPSCOTT<extra_id_1>state: MA<extra_id_1>zip: <extra_id_0><extra_id_1>marital_status: M<extra_id_1>has_child: N<extra_id_1>salary: 90000<extra_id_1>rate: 5.3<extra_id_1>single_exemp: 0<extra_id_1>married_exemp: 7150<extra_id_1>child_exemp: 0<extra_id_2>f_name: , target_content: Pengyuan
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: l_name: Zendler<extra_id_1>gender: F<extra_id_1>area_code: 508<extra_id_1>phone: 744-9007<extra_id_1>city: SWAMPSCOTT<extra_id_1>state: MA<extra_id_1>zip: <extra_id_0><extra_id_1>marital_status: M<extra_id_1>has_child: N<extra_id_1>salary: 90000<extra_id_1>rate: 5.3<extra_id_1>single_exemp: 0<extra_id_1>married_exemp: 7150<extra_id_1>child_exemp: 0<extra_id_2>f_name: , target_content: Pengyuan
+fine tune for column f_name: 54.01 minutes
+inference for column f_name: 0.02 minutes
+
+fine tune for column l_name: 53.79 minutes
+inference for column l_name: 0.04 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 53.86 minutes
+inference for column city: 0.00 minutes
+
+fine tune for column state: 52.68 minutes
+inference for column state: 0.22 minutes
+

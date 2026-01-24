@@ -1,0 +1,156 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: lname: Zendler<extra_id_1>gender: F<extra_id_1>areacode: 508<extra_id_1>phone: 744-9007<extra_id_1>city: SWAMPSCOTT<extra_id_1>state: MA<extra_id_1>zip: <extra_id_0><extra_id_1>maritalstatus: M<extra_id_1>haschild: N<extra_id_1>salary: 90000<extra_id_1>rate: 5.3<extra_id_1>singleexemp: 0<extra_id_1>marriedexemp: 7150<extra_id_1>childexemp: 0<extra_id_2>fname: , target_content: Pengyuan
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 2000
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: lname: Zendler<extra_id_1>gender: F<extra_id_1>areacode: 508<extra_id_1>phone: 744-9007<extra_id_1>city: SWAMPSCOTT<extra_id_1>state: MA<extra_id_1>zip: <extra_id_0><extra_id_1>maritalstatus: M<extra_id_1>haschild: N<extra_id_1>salary: 90000<extra_id_1>rate: 5.3<extra_id_1>singleexemp: 0<extra_id_1>marriedexemp: 7150<extra_id_1>childexemp: 0<extra_id_2>fname: , target_content: Pengyuan
+fine tune for column fname: 7.25 minutes
+inference for column fname: 0.20 minutes
+
+fine tune for column lname: 7.16 minutes
+inference for column lname: 0.43 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 7.24 minutes
+inference for column city: 0.15 minutes
+
+fine tune for column state: 7.23 minutes
+inference for column state: 0.32 minutes
+
+fine tune for column zip: 7.18 minutes
+inference for column zip: 18.34 minutes
+
+fine tune for column maritalstatus: 7.20 minutes
+inference for column maritalstatus: 0.10 minutes
+
+fine tune for column haschild: 7.18 minutes
+inference for column haschild: 0.11 minutes
+
+skip index 10
+
+fine tune for column rate: 7.22 minutes
+inference for column rate: 52.12 minutes
+
+fine tune for column singleexemp: 7.24 minutes
+inference for column singleexemp: 0.11 minutes
+
+skip index 13
+
+fine tune for column childexemp: 7.19 minutes
+inference for column childexemp: 0.11 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.02220590634687551
+---------------start iteration 2---------------
+fine tune for column fname: 7.02 minutes
+inference for column fname: 0.17 minutes
+
+fine tune for column lname: 7.21 minutes
+inference for column lname: 0.42 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 9.48 minutes
+inference for column city: 0.18 minutes
+
+fine tune for column state: 11.42 minutes
+inference for column state: 0.04 minutes
+
+fine tune for column zip: 12.13 minutes
+inference for column zip: 20.49 minutes
+
+skip index 8
+
+skip index 9
+
+skip index 10
+
+fine tune for column rate: 12.50 minutes
+inference for column rate: 84.18 minutes
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+Computing weight_used after iteration 2
+
+F1 score: 0.5280113660512079
+---------------start iteration 3---------------
+fine tune for column fname: 12.40 minutes
+inference for column fname: 0.27 minutes
+
+fine tune for column lname: 10.84 minutes
+inference for column lname: 0.55 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 10.14 minutes
+inference for column city: 0.18 minutes
+
+fine tune for column state: 10.19 minutes
+inference for column state: 0.03 minutes
+
+fine tune for column zip: 10.20 minutes
+inference for column zip: 25.45 minutes
+
+skip index 8
+
+skip index 9
+
+skip index 10
+
+fine tune for column rate: 6.73 minutes
+inference for column rate: 23.70 minutes
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+Computing weight_used after iteration 3
+
+F1 score: 0.5280739247638245
+Done.
+
+Time taken: 420.31 minutes
+result saved to ./result/tax_200k_repaired_original.csv
+tax_200k
+       fname     lname gender  ... singleexemp marriedexemp childexemp
+0   Pengyuan   Zendler      F  ...           0         7150          0
+1        Nik     Tacic      M  ...           0            0          0
+2      Hovav    Punter      M  ...          20            0          0
+3  Xiangning  Vanneste      F  ...           0         2000       1500
+4      Belen    Niccum      F  ...         700            0        400
+
+[5 rows x 15 columns]
+F1 score: 0.5280739247638245
+running done at: 2025-11-09 16:18:39

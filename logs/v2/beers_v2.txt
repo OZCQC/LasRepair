@@ -1,0 +1,274 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0, budget: 10
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+using budget to fine tune column ounces
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/EMCL_v2.py", line 360, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/EMCL_v2.py", line 252, in run
+    self.budget_finetune(sample_indices=sample_indices, col=col, epochs=self.epochs)
+TypeError: MultiModelIterativeGenerativeRepair.budget_finetune() got an unexpected keyword argument 'epochs'
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0, budget: 10
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+using budget to fine tune column ounces
+Traceback (most recent call last):
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/pandas/core/indexing.py", line 966, in _validate_tuple_indexer
+    self._validate_key(k, i)
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/pandas/core/indexing.py", line 1614, in _validate_key
+    raise ValueError(f"Can only index by location with a [{self._valid_types}]")
+ValueError: Can only index by location with a [integer, integer slice (START point is INCLUDED, END point is EXCLUDED), listlike of integers, boolean array]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/EMCL_v2.py", line 360, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/EMCL_v2.py", line 252, in run
+    self.budget_finetune(sample_indices=sample_indices, col=col, epochs=self.epochs)
+  File "/data1/qianc/EMCL/EMCL/EMCL_v2.py", line 133, in budget_finetune
+    content = str(self.clean_df.iloc[row, col])
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/pandas/core/indexing.py", line 1690, in _getitem_tuple
+    tup = self._validate_tuple_indexer(tup)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/pandas/core/indexing.py", line 968, in _validate_tuple_indexer
+    raise ValueError(
+ValueError: Location based indexing can only have [integer, integer slice (START point is INCLUDED, END point is EXCLUDED), listlike of integers, boolean array] types
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0, budget: 10
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+/data1/qianc/EMCL/EMCL/EMCL_v2.py:246: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  if error_count[col] > self.threshold * self.clean_df.shape[0]:
+using budget to fine tune column 3
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+budget finetune for column 3
+
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 0.15 minutes
+inference for column ounces: 27.93 minutes
+
+fine tune for column abv: 6.94 minutes
+inference for column abv: 0.52 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 9.45 minutes
+inference for column city: 0.15 minutes
+
+fine tune for column state: 12.12 minutes
+inference for column state: 0.19 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.04995643334301481
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 0.01 minutes
+inference for column ounces: 2.35 minutes
+
+fine tune for column abv: 6.96 minutes
+inference for column abv: 0.45 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 9.29 minutes
+inference for column city: 0.14 minutes
+
+fine tune for column state: 9.30 minutes
+inference for column state: 0.15 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.06289671090594345
+---------------start iteration 3---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 0.03 minutes
+inference for column ounces: 2.30 minutes
+
+fine tune for column abv: 7.47 minutes
+inference for column abv: 0.76 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 8.08 minutes
+inference for column city: 0.09 minutes
+
+fine tune for column state: 8.77 minutes
+inference for column state: 0.05 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.06902502157031924
+---------------start iteration 4---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 0.01 minutes
+inference for column ounces: 2.27 minutes
+
+fine tune for column abv: 6.63 minutes
+inference for column abv: 0.71 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 8.89 minutes
+inference for column city: 0.08 minutes
+
+fine tune for column state: 8.36 minutes
+inference for column state: 0.05 minutes
+
+Computing weight_used after iteration 4
+
+F1 score: 0.07731958762886598
+---------------start iteration 5---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 0.01 minutes
+inference for column ounces: 1.61 minutes
+
+fine tune for column abv: 6.78 minutes
+inference for column abv: 0.43 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 7.60 minutes
+inference for column city: 0.10 minutes
+
+fine tune for column state: 7.83 minutes
+inference for column state: 0.07 minutes
+
+Computing weight_used after iteration 5
+
+F1 score: 0.07951945080091534
+Done.
+
+Time taken: 165.05 minutes
+beers
+     id            beer_name  ...  city state
+0  1436             Pub Beer  ...  Bend    OR
+1  2265          Devil's Cup  ...  Gary    IN
+2  2264  Rise of the Phoenix  ...  Gary    IN
+3  2263             Sinister  ...  Gary    IN
+4  2262        Sex and Candy  ...  Gary    IN
+
+[5 rows x 10 columns]
+F1 score: 0.07951945080091534
+running done at: 2025-10-07 09:42:16
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0, budget: 20
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+/data1/qianc/EMCL/EMCL/EMCL_v2.py:248: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  if error_count[col] > self.threshold * self.clean_df.shape[0]:
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+budget finetune for column 3
+
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 0.16 minutes
+inference for column ounces: 13.44 minutes
+
+fine tune for column abv: 5.18 minutes
+inference for column abv: 0.42 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.89 minutes
+inference for column city: 0.09 minutes
+
+fine tune for column state: 7.84 minutes
+inference for column state: 0.10 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.0029744199881023203
+Done.
+
+Time taken: 34.14 minutes
+beers
+     id            beer_name  ...  city state
+0  1436             Pub Beer  ...  Bend    OR
+1  2265          Devil's Cup  ...  Gary    IN
+2  2264  Rise of the Phoenix  ...  Gary    IN
+3  2263             Sinister  ...  Gary    IN
+4  2262        Sex and Candy  ...  Gary    IN
+
+[5 rows x 10 columns]
+F1 score: 0.0029744199881023203
+running done at: 2025-10-08 01:58:08
+hello

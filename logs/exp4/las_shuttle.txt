@@ -1,0 +1,45 @@
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 2000
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: Cont2: 21<extra_id_1>Cont3: 77<extra_id_1>Cont4: 0<extra_id_1>Cont5: 28<extra_id_1>Cont6: 0<extra_id_1>Cont7: 27<extra_id_1>Cont8: 48<extra_id_1>Cont9: 22<extra_id_1>Cont10: 2<extra_id_2>Cont1: , target_content: 50
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 2000
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 353, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 234, in run
+    self.model, self.optimizer, self.tokenizer = self.initialize_model()
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 71, in initialize_model
+    model = model.to(self.device)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4459, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1174, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 805, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1160, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 2 has a total capacity of 23.58 GiB of which 16.81 MiB is free. Process 3183583 has 15.17 GiB memory in use. Process 3183584 has 2.95 GiB memory in use. Process 3184607 has 2.82 GiB memory in use. Including non-PyTorch memory, this process has 1.38 GiB memory in use. Process 3184606 has 1.21 GiB memory in use. Of the allocated memory 1.17 GiB is allocated by PyTorch, and 13.82 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

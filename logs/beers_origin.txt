@@ -1,0 +1,138 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+skip index 1
+skip index 2
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column ounces done, time taken: 1.5574740250905355 minutes
+inference start
+inference for column ounces done, time taken: 1.0604419906934102 minutes
+fine tune for column abv done, time taken: 5.221359324455261 minutes
+inference start
+inference for column abv done, time taken: 0.4443696061770121 minutes
+skip index 5
+skip index 6
+skip index 7
+fine tune for column city done, time taken: 6.99591954946518 minutes
+inference start
+inference for column city done, time taken: 0.08409859339396158 minutes
+fine tune for column state done, time taken: 6.9902260303497314 minutes
+inference start
+inference for column state done, time taken: 0.08072988192240398 minutes
+F1 score: 0.49751763783642533
+---------------start iteration 2---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column ounces done, time taken: 4.1164549589157104 minutes
+inference start
+inference for column ounces done, time taken: 0.5784985462824503 minutes
+fine tune for column abv done, time taken: 5.384400816758474 minutes
+inference start
+inference for column abv done, time taken: 0.3970695972442627 minutes
+skip index 5
+skip index 6
+skip index 7
+fine tune for column city done, time taken: 6.993021043141683 minutes
+inference start
+inference for column city done, time taken: 0.07874903281529745 minutes
+fine tune for column state done, time taken: 7.109096725781758 minutes
+inference start
+inference for column state done, time taken: 0.05086514949798584 minutes
+F1 score: 0.7351517817861857
+---------------start iteration 3---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column ounces done, time taken: 6.163975918293 minutes
+inference start
+inference for column ounces done, time taken: 0.22046022415161132 minutes
+fine tune for column abv done, time taken: 5.376700703303019 minutes
+inference start
+inference for column abv done, time taken: 0.39496076504389444 minutes
+skip index 5
+skip index 6
+skip index 7
+fine tune for column city done, time taken: 7.610018670558929 minutes
+inference start
+inference for column city done, time taken: 0.05717721382776896 minutes
+fine tune for column state done, time taken: 7.162425422668457 minutes
+inference start
+inference for column state done, time taken: 0.04921011130015055 minutes
+F1 score: 0.7724167378309138
+---------------start iteration 4---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column ounces done, time taken: 6.294667653242747 minutes
+inference start
+inference for column ounces done, time taken: 0.16574337879816692 minutes
+fine tune for column abv done, time taken: 5.396390748023987 minutes
+inference start
+inference for column abv done, time taken: 0.3406477332115173 minutes
+skip index 5
+skip index 6
+skip index 7
+fine tune for column city done, time taken: 6.953047720591227 minutes
+inference start
+inference for column city done, time taken: 0.04789714813232422 minutes
+fine tune for column state done, time taken: 7.047752106189728 minutes
+inference start
+inference for column state done, time taken: 0.04673336346944173 minutes
+F1 score: 0.8231682357756857
+---------------start iteration 5---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column ounces done, time taken: 6.776304614543915 minutes
+inference start
+inference for column ounces done, time taken: 0.10134303172429403 minutes
+fine tune for column abv done, time taken: 5.713825448354085 minutes
+inference start
+inference for column abv done, time taken: 0.32562878529230754 minutes
+skip index 5
+skip index 6
+skip index 7
+fine tune for column city done, time taken: 7.1524075150489805 minutes
+inference start
+inference for column city done, time taken: 0.05138090451558431 minutes
+fine tune for column state done, time taken: 7.204772035280864 minutes
+inference start
+inference for column state done, time taken: 0.03879236380259196 minutes
+F1 score: 0.8554936305732485
+---------------start iteration 6---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column ounces done, time taken: 7.009874220689138 minutes
+inference start
+inference for column ounces done, time taken: 0.07103548447291057 minutes
+fine tune for column abv done, time taken: 5.956748378276825 minutes
+inference start
+inference for column abv done, time taken: 0.28495556513468423 minutes
+skip index 5
+skip index 6
+skip index 7
+fine tune for column city done, time taken: 7.240208117167155 minutes
+inference start
+inference for column city done, time taken: 0.04708943764368693 minutes
+fine tune for column state done, time taken: 7.2392764012018835 minutes
+inference start
+inference for column state done, time taken: 0.037731202443440755 minutes
+F1 score: 0.8638608970559178
+Done.
+
+Time taken: 155.73 minutes
+beers
+     id            beer_name  ...  city state
+0  1436             Pub Beer  ...  Bend    OR
+1  2265          Devil's Cup  ...  Gary    IN
+2  2264  Rise of the Phoenix  ...  Gary    IN
+3  2263             Sinister  ...  Gary    IN
+4  2262        Sex and Candy  ...  Gary    IN
+
+[5 rows x 10 columns]
+F1 score: 0.8638608970559178

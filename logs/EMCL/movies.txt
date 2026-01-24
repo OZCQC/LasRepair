@@ -1,0 +1,122 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column rating_count with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column id: 22.42 minutes
+inference for column id: 0.17 minutes
+
+fine tune for column name: 22.38 minutes
+inference for column name: 0.02 minutes
+
+fine tune for column year: 21.86 minutes
+inference for column year: 0.10 minutes
+
+fine tune for column release_date: 22.05 minutes
+inference for column release_date: 0.15 minutes
+
+fine tune for column director: 27.65 minutes
+inference for column director: 0.06 minutes
+
+fine tune for column creator: 28.84 minutes
+inference for column creator: 0.38 minutes
+
+skip index 6
+
+skip index 7
+
+skip index 8
+
+skip index 9
+
+fine tune for column duration: 27.72 minutes
+inference for column duration: 0.11 minutes
+
+fine tune for column rating_value: 21.87 minutes
+inference for column rating_value: 0.10 minutes
+
+fine tune for column rating_count: 15.92 minutes
+inference for column rating_count: 1.38 minutes
+
+skip index 13
+
+fine tune for column genre: 21.91 minutes
+inference for column genre: 0.16 minutes
+
+skip index 15
+
+fine tune for column description: 21.95 minutes
+inference for column description: 0.58 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.01735828586927041
+---------------start iteration 2---------------
+fine tune for column id: 21.83 minutes
+inference for column id: 0.54 minutes
+
+fine tune for column name: 29.76 minutes
+inference for column name: 0.04 minutes
+
+fine tune for column year: 31.54 minutes
+inference for column year: 0.22 minutes
+
+fine tune for column release_date: 24.58 minutes
+inference for column release_date: 0.23 minutes
+
+fine tune for column director: 24.37 minutes
+inference for column director: 0.04 minutes
+
+fine tune for column creator: 25.41 minutes
+inference for column creator: 0.21 minutes
+
+skip index 6
+
+skip index 7
+
+skip index 8
+
+skip index 9
+
+fine tune for column duration: 26.79 minutes
+inference for column duration: 0.19 minutes
+
+fine tune for column rating_value: 26.57 minutes
+inference for column rating_value: 0.22 minutes
+
+fine tune for column rating_count: 18.58 minutes
+inference for column rating_count: 1.39 minutes
+
+skip index 13
+
+fine tune for column genre: 21.87 minutes
+inference for column genre: 0.17 minutes
+
+skip index 15
+
+fine tune for column description: 21.92 minutes
+inference for column description: 0.44 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.018433179723502304
+Done.
+
+Time taken: 534.69 minutes
+result saved to ./result/movies_repaired_original.csv
+movies
+          id  ...                                        description
+0  tt0054215  ...  A Phoenix secretary steals $40,000 from her em...
+1  tt0088993  ...  A small group of military officers and scienti...
+2  tt0032484  ...  On the eve of WWII, a young American reporter ...
+3  tt0889671  ...  Through a focus on the life of Dalton Trumbo (...
+4  tt1325014  ...  An examination of the widespread fan disenchan...
+
+[5 rows x 17 columns]
+F1 score: 0.018433179723502304
+running done at: 2025-10-12 16:57:45

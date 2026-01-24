@@ -1,0 +1,203 @@
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+input_content: index: 1<extra_id_1>name: callahan eye foundation hospital<extra_id_1>address_1: 1720 university blvd<extra_id_1>address_2: empty<extra_id_1>address_3: empty<extra_id_1>city: birmingham<extra_id_1>state: al<extra_id_1>zip: 35233<extra_id_1>county: jefferson<extra_id_1>phone: 2053258100<extra_id_1>type: acute care hospitals<extra_id_1>owner: voluntary non-profit - private<extra_id_1>emergency_service: yes<extra_id_1>condition: surgical infection prevention<extra_id_1>measure_code: scip-card-2<extra_id_1>measure_name: <extra_id_0><extra_id_1>score: empty<extra_id_1>sample: empty<extra_id_1>state_average: al_scip-card-2<extra_id_2>provider_number: , target_content: 10018
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 353, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 263, in run
+    self.train_step(train_loader, epochs=self.epochs)
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 182, in train_step
+    optimizer.step()
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/optim/adamw.py", line 216, in step
+    has_complex = self._init_group(
+                  ^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/optim/adamw.py", line 155, in _init_group
+    state["exp_avg"] = torch.zeros_like(
+                       ^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 2 has a total capacity of 23.58 GiB of which 11.94 MiB is free. Including non-PyTorch memory, this process has 9.29 GiB memory in use. Process 3183582 has 8.36 GiB memory in use. Process 3183583 has 2.95 GiB memory in use. Process 3183584 has 2.95 GiB memory in use. Of the allocated memory 9.01 GiB is allocated by PyTorch, and 32.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 353, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 234, in run
+    self.model, self.optimizer, self.tokenizer = self.initialize_model()
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 71, in initialize_model
+    model = model.to(self.device)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4459, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1174, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 805, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/data1/qianc/miniforge3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1160, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 2 has a total capacity of 23.58 GiB of which 16.81 MiB is free. Process 3183583 has 15.17 GiB memory in use. Process 3183584 has 2.95 GiB memory in use. Process 3184607 has 2.82 GiB memory in use. Process 3184608 has 1.38 GiB memory in use. Including non-PyTorch memory, this process has 1.21 GiB memory in use. Of the allocated memory 1022.15 MiB is allocated by PyTorch, and 13.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+input_content: index: 1<extra_id_1>name: callahan eye foundation hospital<extra_id_1>address_1: 1720 university blvd<extra_id_1>address_2: empty<extra_id_1>address_3: empty<extra_id_1>city: birmingham<extra_id_1>state: al<extra_id_1>zip: 35233<extra_id_1>county: jefferson<extra_id_1>phone: 2053258100<extra_id_1>type: acute care hospitals<extra_id_1>owner: voluntary non-profit - private<extra_id_1>emergency_service: yes<extra_id_1>condition: surgical infection prevention<extra_id_1>measure_code: scip-card-2<extra_id_1>measure_name: <extra_id_0><extra_id_1>score: empty<extra_id_1>sample: empty<extra_id_1>state_average: al_scip-card-2<extra_id_2>provider_number: , target_content: 10018
+fine tune for column provider_number: 3.00 minutes
+inference for column provider_number: 0.02 minutes
+
+fine tune for column name: 2.95 minutes
+inference for column name: 0.02 minutes
+
+fine tune for column address_1: 2.94 minutes
+inference for column address_1: 0.03 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 2.92 minutes
+inference for column city: 0.03 minutes
+
+fine tune for column state: 2.95 minutes
+inference for column state: 0.01 minutes
+
+fine tune for column zip: 2.94 minutes
+inference for column zip: 0.02 minutes
+
+fine tune for column county: 2.92 minutes
+inference for column county: 0.03 minutes
+
+fine tune for column phone: 2.92 minutes
+inference for column phone: 0.04 minutes
+
+fine tune for column type: 2.93 minutes
+inference for column type: 0.02 minutes
+
+fine tune for column owner: 2.95 minutes
+inference for column owner: 0.02 minutes
+
+fine tune for column emergency_service: 2.94 minutes
+inference for column emergency_service: 0.01 minutes
+
+fine tune for column condition: 2.93 minutes
+inference for column condition: 0.02 minutes
+
+fine tune for column measure_code: 2.94 minutes
+inference for column measure_code: 0.02 minutes
+
+fine tune for column measure_name: 2.92 minutes
+inference for column measure_name: 0.08 minutes
+
+fine tune for column score: 2.96 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.93 minutes
+inference for column sample: 0.02 minutes
+
+fine tune for column state_average: 2.93 minutes
+inference for column state_average: 0.02 minutes
+
+F1 score: 0.8065650644783118
+Computing weight_used after iteration 1
+
+Δω (L1): N/A (first iteration)
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column provider_number: 2.93 minutes
+inference for column provider_number: 0.02 minutes
+
+fine tune for column name: 2.96 minutes
+inference for column name: 0.02 minutes
+
+fine tune for column address_1: 2.94 minutes
+inference for column address_1: 0.03 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 2.99 minutes
+inference for column city: 0.01 minutes
+
+skip index 7
+
+fine tune for column zip: 2.99 minutes
+inference for column zip: 0.00 minutes
+
+fine tune for column county: 3.01 minutes
+inference for column county: 0.00 minutes
+
+fine tune for column phone: 2.94 minutes
+inference for column phone: 0.02 minutes
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.01 minutes
+inference for column measure_code: 0.00 minutes
+
+fine tune for column measure_name: 3.02 minutes
+inference for column measure_name: 0.01 minutes
+
+fine tune for column score: 2.97 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.93 minutes
+inference for column sample: 0.02 minutes
+
+fine tune for column state_average: 3.02 minutes
+inference for column state_average: 0.00 minutes
+
+F1 score: 0.8298850574712644
+Computing weight_used after iteration 2
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 353, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 304, in run
+    print(f'change rate: {change_rate:.6f} (eps={self.omega_eps})')
+                         ^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to numpy.ndarray.__format__

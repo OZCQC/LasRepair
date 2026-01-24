@@ -1,0 +1,310 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, batch_size: 8, epochs: 3, max_iteration: 10
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/original.py", line 309, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/original.py", line 238, in run
+    self.train_step(train_loader, epochs=self.epochs)
+  File "/data1/qianc/EMCL/EMCL/original.py", line 139, in train_step
+    outputs = model(input_ids=inputs, attention_mask=attention_mask, labels=labels)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 1905, in forward
+    decoder_outputs = self.decoder(
+                      ^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 1131, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 682, in forward
+    self_attention_outputs = self.layer[0](
+                             ^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 600, in forward
+    attention_output = self.SelfAttention(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 559, in forward
+    attn_weights = nn.functional.softmax(scores.float(), dim=-1).type_as(scores)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/functional.py", line 2140, in softmax
+    ret = input.softmax(dim)
+          ^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 5 has a total capacity of 23.58 GiB of which 12.19 MiB is free. Process 2465473 has 16.52 GiB memory in use. Including non-PyTorch memory, this process has 7.03 GiB memory in use. Of the allocated memory 6.79 GiB is allocated by PyTorch, and 4.28 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, batch_size: 8, epochs: 3, max_iteration: 10
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column provider_number done, time taken: 3.0547250866889955 minutes
+inference start
+inference for column provider_number done, time taken: 0.023778100808461506 minutes
+fine tune for column name done, time taken: 3.026064455509186 minutes
+inference start
+inference for column name done, time taken: 0.02154931624730428 minutes
+fine tune for column address_1 done, time taken: 3.0099058429400127 minutes
+inference start
+inference for column address_1 done, time taken: 0.04129410584767659 minutes
+skip index 4
+skip index 5
+fine tune for column city done, time taken: 2.980511935551961 minutes
+inference start
+inference for column city done, time taken: 0.027438743909200033 minutes
+fine tune for column state done, time taken: 2.9701725602149964 minutes
+inference start
+inference for column state done, time taken: 0.015045531590779622 minutes
+fine tune for column zip done, time taken: 3.023345454533895 minutes
+inference start
+inference for column zip done, time taken: 0.020963247617085776 minutes
+fine tune for column county done, time taken: 2.9757850805918378 minutes
+inference start
+inference for column county done, time taken: 0.03007765213648478 minutes
+fine tune for column phone done, time taken: 2.9982846419016522 minutes
+inference start
+inference for column phone done, time taken: 0.03017135461171468 minutes
+fine tune for column type done, time taken: 2.973945164680481 minutes
+inference start
+inference for column type done, time taken: 0.017881492773691814 minutes
+fine tune for column owner done, time taken: 3.0112571557362875 minutes
+inference start
+inference for column owner done, time taken: 0.026740900675455728 minutes
+fine tune for column emergency_service done, time taken: 2.9702566703160604 minutes
+inference start
+inference for column emergency_service done, time taken: 0.01579387585322062 minutes
+fine tune for column condition done, time taken: 3.0180065115292867 minutes
+inference start
+inference for column condition done, time taken: 0.019749613602956136 minutes
+fine tune for column measure_code done, time taken: 2.9661889910697936 minutes
+inference start
+inference for column measure_code done, time taken: 0.02735029856363932 minutes
+fine tune for column measure_name done, time taken: 2.9856983423233032 minutes
+inference start
+inference for column measure_name done, time taken: 0.09403789043426514 minutes
+fine tune for column score done, time taken: 3.0113690972328184 minutes
+inference start
+inference for column score done, time taken: 0.01442950963973999 minutes
+fine tune for column sample done, time taken: 2.962783332665761 minutes
+inference start
+inference for column sample done, time taken: 0.021592342853546144 minutes
+fine tune for column state_average done, time taken: 3.041823430856069 minutes
+inference start
+inference for column state_average done, time taken: 0.03047710657119751 minutes
+Computing weight_used after iteration 1
+
+F1 score: 0.8023529411764706
+---------------start iteration 2---------------
+skip index 0
+fine tune for column provider_number done, time taken: 2.9742377042770385 minutes
+inference start
+inference for column provider_number done, time taken: 0.022559285163879395 minutes
+fine tune for column name done, time taken: 3.0418733517328898 minutes
+inference start
+inference for column name done, time taken: 0.018177390098571777 minutes
+fine tune for column address_1 done, time taken: 3.0156221946080524 minutes
+inference start
+inference for column address_1 done, time taken: 0.029240862528483073 minutes
+skip index 4
+skip index 5
+fine tune for column city done, time taken: 3.0175854722658793 minutes
+inference start
+inference for column city done, time taken: 0.009310396512349446 minutes
+skip index 7
+fine tune for column zip done, time taken: 3.0431613524754844 minutes
+inference start
+inference for column zip done, time taken: 0.005495083332061767 minutes
+skip index 9
+fine tune for column phone done, time taken: 2.9378900647163393 minutes
+inference start
+inference for column phone done, time taken: 0.022475826740264892 minutes
+skip index 11
+fine tune for column owner done, time taken: 2.9914455016454062 minutes
+inference start
+inference for column owner done, time taken: 0.004700700441996257 minutes
+skip index 13
+skip index 14
+fine tune for column measure_code done, time taken: 2.9906242966651915 minutes
+inference start
+inference for column measure_code done, time taken: 0.00276644229888916 minutes
+fine tune for column measure_name done, time taken: 3.010278042157491 minutes
+inference start
+inference for column measure_name done, time taken: 0.015333878993988036 minutes
+fine tune for column score done, time taken: 3.0082736810048423 minutes
+inference start
+inference for column score done, time taken: 0.011252435048421223 minutes
+fine tune for column sample done, time taken: 2.975024692217509 minutes
+inference start
+inference for column sample done, time taken: 0.018402290344238282 minutes
+fine tune for column state_average done, time taken: 3.0565745274225873 minutes
+inference start
+inference for column state_average done, time taken: 0.0037622809410095214 minutes
+Computing weight_used after iteration 2
+
+F1 score: 0.8298850574712644
+---------------start iteration 3---------------
+skip index 0
+fine tune for column provider_number done, time taken: 2.974669388930003 minutes
+inference start
+inference for column provider_number done, time taken: 0.018497804800669353 minutes
+fine tune for column name done, time taken: 2.9877150217692057 minutes
+inference start
+inference for column name done, time taken: 0.023013397057851156 minutes
+fine tune for column address_1 done, time taken: 3.0287950317064922 minutes
+inference start
+inference for column address_1 done, time taken: 0.024524271488189697 minutes
+skip index 4
+skip index 5
+fine tune for column city done, time taken: 3.0106905420621235 minutes
+inference start
+inference for column city done, time taken: 0.010216132799784342 minutes
+skip index 7
+fine tune for column zip done, time taken: 2.9996381282806395 minutes
+inference start
+inference for column zip done, time taken: 0.005014594395955404 minutes
+skip index 9
+fine tune for column phone done, time taken: 3.0418493270874025 minutes
+inference start
+inference for column phone done, time taken: 0.011594704786936442 minutes
+skip index 11
+fine tune for column owner done, time taken: 3.0089407563209534 minutes
+inference start
+inference for column owner done, time taken: 0.005191226800282796 minutes
+skip index 13
+skip index 14
+fine tune for column measure_code done, time taken: 3.001720122496287 minutes
+inference start
+inference for column measure_code done, time taken: 0.002628846963246663 minutes
+fine tune for column measure_name done, time taken: 3.0057549516359967 minutes
+inference start
+inference for column measure_name done, time taken: 0.0056568662325541174 minutes
+fine tune for column score done, time taken: 2.952943416436513 minutes
+inference start
+inference for column score done, time taken: 0.009046439329783123 minutes
+fine tune for column sample done, time taken: 2.923684247334798 minutes
+inference start
+inference for column sample done, time taken: 0.017433249950408937 minutes
+skip index 19
+Computing weight_used after iteration 3
+
+F1 score: 0.9295478443743428
+---------------start iteration 4---------------
+skip index 0
+fine tune for column provider_number done, time taken: 2.9663776477177937 minutes
+inference start
+inference for column provider_number done, time taken: 0.008127617835998534 minutes
+fine tune for column name done, time taken: 2.9942805329958597 minutes
+inference start
+inference for column name done, time taken: 0.007693759600321452 minutes
+fine tune for column address_1 done, time taken: 2.988874888420105 minutes
+inference start
+inference for column address_1 done, time taken: 0.005633040269215902 minutes
+skip index 4
+skip index 5
+fine tune for column city done, time taken: 2.9952174464861554 minutes
+inference start
+inference for column city done, time taken: 0.004156676928202311 minutes
+skip index 7
+skip index 8
+skip index 9
+skip index 10
+skip index 11
+skip index 12
+skip index 13
+skip index 14
+skip index 15
+skip index 16
+fine tune for column score done, time taken: 3.0103172262509665 minutes
+inference start
+inference for column score done, time taken: 0.008180872599283854 minutes
+fine tune for column sample done, time taken: 3.020834187666575 minutes
+inference start
+inference for column sample done, time taken: 0.018191277980804443 minutes
+skip index 19
+Computing weight_used after iteration 4
+
+F1 score: 0.9515962924819773
+---------------start iteration 5---------------
+skip index 0
+skip index 1
+fine tune for column name done, time taken: 3.064384905497233 minutes
+inference start
+inference for column name done, time taken: 0.004248352845509847 minutes
+fine tune for column address_1 done, time taken: 3.042963723341624 minutes
+inference start
+inference for column address_1 done, time taken: 0.00806565284729004 minutes
+skip index 4
+skip index 5
+fine tune for column city done, time taken: 3.091342516740163 minutes
+inference start
+inference for column city done, time taken: 0.0031792124112447104 minutes
+skip index 7
+skip index 8
+skip index 9
+skip index 10
+skip index 11
+skip index 12
+skip index 13
+skip index 14
+skip index 15
+skip index 16
+fine tune for column score done, time taken: 3.0534875273704527 minutes
+inference start
+inference for column score done, time taken: 0.008070143063863118 minutes
+fine tune for column sample done, time taken: 3.0001826246579486 minutes
+inference start
+inference for column sample done, time taken: 0.018479084968566893 minutes
+skip index 19
+Computing weight_used after iteration 5
+
+F1 score: 0.9548254620123203
+Done.
+
+Time taken: 154.08 minutes
+hospital
+  index provider_number  ... sample   state_average
+0     1           10018  ...  empty  al_scip-card-2
+1     2           10018  ...  empty   al_scip-inf-1
+2     3           10018  ...  empty   al_scip-inf-2
+3     4           10018  ...  empty   al_scip-inf-3
+4     5           10018  ...  empty   al_scip-inf-4
+
+[5 rows x 20 columns]
+F1 score: 0.9548254620123203

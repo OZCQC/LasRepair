@@ -1,0 +1,149 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 2000
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: lname: Zendler<extra_id_1>gender: F<extra_id_1>areacode: 508<extra_id_1>phone: 744-9007<extra_id_1>city: SWAMPSCOTT<extra_id_1>state: MA<extra_id_1>zip: <extra_id_0><extra_id_1>maritalstatus: M<extra_id_1>haschild: N<extra_id_1>salary: 90000<extra_id_1>rate: 5.3<extra_id_1>singleexemp: 0<extra_id_1>marriedexemp: 7150<extra_id_1>childexemp: 0<extra_id_2>fname: , target_content: Pengyuan
+fine tune for column fname: 2.55 minutes
+inference for column fname: 0.06 minutes
+
+fine tune for column lname: 2.53 minutes
+inference for column lname: 0.13 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 2.49 minutes
+inference for column city: 0.04 minutes
+
+fine tune for column state: 2.51 minutes
+inference for column state: 0.10 minutes
+
+fine tune for column zip: 2.47 minutes
+inference for column zip: 5.32 minutes
+
+fine tune for column maritalstatus: 2.52 minutes
+inference for column maritalstatus: 0.03 minutes
+
+fine tune for column haschild: 2.52 minutes
+inference for column haschild: 0.03 minutes
+
+skip index 10
+
+fine tune for column rate: 2.53 minutes
+inference for column rate: 14.66 minutes
+
+fine tune for column singleexemp: 2.58 minutes
+inference for column singleexemp: 0.03 minutes
+
+skip index 13
+
+fine tune for column childexemp: 2.45 minutes
+inference for column childexemp: 0.03 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.010014036066946294
+---------------start iteration 2---------------
+fine tune for column fname: 1.91 minutes
+inference for column fname: 0.05 minutes
+
+fine tune for column lname: 1.98 minutes
+inference for column lname: 0.12 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 1.93 minutes
+inference for column city: 0.03 minutes
+
+fine tune for column state: 2.00 minutes
+inference for column state: 0.10 minutes
+
+fine tune for column zip: 1.98 minutes
+inference for column zip: 4.81 minutes
+
+skip index 8
+
+fine tune for column haschild: 1.97 minutes
+inference for column haschild: 0.03 minutes
+
+skip index 10
+
+fine tune for column rate: 2.00 minutes
+inference for column rate: 13.29 minutes
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+Computing weight_used after iteration 2
+
+F1 score: 0.5213227939203201
+---------------start iteration 3---------------
+fine tune for column fname: 1.91 minutes
+inference for column fname: 0.05 minutes
+
+fine tune for column lname: 1.99 minutes
+inference for column lname: 0.11 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 1.97 minutes
+inference for column city: 0.03 minutes
+
+fine tune for column state: 1.98 minutes
+inference for column state: 0.09 minutes
+
+fine tune for column zip: 1.96 minutes
+inference for column zip: 4.86 minutes
+
+skip index 8
+
+fine tune for column haschild: 1.99 minutes
+inference for column haschild: 0.03 minutes
+
+skip index 10
+
+fine tune for column rate: 1.99 minutes
+inference for column rate: 7.69 minutes
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+Computing weight_used after iteration 3
+
+F1 score: 0.5213227939203201
+Done.
+
+Time taken: 104.74 minutes
+result saved to ./result/tax_200k_repaired_original.csv
+tax_200k
+       fname     lname gender  ... singleexemp marriedexemp childexemp
+0   Pengyuan   Zendler      F  ...           0         7150          0
+1        Nik     Tacic      M  ...           0            0          0
+2      Hovav    Punter      M  ...          20            0          0
+3  Xiangning  Vanneste      F  ...           0         2000       1500
+4      Belen    Niccum      F  ...         700            0        400
+
+[5 rows x 15 columns]
+F1 score: 0.5213227939203201
+running done at: 2025-11-09 10:45:13

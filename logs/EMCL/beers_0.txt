@@ -1,0 +1,381 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column ounces with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 5.12 minutes
+inference for column ounces: 0.38 minutes
+
+fine tune for column abv: 5.15 minutes
+inference for column abv: 0.93 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.84 minutes
+inference for column city: 0.09 minutes
+
+fine tune for column state: 6.84 minutes
+inference for column state: 0.06 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.6054279749478079
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+skip index 3
+
+fine tune for column abv: 5.16 minutes
+inference for column abv: 0.43 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.86 minutes
+inference for column city: 0.08 minutes
+
+fine tune for column state: 6.85 minutes
+inference for column state: 0.06 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.6094920899250624
+Done.
+
+Time taken: 44.86 minutes
+result saved to ./result/beers_repaired_original.csv
+beers
+     id            beer_name  ...  city state
+0  1436             Pub Beer  ...  Bend    OR
+1  2265          Devil's Cup  ...  Gary    IN
+2  2264  Rise of the Phoenix  ...  Gary    IN
+3  2263             Sinister  ...  Gary    IN
+4  2262        Sex and Candy  ...  Gary    IN
+
+[5 rows x 10 columns]
+F1 score: 0.6094920899250624
+running done at: 2025-10-13 09:38:38
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column ounces with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 5.11 minutes
+inference for column ounces: 0.38 minutes
+
+fine tune for column abv: 5.15 minutes
+inference for column abv: 0.38 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.84 minutes
+inference for column city: 0.08 minutes
+
+fine tune for column state: 6.85 minutes
+inference for column state: 0.07 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.4893713251922207
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 7.66 minutes
+inference for column ounces: 0.30 minutes
+
+fine tune for column abv: 7.42 minutes
+inference for column abv: 0.44 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 7.18 minutes
+inference for column city: 0.08 minutes
+
+fine tune for column state: 7.58 minutes
+inference for column state: 0.12 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.5115864527629234
+---------------start iteration 3---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.91 minutes
+inference for column ounces: 0.16 minutes
+
+fine tune for column abv: 5.56 minutes
+inference for column abv: 0.47 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 7.51 minutes
+inference for column city: 0.08 minutes
+
+fine tune for column state: 7.14 minutes
+inference for column state: 0.06 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.5221238938053098
+---------------start iteration 4---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.43 minutes
+inference for column ounces: 0.15 minutes
+
+fine tune for column abv: 5.37 minutes
+inference for column abv: 0.35 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.90 minutes
+inference for column city: 0.07 minutes
+
+fine tune for column state: 6.97 minutes
+inference for column state: 0.05 minutes
+
+Computing weight_used after iteration 4
+
+F1 score: 0.5402097902097902
+---------------start iteration 5---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.40 minutes
+inference for column ounces: 0.15 minutes
+
+fine tune for column abv: 5.41 minutes
+inference for column abv: 0.34 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.92 minutes
+inference for column city: 0.07 minutes
+
+fine tune for column state: 6.97 minutes
+inference for column state: 0.05 minutes
+
+Computing weight_used after iteration 5
+
+F1 score: 0.5775127768313458
+---------------start iteration 6---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.47 minutes
+inference for column ounces: 0.12 minutes
+
+fine tune for column abv: 5.43 minutes
+inference for column abv: 0.32 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.93 minutes
+inference for column city: 0.05 minutes
+
+fine tune for column state: 6.96 minutes
+inference for column state: 0.04 minutes
+
+Computing weight_used after iteration 6
+
+F1 score: 0.6283367556468172
+---------------start iteration 7---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.71 minutes
+inference for column ounces: 0.09 minutes
+
+fine tune for column abv: 5.47 minutes
+inference for column abv: 0.31 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.94 minutes
+inference for column city: 0.05 minutes
+
+fine tune for column state: 6.96 minutes
+inference for column state: 0.04 minutes
+
+Computing weight_used after iteration 7
+
+F1 score: 0.657556270096463
+---------------start iteration 8---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.78 minutes
+inference for column ounces: 0.08 minutes
+
+fine tune for column abv: 5.50 minutes
+inference for column abv: 0.31 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.95 minutes
+inference for column city: 0.04 minutes
+
+fine tune for column state: 6.99 minutes
+inference for column state: 0.04 minutes
+
+Computing weight_used after iteration 8
+
+F1 score: 0.7034161490683231
+---------------start iteration 9---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 6.91 minutes
+inference for column ounces: 0.05 minutes
+
+fine tune for column abv: 5.62 minutes
+inference for column abv: 0.29 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 6.98 minutes
+inference for column city: 0.04 minutes
+
+fine tune for column state: 7.00 minutes
+inference for column state: 0.04 minutes
+
+Computing weight_used after iteration 9
+
+F1 score: 0.7410478703354693
+---------------start iteration 10---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 7.00 minutes
+inference for column ounces: 0.04 minutes
+
+fine tune for column abv: 5.73 minutes
+inference for column abv: 0.27 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 7.01 minutes
+inference for column city: 0.04 minutes
+
+fine tune for column state: 7.02 minutes
+inference for column state: 0.04 minutes
+
+Computing weight_used after iteration 10
+
+F1 score: 0.763878608438194
+Done.
+
+Time taken: 269.82 minutes
+result saved to ./result/beers_repaired_original.csv
+beers
+     id            beer_name  ...  city state
+0  1436             Pub Beer  ...  Bend    OR
+1  2265          Devil's Cup  ...  Gary    IN
+2  2264  Rise of the Phoenix  ...  Gary    IN
+3  2263             Sinister  ...  Gary    IN
+4  2262        Sex and Candy  ...  Gary    IN
+
+[5 rows x 10 columns]
+F1 score: 0.763878608438194
+running done at: 2025-10-13 14:09:25

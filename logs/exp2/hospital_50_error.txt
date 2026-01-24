@@ -1,0 +1,563 @@
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+input_content: index: 1<extra_id_1>HospitalName: callahan eye foundation hospital<extra_id_1>Address1: 1720 university blvd<extra_id_1>Address2: empty<extra_id_1>Address3: empty<extra_id_1>City: birmingham<extra_id_1>State: al<extra_id_1>ZipCode: 35233<extra_id_1>CountyName: jefferson<extra_id_1>PhoneNumber: 2053258100<extra_id_1>HospitalType: acute care hospitals<extra_id_1>HospitalOwner: voluntary non-profit - private<extra_id_1>EmergencyService: yes<extra_id_1>Condition: surgical infection prevention<extra_id_1>MeasureCode: scip-card-2<extra_id_1>MeasureName: <extra_id_0><extra_id_1>Score: empty<extra_id_1>Sample: empty<extra_id_1>Stateavg: al_scip-card-2<extra_id_2>ProviderNumber: , target_content: 10018
+fine tune for column ProviderNumber: 1.44 minutes
+inference for column ProviderNumber: 0.32 minutes
+
+fine tune for column HospitalName: 1.37 minutes
+inference for column HospitalName: 0.44 minutes
+
+fine tune for column Address1: 1.28 minutes
+inference for column Address1: 0.55 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 1.31 minutes
+inference for column City: 0.37 minutes
+
+fine tune for column State: 1.40 minutes
+inference for column State: 0.27 minutes
+
+fine tune for column ZipCode: 1.37 minutes
+inference for column ZipCode: 0.32 minutes
+
+fine tune for column CountyName: 1.33 minutes
+inference for column CountyName: 0.37 minutes
+
+fine tune for column PhoneNumber: 1.32 minutes
+inference for column PhoneNumber: 0.38 minutes
+
+fine tune for column HospitalType: 1.40 minutes
+inference for column HospitalType: 0.32 minutes
+
+fine tune for column HospitalOwner: 1.24 minutes
+inference for column HospitalOwner: 0.45 minutes
+
+fine tune for column EmergencyService: 1.28 minutes
+inference for column EmergencyService: 0.29 minutes
+
+fine tune for column Condition: 1.30 minutes
+inference for column Condition: 0.34 minutes
+
+fine tune for column MeasureCode: 1.36 minutes
+inference for column MeasureCode: 0.43 minutes
+
+fine tune for column MeasureName: 1.41 minutes
+inference for column MeasureName: 0.88 minutes
+
+fine tune for column Score: 1.41 minutes
+inference for column Score: 0.29 minutes
+
+fine tune for column Sample: 1.41 minutes
+inference for column Sample: 0.31 minutes
+
+fine tune for column Stateavg: 1.39 minutes
+inference for column Stateavg: 0.55 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.5839916530034283
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column ProviderNumber: 1.39 minutes
+inference for column ProviderNumber: 0.46 minutes
+
+fine tune for column HospitalName: 1.77 minutes
+inference for column HospitalName: 0.35 minutes
+
+fine tune for column Address1: 1.31 minutes
+inference for column Address1: 0.47 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 1.87 minutes
+inference for column City: 0.32 minutes
+
+fine tune for column State: 3.04 minutes
+inference for column State: 0.00 minutes
+
+fine tune for column ZipCode: 1.45 minutes
+inference for column ZipCode: 0.27 minutes
+
+fine tune for column CountyName: 1.93 minutes
+inference for column CountyName: 0.26 minutes
+
+fine tune for column PhoneNumber: 1.31 minutes
+inference for column PhoneNumber: 0.40 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 1.77 minutes
+inference for column HospitalOwner: 0.31 minutes
+
+fine tune for column EmergencyService: 2.82 minutes
+inference for column EmergencyService: 0.04 minutes
+
+fine tune for column Condition: 2.95 minutes
+inference for column Condition: 0.02 minutes
+
+fine tune for column MeasureCode: 2.46 minutes
+inference for column MeasureCode: 0.17 minutes
+
+fine tune for column MeasureName: 1.72 minutes
+inference for column MeasureName: 0.60 minutes
+
+fine tune for column Score: 1.87 minutes
+inference for column Score: 0.21 minutes
+
+fine tune for column Sample: 1.62 minutes
+inference for column Sample: 0.30 minutes
+
+fine tune for column Stateavg: 2.54 minutes
+inference for column Stateavg: 0.14 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.6072423398328691
+---------------start iteration 3---------------
+skip index 0
+
+fine tune for column ProviderNumber: 1.39 minutes
+inference for column ProviderNumber: 0.32 minutes
+
+fine tune for column HospitalName: 1.77 minutes
+inference for column HospitalName: 0.37 minutes
+
+fine tune for column Address1: 1.29 minutes
+inference for column Address1: 0.53 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 1.87 minutes
+inference for column City: 0.30 minutes
+
+fine tune for column State: 3.02 minutes
+inference for column State: 0.01 minutes
+
+fine tune for column ZipCode: 1.45 minutes
+inference for column ZipCode: 0.32 minutes
+
+fine tune for column CountyName: 1.97 minutes
+inference for column CountyName: 0.26 minutes
+
+fine tune for column PhoneNumber: 1.32 minutes
+inference for column PhoneNumber: 0.41 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 1.77 minutes
+inference for column HospitalOwner: 0.25 minutes
+
+fine tune for column EmergencyService: 2.81 minutes
+inference for column EmergencyService: 0.04 minutes
+
+fine tune for column Condition: 3.01 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.60 minutes
+inference for column MeasureCode: 0.15 minutes
+
+fine tune for column MeasureName: 1.85 minutes
+inference for column MeasureName: 0.79 minutes
+
+fine tune for column Score: 1.96 minutes
+inference for column Score: 0.20 minutes
+
+fine tune for column Sample: 1.62 minutes
+inference for column Sample: 0.28 minutes
+
+fine tune for column Stateavg: 2.75 minutes
+inference for column Stateavg: 0.10 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.6432447872036561
+---------------start iteration 4---------------
+skip index 0
+
+fine tune for column ProviderNumber: 1.43 minutes
+inference for column ProviderNumber: 0.30 minutes
+
+fine tune for column HospitalName: 1.85 minutes
+inference for column HospitalName: 0.35 minutes
+
+fine tune for column Address1: 1.29 minutes
+inference for column Address1: 0.51 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 1.94 minutes
+inference for column City: 0.27 minutes
+
+fine tune for column State: 3.03 minutes
+inference for column State: 0.01 minutes
+
+fine tune for column ZipCode: 1.51 minutes
+inference for column ZipCode: 0.32 minutes
+
+fine tune for column CountyName: 2.04 minutes
+inference for column CountyName: 0.22 minutes
+
+fine tune for column PhoneNumber: 1.34 minutes
+inference for column PhoneNumber: 1.14 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 1.90 minutes
+inference for column HospitalOwner: 0.31 minutes
+
+fine tune for column EmergencyService: 2.81 minutes
+inference for column EmergencyService: 0.04 minutes
+
+fine tune for column Condition: 3.00 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.75 minutes
+inference for column MeasureCode: 0.09 minutes
+
+fine tune for column MeasureName: 2.19 minutes
+inference for column MeasureName: 0.52 minutes
+
+fine tune for column Score: 2.06 minutes
+inference for column Score: 0.18 minutes
+
+fine tune for column Sample: 1.62 minutes
+inference for column Sample: 0.30 minutes
+
+fine tune for column Stateavg: 2.82 minutes
+inference for column Stateavg: 0.07 minutes
+
+Computing weight_used after iteration 4
+
+F1 score: 0.7167364581926245
+---------------start iteration 5---------------
+skip index 0
+
+fine tune for column ProviderNumber: 1.46 minutes
+inference for column ProviderNumber: 0.30 minutes
+
+fine tune for column HospitalName: 1.96 minutes
+inference for column HospitalName: 0.34 minutes
+
+fine tune for column Address1: 1.48 minutes
+inference for column Address1: 0.46 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 2.10 minutes
+inference for column City: 0.24 minutes
+
+fine tune for column State: 3.02 minutes
+inference for column State: 0.00 minutes
+
+fine tune for column ZipCode: 1.63 minutes
+inference for column ZipCode: 0.28 minutes
+
+fine tune for column CountyName: 2.36 minutes
+inference for column CountyName: 0.15 minutes
+
+fine tune for column PhoneNumber: 1.55 minutes
+inference for column PhoneNumber: 0.36 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 2.38 minutes
+inference for column HospitalOwner: 0.17 minutes
+
+fine tune for column EmergencyService: 2.98 minutes
+inference for column EmergencyService: 0.01 minutes
+
+fine tune for column Condition: 3.01 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.81 minutes
+inference for column MeasureCode: 0.07 minutes
+
+fine tune for column MeasureName: 2.65 minutes
+inference for column MeasureName: 0.25 minutes
+
+fine tune for column Score: 2.10 minutes
+inference for column Score: 0.17 minutes
+
+fine tune for column Sample: 1.62 minutes
+inference for column Sample: 0.30 minutes
+
+fine tune for column Stateavg: 2.85 minutes
+inference for column Stateavg: 0.06 minutes
+
+Computing weight_used after iteration 5
+
+F1 score: 0.7901942056669851
+---------------start iteration 6---------------
+skip index 0
+
+fine tune for column ProviderNumber: 1.48 minutes
+inference for column ProviderNumber: 0.29 minutes
+
+fine tune for column HospitalName: 2.23 minutes
+inference for column HospitalName: 0.23 minutes
+
+fine tune for column Address1: 1.94 minutes
+inference for column Address1: 0.31 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 2.38 minutes
+inference for column City: 0.15 minutes
+
+fine tune for column State: 3.03 minutes
+inference for column State: 0.00 minutes
+
+fine tune for column ZipCode: 2.33 minutes
+inference for column ZipCode: 0.14 minutes
+
+fine tune for column CountyName: 2.59 minutes
+inference for column CountyName: 0.10 minutes
+
+fine tune for column PhoneNumber: 1.90 minutes
+inference for column PhoneNumber: 0.29 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 2.62 minutes
+inference for column HospitalOwner: 0.12 minutes
+
+fine tune for column EmergencyService: 3.00 minutes
+inference for column EmergencyService: 0.01 minutes
+
+fine tune for column Condition: 3.01 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.84 minutes
+inference for column MeasureCode: 0.05 minutes
+
+fine tune for column MeasureName: 2.69 minutes
+inference for column MeasureName: 0.23 minutes
+
+fine tune for column Score: 2.13 minutes
+inference for column Score: 0.16 minutes
+
+fine tune for column Sample: 1.64 minutes
+inference for column Sample: 0.32 minutes
+
+fine tune for column Stateavg: 2.89 minutes
+inference for column Stateavg: 0.05 minutes
+
+Computing weight_used after iteration 6
+
+F1 score: 0.8556285008733361
+---------------start iteration 7---------------
+skip index 0
+
+fine tune for column ProviderNumber: 1.79 minutes
+inference for column ProviderNumber: 0.24 minutes
+
+fine tune for column HospitalName: 2.42 minutes
+inference for column HospitalName: 0.19 minutes
+
+fine tune for column Address1: 2.53 minutes
+inference for column Address1: 0.15 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 2.52 minutes
+inference for column City: 0.13 minutes
+
+fine tune for column State: 3.03 minutes
+inference for column State: 0.00 minutes
+
+fine tune for column ZipCode: 2.69 minutes
+inference for column ZipCode: 0.08 minutes
+
+fine tune for column CountyName: 2.64 minutes
+inference for column CountyName: 0.09 minutes
+
+fine tune for column PhoneNumber: 2.58 minutes
+inference for column PhoneNumber: 0.11 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 2.86 minutes
+inference for column HospitalOwner: 0.05 minutes
+
+fine tune for column EmergencyService: 3.03 minutes
+inference for column EmergencyService: 0.00 minutes
+
+fine tune for column Condition: 3.01 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.86 minutes
+inference for column MeasureCode: 0.05 minutes
+
+fine tune for column MeasureName: 2.74 minutes
+inference for column MeasureName: 0.20 minutes
+
+fine tune for column Score: 2.15 minutes
+inference for column Score: 0.17 minutes
+
+fine tune for column Sample: 1.66 minutes
+inference for column Sample: 0.29 minutes
+
+fine tune for column Stateavg: 2.91 minutes
+inference for column Stateavg: 0.05 minutes
+
+Computing weight_used after iteration 7
+
+F1 score: 0.8965036589615518
+---------------start iteration 8---------------
+skip index 0
+
+fine tune for column ProviderNumber: 2.69 minutes
+inference for column ProviderNumber: 0.06 minutes
+
+fine tune for column HospitalName: 2.54 minutes
+inference for column HospitalName: 0.17 minutes
+
+fine tune for column Address1: 2.79 minutes
+inference for column Address1: 0.09 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 2.62 minutes
+inference for column City: 0.09 minutes
+
+fine tune for column State: 3.04 minutes
+inference for column State: 0.00 minutes
+
+fine tune for column ZipCode: 2.84 minutes
+inference for column ZipCode: 0.05 minutes
+
+fine tune for column CountyName: 2.67 minutes
+inference for column CountyName: 0.08 minutes
+
+fine tune for column PhoneNumber: 2.77 minutes
+inference for column PhoneNumber: 0.36 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 2.95 minutes
+inference for column HospitalOwner: 0.03 minutes
+
+fine tune for column EmergencyService: 3.03 minutes
+inference for column EmergencyService: 0.00 minutes
+
+fine tune for column Condition: 3.01 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.87 minutes
+inference for column MeasureCode: 0.05 minutes
+
+fine tune for column MeasureName: 2.74 minutes
+inference for column MeasureName: 0.23 minutes
+
+fine tune for column Score: 2.18 minutes
+inference for column Score: 0.18 minutes
+
+fine tune for column Sample: 1.67 minutes
+inference for column Sample: 0.30 minutes
+
+fine tune for column Stateavg: 2.91 minutes
+inference for column Stateavg: 0.05 minutes
+
+Computing weight_used after iteration 8
+
+F1 score: 0.9054669047756208
+---------------start iteration 9---------------
+skip index 0
+
+fine tune for column ProviderNumber: 2.88 minutes
+inference for column ProviderNumber: 0.03 minutes
+
+fine tune for column HospitalName: 2.60 minutes
+inference for column HospitalName: 0.13 minutes
+
+fine tune for column Address1: 2.81 minutes
+inference for column Address1: 0.06 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column City: 2.64 minutes
+inference for column City: 0.10 minutes
+
+fine tune for column State: 3.04 minutes
+inference for column State: 0.00 minutes
+
+fine tune for column ZipCode: 2.85 minutes
+inference for column ZipCode: 0.05 minutes
+
+fine tune for column CountyName: 2.67 minutes
+inference for column CountyName: 0.09 minutes
+
+fine tune for column PhoneNumber: 2.79 minutes
+inference for column PhoneNumber: 0.06 minutes
+
+skip index 11
+
+fine tune for column HospitalOwner: 2.96 minutes
+inference for column HospitalOwner: 0.03 minutes
+
+fine tune for column EmergencyService: 3.03 minutes
+inference for column EmergencyService: 0.00 minutes
+
+fine tune for column Condition: 3.01 minutes
+inference for column Condition: 0.01 minutes
+
+fine tune for column MeasureCode: 2.85 minutes
+inference for column MeasureCode: 0.05 minutes
+
+fine tune for column MeasureName: 2.75 minutes
+inference for column MeasureName: 0.21 minutes
+
+fine tune for column Score: 2.19 minutes
+inference for column Score: 0.16 minutes
+
+fine tune for column Sample: 1.73 minutes
+inference for column Sample: 0.28 minutes
+
+fine tune for column Stateavg: 2.91 minutes
+inference for column Stateavg: 0.04 minutes
+
+Computing weight_used after iteration 9
+
+F1 score: 0.9099254159495123
+Done.
+
+Time taken: 354.69 minutes
+result saved to ./result/hospital_50_error_repaired.csv
+hospital
+  index ProviderNumber  ... Sample        Stateavg
+0     1          10018  ...  empty  al_scip-card-2
+1     2          10018  ...  empty   al_scip-inf-1
+2     3          10018  ...  empty   al_scip-inf-2
+3     4          10018  ...  empty   al_scip-inf-3
+4     5          10018  ...  empty   al_scip-inf-4
+
+[5 rows x 20 columns]
+F1 score: 0.9099254159495123
+running done at: 2025-11-07 09:09:49

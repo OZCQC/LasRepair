@@ -1,0 +1,7 @@
+{
+  "precision": 0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "runtime": 0.4389352798461914,
+  "note": "Java-based baseline, requires Maven compilation"
+}

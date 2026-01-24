@@ -1,0 +1,398 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+input_content: index: 1<extra_id_1>name: callahan eye foundation hospital<extra_id_1>address_1: 1720 university blvd<extra_id_1>address_2: empty<extra_id_1>address_3: empty<extra_id_1>city: birmingham<extra_id_1>state: al<extra_id_1>zip: 35233<extra_id_1>county: jefferson<extra_id_1>phone: 2053258100<extra_id_1>type: acute care hospitals<extra_id_1>owner: voluntary non-profit - private<extra_id_1>emergency_service: yes<extra_id_1>condition: surgical infection prevention<extra_id_1>measure_code: scip-card-2<extra_id_1>measure_name: <extra_id_0><extra_id_1>score: empty<extra_id_1>sample: empty<extra_id_1>state_average: al_scip-card-2<extra_id_2>provider_number: , target_content: 10018
+fine tune for column provider_number: 3.01 minutes
+inference for column provider_number: 0.02 minutes
+
+fine tune for column name: 2.97 minutes
+inference for column name: 0.03 minutes
+
+fine tune for column address_1: 2.95 minutes
+inference for column address_1: 0.03 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 2.93 minutes
+inference for column city: 0.03 minutes
+
+fine tune for column state: 2.96 minutes
+inference for column state: 0.01 minutes
+
+fine tune for column zip: 2.95 minutes
+inference for column zip: 0.02 minutes
+
+fine tune for column county: 2.93 minutes
+inference for column county: 0.07 minutes
+
+fine tune for column phone: 2.93 minutes
+inference for column phone: 0.03 minutes
+
+fine tune for column type: 2.94 minutes
+inference for column type: 0.02 minutes
+
+fine tune for column owner: 2.95 minutes
+inference for column owner: 0.02 minutes
+
+fine tune for column emergency_service: 2.95 minutes
+inference for column emergency_service: 0.01 minutes
+
+fine tune for column condition: 2.94 minutes
+inference for column condition: 0.02 minutes
+
+fine tune for column measure_code: 2.95 minutes
+inference for column measure_code: 0.02 minutes
+
+fine tune for column measure_name: 2.93 minutes
+inference for column measure_name: 0.04 minutes
+
+fine tune for column score: 2.96 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.95 minutes
+inference for column sample: 0.02 minutes
+
+fine tune for column state_average: 2.96 minutes
+inference for column state_average: 0.03 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.7539779681762546
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column provider_number: 2.95 minutes
+inference for column provider_number: 0.02 minutes
+
+fine tune for column name: 2.98 minutes
+inference for column name: 0.02 minutes
+
+fine tune for column address_1: 2.95 minutes
+inference for column address_1: 0.03 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 2.99 minutes
+inference for column city: 0.01 minutes
+
+skip index 7
+
+fine tune for column zip: 2.99 minutes
+inference for column zip: 0.01 minutes
+
+fine tune for column county: 3.03 minutes
+inference for column county: 0.01 minutes
+
+fine tune for column phone: 2.96 minutes
+inference for column phone: 0.02 minutes
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.02 minutes
+inference for column measure_code: 0.00 minutes
+
+fine tune for column measure_name: 2.95 minutes
+inference for column measure_name: 0.05 minutes
+
+fine tune for column score: 2.97 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.96 minutes
+inference for column sample: 0.02 minutes
+
+fine tune for column state_average: 3.03 minutes
+inference for column state_average: 0.00 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.7793764988009592
+---------------start iteration 3---------------
+skip index 0
+
+fine tune for column provider_number: 2.95 minutes
+inference for column provider_number: 0.02 minutes
+
+fine tune for column name: 2.98 minutes
+inference for column name: 0.02 minutes
+
+fine tune for column address_1: 2.95 minutes
+inference for column address_1: 0.03 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 3.01 minutes
+inference for column city: 0.01 minutes
+
+skip index 7
+
+fine tune for column zip: 2.99 minutes
+inference for column zip: 0.01 minutes
+
+fine tune for column county: 3.02 minutes
+inference for column county: 0.00 minutes
+
+fine tune for column phone: 2.98 minutes
+inference for column phone: 0.01 minutes
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.02 minutes
+inference for column measure_code: 0.01 minutes
+
+fine tune for column measure_name: 2.97 minutes
+inference for column measure_name: 0.05 minutes
+
+fine tune for column score: 2.97 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.95 minutes
+inference for column sample: 0.02 minutes
+
+skip index 19
+
+Computing weight_used after iteration 3
+
+F1 score: 0.8763796909492274
+---------------start iteration 4---------------
+skip index 0
+
+fine tune for column provider_number: 2.95 minutes
+inference for column provider_number: 0.02 minutes
+
+fine tune for column name: 3.00 minutes
+inference for column name: 0.01 minutes
+
+fine tune for column address_1: 2.98 minutes
+inference for column address_1: 0.02 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 3.04 minutes
+inference for column city: 0.00 minutes
+
+skip index 7
+
+skip index 8
+
+skip index 9
+
+skip index 10
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.03 minutes
+inference for column measure_code: 0.01 minutes
+
+fine tune for column measure_name: 3.04 minutes
+inference for column measure_name: 0.01 minutes
+
+fine tune for column score: 2.99 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.97 minutes
+inference for column sample: 0.02 minutes
+
+skip index 19
+
+Computing weight_used after iteration 4
+
+F1 score: 0.9384775808133473
+---------------start iteration 5---------------
+skip index 0
+
+fine tune for column provider_number: 3.02 minutes
+inference for column provider_number: 0.00 minutes
+
+fine tune for column name: 3.03 minutes
+inference for column name: 0.00 minutes
+
+fine tune for column address_1: 3.03 minutes
+inference for column address_1: 0.00 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 3.02 minutes
+inference for column city: 0.00 minutes
+
+skip index 7
+
+skip index 8
+
+skip index 9
+
+skip index 10
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.03 minutes
+inference for column measure_code: 0.01 minutes
+
+fine tune for column measure_name: 3.03 minutes
+inference for column measure_name: 0.01 minutes
+
+fine tune for column score: 2.98 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.95 minutes
+inference for column sample: 0.02 minutes
+
+skip index 19
+
+Computing weight_used after iteration 5
+
+F1 score: 0.9505154639175258
+---------------start iteration 6---------------
+skip index 0
+
+skip index 1
+
+fine tune for column name: 3.03 minutes
+inference for column name: 0.00 minutes
+
+fine tune for column address_1: 3.05 minutes
+inference for column address_1: 0.01 minutes
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 3.03 minutes
+inference for column city: 0.00 minutes
+
+skip index 7
+
+skip index 8
+
+skip index 9
+
+skip index 10
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.02 minutes
+inference for column measure_code: 0.00 minutes
+
+skip index 16
+
+fine tune for column score: 2.98 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.95 minutes
+inference for column sample: 0.02 minutes
+
+skip index 19
+
+Computing weight_used after iteration 6
+
+F1 score: 0.9558974358974359
+---------------start iteration 7---------------
+skip index 0
+
+skip index 1
+
+fine tune for column name: 3.03 minutes
+inference for column name: 0.00 minutes
+
+skip index 3
+
+skip index 4
+
+skip index 5
+
+fine tune for column city: 3.03 minutes
+inference for column city: 0.00 minutes
+
+skip index 7
+
+skip index 8
+
+skip index 9
+
+skip index 10
+
+skip index 11
+
+skip index 12
+
+skip index 13
+
+skip index 14
+
+fine tune for column measure_code: 3.03 minutes
+inference for column measure_code: 0.00 minutes
+
+skip index 16
+
+fine tune for column score: 3.00 minutes
+inference for column score: 0.01 minutes
+
+fine tune for column sample: 2.95 minutes
+inference for column sample: 0.02 minutes
+
+skip index 19
+
+Computing weight_used after iteration 7
+
+F1 score: 0.9569672131147541
+Done.
+
+Time taken: 200.99 minutes
+result saved to ./result/hospital_repaired_original.csv
+hospital
+  index provider_number  ... sample   state_average
+0     1           10018  ...  empty  al_scip-card-2
+1     2           10018  ...  empty   al_scip-inf-1
+2     3           10018  ...  empty   al_scip-inf-2
+3     4           10018  ...  empty   al_scip-inf-3
+4     5           10018  ...  empty   al_scip-inf-4
+
+[5 rows x 20 columns]
+F1 score: 0.9569672131147541
+running done at: 2025-11-06 07:13:21

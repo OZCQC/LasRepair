@@ -1,0 +1,84 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 0.05, batch_size: 8, epochs: 3, max_iteration: 10
+Initializing model
+---------------start iteration 1---------------
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column f_name done, time taken: 9.657937868436177 minutes
+inference start
+inference for column f_name done, time taken: 0.07794194618860881 minutes
+fine tune for column l_name done, time taken: 6.047382271289825 minutes
+inference start
+inference for column l_name done, time taken: 0.07313608328501384 minutes
+skip index 2
+skip index 3
+skip index 4
+fine tune for column city done, time taken: 4.660615507761637 minutes
+inference start
+inference for column city done, time taken: 0.008244935671488445 minutes
+fine tune for column state done, time taken: 3.8860898574193317 minutes
+inference start
+inference for column state done, time taken: 0.3270010709762573 minutes
+fine tune for column zip done, time taken: 3.4965664744377136 minutes
+inference start
+inference for column zip done, time taken: 0.202614688873291 minutes
+fine tune for column marital_status done, time taken: 3.33756103515625 minutes
+inference start
+inference for column marital_status done, time taken: 0.005519489447275798 minutes
+fine tune for column has_child done, time taken: 3.2889819661776225 minutes
+inference start
+inference for column has_child done, time taken: 0.125344979763031 minutes
+skip index 10
+skip index 11
+skip index 12
+skip index 13
+skip index 14
+Computing weight_used after iteration 1
+
+F1 score: 0.6937547027840482
+---------------start iteration 2---------------
+fine tune for column f_name done, time taken: 3.222970513502757 minutes
+inference start
+inference for column f_name done, time taken: 0.023228307565053303 minutes
+fine tune for column l_name done, time taken: 3.4917681018511453 minutes
+inference start
+inference for column l_name done, time taken: 0.04616047541300456 minutes
+skip index 2
+skip index 3
+skip index 4
+fine tune for column city done, time taken: 3.359697186946869 minutes
+inference start
+inference for column city done, time taken: 0.008414693673451741 minutes
+fine tune for column state done, time taken: 3.4292171756426493 minutes
+inference start
+inference for column state done, time taken: 0.09921994606653849 minutes
+fine tune for column zip done, time taken: 2.898533837000529 minutes
+inference start
+inference for column zip done, time taken: 0.10962443351745606 minutes
+fine tune for column marital_status done, time taken: 2.8353503704071046 minutes
+inference start
+inference for column marital_status done, time taken: 0.003699326515197754 minutes
+skip index 9
+skip index 10
+skip index 11
+skip index 12
+skip index 13
+skip index 14
+Computing weight_used after iteration 2
+
+F1 score: 0.6937547027840482
+Done.
+
+Time taken: 54.74 minutes
+tax
+      f_name    l_name gender  ... single_exemp married_exemp child_exemp
+0   Pengyuan   Zendler      F  ...            0          7150           0
+1        Nik     Tacic      M  ...            0             0           0
+2      Hovav    Punter      M  ...           20             0           0
+3  Xiangning  Vanneste      F  ...            0          2000        1500
+4      Belen    Niccum      F  ...          700             0         400
+
+[5 rows x 15 columns]
+F1 score: 0.6937547027840482

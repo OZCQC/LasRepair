@@ -1,0 +1,80 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column ounces with prop 0.1
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+input_content: id: 1436<extra_id_1>beer_name: Pub Beer<extra_id_1>style: American Pale Lager<extra_id_1>abv: 0.05<extra_id_1>ibu: <extra_id_1>brewery_id: 408<extra_id_1>brewery_name: 10 Barrel Brewing Company<extra_id_1>city: Bend<extra_id_1>state: OR<extra_id_2>ounces: , target_content: 12
+fine tune for column ounces: 1.50 minutes
+inference for column ounces: 0.05 minutes
+
+fine tune for column abv: 1.14 minutes
+inference for column abv: 0.13 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 1.51 minutes
+inference for column city: 0.03 minutes
+
+fine tune for column state: 1.52 minutes
+inference for column state: 0.02 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.29310344827586204
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column ounces: 1.54 minutes
+inference for column ounces: 0.01 minutes
+
+fine tune for column abv: 1.16 minutes
+inference for column abv: 0.12 minutes
+
+skip index 5
+
+skip index 6
+
+skip index 7
+
+fine tune for column city: 1.52 minutes
+inference for column city: 0.03 minutes
+
+fine tune for column state: 1.53 minutes
+inference for column state: 0.02 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.29310344827586204
+Done.
+
+Time taken: 11.83 minutes
+result saved to ./result/beers_repaired_original.csv
+beers
+     id            beer_name  ...  city state
+0  1436             Pub Beer  ...  Bend    OR
+1  2265          Devil's Cup  ...  Gary    IN
+2  2264  Rise of the Phoenix  ...  Gary    IN
+3  2263             Sinister  ...  Gary    IN
+4  2262        Sex and Candy  ...  Gary    IN
+
+[5 rows x 10 columns]
+F1 score: 0.29310344827586204
+running done at: 2025-11-09 09:12:15

@@ -1,0 +1,234 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.3
+correcting column article_jissue with prop 0.3
+correcting column article_jcreated_at with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+fine tune for column article_title: 3.05 minutes
+inference for column article_title: 0.08 minutes
+
+skip index 2
+
+fine tune for column journal_title: 2.99 minutes
+inference for column journal_title: 0.01 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.98 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.11 minutes
+inference for column article_jvolumn: 0.16 minutes
+
+input_content: id: 235295<extra_id_1>article_title: Late repair of injuries of the anal sphincter<extra_id_1>article_language: eng<extra_id_1>journal_title: Proc R Soc Med<extra_id_1>jounral_abbreviation: Proceedings of the Royal Society of Medicine<extra_id_1>journal_issn: 0035-9157 (Print) 0035-9157<extra_id_1>article_jvolumn: <extra_id_0><extra_id_1>article_jcreated_at: 1/1/71<extra_id_1>article_pagination: 1187-9<extra_id_1>author_list: {"A. G. Parks","J. F. McPartlin"}<extra_id_2>article_jissue: , target_content: 12
+fine tune for column article_jissue: 2.12 minutes
+inference for column article_jissue: 0.16 minutes
+
+fine tune for column article_jcreated_at: 2.39 minutes
+inference for column article_jcreated_at: 0.13 minutes
+
+fine tune for column article_pagination: 2.92 minutes
+inference for column article_pagination: 0.04 minutes
+
+fine tune for column author_list: 2.78 minutes
+inference for column author_list: 0.44 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.21082089552238806
+---------------start iteration 2---------------
+skip index 0
+
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.3
+correcting column article_jissue with prop 0.3
+correcting column article_jcreated_at with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+fine tune for column article_title: 3.12 minutes
+inference for column article_title: 0.10 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.09 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.97 minutes
+inference for column journal_issn: 0.07 minutes
+
+fine tune for column article_jvolumn: 2.24 minutes
+inference for column article_jvolumn: 1.22 minutes
+
+fine tune for column article_jissue: 2.43 minutes
+inference for column article_jissue: 0.87 minutes
+
+fine tune for column article_jcreated_at: 2.43 minutes
+inference for column article_jcreated_at: 0.17 minutes
+
+fine tune for column article_pagination: 2.91 minutes
+inference for column article_pagination: 0.14 minutes
+
+fine tune for column author_list: 2.83 minutes
+inference for column author_list: 0.43 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.24358974358974358
+---------------start iteration 3---------------
+skip index 0
+
+fine tune for column article_title: 3.09 minutes
+inference for column article_title: 0.09 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.04 minutes
+inference for column journal_title: 0.05 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 3.05 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.34 minutes
+inference for column article_jvolumn: 0.15 minutes
+
+fine tune for column article_jissue: 2.34 minutes
+inference for column article_jissue: 0.12 minutes
+
+fine tune for column article_jcreated_at: 2.49 minutes
+inference for column article_jcreated_at: 0.11 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.16 minutes
+
+fine tune for column author_list: 2.80 minutes
+inference for column author_list: 0.45 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.24840182648401823
+Done.
+
+Time taken: 70.63 minutes
+result saved to ./result/rayyan_repaired_original.csv
+rayyan
+       id  ...                                        author_list
+0  235295  ...                  {"A. G. Parks","J. F. McPartlin"}
+1  498345  ...  {"Valentina A Volchkova","Jaroslav Vorac","Phi...
+2  789958  ...  {"Jitendra Jethani","Shashikant Shetty","Suche...
+3  169865  ...  {"G. Jakiel","K. Gorzelnik","J. G. Zimowski","...
+4  803653  ...                          {"Lauren C Pinter-Brown"}
+
+[5 rows x 11 columns]
+F1 score: 0.24840182648401823
+running done at: 2025-10-17 04:57:46
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.1
+correcting column article_jissue with prop 0.1
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+input_content: id: 235295<extra_id_1>article_language: eng<extra_id_1>journal_title: Proc R Soc Med<extra_id_1>jounral_abbreviation: Proceedings of the Royal Society of Medicine<extra_id_1>journal_issn: 0035-9157 (Print) 0035-9157<extra_id_1>article_jvolumn: 64<extra_id_1>article_jissue: 12<extra_id_1>article_jcreated_at: 1/1/71<extra_id_1>article_pagination: 1187-9<extra_id_1>author_list: {"A. G. Parks","J. F. McPartlin"}<extra_id_2>article_title: , target_content: Late repair of injuries of the anal sphincter
+fine tune for column article_title: 3.04 minutes
+inference for column article_title: 0.07 minutes
+
+skip index 2
+
+fine tune for column journal_title: 2.98 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.98 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.68 minutes
+inference for column article_jvolumn: 0.07 minutes
+
+fine tune for column article_jissue: 2.68 minutes
+inference for column article_jissue: 0.08 minutes
+
+fine tune for column article_jcreated_at: 0.84 minutes
+inference for column article_jcreated_at: 0.46 minutes
+
+fine tune for column article_pagination: 2.92 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.46 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.02211981566820277
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column article_title: 2.98 minutes
+inference for column article_title: 0.09 minutes
+
+skip index 2
+
+fine tune for column journal_title: 2.98 minutes
+inference for column journal_title: 0.08 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.98 minutes
+inference for column journal_issn: 0.10 minutes
+
+fine tune for column article_jvolumn: 2.70 minutes
+inference for column article_jvolumn: 0.50 minutes
+
+fine tune for column article_jissue: 2.70 minutes
+inference for column article_jissue: 0.50 minutes
+
+fine tune for column article_jcreated_at: 0.83 minutes
+inference for column article_jcreated_at: 3.80 minutes
+
+fine tune for column article_pagination: 2.92 minutes
+inference for column article_pagination: 0.17 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.44 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.02211981566820277
+Done.
+
+Time taken: 48.59 minutes
+result saved to ./result/rayyan_repaired_original.csv
+rayyan
+       id  ...                                        author_list
+0  235295  ...                  {"A. G. Parks","J. F. McPartlin"}
+1  498345  ...  {"Valentina A Volchkova","Jaroslav Vorac","Phi...
+2  789958  ...  {"Jitendra Jethani","Shashikant Shetty","Suche...
+3  169865  ...  {"G. Jakiel","K. Gorzelnik","J. G. Zimowski","...
+4  803653  ...                          {"Lauren C Pinter-Brown"}
+
+[5 rows x 11 columns]
+F1 score: 0.02211981566820277
+running done at: 2025-10-17 06:01:33

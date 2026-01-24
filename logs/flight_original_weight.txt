@@ -1,0 +1,239 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+usage: original.py [-h] [--experiment EXPERIMENT] [--gpu GPU]
+                   [--batch_size BATCH_SIZE] [--epochs EPOCHS]
+                   [--max_iteration MAX_ITERATION] [--use_weight]
+original.py: error: unrecognized arguments: True
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, batch_size: 8, epochs: 3, max_iteration: 10
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+skip index 1
+skip index 2
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/original.py", line 309, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/original.py", line 238, in run
+    self.train_step(train_loader, epochs=self.epochs)
+  File "/data1/qianc/EMCL/EMCL/original.py", line 139, in train_step
+    outputs = model(input_ids=inputs, attention_mask=attention_mask, labels=labels)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 1905, in forward
+    decoder_outputs = self.decoder(
+                      ^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 1131, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 732, in forward
+    hidden_states = self.layer[-1](hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 346, in forward
+    forwarded_states = self.DenseReluDense(forwarded_states)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py", line 292, in forward
+    hidden_states = self.act(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 133, in forward
+    return F.relu(input, inplace=self.inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/torch/nn/functional.py", line 1704, in relu
+    result = torch.relu(input)
+             ^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 5 has a total capacity of 23.58 GiB of which 4.19 MiB is free. Process 2452123 has 16.27 GiB memory in use. Including non-PyTorch memory, this process has 7.29 GiB memory in use. Of the allocated memory 7.04 GiB is allocated by PyTorch, and 9.26 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, batch_size: 8, epochs: 3, max_iteration: 10
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+skip index 1
+skip index 2
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column sched_dep_time done, time taken: 4.606467763582866 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.7706774711608887 minutes
+fine tune for column act_dep_time done, time taken: 2.5417691191037495 minutes
+inference start
+inference for column act_dep_time done, time taken: 1.2635788520177205 minutes
+fine tune for column sched_arr_time done, time taken: 3.9175045609474184 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.8934690515200298 minutes
+fine tune for column act_arr_time done, time taken: 3.1406202276547748 minutes
+inference start
+inference for column act_arr_time done, time taken: 1.0986618439356486 minutes
+Computing weight_used after iteration 1
+
+F1 score: 0.613693998309383
+---------------start iteration 2---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column sched_dep_time done, time taken: 4.8369396209716795 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.634958557287852 minutes
+fine tune for column act_dep_time done, time taken: 4.123758526643117 minutes
+inference start
+inference for column act_dep_time done, time taken: 0.8924760818481445 minutes
+fine tune for column sched_arr_time done, time taken: 5.977230115731557 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.3766888578732808 minutes
+fine tune for column act_arr_time done, time taken: 5.983145336310069 minutes
+inference start
+inference for column act_arr_time done, time taken: 0.3516788125038147 minutes
+Computing weight_used after iteration 2
+
+F1 score: 0.6474226804123712
+---------------start iteration 3---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column sched_dep_time done, time taken: 4.778192222118378 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.674575670560201 minutes
+fine tune for column act_dep_time done, time taken: 4.133125599225362 minutes
+inference start
+inference for column act_dep_time done, time taken: 0.8655923287073771 minutes
+fine tune for column sched_arr_time done, time taken: 5.983483608563741 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.36359523932139076 minutes
+fine tune for column act_arr_time done, time taken: 6.385521670182546 minutes
+inference start
+inference for column act_arr_time done, time taken: 0.2488104502360026 minutes
+Computing weight_used after iteration 3
+
+F1 score: 0.6888740839440373
+---------------start iteration 4---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column sched_dep_time done, time taken: 4.857000863552093 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.6526556531588237 minutes
+fine tune for column act_dep_time done, time taken: 4.51859366496404 minutes
+inference start
+inference for column act_dep_time done, time taken: 0.7728726665178934 minutes
+fine tune for column sched_arr_time done, time taken: 6.183272488911947 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.3170621951421102 minutes
+fine tune for column act_arr_time done, time taken: 6.578334542115529 minutes
+inference start
+inference for column act_arr_time done, time taken: 0.226329509417216 minutes
+Computing weight_used after iteration 4
+
+F1 score: 0.773220296721107
+---------------start iteration 5---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column sched_dep_time done, time taken: 5.392936408519745 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.5314073522885641 minutes
+fine tune for column act_dep_time done, time taken: 5.010092842578888 minutes
+inference start
+inference for column act_dep_time done, time taken: 0.6367661873499553 minutes
+fine tune for column sched_arr_time done, time taken: 6.569109797477722 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.20990488529205323 minutes
+fine tune for column act_arr_time done, time taken: 6.747536846001943 minutes
+inference start
+inference for column act_arr_time done, time taken: 0.1545295794804891 minutes
+Computing weight_used after iteration 5
+
+F1 score: 0.8471001757469243
+---------------start iteration 6---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column sched_dep_time done, time taken: 5.795737210909525 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.3777812321980794 minutes
+fine tune for column act_dep_time done, time taken: 5.626025692621867 minutes
+inference start
+inference for column act_dep_time done, time taken: 0.392217497030894 minutes
+fine tune for column sched_arr_time done, time taken: 6.7553508679072065 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.13721379041671752 minutes
+fine tune for column act_arr_time done, time taken: 6.89177919626236 minutes
+inference start
+inference for column act_arr_time done, time taken: 0.12694232066472372 minutes
+Computing weight_used after iteration 6
+
+F1 score: 0.8741418764302059
+---------------start iteration 7---------------
+skip index 0
+skip index 1
+skip index 2
+fine tune for column sched_dep_time done, time taken: 6.01087087392807 minutes
+inference start
+inference for column sched_dep_time done, time taken: 0.3347606142361959 minutes
+fine tune for column act_dep_time done, time taken: 5.986040699481964 minutes
+inference start
+inference for column act_dep_time done, time taken: 0.3481162468592326 minutes
+fine tune for column sched_arr_time done, time taken: 6.790428753693899 minutes
+inference start
+inference for column sched_arr_time done, time taken: 0.11474070151646933 minutes
+fine tune for column act_arr_time done, time taken: 6.722081518173217 minutes
+inference start
+inference for column act_arr_time done, time taken: 0.11530701319376628 minutes
+Computing weight_used after iteration 7
+
+F1 score: 0.8818181818181818
+Done.
+
+Time taken: 166.74 minutes
+flight
+  tuple_id src           flight  ... act_dep_time sched_arr_time act_arr_time
+0        1  aa  AA-3859-IAH-ORD  ...    7:16 a.m.      9:40 a.m.    9:32 a.m.
+1        2  aa  AA-1733-ORD-PHX  ...    7:58 p.m.     10:30 p.m.   10:30 p.m.
+2        3  aa  AA-1640-MIA-MCO  ...    6:30 p.m.      7:25 p.m.    7:25 p.m.
+3        4  aa   AA-518-MIA-JFK  ...    6:54 a.m.      9:25 a.m.    9:28 a.m.
+4        5  aa  AA-3756-ORD-SLC  ...   12:41 p.m.      2:45 p.m.    2:50 p.m.
+
+[5 rows x 7 columns]
+F1 score: 0.8818181818181818

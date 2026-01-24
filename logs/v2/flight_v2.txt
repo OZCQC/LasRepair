@@ -1,0 +1,21 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0, budget: 20
+batch_size: 8, epochs: 3, max_iteration: 1, temperature: 1.0
+Initializing model
+/data1/qianc/EMCL/EMCL/EMCL_v2.py:248: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  if error_count[col] > self.threshold * self.clean_df.shape[0]:
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column sched_dep_time: 4.57 minutes
+inference for column sched_dep_time: 0.71 minutes
+
+fine tune for column act_dep_time: 2.50 minutes

@@ -1,0 +1,765 @@
+------------------------------------------------------------------------
+---------------------Initialize the Dataset Object----------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+--------------------Initialize Error Corrector Models-------------------
+------------------------------------------------------------------------
+The error corrector models are initialized.
+------------------------------------------------------------------------
+--------------Iterative Tuple Sampling, Labeling, and Learning----------
+------------------------------------------------------------------------
+Label round 1/20
+Tuple 522 is sampled.
+Tuple 522 is labeled.
+The error corrector models are updated with new labeled tuple 522.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features2675 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/839 predicted correction100/839 predicted correction200/839 predicted correction300/839 predicted correction400/839 predicted correction500/839 predicted correction600/839 predicted correction700/839 predicted correction800/839 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features3798 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/850 predicted correction100/850 predicted correction200/850 predicted correction300/850 predicted correction400/850 predicted correction500/850 predicted correction600/850 predicted correction700/850 predicted correction800/850 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features2285 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/825 predicted correction100/825 predicted correction200/825 predicted correction300/825 predicted correction400/825 predicted correction500/825 predicted correction600/825 predicted correction700/825 predicted correction800/825 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features55 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/822 predicted correction100/822 predicted correction200/822 predicted correction300/822 predicted correction400/822 predicted correction500/822 predicted correction600/822 predicted correction700/822 predicted correction800/822 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features5 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/829 predicted correction100/829 predicted correction200/829 predicted correction300/829 predicted correction400/829 predicted correction500/829 predicted correction600/829 predicted correction700/829 predicted correction800/829 predicted correction62% (2568 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 2/20
+Tuple 2260 is sampled.
+Tuple 2260 is labeled.
+The error corrector models are updated with new labeled tuple 2260.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features2676 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/839 predicted correction100/839 predicted correction200/839 predicted correction300/839 predicted correction400/839 predicted correction500/839 predicted correction600/839 predicted correction700/839 predicted correction800/839 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features7602 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/849 predicted correction100/849 predicted correction200/849 predicted correction300/849 predicted correction400/849 predicted correction500/849 predicted correction600/849 predicted correction700/849 predicted correction800/849 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features4568 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/824 predicted correction100/824 predicted correction200/824 predicted correction300/824 predicted correction400/824 predicted correction500/824 predicted correction600/824 predicted correction700/824 predicted correction800/824 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features108 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/821 predicted correction100/821 predicted correction200/821 predicted correction300/821 predicted correction400/821 predicted correction500/821 predicted correction600/821 predicted correction700/821 predicted correction800/821 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features6 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/829 predicted correction100/829 predicted correction200/829 predicted correction300/829 predicted correction400/829 predicted correction500/829 predicted correction600/829 predicted correction700/829 predicted correction800/829 predicted correction76% (3176 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 3/20
+Tuple 103 is sampled.
+Tuple 103 is labeled.
+The error corrector models are updated with new labeled tuple 103.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features2676 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/839 predicted correction100/839 predicted correction200/839 predicted correction300/839 predicted correction400/839 predicted correction500/839 predicted correction600/839 predicted correction700/839 predicted correction800/839 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features11404 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/848 predicted correction100/848 predicted correction200/848 predicted correction300/848 predicted correction400/848 predicted correction500/848 predicted correction600/848 predicted correction700/848 predicted correction800/848 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features6853 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/823 predicted correction100/823 predicted correction200/823 predicted correction300/823 predicted correction400/823 predicted correction500/823 predicted correction600/823 predicted correction700/823 predicted correction800/823 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features162 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/820 predicted correction100/820 predicted correction200/820 predicted correction300/820 predicted correction400/820 predicted correction500/820 predicted correction600/820 predicted correction700/820 predicted correction800/820 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features12 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/828 predicted correction100/828 predicted correction200/828 predicted correction300/828 predicted correction400/828 predicted correction500/828 predicted correction600/828 predicted correction700/828 predicted correction800/828 predicted correction77% (3212 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 4/20
+Tuple 1044 is sampled.
+Tuple 1044 is labeled.
+The error corrector models are updated with new labeled tuple 1044.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(1) ...
+0/1 creating train features2676 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/839 predicted correction100/839 predicted correction200/839 predicted correction300/839 predicted correction400/839 predicted correction500/839 predicted correction600/839 predicted correction700/839 predicted correction800/839 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(4) ...
+0/4 creating train features15208 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/847 predicted correction100/847 predicted correction200/847 predicted correction300/847 predicted correction400/847 predicted correction500/847 predicted correction600/847 predicted correction700/847 predicted correction800/847 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(4) ...
+0/4 creating train features9140 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/822 predicted correction100/822 predicted correction200/822 predicted correction300/822 predicted correction400/822 predicted correction500/822 predicted correction600/822 predicted correction700/822 predicted correction800/822 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(4) ...
+0/4 creating train features218 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features12 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/828 predicted correction100/828 predicted correction200/828 predicted correction300/828 predicted correction400/828 predicted correction500/828 predicted correction600/828 predicted correction700/828 predicted correction800/828 predicted correction77% (3215 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 5/20
+Tuple 2934 is sampled.
+Tuple 2934 is labeled.
+The error corrector models are updated with new labeled tuple 2934.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features5348 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/838 predicted correction100/838 predicted correction200/838 predicted correction300/838 predicted correction400/838 predicted correction500/838 predicted correction600/838 predicted correction700/838 predicted correction800/838 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features19014 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/846 predicted correction100/846 predicted correction200/846 predicted correction300/846 predicted correction400/846 predicted correction500/846 predicted correction600/846 predicted correction700/846 predicted correction800/846 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features11424 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/821 predicted correction100/821 predicted correction200/821 predicted correction300/821 predicted correction400/821 predicted correction500/821 predicted correction600/821 predicted correction700/821 predicted correction800/821 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(4) ...
+0/4 creating train features218 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features12 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/828 predicted correction100/828 predicted correction200/828 predicted correction300/828 predicted correction400/828 predicted correction500/828 predicted correction600/828 predicted correction700/828 predicted correction800/828 predicted correction77% (3223 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 6/20
+Tuple 4015 is sampled.
+Tuple 4015 is labeled.
+The error corrector models are updated with new labeled tuple 4015.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features5348 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/838 predicted correction100/838 predicted correction200/838 predicted correction300/838 predicted correction400/838 predicted correction500/838 predicted correction600/838 predicted correction700/838 predicted correction800/838 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(6) ...
+0/6 creating train features22822 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/845 predicted correction100/845 predicted correction200/845 predicted correction300/845 predicted correction400/845 predicted correction500/845 predicted correction600/845 predicted correction700/845 predicted correction800/845 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features11424 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/821 predicted correction100/821 predicted correction200/821 predicted correction300/821 predicted correction400/821 predicted correction500/821 predicted correction600/821 predicted correction700/821 predicted correction800/821 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features274 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/818 predicted correction100/818 predicted correction200/818 predicted correction300/818 predicted correction400/818 predicted correction500/818 predicted correction600/818 predicted correction700/818 predicted correction800/818 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features12 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/828 predicted correction100/828 predicted correction200/828 predicted correction300/828 predicted correction400/828 predicted correction500/828 predicted correction600/828 predicted correction700/828 predicted correction800/828 predicted correction78% (3235 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 7/20
+Tuple 2393 is sampled.
+Tuple 2393 is labeled.
+The error corrector models are updated with new labeled tuple 2393.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features5348 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/838 predicted correction100/838 predicted correction200/838 predicted correction300/838 predicted correction400/838 predicted correction500/838 predicted correction600/838 predicted correction700/838 predicted correction800/838 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features26632 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/844 predicted correction100/844 predicted correction200/844 predicted correction300/844 predicted correction400/844 predicted correction500/844 predicted correction600/844 predicted correction700/844 predicted correction800/844 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features11424 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/821 predicted correction100/821 predicted correction200/821 predicted correction300/821 predicted correction400/821 predicted correction500/821 predicted correction600/821 predicted correction700/821 predicted correction800/821 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(6) ...
+0/6 creating train features329 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/817 predicted correction100/817 predicted correction200/817 predicted correction300/817 predicted correction400/817 predicted correction500/817 predicted correction600/817 predicted correction700/817 predicted correction800/817 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features12 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/828 predicted correction100/828 predicted correction200/828 predicted correction300/828 predicted correction400/828 predicted correction500/828 predicted correction600/828 predicted correction700/828 predicted correction800/828 predicted correction78% (3238 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 8/20
+Tuple 1890 is sampled.
+Tuple 1890 is labeled.
+The error corrector models are updated with new labeled tuple 1890.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features5349 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/838 predicted correction100/838 predicted correction200/838 predicted correction300/838 predicted correction400/838 predicted correction500/838 predicted correction600/838 predicted correction700/838 predicted correction800/838 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(8) ...
+0/8 creating train features30445 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/843 predicted correction100/843 predicted correction200/843 predicted correction300/843 predicted correction400/843 predicted correction500/843 predicted correction600/843 predicted correction700/843 predicted correction800/843 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(6) ...
+0/6 creating train features13712 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/820 predicted correction100/820 predicted correction200/820 predicted correction300/820 predicted correction400/820 predicted correction500/820 predicted correction600/820 predicted correction700/820 predicted correction800/820 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features391 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/816 predicted correction100/816 predicted correction200/816 predicted correction300/816 predicted correction400/816 predicted correction500/816 predicted correction600/816 predicted correction700/816 predicted correction800/816 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features21 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/827 predicted correction100/827 predicted correction200/827 predicted correction300/827 predicted correction400/827 predicted correction500/827 predicted correction600/827 predicted correction700/827 predicted correction800/827 predicted correction78% (3241 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 9/20
+Tuple 4051 is sampled.
+Tuple 4051 is labeled.
+The error corrector models are updated with new labeled tuple 4051.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(2) ...
+0/2 creating train features5349 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/838 predicted correction100/838 predicted correction200/838 predicted correction300/838 predicted correction400/838 predicted correction500/838 predicted correction600/838 predicted correction700/838 predicted correction800/838 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(9) ...
+0/9 creating train features34259 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/842 predicted correction100/842 predicted correction200/842 predicted correction300/842 predicted correction400/842 predicted correction500/842 predicted correction600/842 predicted correction700/842 predicted correction800/842 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(6) ...
+0/6 creating train features13712 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/820 predicted correction100/820 predicted correction200/820 predicted correction300/820 predicted correction400/820 predicted correction500/820 predicted correction600/820 predicted correction700/820 predicted correction800/820 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(8) ...
+0/8 creating train features453 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/815 predicted correction100/815 predicted correction200/815 predicted correction300/815 predicted correction400/815 predicted correction500/815 predicted correction600/815 predicted correction700/815 predicted correction800/815 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features21 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/827 predicted correction100/827 predicted correction200/827 predicted correction300/827 predicted correction400/827 predicted correction500/827 predicted correction600/827 predicted correction700/827 predicted correction800/827 predicted correction78% (3243 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 10/20
+Tuple 3617 is sampled.
+Tuple 3617 is labeled.
+The error corrector models are updated with new labeled tuple 3617.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features8031 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/837 predicted correction100/837 predicted correction200/837 predicted correction300/837 predicted correction400/837 predicted correction500/837 predicted correction600/837 predicted correction700/837 predicted correction800/837 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(10) ...
+0/10 creating train features38077 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/841 predicted correction100/841 predicted correction200/841 predicted correction300/841 predicted correction400/841 predicted correction500/841 predicted correction600/841 predicted correction700/841 predicted correction800/841 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16010 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(9) ...
+0/9 creating train features511 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/814 predicted correction100/814 predicted correction200/814 predicted correction300/814 predicted correction400/814 predicted correction500/814 predicted correction600/814 predicted correction700/814 predicted correction800/814 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features27 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/827 predicted correction100/827 predicted correction200/827 predicted correction300/827 predicted correction400/827 predicted correction500/827 predicted correction600/827 predicted correction700/827 predicted correction800/827 predicted correction78% (3245 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 11/20
+Tuple 1627 is sampled.
+Tuple 1627 is labeled.
+The error corrector models are updated with new labeled tuple 1627.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features8031 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/837 predicted correction100/837 predicted correction200/837 predicted correction300/837 predicted correction400/837 predicted correction500/837 predicted correction600/837 predicted correction700/837 predicted correction800/837 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(11) ...
+0/11 creating train features41895 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/840 predicted correction100/840 predicted correction200/840 predicted correction300/840 predicted correction400/840 predicted correction500/840 predicted correction600/840 predicted correction700/840 predicted correction800/840 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16010 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(10) ...
+0/10 creating train features575 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/813 predicted correction100/813 predicted correction200/813 predicted correction300/813 predicted correction400/813 predicted correction500/813 predicted correction600/813 predicted correction700/813 predicted correction800/813 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features27 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/827 predicted correction100/827 predicted correction200/827 predicted correction300/827 predicted correction400/827 predicted correction500/827 predicted correction600/827 predicted correction700/827 predicted correction800/827 predicted correction78% (3247 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 12/20
+Tuple 383 is sampled.
+Tuple 383 is labeled.
+The error corrector models are updated with new labeled tuple 383.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features8031 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/837 predicted correction100/837 predicted correction200/837 predicted correction300/837 predicted correction400/837 predicted correction500/837 predicted correction600/837 predicted correction700/837 predicted correction800/837 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(12) ...
+0/12 creating train features45715 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/839 predicted correction100/839 predicted correction200/839 predicted correction300/839 predicted correction400/839 predicted correction500/839 predicted correction600/839 predicted correction700/839 predicted correction800/839 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16010 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(11) ...
+0/11 creating train features641 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/812 predicted correction100/812 predicted correction200/812 predicted correction300/812 predicted correction400/812 predicted correction500/812 predicted correction600/812 predicted correction700/812 predicted correction800/812 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features27 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/827 predicted correction100/827 predicted correction200/827 predicted correction300/827 predicted correction400/827 predicted correction500/827 predicted correction600/827 predicted correction700/827 predicted correction800/827 predicted correction78% (3253 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 13/20
+Tuple 2274 is sampled.
+Tuple 2274 is labeled.
+The error corrector models are updated with new labeled tuple 2274.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features8031 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/837 predicted correction100/837 predicted correction200/837 predicted correction300/837 predicted correction400/837 predicted correction500/837 predicted correction600/837 predicted correction700/837 predicted correction800/837 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(13) ...
+0/13 creating train features49537 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/838 predicted correction100/838 predicted correction200/838 predicted correction300/838 predicted correction400/838 predicted correction500/838 predicted correction600/838 predicted correction700/838 predicted correction800/838 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16010 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(12) ...
+0/12 creating train features709 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/811 predicted correction100/811 predicted correction200/811 predicted correction300/811 predicted correction400/811 predicted correction500/811 predicted correction600/811 predicted correction700/811 predicted correction800/811 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features27 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/827 predicted correction100/827 predicted correction200/827 predicted correction300/827 predicted correction400/827 predicted correction500/827 predicted correction600/827 predicted correction700/827 predicted correction800/827 predicted correction78% (3255 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 14/20
+Tuple 3681 is sampled.
+Tuple 3681 is labeled.
+The error corrector models are updated with new labeled tuple 3681.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(3) ...
+0/3 creating train features8031 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/837 predicted correction100/837 predicted correction200/837 predicted correction300/837 predicted correction400/837 predicted correction500/837 predicted correction600/837 predicted correction700/837 predicted correction800/837 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(14) ...
+0/14 creating train features53361 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/837 predicted correction100/837 predicted correction200/837 predicted correction300/837 predicted correction400/837 predicted correction500/837 predicted correction600/837 predicted correction700/837 predicted correction800/837 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16010 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(13) ...
+0/13 creating train features778 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/810 predicted correction100/810 predicted correction200/810 predicted correction300/810 predicted correction400/810 predicted correction500/810 predicted correction600/810 predicted correction700/810 predicted correction800/810 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(4) ...
+0/4 creating train features36 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/826 predicted correction100/826 predicted correction200/826 predicted correction300/826 predicted correction400/826 predicted correction500/826 predicted correction600/826 predicted correction700/826 predicted correction800/826 predicted correction78% (3257 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 15/20
+Tuple 2244 is sampled.
+Tuple 2244 is labeled.
+The error corrector models are updated with new labeled tuple 2244.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(4) ...
+0/4 creating train features10708 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/836 predicted correction100/836 predicted correction200/836 predicted correction300/836 predicted correction400/836 predicted correction500/836 predicted correction600/836 predicted correction700/836 predicted correction800/836 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(15) ...
+0/15 creating train features57187 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/836 predicted correction100/836 predicted correction200/836 predicted correction300/836 predicted correction400/836 predicted correction500/836 predicted correction600/836 predicted correction700/836 predicted correction800/836 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16010 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(13) ...
+0/13 creating train features778 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/810 predicted correction100/810 predicted correction200/810 predicted correction300/810 predicted correction400/810 predicted correction500/810 predicted correction600/810 predicted correction700/810 predicted correction800/810 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features45 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/825 predicted correction100/825 predicted correction200/825 predicted correction300/825 predicted correction400/825 predicted correction500/825 predicted correction600/825 predicted correction700/825 predicted correction800/825 predicted correction78% (3259 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 16/20
+Tuple 4048 is sampled.
+Tuple 4048 is labeled.
+The error corrector models are updated with new labeled tuple 4048.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features13384 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/835 predicted correction100/835 predicted correction200/835 predicted correction300/835 predicted correction400/835 predicted correction500/835 predicted correction600/835 predicted correction700/835 predicted correction800/835 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(16) ...
+0/16 creating train features61016 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/835 predicted correction100/835 predicted correction200/835 predicted correction300/835 predicted correction400/835 predicted correction500/835 predicted correction600/835 predicted correction700/835 predicted correction800/835 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16013 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(14) ...
+0/14 creating train features837 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/809 predicted correction100/809 predicted correction200/809 predicted correction300/809 predicted correction400/809 predicted correction500/809 predicted correction600/809 predicted correction700/809 predicted correction800/809 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features50 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/825 predicted correction100/825 predicted correction200/825 predicted correction300/825 predicted correction400/825 predicted correction500/825 predicted correction600/825 predicted correction700/825 predicted correction800/825 predicted correction78% (3265 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 17/20
+Tuple 799 is sampled.
+Tuple 799 is labeled.
+The error corrector models are updated with new labeled tuple 799.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(6) ...
+0/6 creating train features16064 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/834 predicted correction100/834 predicted correction200/834 predicted correction300/834 predicted correction400/834 predicted correction500/834 predicted correction600/834 predicted correction700/834 predicted correction800/834 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(17) ...
+0/17 creating train features64846 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/834 predicted correction100/834 predicted correction200/834 predicted correction300/834 predicted correction400/834 predicted correction500/834 predicted correction600/834 predicted correction700/834 predicted correction800/834 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16013 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(14) ...
+0/14 creating train features837 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/809 predicted correction100/809 predicted correction200/809 predicted correction300/809 predicted correction400/809 predicted correction500/809 predicted correction600/809 predicted correction700/809 predicted correction800/809 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(5) ...
+0/5 creating train features50 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/825 predicted correction100/825 predicted correction200/825 predicted correction300/825 predicted correction400/825 predicted correction500/825 predicted correction600/825 predicted correction700/825 predicted correction800/825 predicted correction78% (3267 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 18/20
+Tuple 4441 is sampled.
+Tuple 4441 is labeled.
+The error corrector models are updated with new labeled tuple 4441.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features18739 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/833 predicted correction100/833 predicted correction200/833 predicted correction300/833 predicted correction400/833 predicted correction500/833 predicted correction600/833 predicted correction700/833 predicted correction800/833 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(18) ...
+0/18 creating train features68678 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/833 predicted correction100/833 predicted correction200/833 predicted correction300/833 predicted correction400/833 predicted correction500/833 predicted correction600/833 predicted correction700/833 predicted correction800/833 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16013 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(14) ...
+0/14 creating train features837 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/809 predicted correction100/809 predicted correction200/809 predicted correction300/809 predicted correction400/809 predicted correction500/809 predicted correction600/809 predicted correction700/809 predicted correction800/809 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(6) ...
+0/6 creating train features60 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/824 predicted correction100/824 predicted correction200/824 predicted correction300/824 predicted correction400/824 predicted correction500/824 predicted correction600/824 predicted correction700/824 predicted correction800/824 predicted correction78% (3271 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 19/20
+Tuple 105 is sampled.
+Tuple 105 is labeled.
+The error corrector models are updated with new labeled tuple 105.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(8) ...
+0/8 creating train features21422 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/832 predicted correction100/832 predicted correction200/832 predicted correction300/832 predicted correction400/832 predicted correction500/832 predicted correction600/832 predicted correction700/832 predicted correction800/832 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(19) ...
+0/19 creating train features72512 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/832 predicted correction100/832 predicted correction200/832 predicted correction300/832 predicted correction400/832 predicted correction500/832 predicted correction600/832 predicted correction700/832 predicted correction800/832 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16013 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(14) ...
+0/14 creating train features837 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/809 predicted correction100/809 predicted correction200/809 predicted correction300/809 predicted correction400/809 predicted correction500/809 predicted correction600/809 predicted correction700/809 predicted correction800/809 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features70 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/823 predicted correction100/823 predicted correction200/823 predicted correction300/823 predicted correction400/823 predicted correction500/823 predicted correction600/823 predicted correction700/823 predicted correction800/823 predicted correction78% (3273 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 20/20
+Tuple 1917 is sampled.
+Tuple 1917 is labeled.
+The error corrector models are updated with new labeled tuple 1917.
+Predicting module...
+------------------------------------------------------------------------
+1/5 columns(name of the Walmart market is)
+Generating train features(9) ...
+0/9 creating train features24098 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/831 predicted correction100/831 predicted correction200/831 predicted correction300/831 predicted correction400/831 predicted correction500/831 predicted correction600/831 predicted correction700/831 predicted correction800/831 predicted correction------------------------------------------------------------------------
+2/5 columns(street_address of the Walmart market is)
+Generating train features(20) ...
+0/20 creating train features76348 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/831 predicted correction100/831 predicted correction200/831 predicted correction300/831 predicted correction400/831 predicted correction500/831 predicted correction600/831 predicted correction700/831 predicted correction800/831 predicted correction------------------------------------------------------------------------
+3/5 columns(city of the Walmart market is)
+Generating train features(7) ...
+0/7 creating train features16013 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/819 predicted correction100/819 predicted correction200/819 predicted correction300/819 predicted correction400/819 predicted correction500/819 predicted correction600/819 predicted correction700/819 predicted correction800/819 predicted correction------------------------------------------------------------------------
+4/5 columns(state of the Walmart market is)
+Generating train features(14) ...
+0/14 creating train features873 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/809 predicted correction100/809 predicted correction200/809 predicted correction300/809 predicted correction400/809 predicted correction500/809 predicted correction600/809 predicted correction700/809 predicted correction800/809 predicted correction------------------------------------------------------------------------
+5/5 columns(country of the Walmart market is)
+Generating train features(8) ...
+0/8 creating train features94 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/822 predicted correction100/822 predicted correction200/822 predicted correction300/822 predicted correction400/822 predicted correction500/822 predicted correction600/822 predicted correction700/822 predicted correction800/822 predicted correction79% (3276 / 4170) of data errors are corrected.
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+---------------------------Storing the Results--------------------------
+------------------------------------------------------------------------
+The results are stored in /data1/qianc/EMCL/datasets/walmart/raha-baran-results-walmart/error-correction/correction.dataset.
+Corrected dataset saved to: /data1/qianc/EMCL/results/raha/walmart.csv
+Baran's correction performance on walmart:
+Precision = 0.2802
+Recall = 0.2201
+F1 = 0.2466
+Corrected dataset saved to: /data1/qianc/results/raha/walmart.csv
+Baran's correction performance on not walmart:
+Precision = 0.1852
+Recall = 0.1542
+F1 = 0.1683
+Time taken: 121.12221789360046 seconds

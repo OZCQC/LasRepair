@@ -1,0 +1,132 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 0.05
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+/data1/qianc/EMCL/EMCL/original.py:32: DtypeWarning: Columns (12,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  self.dirty_df = pd.read_csv(dirty_path, na_values=["nan", "NaN", "N/A", "None", "null"]).replace(np.nan, '')
+Initializing model
+---------------start iteration 1---------------
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column fname: 31.42 minutes
+inference for column fname: 0.19 minutes
+
+fine tune for column lname: 30.83 minutes
+inference for column lname: 0.52 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 30.97 minutes
+inference for column city: 0.15 minutes
+
+fine tune for column state: 39.59 minutes
+inference for column state: 0.63 minutes
+
+fine tune for column zip: 42.15 minutes
+inference for column zip: 0.20 minutes
+
+fine tune for column maritalstatus: 30.91 minutes
+inference for column maritalstatus: 0.10 minutes
+
+fine tune for column haschild: 30.89 minutes
+inference for column haschild: 0.10 minutes
+
+skip index 10
+
+skip index 11
+
+fine tune for column singleexemp: 30.88 minutes
+inference for column singleexemp: 0.11 minutes
+
+skip index 13
+
+fine tune for column childexemp: 35.45 minutes
+inference for column childexemp: 0.18 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.13927227101631115
+---------------start iteration 2---------------
+fine tune for column fname: 41.34 minutes
+inference for column fname: 0.39 minutes
+
+fine tune for column lname: 35.65 minutes
+inference for column lname: 0.72 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+
+fine tune for column city: 35.07 minutes
+inference for column city: 0.26 minutes
+
+fine tune for column state: 37.50 minutes
+inference for column state: 0.45 minutes
+
+fine tune for column zip: 35.96 minutes
+inference for column zip: 0.21 minutes
+
+fine tune for column maritalstatus: 30.34 minutes
+inference for column maritalstatus: 0.10 minutes
+
+fine tune for column haschild: 30.40 minutes
+inference for column haschild: 0.10 minutes
+
+skip index 10
+
+skip index 11
+
+fine tune for column singleexemp: 30.41 minutes
+inference for column singleexemp: 0.11 minutes
+
+skip index 13
+
+fine tune for column childexemp: 30.38 minutes
+inference for column childexemp: 0.12 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.10176
+Done.
+
+Time taken: 615.00 minutes
+result saved to ./result/tax_200k_repaired_original.csv
+tax_200k
+       fname     lname gender  ... singleexemp marriedexemp childexemp
+0   Pengyuan   Zendler      F  ...           0         7150          0
+1        Nik     Tacic      M  ...           0            0          0
+2      Hovav    Punter      M  ...          20            0          0
+3  Xiangning  Vanneste      F  ...           0         2000       1500
+4      Belen    Niccum      F  ...         700            0        400
+
+[5 rows x 15 columns]
+F1 score: 0.10176
+running done at: 2025-10-12 18:18:05
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 2000
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+input_content: lname: Zendler<extra_id_1>gender: F<extra_id_1>areacode: 508<extra_id_1>phone: 744-9007<extra_id_1>city: SWAMPSCOTT<extra_id_1>state: MA<extra_id_1>zip: <extra_id_0><extra_id_1>maritalstatus: M<extra_id_1>haschild: N<extra_id_1>salary: 90000<extra_id_1>rate: 5.3<extra_id_1>singleexemp: 0<extra_id_1>marriedexemp: 7150<extra_id_1>childexemp: 0<extra_id_2>fname: , target_content: Pengyuan
+fine tune for column fname: 7.59 minutes
+inference for column fname: 0.20 minutes
+
+fine tune for column lname: 7.20 minutes
+inference for column lname: 0.42 minutes
+
+skip index 2
+
+skip index 3
+
+skip index 4
+

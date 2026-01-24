@@ -1,0 +1,234 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+---------------start iteration 1---------------
+
+ Initializing model for group 3
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column Cont1 done, time taken: 0.39696441491444906 minutes
+inference start
+inference for column Cont1 done, time taken: 230.68425407409669 minutes
+Saving model state for group 3
+
+ Initializing model for group 2
+fine tune for column Cont2 done, time taken: 0.4522376775741577 minutes
+inference start
+inference for column Cont2 done, time taken: 264.78136126597724 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont3 done, time taken: 0.5413567543029785 minutes
+inference start
+inference for column Cont3 done, time taken: 25.734167981147767 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont4 done, time taken: 0.9051640391349792 minutes
+inference start
+inference for column Cont4 done, time taken: 21.655844469865162 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont5 done, time taken: 0.7074406862258911 minutes
+inference start
+inference for column Cont5 done, time taken: 21.441020202636718 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont6 done, time taken: 0.7102723360061646 minutes
+inference start
+inference for column Cont6 done, time taken: 24.76534057855606 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont7 done, time taken: 0.7672286748886108 minutes
+inference start
+inference for column Cont7 done, time taken: 21.52268537680308 minutes
+Saving model state for group 3
+Loading model for group 3
+fine tune for column Cont8 done, time taken: 0.7570185184478759 minutes
+inference start
+inference for column Cont8 done, time taken: 20.563763348261514 minutes
+Saving model state for group 3
+
+ Initializing model for group 1
+fine tune for column Cont9 done, time taken: 0.7250964482625325 minutes
+inference start
+inference for column Cont9 done, time taken: 230.55863158305485 minutes
+Saving model state for group 1
+
+ Initializing model for group 0
+fine tune for column Cont10 done, time taken: 0.49527939160664874 minutes
+inference start
+inference for column Cont10 done, time taken: 194.56667659680048 minutes
+Saving model state for group 0
+Computing weight_used after iteration 0
+
+F1 score: 0.221449927171441
+---------------start iteration 2---------------
+Loading model for group 3
+fine tune for column Cont1 done, time taken: 0.37000343402226765 minutes
+inference start
+inference for column Cont1 done, time taken: 16.922846174240114 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont2 done, time taken: 1.2536674857139587 minutes
+inference start
+inference for column Cont2 done, time taken: 19.487376860777538 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont3 done, time taken: 0.8113000114758809 minutes
+inference start
+inference for column Cont3 done, time taken: 18.188923410574596 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont4 done, time taken: 1.3214351495107015 minutes
+inference start
+inference for column Cont4 done, time taken: 6.944759845733643 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont5 done, time taken: 0.8230021397272745 minutes
+inference start
+inference for column Cont5 done, time taken: 14.316518445809683 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont6 done, time taken: 1.0456919550895691 minutes
+inference start
+inference for column Cont6 done, time taken: 11.910355945428213 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont7 done, time taken: 0.7509261965751648 minutes
+inference start
+inference for column Cont7 done, time taken: 15.855508466561636 minutes
+Saving model state for group 3
+Loading model for group 3
+fine tune for column Cont8 done, time taken: 0.7313826163609822 minutes
+inference start
+inference for column Cont8 done, time taken: 17.779012799263 minutes
+Saving model state for group 3
+Loading model for group 1
+fine tune for column Cont9 done, time taken: 0.738919194539388 minutes
+inference start
+inference for column Cont9 done, time taken: 37.46026033957799 minutes
+Saving model state for group 1
+Loading model for group 0
+fine tune for column Cont10 done, time taken: 0.8166868766148885 minutes
+inference start
+inference for column Cont10 done, time taken: 301.7657267093658 minutes
+Saving model state for group 0
+Computing weight_used after iteration 1
+
+F1 score: 0.38689491176593294
+---------------start iteration 3---------------
+Loading model for group 3
+fine tune for column Cont1 done, time taken: 0.5458193421363831 minutes
+inference start
+inference for column Cont1 done, time taken: 19.733027823766072 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont2 done, time taken: 1.3148003180821737 minutes
+inference start
+inference for column Cont2 done, time taken: 7.914275999863943 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont3 done, time taken: 0.8809995373090108 minutes
+inference start
+inference for column Cont3 done, time taken: 21.39859005610148 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont4 done, time taken: 1.4570381919542947 minutes
+inference start
+inference for column Cont4 done, time taken: 7.802866550286611 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont5 done, time taken: 0.8097601373990376 minutes
+inference start
+inference for column Cont5 done, time taken: 16.93874308268229 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont6 done, time taken: 1.0732767264048257 minutes
+inference start
+inference for column Cont6 done, time taken: 12.928705298900605 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont7 done, time taken: 0.8112058321634928 minutes
+inference start
+inference for column Cont7 done, time taken: 20.60941195487976 minutes
+Saving model state for group 3
+Loading model for group 3
+fine tune for column Cont8 done, time taken: 0.8162996888160705 minutes
+inference start
+inference for column Cont8 done, time taken: 21.132446710268656 minutes
+Saving model state for group 3
+Loading model for group 1
+fine tune for column Cont9 done, time taken: 1.2103244582811992 minutes
+inference start
+inference for column Cont9 done, time taken: 14.608255183696746 minutes
+Saving model state for group 1
+Loading model for group 0
+fine tune for column Cont10 done, time taken: 0.8817264755566915 minutes
+inference start
+inference for column Cont10 done, time taken: 18.836398661136627 minutes
+Saving model state for group 0
+Computing weight_used after iteration 2
+
+F1 score: 0.47966552641581145
+---------------start iteration 4---------------
+Loading model for group 3
+fine tune for column Cont1 done, time taken: 1.387419084707896 minutes
+inference start
+inference for column Cont1 done, time taken: 18.800038536389668 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont2 done, time taken: 2.3045758684476216 minutes
+inference start
+inference for column Cont2 done, time taken: 9.326195267836253 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont3 done, time taken: 0.8529347817103068 minutes
+inference start
+inference for column Cont3 done, time taken: 23.15697663227717 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont4 done, time taken: 1.4564738909403483 minutes
+inference start
+inference for column Cont4 done, time taken: 6.833446645736695 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont5 done, time taken: 0.8237452268600464 minutes
+inference start
+inference for column Cont5 done, time taken: 18.15820532242457 minutes
+Saving model state for group 3
+Loading model for group 2
+fine tune for column Cont6 done, time taken: 1.0065445939699809 minutes
+inference start
+inference for column Cont6 done, time taken: 16.88785653114319 minutes
+Saving model state for group 2
+Loading model for group 3
+fine tune for column Cont7 done, time taken: 0.8310905615488688 minutes
+inference start
+inference for column Cont7 done, time taken: 21.51826466321945 minutes
+Saving model state for group 3
+Loading model for group 3
+fine tune for column Cont8 done, time taken: 0.7895471930503846 minutes
+inference start
+inference for column Cont8 done, time taken: 23.872592437267304 minutes
+Saving model state for group 3
+Loading model for group 1
+fine tune for column Cont9 done, time taken: 1.2382389982541402 minutes
+inference start
+inference for column Cont9 done, time taken: 14.832032827536265 minutes
+Saving model state for group 1
+Loading model for group 0
+fine tune for column Cont10 done, time taken: 1.598431408405304 minutes
+inference start
+inference for column Cont10 done, time taken: 9.483827996253968 minutes
+Saving model state for group 0
+Computing weight_used after iteration 3
+
+F1 score: 0.48144681463832906
+Done.
+
+shuttle
+  Cont1 Cont2 Cont3 Cont4 Cont5 Cont6 Cont7 Cont8 Cont9 Cont10
+0    42     0    77     0    42     0    27    27     0      1
+1    44     0    77     0    44     0    44    44     0      1
+2    53     0    77     0    53     0    29    29     0      1
+3    41     0    76     0    76    18    41    76     8      1
+4    37     0    77     0    34     0    37    34     2      1
+F1 score: 0.48144681463832906

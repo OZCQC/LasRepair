@@ -1,0 +1,94 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.3
+correcting column article_jissue with prop 0.3
+correcting column article_jcreated_at with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+fine tune for column article_title: 3.03 minutes
+inference for column article_title: 0.10 minutes
+
+skip index 2
+
+fine tune for column journal_title: 2.98 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.98 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.11 minutes
+inference for column article_jvolumn: 0.17 minutes
+
+input_content: EXAMPLE: (dirty: 4.0, correct: 4), (dirty: 2.0, correct: 2), (dirty: 9.0, correct: 9)<extra_id_4>id: 235295<extra_id_1>article_title: Late repair of injuries of the anal sphincter<extra_id_1>article_language: eng<extra_id_1>journal_title: Proc R Soc Med<extra_id_1>jounral_abbreviation: Proceedings of the Royal Society of Medicine<extra_id_1>journal_issn: 0035-9157 (Print) 0035-9157<extra_id_1>article_jvolumn: <extra_id_0><extra_id_1>article_jcreated_at: 1/1/71<extra_id_1>article_pagination: 1187-9<extra_id_1>author_list: {"A. G. Parks","J. F. McPartlin"}<extra_id_2>article_jissue: , target_content: 12
+fine tune for column article_jissue: 2.11 minutes
+inference for column article_jissue: 0.16 minutes
+
+fine tune for column article_jcreated_at: 2.38 minutes
+inference for column article_jcreated_at: 0.13 minutes
+
+fine tune for column article_pagination: 2.91 minutes
+inference for column article_pagination: 0.03 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.44 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.18026565464895636
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column article_title: 2.98 minutes
+inference for column article_title: 0.09 minutes
+
+skip index 2
+
+fine tune for column journal_title: 2.99 minutes
+inference for column journal_title: 0.08 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.97 minutes
+inference for column journal_issn: 0.07 minutes
+
+fine tune for column article_jvolumn: 2.21 minutes
+inference for column article_jvolumn: 1.28 minutes
+
+fine tune for column article_jissue: 2.31 minutes
+inference for column article_jissue: 1.11 minutes
+
+fine tune for column article_jcreated_at: 2.39 minutes
+inference for column article_jcreated_at: 0.96 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.16 minutes
+
+fine tune for column author_list: 2.78 minutes
+inference for column author_list: 0.42 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.18026565464895636
+Done.
+
+Time taken: 48.06 minutes
+result saved to ./result/rayyan_repaired_original.csv
+rayyan
+       id  ...                                        author_list
+0  235295  ...                  {"A. G. Parks","J. F. McPartlin"}
+1  498345  ...  {"Valentina A Volchkova","Jaroslav Vorac","Phi...
+2  789958  ...  {"Jitendra Jethani","Shashikant Shetty","Suche...
+3  169865  ...  {"G. Jakiel","K. Gorzelnik","J. G. Zimowski","...
+4  803653  ...                          {"Lauren C Pinter-Brown"}
+
+[5 rows x 11 columns]
+F1 score: 0.18026565464895636
+running done at: 2025-10-17 04:59:11

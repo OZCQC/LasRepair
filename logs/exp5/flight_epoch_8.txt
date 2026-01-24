@@ -1,0 +1,133 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 8, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+input_content: tuple_id: 1<extra_id_1>src: aa<extra_id_1>flight: AA-3859-IAH-ORD<extra_id_1>act_dep_time: 7:16 a.m.<extra_id_1>sched_arr_time: 9:40 a.m.<extra_id_1>act_arr_time: 9:32 a.m.<extra_id_2>sched_dep_time: , target_content: 7:10 a.m.
+fine tune for column sched_dep_time: 12.28 minutes
+inference for column sched_dep_time: 0.72 minutes
+
+fine tune for column act_dep_time: 6.55 minutes
+inference for column act_dep_time: 1.19 minutes
+
+fine tune for column sched_arr_time: 10.19 minutes
+inference for column sched_arr_time: 0.85 minutes
+
+fine tune for column act_arr_time: 8.20 minutes
+inference for column act_arr_time: 1.06 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.8492573967956965
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 15.48 minutes
+inference for column sched_dep_time: 0.35 minutes
+
+fine tune for column act_dep_time: 15.01 minutes
+inference for column act_dep_time: 0.39 minutes
+
+fine tune for column sched_arr_time: 17.83 minutes
+inference for column sched_arr_time: 0.13 minutes
+
+fine tune for column act_arr_time: 17.20 minutes
+inference for column act_arr_time: 0.18 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.9139072847682119
+---------------start iteration 3---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 16.16 minutes
+inference for column sched_dep_time: 0.28 minutes
+
+fine tune for column act_dep_time: 16.48 minutes
+inference for column act_dep_time: 0.24 minutes
+
+fine tune for column sched_arr_time: 18.30 minutes
+inference for column sched_arr_time: 0.07 minutes
+
+fine tune for column act_arr_time: 18.63 minutes
+inference for column act_arr_time: 0.04 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.9599408096395731
+---------------start iteration 4---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 17.73 minutes
+inference for column sched_dep_time: 0.13 minutes
+
+fine tune for column act_dep_time: 17.72 minutes
+inference for column act_dep_time: 0.12 minutes
+
+fine tune for column sched_arr_time: 18.45 minutes
+inference for column sched_arr_time: 0.06 minutes
+
+fine tune for column act_arr_time: 18.87 minutes
+inference for column act_arr_time: 0.01 minutes
+
+Computing weight_used after iteration 4
+
+F1 score: 0.9754269054560599
+---------------start iteration 5---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 18.13 minutes
+inference for column sched_dep_time: 0.09 minutes
+
+fine tune for column act_dep_time: 18.08 minutes
+inference for column act_dep_time: 0.10 minutes
+
+fine tune for column sched_arr_time: 18.90 minutes
+inference for column sched_arr_time: 0.01 minutes
+
+fine tune for column act_arr_time: 18.90 minutes
+inference for column act_arr_time: 0.01 minutes
+
+Computing weight_used after iteration 5
+
+F1 score: 0.9800995024875622
+Done.
+
+Time taken: 325.11 minutes
+result saved to ./result/flight_repaired_original.csv
+flight
+  tuple_id src           flight  ... act_dep_time sched_arr_time act_arr_time
+0        1  aa  AA-3859-IAH-ORD  ...    7:16 a.m.      9:40 a.m.    9:32 a.m.
+1        2  aa  AA-1733-ORD-PHX  ...    7:58 p.m.     10:30 p.m.   10:30 p.m.
+2        3  aa  AA-1640-MIA-MCO  ...    6:30 p.m.      7:25 p.m.    7:25 p.m.
+3        4  aa   AA-518-MIA-JFK  ...    6:54 a.m.      9:25 a.m.    9:28 a.m.
+4        5  aa  AA-3756-ORD-SLC  ...   12:41 p.m.      2:45 p.m.    2:50 p.m.
+
+[5 rows x 7 columns]
+F1 score: 0.9800995024875622
+running done at: 2025-10-30 12:26:46

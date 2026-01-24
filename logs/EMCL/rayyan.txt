@@ -1,0 +1,492 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/envs/seq2seq/lib/python3.12/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 5, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.15
+correcting column article_jissue with prop 0.15
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+fine tune for column article_title: 6.66 minutes
+inference for column article_title: 0.20 minutes
+
+skip index 2
+
+fine tune for column journal_title: 6.93 minutes
+inference for column journal_title: 0.14 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 6.75 minutes
+inference for column journal_issn: 0.02 minutes
+
+fine tune for column article_jvolumn: 5.49 minutes
+inference for column article_jvolumn: 0.15 minutes
+
+fine tune for column article_jissue: 5.10 minutes
+inference for column article_jissue: 0.15 minutes
+
+fine tune for column article_jcreated_at: 2.03 minutes
+inference for column article_jcreated_at: 1.06 minutes
+
+fine tune for column article_pagination: 6.91 minutes
+inference for column article_pagination: 0.09 minutes
+
+fine tune for column author_list: 6.97 minutes
+inference for column author_list: 1.34 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.09423233143785541
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column article_title: 5.07 minutes
+inference for column article_title: 0.10 minutes
+
+skip index 2
+
+fine tune for column journal_title: 5.08 minutes
+inference for column journal_title: 0.06 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 5.03 minutes
+inference for column journal_issn: 0.06 minutes
+
+fine tune for column article_jvolumn: 4.39 minutes
+inference for column article_jvolumn: 0.86 minutes
+
+fine tune for column article_jissue: 4.59 minutes
+inference for column article_jissue: 0.06 minutes
+
+fine tune for column article_jcreated_at: 1.43 minutes
+inference for column article_jcreated_at: 0.75 minutes
+
+fine tune for column article_pagination: 4.95 minutes
+inference for column article_pagination: 0.19 minutes
+
+fine tune for column author_list: 4.70 minutes
+inference for column author_list: 0.64 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.10347615198059823
+---------------start iteration 3---------------
+skip index 0
+
+fine tune for column article_title: 5.07 minutes
+inference for column article_title: 0.04 minutes
+
+skip index 2
+
+fine tune for column journal_title: 5.07 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 5.05 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 4.38 minutes
+inference for column article_jvolumn: 0.11 minutes
+
+fine tune for column article_jissue: 4.62 minutes
+inference for column article_jissue: 0.06 minutes
+
+fine tune for column article_jcreated_at: 1.42 minutes
+inference for column article_jcreated_at: 0.49 minutes
+
+fine tune for column article_pagination: 4.96 minutes
+inference for column article_pagination: 0.04 minutes
+
+fine tune for column author_list: 4.73 minutes
+inference for column author_list: 0.52 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.10806451612903226
+Done.
+
+Time taken: 124.51 minutes
+result saved to ./result/rayyan_repaired_original.csv
+rayyan
+       id  ...                                        author_list
+0  235295  ...                  {"A. G. Parks","J. F. McPartlin"}
+1  498345  ...  {"Valentina A Volchkova","Jaroslav Vorac","Phi...
+2  789958  ...  {"Jitendra Jethani","Shashikant Shetty","Suche...
+3  169865  ...  {"G. Jakiel","K. Gorzelnik","J. G. Zimowski","...
+4  803653  ...                          {"Lauren C Pinter-Brown"}
+
+[5 rows x 11 columns]
+F1 score: 0.10806451612903226
+running done at: 2025-10-08 11:32:56
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.3
+correcting column article_jissue with prop 0.3
+correcting column article_jcreated_at with prop 0.3
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+fine tune for column article_title: 3.05 minutes
+inference for column article_title: 0.10 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.12 minutes
+inference for column article_jvolumn: 0.17 minutes
+
+fine tune for column article_jissue: 2.12 minutes
+inference for column article_jissue: 0.17 minutes
+
+fine tune for column article_jcreated_at: 2.40 minutes
+inference for column article_jcreated_at: 0.15 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.03 minutes
+
+fine tune for column author_list: 2.78 minutes
+inference for column author_list: 0.48 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.2829006266786034
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column article_title: 2.98 minutes
+inference for column article_title: 0.09 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.09 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.09 minutes
+
+fine tune for column article_jvolumn: 2.22 minutes
+inference for column article_jvolumn: 1.37 minutes
+
+fine tune for column article_jissue: 2.46 minutes
+inference for column article_jissue: 1.01 minutes
+
+fine tune for column article_jcreated_at: 2.44 minutes
+inference for column article_jcreated_at: 0.14 minutes
+
+fine tune for column article_pagination: 2.94 minutes
+inference for column article_pagination: 0.17 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.46 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.2905525846702317
+---------------start iteration 3---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.09 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.01 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 3.00 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.23 minutes
+inference for column article_jvolumn: 0.66 minutes
+
+fine tune for column article_jissue: 2.46 minutes
+inference for column article_jissue: 0.11 minutes
+
+fine tune for column article_jcreated_at: 2.45 minutes
+inference for column article_jcreated_at: 0.13 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.19 minutes
+
+fine tune for column author_list: 2.78 minutes
+inference for column author_list: 0.45 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.30864197530864196
+---------------start iteration 4---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.05 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.23 minutes
+inference for column article_jvolumn: 0.15 minutes
+
+fine tune for column article_jissue: 2.48 minutes
+inference for column article_jissue: 0.10 minutes
+
+fine tune for column article_jcreated_at: 2.46 minutes
+inference for column article_jcreated_at: 0.13 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.11 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.46 minutes
+
+Computing weight_used after iteration 4
+
+F1 score: 0.32926829268292684
+---------------start iteration 5---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.04 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 3.00 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.24 minutes
+inference for column article_jvolumn: 0.14 minutes
+
+fine tune for column article_jissue: 2.51 minutes
+inference for column article_jissue: 0.10 minutes
+
+fine tune for column article_jcreated_at: 2.48 minutes
+inference for column article_jcreated_at: 0.12 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.05 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.47 minutes
+
+Computing weight_used after iteration 5
+
+F1 score: 0.3379549393414211
+---------------start iteration 6---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.07 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.24 minutes
+inference for column article_jvolumn: 0.14 minutes
+
+fine tune for column article_jissue: 2.50 minutes
+inference for column article_jissue: 0.10 minutes
+
+fine tune for column article_jcreated_at: 2.49 minutes
+inference for column article_jcreated_at: 0.12 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.08 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.43 minutes
+
+Computing weight_used after iteration 6
+
+F1 score: 0.3479758828596038
+---------------start iteration 7---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.06 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.24 minutes
+inference for column article_jvolumn: 0.14 minutes
+
+fine tune for column article_jissue: 2.50 minutes
+inference for column article_jissue: 0.09 minutes
+
+fine tune for column article_jcreated_at: 2.50 minutes
+inference for column article_jcreated_at: 0.12 minutes
+
+fine tune for column article_pagination: 2.92 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.40 minutes
+
+Computing weight_used after iteration 7
+
+F1 score: 0.3606837606837607
+---------------start iteration 8---------------
+skip index 0
+
+fine tune for column article_title: 2.98 minutes
+inference for column article_title: 0.03 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.24 minutes
+inference for column article_jvolumn: 0.14 minutes
+
+fine tune for column article_jissue: 2.53 minutes
+inference for column article_jissue: 0.09 minutes
+
+fine tune for column article_jcreated_at: 2.51 minutes
+inference for column article_jcreated_at: 0.13 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.41 minutes
+
+Computing weight_used after iteration 8
+
+F1 score: 0.378698224852071
+---------------start iteration 9---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.03 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.01 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 3.00 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.25 minutes
+inference for column article_jvolumn: 0.14 minutes
+
+fine tune for column article_jissue: 2.53 minutes
+inference for column article_jissue: 0.09 minutes
+
+fine tune for column article_jcreated_at: 2.54 minutes
+inference for column article_jcreated_at: 0.12 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 2.78 minutes
+inference for column author_list: 0.41 minutes
+
+Computing weight_used after iteration 9
+
+F1 score: 0.39228834870075446
+---------------start iteration 10---------------
+skip index 0
+
+fine tune for column article_title: 2.99 minutes
+inference for column article_title: 0.03 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.26 minutes
+inference for column article_jvolumn: 0.14 minutes
+
+fine tune for column article_jissue: 2.54 minutes
+inference for column article_jissue: 0.09 minutes
+
+fine tune for column article_jcreated_at: 2.56 minutes
+inference for column article_jcreated_at: 0.11 minutes
+
+fine tune for column article_pagination: 2.93 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 2.78 minutes
+inference for column author_list: 0.46 minutes
+
+Computing weight_used after iteration 10
+
+F1 score: 0.40432612312811983
+Done.
+
+Time taken: 231.26 minutes
+result saved to ./result/rayyan_repaired_original.csv
+rayyan
+       id  ...                                        author_list
+0  235295  ...                  {"A. G. Parks","J. F. McPartlin"}
+1  498345  ...  {"Valentina A Volchkova","Jaroslav Vorac","Phi...
+2  789958  ...  {"Jitendra Jethani","Shashikant Shetty","Suche...
+3  169865  ...  {"G. Jakiel","K. Gorzelnik","J. G. Zimowski","...
+4  803653  ...                          {"Lauren C Pinter-Brown"}
+
+[5 rows x 11 columns]
+F1 score: 0.41432612312811983
+running done at: 2025-10-10 12:20:10

@@ -1,0 +1,645 @@
+------------------------------------------------------------------------
+---------------------Initialize the Dataset Object----------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+--------------------Initialize Error Corrector Models-------------------
+------------------------------------------------------------------------
+The error corrector models are initialized.
+------------------------------------------------------------------------
+--------------Iterative Tuple Sampling, Labeling, and Learning----------
+------------------------------------------------------------------------
+Label round 1/20
+Tuple 765 is sampled.
+Tuple 765 is labeled.
+The error corrector models are updated with new labeled tuple 765.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features80 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(1) ...
+0/1 creating train features85 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1557 predicted correction100/1557 predicted correction200/1557 predicted correction300/1557 predicted correction400/1557 predicted correction500/1557 predicted correction600/1557 predicted correction700/1557 predicted correction800/1557 predicted correction900/1557 predicted correction1000/1557 predicted correction1100/1557 predicted correction1200/1557 predicted correction1300/1557 predicted correction1400/1557 predicted correction1500/1557 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(1) ...
+0/1 creating train features95 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1099 predicted correction100/1099 predicted correction200/1099 predicted correction300/1099 predicted correction400/1099 predicted correction500/1099 predicted correction600/1099 predicted correction700/1099 predicted correction800/1099 predicted correction900/1099 predicted correction1000/1099 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(1) ...
+0/1 creating train features91 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1350 predicted correction100/1350 predicted correction200/1350 predicted correction300/1350 predicted correction400/1350 predicted correction500/1350 predicted correction600/1350 predicted correction700/1350 predicted correction800/1350 predicted correction900/1350 predicted correction1000/1350 predicted correction1100/1350 predicted correction1200/1350 predicted correction1300/1350 predicted correction69% (3406 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 2/20
+Tuple 1333 is sampled.
+Tuple 1333 is labeled.
+The error corrector models are updated with new labeled tuple 1333.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features81 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(2) ...
+0/2 creating train features174 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1556 predicted correction100/1556 predicted correction200/1556 predicted correction300/1556 predicted correction400/1556 predicted correction500/1556 predicted correction600/1556 predicted correction700/1556 predicted correction800/1556 predicted correction900/1556 predicted correction1000/1556 predicted correction1100/1556 predicted correction1200/1556 predicted correction1300/1556 predicted correction1400/1556 predicted correction1500/1556 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(2) ...
+0/2 creating train features192 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1098 predicted correction100/1098 predicted correction200/1098 predicted correction300/1098 predicted correction400/1098 predicted correction500/1098 predicted correction600/1098 predicted correction700/1098 predicted correction800/1098 predicted correction900/1098 predicted correction1000/1098 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(2) ...
+0/2 creating train features183 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1349 predicted correction100/1349 predicted correction200/1349 predicted correction300/1349 predicted correction400/1349 predicted correction500/1349 predicted correction600/1349 predicted correction700/1349 predicted correction800/1349 predicted correction900/1349 predicted correction1000/1349 predicted correction1100/1349 predicted correction1200/1349 predicted correction1300/1349 predicted correction93% (4594 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 3/20
+Tuple 2120 is sampled.
+Tuple 2120 is labeled.
+The error corrector models are updated with new labeled tuple 2120.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features82 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(3) ...
+0/3 creating train features267 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1555 predicted correction100/1555 predicted correction200/1555 predicted correction300/1555 predicted correction400/1555 predicted correction500/1555 predicted correction600/1555 predicted correction700/1555 predicted correction800/1555 predicted correction900/1555 predicted correction1000/1555 predicted correction1100/1555 predicted correction1200/1555 predicted correction1300/1555 predicted correction1400/1555 predicted correction1500/1555 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(2) ...
+0/2 creating train features193 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1098 predicted correction100/1098 predicted correction200/1098 predicted correction300/1098 predicted correction400/1098 predicted correction500/1098 predicted correction600/1098 predicted correction700/1098 predicted correction800/1098 predicted correction900/1098 predicted correction1000/1098 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(3) ...
+0/3 creating train features280 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1348 predicted correction100/1348 predicted correction200/1348 predicted correction300/1348 predicted correction400/1348 predicted correction500/1348 predicted correction600/1348 predicted correction700/1348 predicted correction800/1348 predicted correction900/1348 predicted correction1000/1348 predicted correction1100/1348 predicted correction1200/1348 predicted correction1300/1348 predicted correction94% (4619 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 4/20
+Tuple 692 is sampled.
+Tuple 692 is labeled.
+The error corrector models are updated with new labeled tuple 692.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features83 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(4) ...
+0/4 creating train features360 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1554 predicted correction100/1554 predicted correction200/1554 predicted correction300/1554 predicted correction400/1554 predicted correction500/1554 predicted correction600/1554 predicted correction700/1554 predicted correction800/1554 predicted correction900/1554 predicted correction1000/1554 predicted correction1100/1554 predicted correction1200/1554 predicted correction1300/1554 predicted correction1400/1554 predicted correction1500/1554 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(2) ...
+0/2 creating train features194 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1098 predicted correction100/1098 predicted correction200/1098 predicted correction300/1098 predicted correction400/1098 predicted correction500/1098 predicted correction600/1098 predicted correction700/1098 predicted correction800/1098 predicted correction900/1098 predicted correction1000/1098 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(4) ...
+0/4 creating train features381 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1347 predicted correction100/1347 predicted correction200/1347 predicted correction300/1347 predicted correction400/1347 predicted correction500/1347 predicted correction600/1347 predicted correction700/1347 predicted correction800/1347 predicted correction900/1347 predicted correction1000/1347 predicted correction1100/1347 predicted correction1200/1347 predicted correction1300/1347 predicted correction94% (4647 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 5/20
+Tuple 691 is sampled.
+Tuple 691 is labeled.
+The error corrector models are updated with new labeled tuple 691.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features84 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(5) ...
+0/5 creating train features460 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1553 predicted correction100/1553 predicted correction200/1553 predicted correction300/1553 predicted correction400/1553 predicted correction500/1553 predicted correction600/1553 predicted correction700/1553 predicted correction800/1553 predicted correction900/1553 predicted correction1000/1553 predicted correction1100/1553 predicted correction1200/1553 predicted correction1300/1553 predicted correction1400/1553 predicted correction1500/1553 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(3) ...
+0/3 creating train features289 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1097 predicted correction100/1097 predicted correction200/1097 predicted correction300/1097 predicted correction400/1097 predicted correction500/1097 predicted correction600/1097 predicted correction700/1097 predicted correction800/1097 predicted correction900/1097 predicted correction1000/1097 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(5) ...
+0/5 creating train features486 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1346 predicted correction100/1346 predicted correction200/1346 predicted correction300/1346 predicted correction400/1346 predicted correction500/1346 predicted correction600/1346 predicted correction700/1346 predicted correction800/1346 predicted correction900/1346 predicted correction1000/1346 predicted correction1100/1346 predicted correction1200/1346 predicted correction1300/1346 predicted correction96% (4723 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 6/20
+Tuple 1818 is sampled.
+Tuple 1818 is labeled.
+The error corrector models are updated with new labeled tuple 1818.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features85 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(6) ...
+0/6 creating train features564 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1552 predicted correction100/1552 predicted correction200/1552 predicted correction300/1552 predicted correction400/1552 predicted correction500/1552 predicted correction600/1552 predicted correction700/1552 predicted correction800/1552 predicted correction900/1552 predicted correction1000/1552 predicted correction1100/1552 predicted correction1200/1552 predicted correction1300/1552 predicted correction1400/1552 predicted correction1500/1552 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(4) ...
+0/4 creating train features384 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1096 predicted correction100/1096 predicted correction200/1096 predicted correction300/1096 predicted correction400/1096 predicted correction500/1096 predicted correction600/1096 predicted correction700/1096 predicted correction800/1096 predicted correction900/1096 predicted correction1000/1096 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(6) ...
+0/6 creating train features595 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1345 predicted correction100/1345 predicted correction200/1345 predicted correction300/1345 predicted correction400/1345 predicted correction500/1345 predicted correction600/1345 predicted correction700/1345 predicted correction800/1345 predicted correction900/1345 predicted correction1000/1345 predicted correction1100/1345 predicted correction1200/1345 predicted correction1300/1345 predicted correction97% (4794 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 7/20
+Tuple 2117 is sampled.
+Tuple 2117 is labeled.
+The error corrector models are updated with new labeled tuple 2117.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features85 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(7) ...
+0/7 creating train features672 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1551 predicted correction100/1551 predicted correction200/1551 predicted correction300/1551 predicted correction400/1551 predicted correction500/1551 predicted correction600/1551 predicted correction700/1551 predicted correction800/1551 predicted correction900/1551 predicted correction1000/1551 predicted correction1100/1551 predicted correction1200/1551 predicted correction1300/1551 predicted correction1400/1551 predicted correction1500/1551 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(4) ...
+0/4 creating train features385 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1096 predicted correction100/1096 predicted correction200/1096 predicted correction300/1096 predicted correction400/1096 predicted correction500/1096 predicted correction600/1096 predicted correction700/1096 predicted correction800/1096 predicted correction900/1096 predicted correction1000/1096 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(7) ...
+0/7 creating train features702 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1344 predicted correction100/1344 predicted correction200/1344 predicted correction300/1344 predicted correction400/1344 predicted correction500/1344 predicted correction600/1344 predicted correction700/1344 predicted correction800/1344 predicted correction900/1344 predicted correction1000/1344 predicted correction1100/1344 predicted correction1200/1344 predicted correction1300/1344 predicted correction97% (4796 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 8/20
+Tuple 2222 is sampled.
+Tuple 2222 is labeled.
+The error corrector models are updated with new labeled tuple 2222.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features85 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(8) ...
+0/8 creating train features769 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1550 predicted correction100/1550 predicted correction200/1550 predicted correction300/1550 predicted correction400/1550 predicted correction500/1550 predicted correction600/1550 predicted correction700/1550 predicted correction800/1550 predicted correction900/1550 predicted correction1000/1550 predicted correction1100/1550 predicted correction1200/1550 predicted correction1300/1550 predicted correction1400/1550 predicted correction1500/1550 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(4) ...
+0/4 creating train features385 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1096 predicted correction100/1096 predicted correction200/1096 predicted correction300/1096 predicted correction400/1096 predicted correction500/1096 predicted correction600/1096 predicted correction700/1096 predicted correction800/1096 predicted correction900/1096 predicted correction1000/1096 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(8) ...
+0/8 creating train features803 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1343 predicted correction100/1343 predicted correction200/1343 predicted correction300/1343 predicted correction400/1343 predicted correction500/1343 predicted correction600/1343 predicted correction700/1343 predicted correction800/1343 predicted correction900/1343 predicted correction1000/1343 predicted correction1100/1343 predicted correction1200/1343 predicted correction1300/1343 predicted correction98% (4838 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 9/20
+Tuple 2011 is sampled.
+Tuple 2011 is labeled.
+The error corrector models are updated with new labeled tuple 2011.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features86 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(9) ...
+0/9 creating train features874 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1549 predicted correction100/1549 predicted correction200/1549 predicted correction300/1549 predicted correction400/1549 predicted correction500/1549 predicted correction600/1549 predicted correction700/1549 predicted correction800/1549 predicted correction900/1549 predicted correction1000/1549 predicted correction1100/1549 predicted correction1200/1549 predicted correction1300/1549 predicted correction1400/1549 predicted correction1500/1549 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(5) ...
+0/5 creating train features480 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1095 predicted correction100/1095 predicted correction200/1095 predicted correction300/1095 predicted correction400/1095 predicted correction500/1095 predicted correction600/1095 predicted correction700/1095 predicted correction800/1095 predicted correction900/1095 predicted correction1000/1095 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(9) ...
+0/9 creating train features921 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1342 predicted correction100/1342 predicted correction200/1342 predicted correction300/1342 predicted correction400/1342 predicted correction500/1342 predicted correction600/1342 predicted correction700/1342 predicted correction800/1342 predicted correction900/1342 predicted correction1000/1342 predicted correction1100/1342 predicted correction1200/1342 predicted correction1300/1342 predicted correction98% (4839 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 10/20
+Tuple 783 is sampled.
+Tuple 783 is labeled.
+The error corrector models are updated with new labeled tuple 783.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features86 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(10) ...
+0/10 creating train features972 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1548 predicted correction100/1548 predicted correction200/1548 predicted correction300/1548 predicted correction400/1548 predicted correction500/1548 predicted correction600/1548 predicted correction700/1548 predicted correction800/1548 predicted correction900/1548 predicted correction1000/1548 predicted correction1100/1548 predicted correction1200/1548 predicted correction1300/1548 predicted correction1400/1548 predicted correction1500/1548 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(6) ...
+0/6 creating train features574 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1094 predicted correction100/1094 predicted correction200/1094 predicted correction300/1094 predicted correction400/1094 predicted correction500/1094 predicted correction600/1094 predicted correction700/1094 predicted correction800/1094 predicted correction900/1094 predicted correction1000/1094 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(10) ...
+0/10 creating train features1024 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1341 predicted correction100/1341 predicted correction200/1341 predicted correction300/1341 predicted correction400/1341 predicted correction500/1341 predicted correction600/1341 predicted correction700/1341 predicted correction800/1341 predicted correction900/1341 predicted correction1000/1341 predicted correction1100/1341 predicted correction1200/1341 predicted correction1300/1341 predicted correction98% (4840 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 11/20
+Tuple 1993 is sampled.
+Tuple 1993 is labeled.
+The error corrector models are updated with new labeled tuple 1993.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features87 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(11) ...
+0/11 creating train features1091 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1547 predicted correction100/1547 predicted correction200/1547 predicted correction300/1547 predicted correction400/1547 predicted correction500/1547 predicted correction600/1547 predicted correction700/1547 predicted correction800/1547 predicted correction900/1547 predicted correction1000/1547 predicted correction1100/1547 predicted correction1200/1547 predicted correction1300/1547 predicted correction1400/1547 predicted correction1500/1547 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(6) ...
+0/6 creating train features574 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1094 predicted correction100/1094 predicted correction200/1094 predicted correction300/1094 predicted correction400/1094 predicted correction500/1094 predicted correction600/1094 predicted correction700/1094 predicted correction800/1094 predicted correction900/1094 predicted correction1000/1094 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(11) ...
+0/11 creating train features1137 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1340 predicted correction100/1340 predicted correction200/1340 predicted correction300/1340 predicted correction400/1340 predicted correction500/1340 predicted correction600/1340 predicted correction700/1340 predicted correction800/1340 predicted correction900/1340 predicted correction1000/1340 predicted correction1100/1340 predicted correction1200/1340 predicted correction1300/1340 predicted correction99% (4866 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 12/20
+Tuple 1075 is sampled.
+Tuple 1075 is labeled.
+The error corrector models are updated with new labeled tuple 1075.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features88 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(12) ...
+0/12 creating train features1194 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1546 predicted correction100/1546 predicted correction200/1546 predicted correction300/1546 predicted correction400/1546 predicted correction500/1546 predicted correction600/1546 predicted correction700/1546 predicted correction800/1546 predicted correction900/1546 predicted correction1000/1546 predicted correction1100/1546 predicted correction1200/1546 predicted correction1300/1546 predicted correction1400/1546 predicted correction1500/1546 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(6) ...
+0/6 creating train features574 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1094 predicted correction100/1094 predicted correction200/1094 predicted correction300/1094 predicted correction400/1094 predicted correction500/1094 predicted correction600/1094 predicted correction700/1094 predicted correction800/1094 predicted correction900/1094 predicted correction1000/1094 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(12) ...
+0/12 creating train features1253 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1339 predicted correction100/1339 predicted correction200/1339 predicted correction300/1339 predicted correction400/1339 predicted correction500/1339 predicted correction600/1339 predicted correction700/1339 predicted correction800/1339 predicted correction900/1339 predicted correction1000/1339 predicted correction1100/1339 predicted correction1200/1339 predicted correction1300/1339 predicted correction99% (4867 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 13/20
+Tuple 1587 is sampled.
+Tuple 1587 is labeled.
+The error corrector models are updated with new labeled tuple 1587.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(1) ...
+0/1 creating train features88 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/910 predicted correction100/910 predicted correction200/910 predicted correction300/910 predicted correction400/910 predicted correction500/910 predicted correction600/910 predicted correction700/910 predicted correction800/910 predicted correction900/910 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(13) ...
+0/13 creating train features1293 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1545 predicted correction100/1545 predicted correction200/1545 predicted correction300/1545 predicted correction400/1545 predicted correction500/1545 predicted correction600/1545 predicted correction700/1545 predicted correction800/1545 predicted correction900/1545 predicted correction1000/1545 predicted correction1100/1545 predicted correction1200/1545 predicted correction1300/1545 predicted correction1400/1545 predicted correction1500/1545 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(6) ...
+0/6 creating train features574 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1094 predicted correction100/1094 predicted correction200/1094 predicted correction300/1094 predicted correction400/1094 predicted correction500/1094 predicted correction600/1094 predicted correction700/1094 predicted correction800/1094 predicted correction900/1094 predicted correction1000/1094 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(13) ...
+0/13 creating train features1358 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1338 predicted correction100/1338 predicted correction200/1338 predicted correction300/1338 predicted correction400/1338 predicted correction500/1338 predicted correction600/1338 predicted correction700/1338 predicted correction800/1338 predicted correction900/1338 predicted correction1000/1338 predicted correction1100/1338 predicted correction1200/1338 predicted correction1300/1338 predicted correction99% (4895 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 14/20
+Tuple 1653 is sampled.
+Tuple 1653 is labeled.
+The error corrector models are updated with new labeled tuple 1653.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(2) ...
+0/2 creating train features168 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/909 predicted correction100/909 predicted correction200/909 predicted correction300/909 predicted correction400/909 predicted correction500/909 predicted correction600/909 predicted correction700/909 predicted correction800/909 predicted correction900/909 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(14) ...
+0/14 creating train features1394 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1544 predicted correction100/1544 predicted correction200/1544 predicted correction300/1544 predicted correction400/1544 predicted correction500/1544 predicted correction600/1544 predicted correction700/1544 predicted correction800/1544 predicted correction900/1544 predicted correction1000/1544 predicted correction1100/1544 predicted correction1200/1544 predicted correction1300/1544 predicted correction1400/1544 predicted correction1500/1544 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features669 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(14) ...
+0/14 creating train features1463 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1337 predicted correction100/1337 predicted correction200/1337 predicted correction300/1337 predicted correction400/1337 predicted correction500/1337 predicted correction600/1337 predicted correction700/1337 predicted correction800/1337 predicted correction900/1337 predicted correction1000/1337 predicted correction1100/1337 predicted correction1200/1337 predicted correction1300/1337 predicted correction100% (4896 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 15/20
+Tuple 2055 is sampled.
+Tuple 2055 is labeled.
+The error corrector models are updated with new labeled tuple 2055.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(2) ...
+0/2 creating train features168 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/909 predicted correction100/909 predicted correction200/909 predicted correction300/909 predicted correction400/909 predicted correction500/909 predicted correction600/909 predicted correction700/909 predicted correction800/909 predicted correction900/909 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(15) ...
+0/15 creating train features1495 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1543 predicted correction100/1543 predicted correction200/1543 predicted correction300/1543 predicted correction400/1543 predicted correction500/1543 predicted correction600/1543 predicted correction700/1543 predicted correction800/1543 predicted correction900/1543 predicted correction1000/1543 predicted correction1100/1543 predicted correction1200/1543 predicted correction1300/1543 predicted correction1400/1543 predicted correction1500/1543 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features669 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(15) ...
+0/15 creating train features1568 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1336 predicted correction100/1336 predicted correction200/1336 predicted correction300/1336 predicted correction400/1336 predicted correction500/1336 predicted correction600/1336 predicted correction700/1336 predicted correction800/1336 predicted correction900/1336 predicted correction1000/1336 predicted correction1100/1336 predicted correction1200/1336 predicted correction1300/1336 predicted correction100% (4897 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 16/20
+Tuple 1328 is sampled.
+Tuple 1328 is labeled.
+The error corrector models are updated with new labeled tuple 1328.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(2) ...
+0/2 creating train features168 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/909 predicted correction100/909 predicted correction200/909 predicted correction300/909 predicted correction400/909 predicted correction500/909 predicted correction600/909 predicted correction700/909 predicted correction800/909 predicted correction900/909 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(16) ...
+0/16 creating train features1590 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1542 predicted correction100/1542 predicted correction200/1542 predicted correction300/1542 predicted correction400/1542 predicted correction500/1542 predicted correction600/1542 predicted correction700/1542 predicted correction800/1542 predicted correction900/1542 predicted correction1000/1542 predicted correction1100/1542 predicted correction1200/1542 predicted correction1300/1542 predicted correction1400/1542 predicted correction1500/1542 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features669 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(16) ...
+0/16 creating train features1673 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1335 predicted correction100/1335 predicted correction200/1335 predicted correction300/1335 predicted correction400/1335 predicted correction500/1335 predicted correction600/1335 predicted correction700/1335 predicted correction800/1335 predicted correction900/1335 predicted correction1000/1335 predicted correction1100/1335 predicted correction1200/1335 predicted correction1300/1335 predicted correction100% (4898 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 17/20
+Tuple 634 is sampled.
+Tuple 634 is labeled.
+The error corrector models are updated with new labeled tuple 634.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(2) ...
+0/2 creating train features168 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/909 predicted correction100/909 predicted correction200/909 predicted correction300/909 predicted correction400/909 predicted correction500/909 predicted correction600/909 predicted correction700/909 predicted correction800/909 predicted correction900/909 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(17) ...
+0/17 creating train features1684 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1541 predicted correction100/1541 predicted correction200/1541 predicted correction300/1541 predicted correction400/1541 predicted correction500/1541 predicted correction600/1541 predicted correction700/1541 predicted correction800/1541 predicted correction900/1541 predicted correction1000/1541 predicted correction1100/1541 predicted correction1200/1541 predicted correction1300/1541 predicted correction1400/1541 predicted correction1500/1541 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features669 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(17) ...
+0/17 creating train features1778 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1334 predicted correction100/1334 predicted correction200/1334 predicted correction300/1334 predicted correction400/1334 predicted correction500/1334 predicted correction600/1334 predicted correction700/1334 predicted correction800/1334 predicted correction900/1334 predicted correction1000/1334 predicted correction1100/1334 predicted correction1200/1334 predicted correction1300/1334 predicted correction100% (4899 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 18/20
+Tuple 1 is sampled.
+Tuple 1 is labeled.
+The error corrector models are updated with new labeled tuple 1.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(2) ...
+0/2 creating train features168 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/909 predicted correction100/909 predicted correction200/909 predicted correction300/909 predicted correction400/909 predicted correction500/909 predicted correction600/909 predicted correction700/909 predicted correction800/909 predicted correction900/909 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(17) ...
+0/17 creating train features1684 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1541 predicted correction100/1541 predicted correction200/1541 predicted correction300/1541 predicted correction400/1541 predicted correction500/1541 predicted correction600/1541 predicted correction700/1541 predicted correction800/1541 predicted correction900/1541 predicted correction1000/1541 predicted correction1100/1541 predicted correction1200/1541 predicted correction1300/1541 predicted correction1400/1541 predicted correction1500/1541 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features669 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(18) ...
+0/18 creating train features1883 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1333 predicted correction100/1333 predicted correction200/1333 predicted correction300/1333 predicted correction400/1333 predicted correction500/1333 predicted correction600/1333 predicted correction700/1333 predicted correction800/1333 predicted correction900/1333 predicted correction1000/1333 predicted correction1100/1333 predicted correction1200/1333 predicted correction1300/1333 predicted correction100% (4920 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 19/20
+Tuple 1481 is sampled.
+Tuple 1481 is labeled.
+The error corrector models are updated with new labeled tuple 1481.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(3) ...
+0/3 creating train features259 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/908 predicted correction100/908 predicted correction200/908 predicted correction300/908 predicted correction400/908 predicted correction500/908 predicted correction600/908 predicted correction700/908 predicted correction800/908 predicted correction900/908 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(18) ...
+0/18 creating train features1798 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1540 predicted correction100/1540 predicted correction200/1540 predicted correction300/1540 predicted correction400/1540 predicted correction500/1540 predicted correction600/1540 predicted correction700/1540 predicted correction800/1540 predicted correction900/1540 predicted correction1000/1540 predicted correction1100/1540 predicted correction1200/1540 predicted correction1300/1540 predicted correction1400/1540 predicted correction1500/1540 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features671 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(19) ...
+0/19 creating train features2024 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1332 predicted correction100/1332 predicted correction200/1332 predicted correction300/1332 predicted correction400/1332 predicted correction500/1332 predicted correction600/1332 predicted correction700/1332 predicted correction800/1332 predicted correction900/1332 predicted correction1000/1332 predicted correction1100/1332 predicted correction1200/1332 predicted correction1300/1332 predicted correction100% (4920 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+Label round 20/20
+Tuple 777 is sampled.
+Tuple 777 is labeled.
+The error corrector models are updated with new labeled tuple 777.
+Predicting module...
+------------------------------------------------------------------------
+1/4 columns(sched_dep_time)
+Generating train features(3) ...
+0/3 creating train features259 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/908 predicted correction100/908 predicted correction200/908 predicted correction300/908 predicted correction400/908 predicted correction500/908 predicted correction600/908 predicted correction700/908 predicted correction800/908 predicted correction900/908 predicted correction------------------------------------------------------------------------
+2/4 columns(act_dep_time)
+Generating train features(19) ...
+0/19 creating train features1900 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1539 predicted correction100/1539 predicted correction200/1539 predicted correction300/1539 predicted correction400/1539 predicted correction500/1539 predicted correction600/1539 predicted correction700/1539 predicted correction800/1539 predicted correction900/1539 predicted correction1000/1539 predicted correction1100/1539 predicted correction1200/1539 predicted correction1300/1539 predicted correction1400/1539 predicted correction1500/1539 predicted correction------------------------------------------------------------------------
+3/4 columns(sched_arr_time)
+Generating train features(7) ...
+0/7 creating train features671 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1093 predicted correction100/1093 predicted correction200/1093 predicted correction300/1093 predicted correction400/1093 predicted correction500/1093 predicted correction600/1093 predicted correction700/1093 predicted correction800/1093 predicted correction900/1093 predicted correction1000/1093 predicted correction------------------------------------------------------------------------
+4/4 columns(act_arr_time)
+Generating train features(20) ...
+0/20 creating train features2131 pairs of (a data error, a potential correction) are featurized.
+Training classifier ...
+Predicting corrections...
+0/1331 predicted correction100/1331 predicted correction200/1331 predicted correction300/1331 predicted correction400/1331 predicted correction500/1331 predicted correction600/1331 predicted correction700/1331 predicted correction800/1331 predicted correction900/1331 predicted correction1000/1331 predicted correction1100/1331 predicted correction1200/1331 predicted correction1300/1331 predicted correction100% (4920 / 4920) of data errors are corrected.
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+---------------------------Storing the Results--------------------------
+------------------------------------------------------------------------
+The results are stored in /data1/qianc/EMCL/datasets/flight/raha-baran-results-flight/error-correction/correction.dataset.
+Corrected dataset saved to: /data1/qianc/EMCL/results/raha/flight.csv
+Baran's correction performance on flight:
+Precision = 1.0000
+Recall = 1.0000
+F1 = 1.0000
+Corrected dataset saved to: /data1/qianc/results/raha/flight.csv
+Baran's correction performance on not flight:
+Precision = 0.9936
+Recall = 0.9400
+F1 = 0.9661
+Time taken: 18.991952419281006 seconds

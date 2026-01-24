@@ -1,0 +1,263 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+input_content: tuple_id: 1<extra_id_1>flight: AA-3859-IAH-ORD<extra_id_1>sched_dep_time: <extra_id_0><extra_id_1>act_dep_time: 7:16 a.m.<extra_id_1>sched_arr_time: 9:40 a.m.<extra_id_1>act_arr_time: <extra_id_0><extra_id_2>src: , target_content: aa
+fine tune for column src: 5.09 minutes
+inference for column src: 0.39 minutes
+
+fine tune for column flight: 4.97 minutes
+inference for column flight: 0.63 minutes
+
+fine tune for column sched_dep_time: 4.97 minutes
+inference for column sched_dep_time: 0.55 minutes
+
+fine tune for column act_dep_time: 5.03 minutes
+inference for column act_dep_time: 0.53 minutes
+
+fine tune for column sched_arr_time: 5.00 minutes
+inference for column sched_arr_time: 0.55 minutes
+
+fine tune for column act_arr_time: 5.07 minutes
+inference for column act_arr_time: 0.52 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.6244169213447
+---------------start iteration 2---------------
+skip index 0
+
+fine tune for column src: 5.12 minutes
+inference for column src: 0.47 minutes
+
+fine tune for column flight: 5.09 minutes
+inference for column flight: 0.63 minutes
+
+fine tune for column sched_dep_time: 6.27 minutes
+inference for column sched_dep_time: 0.22 minutes
+
+fine tune for column act_dep_time: 6.29 minutes
+inference for column act_dep_time: 0.22 minutes
+
+fine tune for column sched_arr_time: 6.51 minutes
+inference for column sched_arr_time: 0.16 minutes
+
+fine tune for column act_arr_time: 6.63 minutes
+inference for column act_arr_time: 0.14 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.65893053159793
+---------------start iteration 3---------------
+skip index 0
+
+fine tune for column src: 5.20 minutes
+inference for column src: 0.42 minutes
+
+fine tune for column flight: 5.10 minutes
+inference for column flight: 0.61 minutes
+
+fine tune for column sched_dep_time: 6.30 minutes
+inference for column sched_dep_time: 0.23 minutes
+
+fine tune for column act_dep_time: 6.35 minutes
+inference for column act_dep_time: 0.20 minutes
+
+fine tune for column sched_arr_time: 6.64 minutes
+inference for column sched_arr_time: 0.14 minutes
+
+fine tune for column act_arr_time: 6.80 minutes
+inference for column act_arr_time: 0.09 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.7262436699434018
+---------------start iteration 4---------------
+skip index 0
+
+fine tune for column src: 5.22 minutes
+inference for column src: 0.35 minutes
+
+fine tune for column flight: 5.27 minutes
+inference for column flight: 0.56 minutes
+
+fine tune for column sched_dep_time: 6.58 minutes
+inference for column sched_dep_time: 0.15 minutes
+
+fine tune for column act_dep_time: 6.63 minutes
+inference for column act_dep_time: 0.14 minutes
+
+fine tune for column sched_arr_time: 6.83 minutes
+inference for column sched_arr_time: 0.09 minutes
+
+fine tune for column act_arr_time: 6.85 minutes
+inference for column act_arr_time: 0.08 minutes
+
+Computing weight_used after iteration 4
+
+F1 score: 0.8102392877017252
+---------------start iteration 5---------------
+skip index 0
+
+fine tune for column src: 5.22 minutes
+inference for column src: 0.37 minutes
+
+fine tune for column flight: 6.40 minutes
+inference for column flight: 0.24 minutes
+
+fine tune for column sched_dep_time: 6.72 minutes
+inference for column sched_dep_time: 0.11 minutes
+
+fine tune for column act_dep_time: 6.72 minutes
+inference for column act_dep_time: 0.12 minutes
+
+fine tune for column sched_arr_time: 6.90 minutes
+inference for column sched_arr_time: 0.08 minutes
+
+fine tune for column act_arr_time: 6.89 minutes
+inference for column act_arr_time: 0.08 minutes
+
+Computing weight_used after iteration 5
+
+F1 score: 0.8337651711441428
+---------------start iteration 6---------------
+skip index 0
+
+fine tune for column src: 5.24 minutes
+inference for column src: 0.35 minutes
+
+fine tune for column flight: 6.73 minutes
+inference for column flight: 0.13 minutes
+
+fine tune for column sched_dep_time: 6.73 minutes
+inference for column sched_dep_time: 0.11 minutes
+
+fine tune for column act_dep_time: 6.73 minutes
+inference for column act_dep_time: 0.13 minutes
+
+fine tune for column sched_arr_time: 6.90 minutes
+inference for column sched_arr_time: 0.07 minutes
+
+fine tune for column act_arr_time: 6.91 minutes
+inference for column act_arr_time: 0.07 minutes
+
+Computing weight_used after iteration 6
+
+F1 score: 0.84697316974518
+---------------start iteration 7---------------
+skip index 0
+
+fine tune for column src: 5.28 minutes
+inference for column src: 0.36 minutes
+
+fine tune for column flight: 6.90 minutes
+inference for column flight: 0.08 minutes
+
+fine tune for column sched_dep_time: 6.75 minutes
+inference for column sched_dep_time: 0.10 minutes
+
+fine tune for column act_dep_time: 6.76 minutes
+inference for column act_dep_time: 0.11 minutes
+
+fine tune for column sched_arr_time: 6.93 minutes
+inference for column sched_arr_time: 0.07 minutes
+
+fine tune for column act_arr_time: 6.92 minutes
+inference for column act_arr_time: 0.07 minutes
+
+Computing weight_used after iteration 7
+
+F1 score: 0.8563787108852635
+---------------start iteration 8---------------
+skip index 0
+
+fine tune for column src: 5.37 minutes
+inference for column src: 0.35 minutes
+
+fine tune for column flight: 6.97 minutes
+inference for column flight: 0.06 minutes
+
+fine tune for column sched_dep_time: 6.75 minutes
+inference for column sched_dep_time: 0.12 minutes
+
+fine tune for column act_dep_time: 6.75 minutes
+inference for column act_dep_time: 0.11 minutes
+
+fine tune for column sched_arr_time: 6.91 minutes
+inference for column sched_arr_time: 0.07 minutes
+
+fine tune for column act_arr_time: 6.91 minutes
+inference for column act_arr_time: 0.07 minutes
+
+Computing weight_used after iteration 8
+
+F1 score: 0.8876170655567117
+---------------start iteration 9---------------
+skip index 0
+
+fine tune for column src: 5.97 minutes
+inference for column src: 0.25 minutes
+
+fine tune for column flight: 6.97 minutes
+inference for column flight: 0.06 minutes
+
+fine tune for column sched_dep_time: 6.77 minutes
+inference for column sched_dep_time: 0.10 minutes
+
+fine tune for column act_dep_time: 6.76 minutes
+inference for column act_dep_time: 0.10 minutes
+
+fine tune for column sched_arr_time: 6.90 minutes
+inference for column sched_arr_time: 0.07 minutes
+
+fine tune for column act_arr_time: 6.91 minutes
+inference for column act_arr_time: 0.07 minutes
+
+Computing weight_used after iteration 9
+
+F1 score: 0.9040112777136999
+---------------start iteration 10---------------
+skip index 0
+
+fine tune for column src: 6.23 minutes
+inference for column src: 0.19 minutes
+
+fine tune for column flight: 7.01 minutes
+inference for column flight: 0.05 minutes
+
+fine tune for column sched_dep_time: 6.77 minutes
+inference for column sched_dep_time: 0.10 minutes
+
+fine tune for column act_dep_time: 6.77 minutes
+inference for column act_dep_time: 0.10 minutes
+
+fine tune for column sched_arr_time: 6.90 minutes
+inference for column sched_arr_time: 0.06 minutes
+
+fine tune for column act_arr_time: 6.91 minutes
+inference for column act_arr_time: 0.06 minutes
+
+Computing weight_used after iteration 10
+
+F1 score: 0.9136178861788617
+Done.
+
+Time taken: 390.68 minutes
+result saved to ./result/flight_30_error_repaired.csv
+flight
+  tuple_id              src  ... sched_arr_time act_arr_time
+0        1               aa  ...      9:40 a.m.    9:32 a.m.
+1        2      flightaware  ...     10:30 p.m.   10:30 p.m.
+2        3  airtravelcenter  ...      7:25 p.m.    7:25 p.m.
+3        4               aa  ...      9:25 a.m.    9:28 a.m.
+4        5               aa  ...      2:45 p.m.    2:50 p.m.
+
+[5 rows x 7 columns]
+F1 score: 0.9136178861788617
+running done at: 2025-11-06 10:00:55

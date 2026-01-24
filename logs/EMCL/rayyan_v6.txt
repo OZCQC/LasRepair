@@ -1,0 +1,131 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_prop: 1.0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+correcting column article_jvolumn with prop 0.1
+correcting column article_jissue with prop 0.1
+---------------start iteration 1---------------
+Initializing new model
+skip index 0
+
+input_content: id: 235295<extra_id_1>article_language: eng<extra_id_1>journal_title: Proc R Soc Med<extra_id_1>jounral_abbreviation: Proceedings of the Royal Society of Medicine<extra_id_1>journal_issn: 0035-9157 (Print) 0035-9157<extra_id_1>article_jvolumn: 64<extra_id_1>article_jissue: 12<extra_id_1>article_jcreated_at: 1/1/71<extra_id_1>article_pagination: 1187-9<extra_id_1>author_list: {"A. G. Parks","J. F. McPartlin"}<extra_id_2>article_title: , target_content: Late repair of injuries of the anal sphincter
+fine tune for column article_title: 3.56 minutes
+inference for column article_title: 0.08 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.73 minutes
+inference for column article_jvolumn: 0.06 minutes
+
+fine tune for column article_jissue: 2.72 minutes
+inference for column article_jissue: 0.06 minutes
+
+fine tune for column article_jcreated_at: 0.87 minutes
+inference for column article_jcreated_at: 0.44 minutes
+
+fine tune for column article_pagination: 2.92 minutes
+inference for column article_pagination: 0.03 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.44 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.0873440285204991
+---------------start iteration 2---------------
+Deleting old model
+Initializing new model
+skip index 0
+
+fine tune for column article_title: 3.06 minutes
+inference for column article_title: 0.07 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.02 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 3.00 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.78 minutes
+inference for column article_jvolumn: 0.06 minutes
+
+fine tune for column article_jissue: 2.91 minutes
+inference for column article_jissue: 0.03 minutes
+
+fine tune for column article_jcreated_at: 0.85 minutes
+inference for column article_jcreated_at: 0.53 minutes
+
+fine tune for column article_pagination: 2.97 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 2.77 minutes
+inference for column author_list: 0.48 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.09413854351687388
+---------------start iteration 3---------------
+Deleting old model
+Initializing new model
+skip index 0
+
+fine tune for column article_title: 3.37 minutes
+inference for column article_title: 0.06 minutes
+
+skip index 2
+
+fine tune for column journal_title: 3.00 minutes
+inference for column journal_title: 0.02 minutes
+
+skip index 4
+
+fine tune for column journal_issn: 2.99 minutes
+inference for column journal_issn: 0.01 minutes
+
+fine tune for column article_jvolumn: 2.76 minutes
+inference for column article_jvolumn: 0.05 minutes
+
+fine tune for column article_jissue: 2.87 minutes
+inference for column article_jissue: 0.03 minutes
+
+fine tune for column article_jcreated_at: 0.84 minutes
+inference for column article_jcreated_at: 0.46 minutes
+
+fine tune for column article_pagination: 3.22 minutes
+inference for column article_pagination: 0.02 minutes
+
+fine tune for column author_list: 3.18 minutes
+inference for column author_list: 0.44 minutes
+
+Computing weight_used after iteration 3
+
+F1 score: 0.0975177304964539
+Done.
+
+Time taken: 68.63 minutes
+result saved to ./result/rayyan_repaired_original.csv
+rayyan
+       id  ...                                        author_list
+0  235295  ...                  {"A. G. Parks","J. F. McPartlin"}
+1  498345  ...  {"Valentina A Volchkova","Jaroslav Vorac","Phi...
+2  789958  ...  {"Jitendra Jethani","Shashikant Shetty","Suche...
+3  169865  ...  {"G. Jakiel","K. Gorzelnik","J. G. Zimowski","...
+4  803653  ...                          {"Lauren C Pinter-Brown"}
+
+[5 rows x 11 columns]
+F1 score: 0.0975177304964539
+running done at: 2025-10-20 09:05:42

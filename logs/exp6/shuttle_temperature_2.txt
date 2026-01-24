@@ -1,0 +1,86 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 2.0
+Initializing model
+---------------start iteration 1---------------
+input_content: Cont2: 21<extra_id_1>Cont3: 77<extra_id_1>Cont4: 0<extra_id_1>Cont5: 28<extra_id_1>Cont6: 0<extra_id_1>Cont7: 27<extra_id_1>Cont8: 48<extra_id_1>Cont9: 22<extra_id_1>Cont10: 2<extra_id_2>Cont1: , target_content: 50
+fine tune for column Cont1: 115.11 minutes
+inference for column Cont1: 2.80 minutes
+
+fine tune for column Cont2: 114.41 minutes
+inference for column Cont2: 3.18 minutes
+
+fine tune for column Cont3: 114.63 minutes
+inference for column Cont3: 3.07 minutes
+
+fine tune for column Cont4: 114.92 minutes
+inference for column Cont4: 3.00 minutes
+
+fine tune for column Cont5: 115.61 minutes
+inference for column Cont5: 3.01 minutes
+
+fine tune for column Cont6: 114.85 minutes
+inference for column Cont6: 2.98 minutes
+
+fine tune for column Cont7: 114.74 minutes
+inference for column Cont7: 2.96 minutes
+
+fine tune for column Cont8: 115.04 minutes
+inference for column Cont8: 3.06 minutes
+
+fine tune for column Cont9: 115.13 minutes
+inference for column Cont9: 3.04 minutes
+
+fine tune for column Cont10: 115.18 minutes
+inference for column Cont10: 2.77 minutes
+
+Computing weight_used after iteration 1
+
+F1 score: 0.8700789045213543
+---------------start iteration 2---------------
+fine tune for column Cont1: 127.77 minutes
+inference for column Cont1: 0.62 minutes
+
+fine tune for column Cont2: 124.71 minutes
+inference for column Cont2: 1.09 minutes
+
+fine tune for column Cont3: 127.56 minutes
+inference for column Cont3: 0.55 minutes
+
+fine tune for column Cont4: 126.17 minutes
+inference for column Cont4: 0.98 minutes
+
+fine tune for column Cont5: 130.69 minutes
+inference for column Cont5: 0.16 minutes
+
+fine tune for column Cont6: 119.85 minutes
+inference for column Cont6: 2.05 minutes
+
+fine tune for column Cont7: 127.47 minutes
+inference for column Cont7: 0.62 minutes
+
+fine tune for column Cont8: 128.64 minutes
+inference for column Cont8: 0.44 minutes
+
+fine tune for column Cont9: 130.25 minutes
+inference for column Cont9: 0.27 minutes
+
+fine tune for column Cont10: 131.15 minutes
+inference for column Cont10: 0.01 minutes
+
+Computing weight_used after iteration 2
+
+F1 score: 0.8957230433407796
+---------------start iteration 3---------------
+fine tune for column Cont1: 128.86 minutes
+inference for column Cont1: 0.34 minutes
+
+fine tune for column Cont2: 124.25 minutes
+inference for column Cont2: 1.08 minutes
+
+fine tune for column Cont3: 128.40 minutes
+inference for column Cont3: 0.33 minutes
+

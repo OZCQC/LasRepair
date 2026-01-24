@@ -1,0 +1,315 @@
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+input_content: tuple_id: 1<extra_id_1>src: aa<extra_id_1>flight: AA-3859-IAH-ORD<extra_id_1>act_dep_time: 7:16 a.m.<extra_id_1>sched_arr_time: 9:40 a.m.<extra_id_1>act_arr_time: 9:32 a.m.<extra_id_2>sched_dep_time: , target_content: 7:10 a.m.
+fine tune for column sched_dep_time: 4.54 minutes
+inference for column sched_dep_time: 0.83 minutes
+
+fine tune for column act_dep_time: 2.49 minutes
+inference for column act_dep_time: 1.40 minutes
+
+fine tune for column sched_arr_time: 3.91 minutes
+inference for column sched_arr_time: 1.09 minutes
+
+fine tune for column act_arr_time: 3.14 minutes
+inference for column act_arr_time: 1.33 minutes
+
+F1 score: 0.31159917638984214
+Computing weight_used after iteration 1
+
+Δω (L1): N/A (first iteration)
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 4.69 minutes
+inference for column sched_dep_time: 0.83 minutes
+
+fine tune for column act_dep_time: 3.17 minutes
+inference for column act_dep_time: 1.44 minutes
+
+fine tune for column sched_arr_time: 4.45 minutes
+inference for column sched_arr_time: 0.86 minutes
+
+fine tune for column act_arr_time: 4.57 minutes
+inference for column act_arr_time: 0.92 minutes
+
+F1 score: 0.348993288590604
+Computing weight_used after iteration 2
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 355, in <module>
+    a.run()
+  File "/data1/qianc/EMCL/EMCL/LasRepair.py", line 302, in run
+    print(f'Δω (L1): {delta_omega:.6f} (eps={self.omega_eps})')
+                                             ^^^^^^^^^^^^^^
+AttributeError: 'MultiModelIterativeGenerativeRepair' object has no attribute 'omega_eps'
+nohup: ignoring input
+/data1/qianc/miniforge3/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+arguments:
+ weight: True, sample_num: 0
+batch_size: 8, epochs: 3, max_iteration: 10, temperature: 1.0
+Initializing model
+---------------start iteration 1---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+input_content: tuple_id: 1<extra_id_1>src: aa<extra_id_1>flight: AA-3859-IAH-ORD<extra_id_1>act_dep_time: 7:16 a.m.<extra_id_1>sched_arr_time: 9:40 a.m.<extra_id_1>act_arr_time: 9:32 a.m.<extra_id_2>sched_dep_time: , target_content: 7:10 a.m.
+fine tune for column sched_dep_time: 4.44 minutes
+inference for column sched_dep_time: 0.69 minutes
+
+fine tune for column act_dep_time: 2.45 minutes
+inference for column act_dep_time: 1.16 minutes
+
+fine tune for column sched_arr_time: 3.81 minutes
+inference for column sched_arr_time: 0.85 minutes
+
+fine tune for column act_arr_time: 3.07 minutes
+inference for column act_arr_time: 1.03 minutes
+
+F1 score: 0.4450063211125158
+Computing weight_used after iteration 1
+
+Δω (L1): N/A (first iteration)
+---------------start iteration 2---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 4.60 minutes
+inference for column sched_dep_time: 1.06 minutes
+
+fine tune for column act_dep_time: 3.30 minutes
+inference for column act_dep_time: 1.62 minutes
+
+fine tune for column sched_arr_time: 4.63 minutes
+inference for column sched_arr_time: 0.94 minutes
+
+fine tune for column act_arr_time: 5.38 minutes
+inference for column act_arr_time: 0.61 minutes
+
+F1 score: 0.49357011635027553
+Computing weight_used after iteration 2
+
+Δω (L1): 0.283423 (eps=0.0005)
+---------------start iteration 3---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 4.60 minutes
+inference for column sched_dep_time: 0.94 minutes
+
+fine tune for column act_dep_time: 3.38 minutes
+inference for column act_dep_time: 1.29 minutes
+
+fine tune for column sched_arr_time: 4.70 minutes
+inference for column sched_arr_time: 0.76 minutes
+
+fine tune for column act_arr_time: 5.80 minutes
+inference for column act_arr_time: 0.35 minutes
+
+F1 score: 0.5441633377718598
+Computing weight_used after iteration 3
+
+Δω (L1): 0.218685 (eps=0.0005)
+---------------start iteration 4---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 4.68 minutes
+inference for column sched_dep_time: 0.85 minutes
+
+fine tune for column act_dep_time: 3.63 minutes
+inference for column act_dep_time: 1.10 minutes
+
+fine tune for column sched_arr_time: 4.90 minutes
+inference for column sched_arr_time: 0.57 minutes
+
+fine tune for column act_arr_time: 5.99 minutes
+inference for column act_arr_time: 0.30 minutes
+
+F1 score: 0.6193349235302371
+Computing weight_used after iteration 4
+
+Δω (L1): 0.181499 (eps=0.0005)
+---------------start iteration 5---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 4.81 minutes
+inference for column sched_dep_time: 0.77 minutes
+
+fine tune for column act_dep_time: 3.88 minutes
+inference for column act_dep_time: 0.90 minutes
+
+fine tune for column sched_arr_time: 5.27 minutes
+inference for column sched_arr_time: 0.51 minutes
+
+fine tune for column act_arr_time: 6.32 minutes
+inference for column act_arr_time: 0.23 minutes
+
+F1 score: 0.7155723795849106
+Computing weight_used after iteration 5
+
+Δω (L1): 0.263757 (eps=0.0005)
+---------------start iteration 6---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 5.06 minutes
+inference for column sched_dep_time: 0.61 minutes
+
+fine tune for column act_dep_time: 4.54 minutes
+inference for column act_dep_time: 0.69 minutes
+
+fine tune for column sched_arr_time: 5.70 minutes
+inference for column sched_arr_time: 0.38 minutes
+
+fine tune for column act_arr_time: 6.58 minutes
+inference for column act_arr_time: 0.16 minutes
+
+F1 score: 0.7967718268525312
+Computing weight_used after iteration 6
+
+Δω (L1): 0.612939 (eps=0.0005)
+---------------start iteration 7---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 5.44 minutes
+inference for column sched_dep_time: 0.48 minutes
+
+fine tune for column act_dep_time: 5.20 minutes
+inference for column act_dep_time: 0.52 minutes
+
+fine tune for column sched_arr_time: 6.09 minutes
+inference for column sched_arr_time: 0.31 minutes
+
+fine tune for column act_arr_time: 6.71 minutes
+inference for column act_arr_time: 0.14 minutes
+
+F1 score: 0.8301034359766972
+Computing weight_used after iteration 7
+
+Δω (L1): 0.534591 (eps=0.0005)
+---------------start iteration 8---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 5.58 minutes
+inference for column sched_dep_time: 0.40 minutes
+
+fine tune for column act_dep_time: 5.46 minutes
+inference for column act_dep_time: 0.43 minutes
+
+fine tune for column sched_arr_time: 6.34 minutes
+inference for column sched_arr_time: 0.21 minutes
+
+fine tune for column act_arr_time: 6.76 minutes
+inference for column act_arr_time: 0.10 minutes
+
+F1 score: 0.8497954412624196
+Computing weight_used after iteration 8
+
+Δω (L1): 0.796928 (eps=0.0005)
+---------------start iteration 9---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 5.66 minutes
+inference for column sched_dep_time: 0.38 minutes
+
+fine tune for column act_dep_time: 5.63 minutes
+inference for column act_dep_time: 0.38 minutes
+
+fine tune for column sched_arr_time: 6.51 minutes
+inference for column sched_arr_time: 0.16 minutes
+
+fine tune for column act_arr_time: 6.76 minutes
+inference for column act_arr_time: 0.09 minutes
+
+F1 score: 0.8608474183838851
+Computing weight_used after iteration 9
+
+Δω (L1): 0.781043 (eps=0.0005)
+---------------start iteration 10---------------
+skip index 0
+
+skip index 1
+
+skip index 2
+
+fine tune for column sched_dep_time: 5.70 minutes
+inference for column sched_dep_time: 0.37 minutes
+
+fine tune for column act_dep_time: 5.68 minutes
+inference for column act_dep_time: 0.37 minutes
+
+fine tune for column sched_arr_time: 6.63 minutes
+inference for column sched_arr_time: 0.12 minutes
+
+fine tune for column act_arr_time: 6.80 minutes
+inference for column act_arr_time: 0.09 minutes
+
+F1 score: 0.8746569075937786
+Computing weight_used after iteration 10
+
+Δω (L1): 0.572954 (eps=0.0005)
+Done.
+
+Time taken: 231.38 minutes
+result saved to ./result/flight_repaired_original.csv
+flight
+  tuple_id src           flight  ... act_dep_time sched_arr_time act_arr_time
+0        1  aa  AA-3859-IAH-ORD  ...    7:16 a.m.      9:40 a.m.    9:32 a.m.
+1        2  aa  AA-1733-ORD-PHX  ...    7:58 p.m.     10:30 p.m.   10:30 p.m.
+2        3  aa  AA-1640-MIA-MCO  ...    6:30 p.m.      7:25 p.m.    7:25 p.m.
+3        4  aa   AA-518-MIA-JFK  ...    6:54 a.m.      9:25 a.m.    9:28 a.m.
+4        5  aa  AA-3756-ORD-SLC  ...   12:41 p.m.      2:45 p.m.    2:50 p.m.
+
+[5 rows x 7 columns]
+F1 score: 0.8746569075937786
+running done at: 2026-01-20 10:00:07
