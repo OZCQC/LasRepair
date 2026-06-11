@@ -71,14 +71,3 @@ See `requirements.txt` for the full list of dependencies. Key requirements inclu
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Citation
-
-If you use this code in your research, please cite:
-```
-@software{ozcqc_datarepair_2024,
-  author = {OZCQC},
-  title = {DataRepair: A Multi-Model Approach for Data Repair},
-  year = {2024},
-  url = {https://github.com/OZCQC/datarepair}
-}
-```
